@@ -52,27 +52,67 @@ export default function QuizScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 20, justifyContent: "center" },
-  progress: { textAlign: "center", color: "gray", marginBottom: 10 },
-  kanji: { fontSize: 80, textAlign: "center", marginVertical: 20 },
-  question: { textAlign: "center", fontSize: 18, marginBottom: 20 },
-
-  option: {
-    backgroundColor: "#E0E0E0",
-    padding: 15,
-    borderRadius: 10,
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    // alignItems: "center",
+    padding: 20,
+    backgroundColor: "#87cfeb5b",
+  },
+  progress: {
+    textAlign: "center",
+    color: "gray",
     marginBottom: 10,
   },
-  optionText: { textAlign: "center", fontSize: 16 },
+  kanji: {
+    fontSize: 80,
+    textAlign: "center",
+    marginVertical: 20,
+  },
+  question: {
+    textAlign: "center",
+    fontSize: 18,
+    marginBottom: 20,
+  },
 
-  correct: { backgroundColor: "#4CAF50" },
-  wrong: { backgroundColor: "#F44336" },
+  option: {
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#87CEEB",
+    paddingHorizontal: 35,
+    paddingVertical: 15,
+    borderRadius: 10,
+    marginBottom: 15,
+    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
+  },
+  optionText: {
+    textAlign: "center",
+    fontSize: 16,
+    color: "white",
+  },
+
+  correct: {
+    backgroundColor: "#4CAF50",
+  },
+  wrong: {
+    backgroundColor: "#F44336",
+  },
 
   nextButton: {
-    marginTop: 20,
-    backgroundColor: "#2196F3",
-    padding: 15,
+    alignSelf: "flex-end",
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#87CEEB",
+    width: 150,
+    height: 50,
+    padding: 10,
     borderRadius: 10,
+    marginBottom: 15,
+    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
   },
-  nextText: { color: "white", textAlign: "center", fontWeight: "bold" },
+  nextText: {
+    color: "white",
+    textAlign: "center",
+    fontWeight: "bold",
+  },
 });

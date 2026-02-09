@@ -71,7 +71,7 @@ export default function HomeScreen() {
       {/* Flashcard Practice Button */}
       <TouchableOpacity
         style={styles.practiceButton}
-        onPress={() => router.push("/flashcard")}
+        onPress={() => router.push("/practicelevel")}
       >
         <Text style={styles.buttonText}>📖 Practice Flashcards</Text>
       </TouchableOpacity>
@@ -79,7 +79,7 @@ export default function HomeScreen() {
       {/* Quiz Button */}
       <TouchableOpacity
         style={styles.quizButton}
-        onPress={() => router.push("/quiz")}
+        onPress={() => router.push("/level")}
       >
         <Text style={styles.buttonText}>🧩 Start Quiz</Text>
       </TouchableOpacity>
@@ -93,6 +93,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
+    backgroundColor: "#87cfeb5b",
   },
   title: {
     fontSize: 26,
@@ -106,14 +107,16 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   practiceButton: {
-    backgroundColor: "#4CAF50",
+    // backgroundColor: "#4CAF50",
+    backgroundColor: "#87CEEB",
     padding: 15,
     borderRadius: 10,
     width: "100%",
     marginBottom: 15,
   },
   quizButton: {
-    backgroundColor: "#2196F3",
+    // backgroundColor: "#2196F3",
+    backgroundColor: "#87CEEB",
     padding: 15,
     borderRadius: 10,
     width: "100%",
