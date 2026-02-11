@@ -1,3 +1,4 @@
+import colors from "@/theme/colors";
 import { Ionicons } from "@expo/vector-icons";
 import { router } from "expo-router";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
@@ -37,7 +38,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
-    backgroundColor: "#87cfeb5b",
+    backgroundColor: colors.background,
   },
   title: {
     fontSize: 24,

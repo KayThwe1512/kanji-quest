@@ -1,3 +1,4 @@
+import colors from "@/theme/colors";
 import { Stack } from "expo-router";
 
 export default function HomeLayout() {
@@ -10,7 +11,18 @@ export default function HomeLayout() {
           title: "Kanji level",
           headerBackTitle: "Back",
           headerStyle: {
-            backgroundColor: "#87cfeb5b",
+            backgroundColor: colors.background,
+          },
+        }}
+      />
+
+      <Stack.Screen
+        name="section"
+        options={{
+          title: "Section",
+          headerBackTitle: "Back",
+          headerStyle: {
+            backgroundColor: colors.background,
           },
         }}
       />
@@ -20,7 +32,7 @@ export default function HomeLayout() {
           title: "Flashcards",
           headerBackTitle: "Back",
           headerStyle: {
-            backgroundColor: "#87cfeb5b",
+            backgroundColor: colors.background,
           },
         }}
       />
@@ -30,7 +42,7 @@ export default function HomeLayout() {
           title: "Complete Practice",
           headerBackTitle: "Back",
           headerStyle: {
-            backgroundColor: "#87cfeb5b",
+            backgroundColor: colors.background,
           },
         }}
       /> */}

@@ -1,25 +1,26 @@
+import colors from "@/theme/colors";
 import { Stack } from "expo-router";
 
 export default function QuizLayout() {
   return (
     <Stack>
       <Stack.Screen
-        name="home"
+        name="level"
         options={{
           title: "Level",
           headerBackTitle: "Back",
           headerStyle: {
-            backgroundColor: "#87cfeb5b",
+            backgroundColor: colors.background,
           },
         }}
       />
       <Stack.Screen
-        name="quiz"
+        name="quizScreen"
         options={{
           title: "Quizs",
           headerBackTitle: "Back",
           headerStyle: {
-            backgroundColor: "#87cfeb5b",
+            backgroundColor: colors.background,
           },
         }}
       />
@@ -29,7 +30,7 @@ export default function QuizLayout() {
           title: "Result",
           headerBackTitle: "Back",
           headerStyle: {
-            backgroundColor: "#87cfeb5b",
+            backgroundColor: colors.background,
           },
         }}
       />

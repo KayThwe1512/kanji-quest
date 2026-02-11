@@ -29,7 +29,7 @@
 //     flex: 1,
 //     justifyContent: "center",
 //     alignItems: "center",
-//     backgroundColor: "#87cfeb5b",
+//     backgroundColor: colors.background,
 //   },
 //   title: {
 //     fontWeight: "bold",
@@ -59,6 +59,7 @@
 //     borderRadius: 10,
 //   },
 // });
+import colors from "@/theme/colors";
 import { router } from "expo-router";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
@@ -93,36 +94,35 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
-    backgroundColor: "#87cfeb5b",
+    backgroundColor: colors.background,
   },
   title: {
     fontSize: 26,
     fontWeight: "bold",
     marginBottom: 10,
+    color: colors.textPrimary,
   },
   subtitle: {
     fontSize: 16,
-    color: "gray",
+    color: colors.textSecondary,
     marginBottom: 40,
     textAlign: "center",
   },
   practiceButton: {
-    // backgroundColor: "#4CAF50",
-    backgroundColor: "#87CEEB",
+    backgroundColor: colors.primary,
     padding: 15,
     borderRadius: 10,
     width: "100%",
     marginBottom: 15,
   },
   quizButton: {
-    // backgroundColor: "#2196F3",
-    backgroundColor: "#87CEEB",
+    backgroundColor: colors.primary,
     padding: 15,
     borderRadius: 10,
     width: "100%",
   },
   buttonText: {
-    color: "white",
+    color: colors.white,
     textAlign: "center",
     fontSize: 16,
     fontWeight: "bold",

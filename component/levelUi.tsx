@@ -1,3 +1,4 @@
+import colors from "@/theme/colors";
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
@@ -58,12 +59,12 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#87cfeb5b",
+    backgroundColor: colors.background,
   },
   title: {
     fontSize: 20,
     fontWeight: "bold",
-    color: "#fff",
+    color: colors.textPrimary,
     marginBottom: 15,
   },
   box: {
@@ -73,7 +74,7 @@ const styles = StyleSheet.create({
   levelButton: {
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#87CEEB",
+    backgroundColor: colors.primary,
     width: 280,
     height: 50,
     padding: 10,
@@ -84,7 +85,8 @@ const styles = StyleSheet.create({
   levelText: {
     fontSize: 16,
     fontWeight: "500",
-    color: "#ffffff",
+    color: colors.white,
+
     fontStyle: "italic",
   },
 });

@@ -76,7 +76,7 @@ import { router } from "expo-router";
 export default function LevelScreen() {
   const handleLevelPress = (level: string) => {
     router.push({
-      pathname: "/quiz",
+      pathname: "/quizScreen",
       params: { level },
     });
   };

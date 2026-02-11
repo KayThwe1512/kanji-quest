@@ -1,3 +1,4 @@
+import colors from "@/theme/colors";
 import { router } from "expo-router";
 import { useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
@@ -57,7 +58,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     // alignItems: "center",
     padding: 20,
-    backgroundColor: "#87cfeb5b",
+    backgroundColor: colors.background,
   },
   progress: {
     textAlign: "center",

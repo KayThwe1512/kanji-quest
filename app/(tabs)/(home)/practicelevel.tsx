@@ -4,7 +4,7 @@ import { router } from "expo-router";
 export default function PracticeLevelScreen() {
   const handleLevelPress = (level: string) => {
     router.push({
-      pathname: "/flashcard",
+      pathname: "/section",
       params: { level },
     });
   };
