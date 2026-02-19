@@ -13,6 +13,7 @@ export default function HomeLayout() {
           headerStyle: {
             backgroundColor: colors.background,
           },
+          headerTitleAlign: "center",
         }}
       />
 
@@ -24,6 +25,7 @@ export default function HomeLayout() {
           headerStyle: {
             backgroundColor: colors.background,
           },
+          headerTitleAlign: "center",
         }}
       />
       <Stack.Screen
@@ -34,6 +36,40 @@ export default function HomeLayout() {
           headerStyle: {
             backgroundColor: colors.background,
           },
+          headerTitleAlign: "center",
+        }}
+      />
+      <Stack.Screen
+        name="level"
+        options={{
+          title: "Quiz Level",
+          headerBackTitle: "Back",
+          headerStyle: {
+            backgroundColor: colors.background,
+          },
+          headerTitleAlign: "center",
+        }}
+      />
+      <Stack.Screen
+        name="quiz"
+        options={{
+          title: "Quizs",
+          headerBackTitle: "Back",
+          headerStyle: {
+            backgroundColor: colors.background,
+          },
+          headerTitleAlign: "center",
+        }}
+      />
+      <Stack.Screen
+        name="result"
+        options={{
+          title: "Result",
+          headerBackTitle: "Back",
+          headerStyle: {
+            backgroundColor: colors.background,
+          },
+          headerTitleAlign: "center",
         }}
       />
       {/* <Stack.Screen

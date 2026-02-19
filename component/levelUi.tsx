@@ -2,91 +2,85 @@ import colors from "@/theme/colors";
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
-type LevelUiProps = {
-  title: string;
-  onPressLevel: (level: string) => void;
+type Props = {
+  levelId: string;
+  name: string;
+  totalKanji: number;
+  completedKanji: number;
+  onPress: () => void;
 };
 
-const LevelUi = ({ title, onPressLevel }: LevelUiProps) => {
+const LevelCard = ({
+  levelId,
+  name,
+  totalKanji,
+  completedKanji,
+  onPress,
+}: Props) => {
+  const progress = Math.round((completedKanji / totalKanji) * 100);
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>{title}</Text>
-
-      <View style={styles.box}>
-        <TouchableOpacity
-          style={styles.levelButton}
-          onPress={() => onPressLevel("N5")}
-        >
-          <Text style={styles.levelText}>N5 - Beginner</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={styles.levelButton}
-          onPress={() => onPressLevel("N4")}
-        >
-          <Text style={styles.levelText}>N4 - Elementary</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={styles.levelButton}
-          onPress={() => onPressLevel("N3")}
-        >
-          <Text style={styles.levelText}>N3 - Intermediate</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={styles.levelButton}
-          onPress={() => onPressLevel("N2")}
-        >
-          <Text style={styles.levelText}>N2 - Advance</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={styles.levelButton}
-          onPress={() => onPressLevel("N1")}
-        >
-          <Text style={styles.levelText}>N1 - Native</Text>
-        </TouchableOpacity>
+    <TouchableOpacity style={styles.card} onPress={onPress}>
+      <View>
+        <Text style={styles.levelText}>{levelId}</Text>
+        <Text style={styles.nameText}>{name}</Text>
+        <Text style={styles.countText}>{totalKanji} Kanji</Text>
       </View>
-    </View>
+
+      <View style={styles.progressWrapper}>
+        <View style={styles.circle}>
+          <Text style={styles.percentText}>{progress}%</Text>
+        </View>
+        {/* <ProgressCircle progress={progress} /> */}
+      </View>
+    </TouchableOpacity>
   );
 };
 
-export default LevelUi;
+export default LevelCard;
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
+  card: {
     backgroundColor: colors.background,
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: "bold",
-    color: colors.textPrimary,
-    marginBottom: 15,
-  },
-  box: {
-    justifyContent: "center",
+    borderRadius: 16,
+    padding: 16,
+    marginBottom: 16,
+    flexDirection: "row",
+    justifyContent: "space-between",
     alignItems: "center",
-  },
-  levelButton: {
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: colors.primary,
-    width: 280,
-    height: 50,
-    padding: 10,
-    borderRadius: 10,
-    marginBottom: 15,
-    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
+    borderWidth: 3,
+    borderColor: colors.border,
   },
   levelText: {
-    fontSize: 16,
-    fontWeight: "500",
-    color: colors.white,
-
-    fontStyle: "italic",
+    fontSize: 18,
+    fontWeight: "bold",
+    color: colors.primary,
+  },
+  nameText: {
+    fontSize: 14,
+    color: colors.textSecondary,
+    marginTop: 2,
+  },
+  countText: {
+    fontSize: 12,
+    color: colors.accent,
+    marginTop: 4,
+  },
+  progressWrapper: {
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  circle: {
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    borderWidth: 6,
+    borderColor: colors.secondary,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  percentText: {
+    fontWeight: "bold",
+    color: colors.secondary,
   },
 });

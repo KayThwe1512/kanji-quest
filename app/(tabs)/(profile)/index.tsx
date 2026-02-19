@@ -18,7 +18,7 @@ export default function ProfileScreen() {
       <View>
         <View style={styles.header}>
           <Text style={styles.progressTitle}>
-            Your <Text style={{ color: colors.secondary }}>Progress!</Text>
+            Your <Text style={{ color: colors.primary }}>Progress!</Text>
           </Text>
           <Text style={styles.subtitle}>Track your learning day by day!</Text>
           <Text style={styles.date}>Tuesday, Febuary 10, 2026</Text>
@@ -27,7 +27,7 @@ export default function ProfileScreen() {
         <View style={styles.content}>
           <View style={styles.cardGrid}>
             <StatCard number="150" label="Total Learned" title="Words" />
-            <StatCard number="5" label="Current Streak" title="Days" />
+            <StatCard number="25" label="Highest Word Count" title="Words" />
             <StatCard number="7" label="Longest Streak" title="Days" />
             <StatCard number="Febuary 7" label="Last Word Learned" title="" />
           </View>
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
   progressTitle: {
     fontSize: 28,
     fontWeight: "bold",
-    color: colors.primary,
+    color: colors.accent,
   },
 
   subtitle: {

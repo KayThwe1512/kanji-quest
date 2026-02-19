@@ -1,8 +1,10 @@
-import LevelUi from "@/component/levelUi";
+import LevelCard from "@/component/levelUi";
+import { LEVELS } from "@/constants/level";
 import { router } from "expo-router";
+import { FlatList, StyleSheet, View } from "react-native";
 
-export default function PracticeLevelScreen() {
-  const handleLevelPress = (level: string) => {
+export default function LevelScreen() {
+  const handlePress = (level: string) => {
     router.push({
       pathname: "/section",
       params: { level },
@@ -10,6 +12,28 @@ export default function PracticeLevelScreen() {
   };
 
   return (
-    <LevelUi title="Select Practice Level" onPressLevel={handleLevelPress} />
+    <View style={styles.container}>
+      <FlatList
+        data={LEVELS}
+        keyExtractor={(item) => item.id}
+        contentContainerStyle={{ padding: 16 }}
+        renderItem={({ item }) => (
+          <LevelCard
+            levelId={item.id}
+            name={item.name}
+            totalKanji={item.totalKanji}
+            completedKanji={item.completedKanji}
+            onPress={() => handlePress(item.id)}
+          />
+        )}
+      />
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#EBF4F6",
+  },
+});

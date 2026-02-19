@@ -4,10 +4,10 @@ import { router } from "expo-router";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function ResultScreen({ navigation }: any) {
-  const total = 10;
-  const correct = 8;
-  const wrong = 2;
-  const score = correct * 10;
+  const total = 5;
+  const correct = 4;
+  const wrong = 1;
+  const score = correct * 1;
 
   return (
     <View style={styles.container}>

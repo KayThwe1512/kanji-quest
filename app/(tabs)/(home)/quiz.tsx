@@ -140,6 +140,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
+    textAlign: "center",
   },
 
   correct: {
@@ -155,6 +156,7 @@ const styles = StyleSheet.create({
   optionText: {
     fontSize: 16,
     color: colors.textSecondary,
+    textAlign: "center",
   },
 
   correctIcon: {

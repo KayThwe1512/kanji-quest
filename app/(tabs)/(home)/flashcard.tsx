@@ -1,4 +1,4 @@
-// import { useState } from "react";
+import { kanjiN5 } from "@/data/kanjiN5";
 import colors from "@/theme/colors";
 import { Ionicons } from "@expo/vector-icons";
 import { useLocalSearchParams } from "expo-router";
@@ -11,6 +11,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { chunkArray } from "./chunkArray";
 
 const { width } = Dimensions.get("window");
 const CARD_SIZE = width * 0.8;
@@ -21,13 +22,19 @@ export default function FlashcardScreen() {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [favorites, setFavorites] = useState<number[]>([]);
+  const { sectionIndex } = useLocalSearchParams<{ sectionIndex: string }>();
+  // const { data } = useLocalSearchParams();
 
-  const { data } = useLocalSearchParams();
-
+  // const kanjiList = useMemo(() => {
+  //   if (!data) return [];
+  //   return JSON.parse(data as string);
+  // }, [data]);
   const kanjiList = useMemo(() => {
-    if (!data) return [];
-    return JSON.parse(data as string);
-  }, [data]);
+    if (sectionIndex === undefined) return [];
+
+    const sections = chunkArray(kanjiN5, 5);
+    return sections[Number(sectionIndex)] ?? [];
+  }, [sectionIndex]);
 
   const flipCard = () => {
     Animated.timing(animatedValue, {
@@ -52,16 +59,6 @@ export default function FlashcardScreen() {
   const currentCard = kanjiList[currentIndex];
   const isFirstCard = currentIndex === 0;
   const isLastCard = currentIndex === kanjiList.length - 1;
-
-  // const handleNext = () => {
-  //   setFlipped(false);
-  //   setCurrentIndex((prev) => (prev + 1) % kanjiList.length);
-  // };
-
-  // const handlePrev = () => {
-  //   setFlipped(false);
-  //   setCurrentIndex((prev) => (prev === 0 ? kanjiList.length - 1 : prev - 1));
-  // };
 
   const handleNext = () => {
     if (!isLastCard) {
@@ -103,33 +100,6 @@ export default function FlashcardScreen() {
       <View style={styles.progressContainer}>
         <View style={[styles.progressFill, { width: `${progressPercent}%` }]} />
       </View>
-
-      {/* <TouchableOpacity
-        activeOpacity={0.9}
-        style={styles.card}
-        onPress={() => setFlipped(!flipped)}
-      >
-        <TouchableOpacity style={styles.favIcon} onPress={toggleFavorite}>
-          <Text style={{ fontSize: 26 }}>
-            {isFav ? (
-              <Ionicons name="heart" color={"red"} size={25} />
-            ) : (
-              <Ionicons name="heart" color={"grey"} size={25} />
-            )}
-          </Text>
-        </TouchableOpacity>
-
-        {!flipped ? (
-          <Text style={styles.kanji}>{currentCard.kanji}</Text>
-        ) : (
-          <View style={styles.details}>
-            <Text style={styles.meaning}>Meaning: {currentCard.meaning}</Text>
-            <Text style={styles.reading}>Onyomi: {currentCard.onyomi}</Text>
-            <Text style={styles.reading}>Kunyomi: {currentCard.kunyomi}</Text>
-            <Text style={styles.example}>Example: {currentCard.example}</Text>
-          </View>
-        )}
-      </TouchableOpacity> */}
 
       <TouchableOpacity activeOpacity={1} onPress={flipCard}>
         <View style={styles.cardWrapper}>
