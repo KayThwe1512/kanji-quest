@@ -1,80 +1,29 @@
-// import colors from "@/theme/colors";
-// import React from "react";
-// import { FlatList, StyleSheet, Text, TouchableOpacity } from "react-native";
-
-// type ThemeSectionProps<T> = {
-//   sections: T[][];
-//   onPressSection: (sectionIndex: number) => void;
-// };
-
-// export function ThemeSection<T>({
-//   sections,
-//   onPressSection,
-// }: ThemeSectionProps<T>) {
-//   return (
-//     <FlatList
-//       data={sections}
-//       keyExtractor={(_, i) => `section-${i}`}
-//       renderItem={({ item, index }) => (
-//         <TouchableOpacity
-//           style={styles.card}
-//           onPress={() => onPressSection(index)}
-//         >
-//           <Text style={styles.title}>Section {index + 1}</Text>
-//           <Text>{item.length} cards</Text>
-//         </TouchableOpacity>
-//       )}
-//     />
-//   );
-// }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     paddingVertical: 8,
-//   },
-//   card: {
-//     backgroundColor: colors.primary,
-//     marginHorizontal: 16,
-//     marginVertical: 8,
-//     padding: 16,
-//     borderRadius: 12,
-//     elevation: 3,
-//   },
-//   title: {
-//     fontSize: 18,
-//     fontWeight: "bold",
-//     color: colors.primary,
-//   },
-//   count: {
-//     marginTop: 6,
-//     color: "#666",
-//   },
-// });
 import colors from "@/theme/colors";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 type Props = {
-  sectionNo: string;
+  sectionId: string;
+  sectionName: string;
   sectionElements: string[];
-  totalCards: number;
-  completedCard: number;
+  totalKanji: number;
+  // completedCard: number;
   onPress: () => void;
 };
 
 export default function SectionCard({
-  sectionNo,
+  sectionId,
   sectionElements,
-  completedCard,
-  totalCards,
+  sectionName,
+  totalKanji,
   onPress,
 }: Props) {
-  const progress = Math.round((completedCard / totalCards) * 100);
+  const progress = Math.round((totalKanji / totalKanji) * 50);
   return (
     <TouchableOpacity style={styles.card} onPress={onPress}>
       <View>
-        <Text style={styles.title}>Section {sectionNo}</Text>
+        <Text style={styles.title}> {sectionName}</Text>
         <Text style={styles.kanjiText}>{sectionElements}</Text>
-        <Text style={styles.countText}>{totalCards} Kanji</Text>
+        <Text style={styles.countText}>{totalKanji} Kanji</Text>
       </View>
       <View style={styles.progressWrapper}>
         <View style={styles.circle}>
@@ -106,7 +55,8 @@ const styles = StyleSheet.create({
   kanjiText: {
     fontSize: 14,
     color: colors.textSecondary,
-    marginTop: 2,
+    paddingTop: 7,
+    flexWrap: "wrap",
   },
   countText: {
     fontSize: 12,

@@ -18,7 +18,7 @@ export default function ProfileScreen() {
       <View>
         <View style={styles.header}>
           <Text style={styles.progressTitle}>
-            Your <Text style={{ color: colors.primary }}>Progress!</Text>
+            Your <Text style={{ color: "#F4D03F" }}>Progress!</Text>
           </Text>
           <Text style={styles.subtitle}>Track your learning day by day!</Text>
           <Text style={styles.date}>Tuesday, Febuary 10, 2026</Text>
@@ -55,16 +55,16 @@ const styles = StyleSheet.create({
   progressTitle: {
     fontSize: 28,
     fontWeight: "bold",
-    color: colors.accent,
+    color: colors.primary,
   },
 
   subtitle: {
-    color: colors.accent,
+    color: colors.secondary,
     marginTop: 6,
   },
 
   date: {
-    color: colors.accent,
+    color: colors.secondary,
     marginTop: 4,
     fontSize: 12,
   },

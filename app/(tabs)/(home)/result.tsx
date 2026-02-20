@@ -46,14 +46,14 @@ export default function ResultScreen({ navigation }: any) {
               styles.button,
               { borderWidth: 1.5, borderColor: colors.primary },
             ]}
-            onPress={() => router.push("/(tabs)/(home)/home")}
+            onPress={() => router.push("/home")}
           >
             <Text style={styles.outlineText}>Go Home</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
             style={[styles.button, { backgroundColor: colors.primary }]}
-            onPress={() => router.push("/(tabs)/(quiz)/level")}
+            onPress={() => router.push("/quizlevel")}
           >
             <Text style={styles.primaryText}>Next Quiz</Text>
           </TouchableOpacity>
