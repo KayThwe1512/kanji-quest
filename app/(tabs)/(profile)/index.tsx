@@ -1,6 +1,8 @@
 import { Bar } from "@/component/bar";
 import { StatCard } from "@/component/StatCard";
+import { getAllProgress } from "@/services/userProgress";
 import colors from "@/theme/colors";
+import { useEffect, useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -13,6 +15,23 @@ const barData = [
 ];
 
 export default function ProfileScreen() {
+  const [totalLearned, setTotalLearned] = useState(0);
+
+  useEffect(() => {
+    const loadProgress = async () => {
+      const progress = await getAllProgress();
+
+      let total = 0;
+
+      Object.values(progress).forEach((section: any) => {
+        total += section.learnedKanji.length;
+      });
+
+      setTotalLearned(total);
+    };
+
+    loadProgress();
+  }, []);
   return (
     <SafeAreaView style={styles.container}>
       <View>
@@ -26,7 +45,12 @@ export default function ProfileScreen() {
 
         <View style={styles.content}>
           <View style={styles.cardGrid}>
-            <StatCard number="150" label="Total Learned" title="Words" />
+            {/* <StatCard number="150" label="Total Learned" title="Words" /> */}
+            <StatCard
+              number={totalLearned.toString()}
+              label="Total Learned"
+              title="Words"
+            />
             <StatCard number="25" label="Highest Word Count" title="Words" />
             <StatCard number="7" label="Longest Streak" title="Days" />
             <StatCard number="Febuary 7" label="Last Word Learned" title="" />

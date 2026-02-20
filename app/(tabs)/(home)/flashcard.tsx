@@ -2,8 +2,8 @@ import ThemeFlashcard from "@/component/ThemeFlashcard";
 import { SECTIONS } from "@/constants/section";
 import { getFavorite, saveFavorite } from "@/services/favoriteStorage";
 import { getFlashcardKanji } from "@/services/kanjiService";
+import { saveSectionProgress } from "@/services/userProgress";
 import colors from "@/theme/colors";
-import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
@@ -62,27 +62,42 @@ export default function FlashcardScreen() {
   const isFirstCard = currentIndex === 0;
   const isLastCard = currentIndex === kanjiList.length - 1;
 
-  const saveProgress = async () => {
-    try {
-      const data = {
-        level,
-        sectionId,
-        lastIndex: currentIndex,
-        learnedKanji: kanjiList.slice(0, currentIndex).map((k) => k.kanji),
-      };
+  // const saveProgress = async () => {
+  //   try {
+  //     const data = {
+  //       level,
+  //       sectionId,
+  //       lastIndex: currentIndex,
+  //       learnedKanji: kanjiList.slice(0, currentIndex).map((k) => k.kanji),
+  //     };
 
-      await AsyncStorage.setItem(`progress_${sectionId}`, JSON.stringify(data));
+  //     await AsyncStorage.setItem(`progress_${sectionId}`, JSON.stringify(data));
 
-      console.log("Saved progress:", data);
-    } catch (e) {
-      console.log("Save error:", e);
-    }
+  //     console.log("Saved progress:", data);
+  //   } catch (e) {
+  //     console.log("Save error:", e);
+  //   }
+  // };
+  const saveProgress = async (index: number) => {
+    await saveSectionProgress({
+      sectionId,
+      level,
+      lastIndex: index,
+      learnedKanji: kanjiList.slice(0, index + 1).map((k) => k.kanji),
+    });
   };
 
+  // const handleNext = () => {
+  //   if (!isLastCard) {
+  //     setCurrentIndex((prev) => prev + 1);
+  //     saveProgress();
+  //   }
+  // };
   const handleNext = () => {
     if (!isLastCard) {
-      setCurrentIndex((prev) => prev + 1);
-      saveProgress();
+      const newIndex = currentIndex + 1;
+      setCurrentIndex(newIndex);
+      saveProgress(newIndex);
     }
   };
 
@@ -107,7 +122,8 @@ export default function FlashcardScreen() {
     await saveFavorite(updated);
   };
 
-  const isFav = favorites.includes(currentIndex);
+  // const isFav = favorites.includes(currentIndex);
+  const isFav = favorites.includes(currentCard?.kanji);
   const progressPercent = ((currentIndex + 1) / kanjiList.length) * 100;
   if (loading) {
     return (
