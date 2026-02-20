@@ -1,89 +1,121 @@
-import { kanjiN5 } from "@/data/kanjiN5";
+import ThemeFlashcard from "@/component/ThemeFlashcard";
+import { SECTIONS } from "@/constants/section";
+import { getFavorite, saveFavorite } from "@/services/favoriteStorage";
+import { getFlashcardKanji } from "@/services/kanjiService";
 import colors from "@/theme/colors";
-import { Ionicons } from "@expo/vector-icons";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useLocalSearchParams } from "expo-router";
-import { useMemo, useRef, useState } from "react";
-import {
-  Animated,
-  Dimensions,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from "react-native";
-import { chunkArray } from "./chunkArray";
-
-const { width } = Dimensions.get("window");
-const CARD_SIZE = width * 0.8;
+import { useEffect, useState } from "react";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function FlashcardScreen() {
-  const animatedValue = useRef(new Animated.Value(0)).current;
-  const [flipped, setFlipped] = useState(false);
+  const [kanjiList, setKanjiList] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
 
   const [currentIndex, setCurrentIndex] = useState(0);
+
   const [favorites, setFavorites] = useState<number[]>([]);
-  const { sectionIndex } = useLocalSearchParams<{ sectionIndex: string }>();
-  // const { data } = useLocalSearchParams();
+  const { level, sectionId } = useLocalSearchParams<{
+    level: string;
+    sectionId: string;
+  }>();
 
-  // const kanjiList = useMemo(() => {
-  //   if (!data) return [];
-  //   return JSON.parse(data as string);
-  // }, [data]);
-  const kanjiList = useMemo(() => {
-    if (sectionIndex === undefined) return [];
+  const loadKanji = async () => {
+    try {
+      setLoading(true);
 
-    const sections = chunkArray(kanjiN5, 5);
-    return sections[Number(sectionIndex)] ?? [];
-  }, [sectionIndex]);
+      const section = SECTIONS[level as keyof typeof SECTIONS]?.find(
+        (s) => s.id === sectionId,
+      );
 
-  const flipCard = () => {
-    Animated.timing(animatedValue, {
-      toValue: flipped ? 0 : 180,
-      duration: 400,
-      useNativeDriver: true,
-    }).start();
+      if (!section) return;
+      const data = await getFlashcardKanji(sectionId, section.kanjiIds);
+      setKanjiList(data);
 
-    setFlipped(!flipped);
+      setCurrentIndex(0);
+    } catch (error) {
+      console.log("API error:", error);
+    } finally {
+      setLoading(false);
+    }
   };
 
-  const frontRotate = animatedValue.interpolate({
-    inputRange: [0, 180],
-    outputRange: ["0deg", "180deg"],
-  });
+  useEffect(() => {
+    if (!sectionId) return;
+    const timer = setTimeout(() => {
+      loadKanji();
+    }, 500);
 
-  const backRotate = animatedValue.interpolate({
-    inputRange: [0, 180],
-    outputRange: ["180deg", "360deg"],
-  });
+    return () => clearTimeout(timer);
+  }, [sectionId]);
+
+  useEffect(() => {
+    const loadFavorites = async () => {
+      const stored = await getFavorite();
+      saveFavorite(stored);
+    };
+
+    loadFavorites();
+  }, []);
 
   const currentCard = kanjiList[currentIndex];
   const isFirstCard = currentIndex === 0;
   const isLastCard = currentIndex === kanjiList.length - 1;
 
+  const saveProgress = async () => {
+    try {
+      const data = {
+        level,
+        sectionId,
+        lastIndex: currentIndex,
+        learnedKanji: kanjiList.slice(0, currentIndex).map((k) => k.kanji),
+      };
+
+      await AsyncStorage.setItem(`progress_${sectionId}`, JSON.stringify(data));
+
+      console.log("Saved progress:", data);
+    } catch (e) {
+      console.log("Save error:", e);
+    }
+  };
+
   const handleNext = () => {
     if (!isLastCard) {
-      setFlipped(false);
       setCurrentIndex((prev) => prev + 1);
+      saveProgress();
     }
   };
 
   const handlePrev = () => {
     if (!isFirstCard) {
-      setFlipped(false);
       setCurrentIndex((prev) => prev - 1);
     }
   };
 
-  const toggleFavorite = () => {
-    if (favorites.includes(currentIndex)) {
-      setFavorites(favorites.filter((i) => i !== currentIndex));
+  const toggleFavorite = async () => {
+    if (!currentCard) return;
+
+    let updated;
+
+    if (favorites.includes(currentCard.kanji)) {
+      updated = favorites.filter((k) => k !== currentCard.kanji);
     } else {
-      setFavorites([...favorites, currentIndex]);
+      updated = [...favorites, currentCard.kanji];
     }
+
+    setFavorites(updated);
+    await saveFavorite(updated);
   };
 
   const isFav = favorites.includes(currentIndex);
   const progressPercent = ((currentIndex + 1) / kanjiList.length) * 100;
+  if (loading) {
+    return (
+      <View style={styles.container}>
+        <Text>Loading flashcards...</Text>
+      </View>
+    );
+  }
   if (!kanjiList.length) {
     return (
       <View style={styles.container}>
@@ -101,61 +133,11 @@ export default function FlashcardScreen() {
         <View style={[styles.progressFill, { width: `${progressPercent}%` }]} />
       </View>
 
-      <TouchableOpacity activeOpacity={1} onPress={flipCard}>
-        <View style={styles.cardWrapper}>
-          {/* FRONT */}
-          <Animated.View
-            style={[
-              styles.card,
-              styles.face,
-              { transform: [{ rotateY: frontRotate }] },
-            ]}
-          >
-            <TouchableOpacity style={styles.favIcon} onPress={toggleFavorite}>
-              {isFav ? (
-                <Ionicons name="heart" color={colors.primary} size={26} />
-              ) : (
-                <Ionicons
-                  name="heart-outline"
-                  color={colors.primary}
-                  size={26}
-                />
-              )}
-            </TouchableOpacity>
-            <View style={styles.details}>
-              <Text style={styles.kanji}>{currentCard.kanji}</Text>
-            </View>
-          </Animated.View>
-
-          {/* BACK */}
-          <Animated.View
-            style={[
-              styles.card,
-              styles.face,
-              styles.backFace,
-              { transform: [{ rotateY: backRotate }] },
-            ]}
-          >
-            <TouchableOpacity style={styles.favIcon} onPress={toggleFavorite}>
-              {isFav ? (
-                <Ionicons name="heart" color={colors.primary} size={26} />
-              ) : (
-                <Ionicons
-                  name="heart-outline"
-                  color={colors.primary}
-                  size={26}
-                />
-              )}
-            </TouchableOpacity>
-            <View style={styles.details}>
-              <Text style={styles.meaning}>Meaning: {currentCard.meaning}</Text>
-              <Text style={styles.reading}>Onyomi: {currentCard.onyomi}</Text>
-              <Text style={styles.reading}>Kunyomi: {currentCard.kunyomi}</Text>
-              <Text style={styles.example}>Example: {currentCard.example}</Text>
-            </View>
-          </Animated.View>
-        </View>
-      </TouchableOpacity>
+      <ThemeFlashcard
+        card={currentCard}
+        isFavorite={isFav}
+        ontoggleFavorite={toggleFavorite}
+      />
 
       {/* Navigation Buttons */}
       <View style={styles.navRow}>
@@ -200,64 +182,6 @@ const styles = StyleSheet.create({
     height: "100%",
     backgroundColor: colors.secondary,
     borderRadius: 5,
-  },
-  cardWrapper: {
-    width: CARD_SIZE,
-    height: CARD_SIZE,
-  },
-
-  face: {
-    position: "absolute",
-    width: "100%",
-    height: "100%",
-    backfaceVisibility: "hidden",
-  },
-
-  backFace: {
-    transform: [{ rotateY: "180deg" }],
-  },
-
-  favIcon: {
-    position: "absolute",
-    top: 12,
-    right: 15,
-    zIndex: 10,
-  },
-
-  card: {
-    width: CARD_SIZE,
-    height: CARD_SIZE,
-    backgroundColor: colors.border,
-    borderRadius: 20,
-    justifyContent: "center",
-    alignItems: "center",
-    // elevation: 5,
-    marginBottom: 20,
-    padding: 20,
-  },
-  kanji: {
-    fontSize: 80,
-    fontWeight: "bold",
-    color: colors.primary,
-  },
-  details: {
-    alignItems: "flex-start",
-    color: colors.primary,
-  },
-  meaning: {
-    fontSize: 18,
-    marginBottom: 5,
-    color: colors.primary,
-  },
-  reading: {
-    fontSize: 16,
-    color: colors.primary,
-    marginBottom: 3,
-  },
-  example: {
-    fontSize: 16,
-    color: colors.primary,
-    marginTop: 5,
   },
   navRow: {
     flexDirection: "row",

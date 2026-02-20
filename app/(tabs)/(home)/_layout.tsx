@@ -40,7 +40,7 @@ export default function HomeLayout() {
         }}
       />
       <Stack.Screen
-        name="level"
+        name="quizlevel"
         options={{
           title: "Quiz Level",
           headerBackTitle: "Back",

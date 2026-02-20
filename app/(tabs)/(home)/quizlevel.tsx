@@ -1,17 +1,3 @@
-// import LevelUi from "@/component/levelUi";
-// import { router } from "expo-router";
-
-// export default function LevelScreen() {
-//   const handleLevelPress = (level: string) => {
-//     router.push({
-//       pathname: "/quizScreen",
-//       params: { level },
-//     });
-//   };
-
-//   return <LevelUi title="Select Quiz Level" onPressLevel={handleLevelPress} />;
-// }
-
 import LevelCard from "@/component/levelUi";
 import { LEVELS } from "@/constants/level";
 import { router } from "expo-router";

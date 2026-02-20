@@ -6,14 +6,15 @@ import { FlatList, StyleSheet, Text, View } from "react-native";
 
 export default function PracticeSectionScreen() {
   const { level } = useLocalSearchParams();
-  const sectionData = SECTIONS[level as keyof typeof SECTIONS] || [];
+
+  const sections = SECTIONS[level as keyof typeof SECTIONS] || [];
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{level} Sections</Text>
 
       <FlatList
-        data={sectionData}
+        data={sections}
         keyExtractor={(_, index) => index.toString()}
         contentContainerStyle={{ padding: 16 }}
         renderItem={({ item, index }) => (
@@ -21,12 +22,11 @@ export default function PracticeSectionScreen() {
             sectionId={item.id}
             sectionName={item.name}
             sectionElements={item.kanjiIds}
-            // completedCard={item.totalCards}
-            totalKanji={item.totalKanji}
+            totalKanji={item.total}
             onPress={() =>
               router.push({
                 pathname: "/flashcard",
-                params: { sectionIndex: index.toString() },
+                params: { level, sectionId: item.id },
               })
             }
           />

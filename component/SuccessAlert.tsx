@@ -1,12 +1,12 @@
 import colors from "@/theme/colors";
 import React from "react";
 import {
-    Image,
-    Modal,
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    View,
+  Image,
+  Modal,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
 
 type SuccessModalProps = {
@@ -36,7 +36,6 @@ export default function SuccessBottomSheet({
                 borderRadius: 50,
               }}
             />
-            {/* <Ionicons name="checkmark" size={40} color={colors.white} /> */}
           </View>
 
           <Text style={styles.title}>Success!</Text>

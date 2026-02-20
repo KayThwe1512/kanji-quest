@@ -6,13 +6,11 @@ type Props = {
   sectionName: string;
   sectionElements: string[];
   totalKanji: number;
-  // completedCard: number;
   onPress: () => void;
 };
 
 export default function SectionCard({
   sectionId,
-  sectionElements,
   sectionName,
   totalKanji,
   onPress,
@@ -22,7 +20,7 @@ export default function SectionCard({
     <TouchableOpacity style={styles.card} onPress={onPress}>
       <View>
         <Text style={styles.title}> {sectionName}</Text>
-        <Text style={styles.kanjiText}>{sectionElements}</Text>
+        {/* <Text style={styles.kanjiText}>{sectionElements}</Text> */}
         <Text style={styles.countText}>{totalKanji} Kanji</Text>
       </View>
       <View style={styles.progressWrapper}>
