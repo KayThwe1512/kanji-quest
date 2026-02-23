@@ -1,27 +1,27 @@
 import ConfirmModal from "@/component/DeleteAlert";
 import SuccessBottomSheet from "@/component/SuccessAlert";
-import { kanjiN5 as kanjiData } from "@/data/kanjiN5";
+import { useFavorite } from "@/context/FavoriteContext";
 import colors from "@/theme/colors";
 import { Ionicons } from "@expo/vector-icons";
 import { default as React, useState } from "react";
 import {
   FlatList,
+  Image,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
 } from "react-native";
 
-type KanjiItem = {
-  id: string;
+export type KanjiItem = {
   kanji: string;
-  meaning: string;
-  onyomi: string;
-  kunyomi: string;
+  meanings: string[];
+  onyomi: string[];
+  kunyomi: string[];
 };
 
 export default function FavoriteScreen() {
-  const [favorites, setFavorites] = useState<KanjiItem[]>(kanjiData);
+  const { favorites, toggleFavorite } = useFavorite();
   const [selectedItem, setSelectedItem] = useState<KanjiItem | null>(null);
   const [showConfirm, setShowConfirm] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
@@ -46,7 +46,7 @@ export default function FavoriteScreen() {
           <Ionicons name="heart" size={18} color={colors.primary} />
         </TouchableOpacity>
 
-        <Text style={styles.meaning}>{item.meaning}</Text>
+        <Text style={styles.meaning}>{item.meanings}</Text>
 
         <View
           style={{ flexDirection: "row", flexWrap: "nowrap", columnGap: 20 }}
@@ -79,10 +79,7 @@ export default function FavoriteScreen() {
         }}
         onConfirm={() => {
           if (selectedItem) {
-            setFavorites((prev) =>
-              prev.filter((fav) => fav.id !== selectedItem.id),
-            );
-
+            toggleFavorite(selectedItem);
             setDeletedKanji(selectedItem.kanji);
             setShowSuccess(true);
           }
@@ -101,12 +98,24 @@ export default function FavoriteScreen() {
         <Text style={styles.title}>Favorite Kanji lists</Text>
         <FlatList
           data={favorites}
-          keyExtractor={(item) => item.id}
+          keyExtractor={(item) => item.kanji}
           renderItem={renderItem}
           showsVerticalScrollIndicator={false}
           contentContainerStyle={{ paddingBottom: 24 }}
           ListEmptyComponent={
-            <Text style={styles.empty}>No favorite kanji yet</Text>
+            <View
+              style={{
+                justifyContent: "center",
+                alignItems: "center",
+                paddingVertical: 50,
+              }}
+            >
+              <Image
+                source={require("../../../assets/open-box.png")}
+                style={{ width: 150, height: 150 }}
+              />
+              <Text style={styles.empty}>No favorite kanji yet</Text>
+            </View>
           }
         />
       </View>

@@ -1,62 +1,46 @@
-import { createContext, useContext, useState } from "react";
+// import {
+//   getAllProgress,
+//   saveSectionProgress,
+//   SectionProgress,
+// } from "@/services/userProgress";
+// import React, { createContext, ReactNode, useEffect, useState } from "react";
 
-type ProgressContextType = {
-  learnedKanji: string[];
-  todayLearned: number;
-  highestDailyCount: number;
-  lastLearnedDate: string | null;
-  longestStreak: number;
-  addLearnedKanji: (kanji: string) => void;
-};
+// interface ProgressContextType {
+//   progressData: Record<string, SectionProgress>;
+//   updateProgress: (progress: SectionProgress) => void;
+// }
 
-export const LearnedprogressContext = createContext<ProgressContextType | null>(
-  null,
-);
+// export const ProgressContext = createContext<ProgressContextType>({
+//   progressData: {},
+//   updateProgress: () => {},
+// });
 
-export const ProgressProvider = ({ children }: { children: any }) => {
-  const [learnedKanji, setLearnedKanji] = useState<string[]>([]);
-  const [todayLearned, setTodayLearned] = useState(0);
-  const [highestDailyCount, setHighestDailyCount] = useState(0);
-  const [lastLearnedDate, setLastLearnedDate] = useState<string | null>(null);
-  const [longestStreak, setLongestStreak] = useState(0);
+// export const ProgressProvider = ({ children }: { children: ReactNode }) => {
+//   const [progressData, setProgressData] = useState<
+//     Record<string, SectionProgress>
+//   >({});
 
-  const addLearnedKanji = (kanji: string) => {
-    setLearnedKanji((prev) => {
-      if (prev.includes(kanji)) return prev;
-      return [...prev, kanji];
-    });
-  };
-  const today = new Date().toDateString();
+//   useEffect(() => {
+//     const loadProgress = async () => {
+//       const data = await getAllProgress();
+//       setProgressData(data);
+//     };
+//     loadProgress();
+//   }, []);
 
-  if (lastLearnedDate !== today) {
-    setTodayLearned(1);
-    setLastLearnedDate(today);
-  } else {
-    const updated = todayLearned + 1;
-    setTodayLearned(updated);
+//   const updateProgress = async (progress: SectionProgress) => {
+//     // Update in AsyncStorage
+//     await saveSectionProgress(progress);
+//     // Update in memory
+//     setProgressData((prev) => ({
+//       ...prev,
+//       [progress.sectionId]: progress,
+//     }));
+//   };
 
-    if (updated > highestDailyCount) {
-      setHighestDailyCount(updated);
-    }
-  }
-
-  return (
-    <LearnedprogressContext.Provider
-      value={{
-        learnedKanji,
-        todayLearned,
-        highestDailyCount,
-        lastLearnedDate,
-        longestStreak,
-        addLearnedKanji,
-      }}
-    >
-      {children}
-    </LearnedprogressContext.Provider>
-  );
-};
-export const useLearning = () => {
-  const context = useContext(LearnedprogressContext);
-  if (!context) throw new Error("useLearning must be inside LearningProvider");
-  return context;
-};
+//   return (
+//     <ProgressContext.Provider value={{ progressData, updateProgress }}>
+//       {children}
+//     </ProgressContext.Provider>
+//   );
+// };

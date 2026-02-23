@@ -1,13 +1,6 @@
 import colors from "@/theme/colors";
-import React from "react";
-import {
-  Image,
-  Modal,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from "react-native";
+import React, { useEffect } from "react";
+import { Image, Modal, StyleSheet, Text, View } from "react-native";
 
 type SuccessModalProps = {
   visible: boolean;
@@ -20,6 +13,14 @@ export default function SuccessBottomSheet({
   kanji,
   onClose,
 }: SuccessModalProps) {
+  useEffect(() => {
+    if (visible) {
+      const timer = setTimeout(() => {
+        onClose();
+      }, 1500);
+      return () => clearTimeout(timer);
+    }
+  }, [visible]);
   return (
     <Modal transparent visible={visible} animationType="slide">
       <View style={styles.overlay}>
@@ -44,9 +45,9 @@ export default function SuccessBottomSheet({
             "{kanji}" was removed from favorites
           </Text>
 
-          <TouchableOpacity style={styles.button} onPress={onClose}>
+          {/* <TouchableOpacity style={styles.button} onPress={onClose}>
             <Text style={styles.buttonText}>Close!</Text>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
       </View>
     </Modal>

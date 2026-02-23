@@ -1,7 +1,13 @@
 import colors from "@/theme/colors";
-import { Ionicons } from "@expo/vector-icons";
 import React from "react";
-import { Modal, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import {
+  Image,
+  Modal,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 
 type ConfirmModalProps = {
   visible: boolean;
@@ -27,7 +33,11 @@ export default function ConfirmModal({
       <View style={styles.overlay}>
         <View style={styles.card}>
           <View style={styles.iconWrapper}>
-            <Ionicons name="warning-outline" size={28} color={colors.wrong} />
+            <Image
+              source={require("../assets/bin.png")}
+              style={{ width: 50, height: 50 }}
+            />
+            {/* <Ionicons name="trash" size={28} color={colors.wrong} /> */}
           </View>
 
           <Text style={styles.title}>{title}</Text>

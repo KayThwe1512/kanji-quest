@@ -1,38 +1,45 @@
 import { getFavorite, saveFavorite } from "@/services/favoriteStorage";
 import { createContext, useContext, useEffect, useState } from "react";
 
+type KanjiItem = {
+  kanji: string;
+  meanings: string[];
+  onyomi: string[];
+  kunyomi: string[];
+};
+
 type FavoriteContextType = {
-  favorites: string[];
-  toggleFavorite: (kanji: string) => void;
+  favorites: KanjiItem[];
+  toggleFavorite: (kanjiItem: KanjiItem) => void;
 };
 
 const FavoriteContext = createContext<FavoriteContextType | null>(null);
 
 export const FavoriteProvider = ({ children }: any) => {
-  const [favorites, setFavorites] = useState<string[]>([]);
+  const [favorites, setFavorites] = useState<KanjiItem[]>([]);
 
+  // Load favorites when app starts
   useEffect(() => {
     const loadFavorites = async () => {
-      const data = await getFavorite();
-      setFavorites(data);
+      const stored = await getFavorite();
+      setFavorites(stored);
     };
     loadFavorites();
   }, []);
 
-  const toggleFavorite = async (kanji: string) => {
+  const toggleFavorite = async (kanjiItem: KanjiItem) => {
+    const exists = favorites.find((k) => k.kanji === kanjiItem.kanji);
+
     let updated;
 
-    if (favorites.includes(kanji)) {
-      updated = favorites.filter((k) => k !== kanji);
+    if (exists) {
+      updated = favorites.filter((k) => k.kanji !== kanjiItem.kanji);
     } else {
-      updated = [...favorites, kanji];
+      updated = [...favorites, kanjiItem];
     }
 
     setFavorites(updated);
     await saveFavorite(updated);
-    // setFavorites((prev) =>
-    //   prev.includes(kanji) ? prev.filter((k) => k !== kanji) : [...prev, kanji],
-    // );
   };
 
   return (

@@ -1,6 +1,7 @@
 import ThemeFlashcard from "@/component/ThemeFlashcard";
 import { SECTIONS } from "@/constants/section";
-import { getFavorite, saveFavorite } from "@/services/favoriteStorage";
+import { useFavorite } from "@/context/FavoriteContext";
+import { useLearning } from "@/context/ProgressContext";
 import { getFlashcardKanji } from "@/services/kanjiService";
 import { saveSectionProgress } from "@/services/userProgress";
 import colors from "@/theme/colors";
@@ -11,10 +12,10 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 export default function FlashcardScreen() {
   const [kanjiList, setKanjiList] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
+  const { addLearnedKanji } = useLearning();
 
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  const [favorites, setFavorites] = useState<number[]>([]);
+  const { favorites, toggleFavorite } = useFavorite();
   const { level, sectionId } = useLocalSearchParams<{
     level: string;
     sectionId: string;
@@ -49,15 +50,6 @@ export default function FlashcardScreen() {
     return () => clearTimeout(timer);
   }, [sectionId]);
 
-  useEffect(() => {
-    const loadFavorites = async () => {
-      const stored = await getFavorite();
-      saveFavorite(stored);
-    };
-
-    loadFavorites();
-  }, []);
-
   const currentCard = kanjiList[currentIndex];
   const isFirstCard = currentIndex === 0;
   const isLastCard = currentIndex === kanjiList.length - 1;
@@ -70,11 +62,11 @@ export default function FlashcardScreen() {
       learnedKanji: kanjiList.slice(0, index + 1).map((k) => k.kanji),
     });
   };
-
   const handleNext = () => {
     if (!isLastCard) {
       const newIndex = currentIndex + 1;
       setCurrentIndex(newIndex);
+      addLearnedKanji(currentCard.kanji);
       saveProgress(newIndex);
     }
   };
@@ -85,22 +77,6 @@ export default function FlashcardScreen() {
     }
   };
 
-  const toggleFavorite = async () => {
-    if (!currentCard) return;
-
-    let updated;
-
-    if (favorites.includes(currentCard.kanji)) {
-      updated = favorites.filter((k) => k !== currentCard.kanji);
-    } else {
-      updated = [...favorites, currentCard.kanji];
-    }
-
-    setFavorites(updated);
-    await saveFavorite(updated);
-  };
-
-  // const isFav = favorites.includes(currentIndex);
   const isFav = favorites.includes(currentCard?.kanji);
   const progressPercent = ((currentIndex + 1) / kanjiList.length) * 100;
   if (loading) {
@@ -130,7 +106,8 @@ export default function FlashcardScreen() {
       <ThemeFlashcard
         card={currentCard}
         isFavorite={isFav}
-        ontoggleFavorite={toggleFavorite}
+        ontoggleFavorite={() => toggleFavorite(currentCard)}
+        // ontoggleFavorite={() => toggleFavorite(currentCard?.kanji)}
       />
 
       {/* Navigation Buttons */}

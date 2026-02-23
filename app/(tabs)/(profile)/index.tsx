@@ -1,37 +1,32 @@
 import { Bar } from "@/component/bar";
 import { StatCard } from "@/component/StatCard";
-import { getAllProgress } from "@/services/userProgress";
+import { useLearning } from "@/context/ProgressContext";
 import colors from "@/theme/colors";
-import { useEffect, useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-const barData = [
-  { value: 5, label: "Mon", frontColor: colors.secondary },
-  { value: 8, label: "Tue", frontColor: colors.secondary },
-  { value: 5, label: "Wed", frontColor: colors.secondary },
-  { value: 10, label: "Thu", frontColor: colors.secondary },
-  { value: 6, label: "Fri", frontColor: colors.secondary },
-];
-
 export default function ProfileScreen() {
-  const [totalLearned, setTotalLearned] = useState(0);
+  const {
+    learnedKanji,
+    highestDailyCount,
+    lastLearnedDate,
+    longestStreak,
+    todayLearned,
+  } = useLearning();
 
-  useEffect(() => {
-    const loadProgress = async () => {
-      const progress = await getAllProgress();
+  const totalLearned = learnedKanji.length;
 
-      let total = 0;
+  const getWeeklyData = () => {
+    const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    const todayIndex = new Date().getDay();
 
-      Object.values(progress).forEach((section: any) => {
-        total += section.learnedKanji.length;
-      });
+    return days.map((day, index) => ({
+      label: day,
+      value: index === todayIndex ? todayLearned : 0,
+      frontColor: colors.secondary,
+    }));
+  };
 
-      setTotalLearned(total);
-    };
-
-    loadProgress();
-  }, []);
   return (
     <SafeAreaView style={styles.container}>
       <View>
@@ -45,20 +40,39 @@ export default function ProfileScreen() {
 
         <View style={styles.content}>
           <View style={styles.cardGrid}>
-            {/* <StatCard number="150" label="Total Learned" title="Words" /> */}
             <StatCard
               number={totalLearned.toString()}
               label="Total Learned"
               title="Words"
             />
-            <StatCard number="25" label="Highest Word Count" title="Words" />
-            <StatCard number="7" label="Longest Streak" title="Days" />
-            <StatCard number="Febuary 7" label="Last Word Learned" title="" />
+            <StatCard
+              number={highestDailyCount.toString()}
+              label="Highest Word Count"
+              title="Words"
+            />
+            <StatCard
+              number={longestStreak.toString()}
+              label="Longest Streak"
+              title="Days"
+            />
+            <StatCard
+              number={
+                lastLearnedDate
+                  ? new Date(lastLearnedDate).toLocaleDateString("en-US", {
+                      month: "short",
+                      day: "numeric",
+                      year: "numeric",
+                    })
+                  : "No data"
+              }
+              label="Last Word Learned"
+              title=""
+            />
           </View>
 
           <Text style={styles.sectionTitle}>Weekly Progress</Text>
           <View style={styles.chart}>
-            <Bar data={barData} />
+            <Bar data={getWeeklyData()} />
           </View>
         </View>
       </View>
