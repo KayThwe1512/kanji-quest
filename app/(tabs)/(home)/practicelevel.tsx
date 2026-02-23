@@ -1,4 +1,4 @@
-import LevelCard from "@/component/levelUi";
+import LevelCard from "@/component/LevelBox";
 import { LEVELS } from "@/constants/level";
 import { router } from "expo-router";
 import { FlatList, StyleSheet, View } from "react-native";

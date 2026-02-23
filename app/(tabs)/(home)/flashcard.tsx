@@ -62,22 +62,6 @@ export default function FlashcardScreen() {
   const isFirstCard = currentIndex === 0;
   const isLastCard = currentIndex === kanjiList.length - 1;
 
-  // const saveProgress = async () => {
-  //   try {
-  //     const data = {
-  //       level,
-  //       sectionId,
-  //       lastIndex: currentIndex,
-  //       learnedKanji: kanjiList.slice(0, currentIndex).map((k) => k.kanji),
-  //     };
-
-  //     await AsyncStorage.setItem(`progress_${sectionId}`, JSON.stringify(data));
-
-  //     console.log("Saved progress:", data);
-  //   } catch (e) {
-  //     console.log("Save error:", e);
-  //   }
-  // };
   const saveProgress = async (index: number) => {
     await saveSectionProgress({
       sectionId,
@@ -87,12 +71,6 @@ export default function FlashcardScreen() {
     });
   };
 
-  // const handleNext = () => {
-  //   if (!isLastCard) {
-  //     setCurrentIndex((prev) => prev + 1);
-  //     saveProgress();
-  //   }
-  // };
   const handleNext = () => {
     if (!isLastCard) {
       const newIndex = currentIndex + 1;
