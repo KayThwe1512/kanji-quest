@@ -1,7 +1,7 @@
 import { getFavorite, saveFavorite } from "@/services/favoriteStorage";
 import { createContext, useContext, useEffect, useState } from "react";
 
-type KanjiItem = {
+export type KanjiItem = {
   kanji: string;
   meanings: string[];
   onyomi: string[];

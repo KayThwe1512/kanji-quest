@@ -2,12 +2,15 @@ import colors from "@/theme/colors";
 import { Ionicons } from "@expo/vector-icons";
 import { router } from "expo-router";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { useLocalSearchParams } from "expo-router";
+import StatItem from "@/component/ResultStatusItem";
 
-export default function ResultScreen({ navigation }: any) {
-  const total = 5;
-  const correct = 4;
-  const wrong = 1;
-  const score = correct * 1;
+export default function ResultScreen() {
+   const { score, total } = useLocalSearchParams();
+
+  const scoreNum = Number(score) || 0;
+  const totalNum = Number(total) || 0;
+  const wrongNum = totalNum - scoreNum;
 
   return (
     <View style={styles.container}>
@@ -17,26 +20,26 @@ export default function ResultScreen({ navigation }: any) {
         </View>
 
         <Text style={styles.title}>Congratulations!</Text>
-        <Text style={styles.labelText}>You've scored +{score} points</Text>
+        <Text style={styles.labelText}>You've scored +{scoreNum} points</Text>
 
         <View style={styles.statsRow}>
           <StatItem
             icon="help-circle"
             color={colors.primary}
             label="Total"
-            value={total}
+            value={totalNum}
           />
           <StatItem
             icon="checkmark-circle"
             color={colors.correct}
             label="Correct"
-            value={correct}
+            value={scoreNum}
           />
           <StatItem
             icon="close-circle"
             color={colors.wrong}
             label="Wrong"
-            value={wrong}
+            value={wrongNum}
           />
         </View>
 
@@ -63,15 +66,7 @@ export default function ResultScreen({ navigation }: any) {
   );
 }
 
-function StatItem({ icon, color, label, value }: any) {
-  return (
-    <View style={styles.statItem}>
-      <Ionicons name={icon} size={22} color={color} />
-      <Text style={styles.statValue}>{value}</Text>
-      <Text style={styles.statLabel}>{label}</Text>
-    </View>
-  );
-}
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -109,19 +104,7 @@ const styles = StyleSheet.create({
     width: "100%",
     marginVertical: 20,
   },
-  statItem: {
-    alignItems: "center",
-    flex: 1,
-  },
-  statValue: {
-    fontSize: 18,
-    fontWeight: "700",
-    marginTop: 4,
-  },
-  statLabel: {
-    fontSize: 12,
-    color: colors.textSecondary,
-  },
+ 
   buttonRow: {
     flexDirection: "row",
     gap: 12,

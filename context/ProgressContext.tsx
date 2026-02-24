@@ -23,9 +23,8 @@ export const ProgressProvider = ({ children }: { children: any }) => {
   const [lastLearnedDate, setLastLearnedDate] = useState<string | null>(null);
   const [longestStreak, setLongestStreak] = useState(0);
 
-  const [loaded, setLoaded] = useState(false); // important
+  const [loaded, setLoaded] = useState(false); 
 
-  // Load saved progress
   useEffect(() => {
     const loadProgress = async () => {
       const saved = await AsyncStorage.getItem(STORAGE_KEY);
@@ -40,13 +39,12 @@ export const ProgressProvider = ({ children }: { children: any }) => {
         setLongestStreak(data.longestStreak || 0);
       }
 
-      setLoaded(true); // allow saving after loading
+      setLoaded(true); 
     };
 
     loadProgress();
   }, []);
 
-  // Save progress ONLY after data is loaded
   useEffect(() => {
     if (!loaded) return;
 

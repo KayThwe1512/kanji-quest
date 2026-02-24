@@ -1,9 +1,22 @@
 import LevelCard from "@/component/LevelBox";
 import { LEVELS } from "@/constants/level";
+import { SECTIONS } from "@/constants/section";
+import { useLearning } from "@/context/ProgressContext";
+import colors from "@/theme/colors";
 import { router } from "expo-router";
 import { FlatList, StyleSheet, View } from "react-native";
 
 export default function LevelScreen() {
+  const { learnedKanji } = useLearning();
+  const getCompletedForLevel = (levelId: string) => {
+    const sections = SECTIONS[levelId as keyof typeof SECTIONS] || [];
+    const allKanjiInLevel = sections.flatMap((section) => section.kanjiIds);
+    const learnedInLevel = learnedKanji.filter((kanji) =>
+      allKanjiInLevel.includes(kanji),
+    );
+
+    return learnedInLevel.length;
+  };
   const handlePress = (level: string) => {
     router.push({
       pathname: "/section",
@@ -22,7 +35,7 @@ export default function LevelScreen() {
             levelId={item.id}
             name={item.name}
             totalKanji={item.totalKanji}
-            completedKanji={item.completedKanji}
+            completedKanji={getCompletedForLevel(item.id)}
             onPress={() => handlePress(item.id)}
           />
         )}
@@ -34,6 +47,6 @@ export default function LevelScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#EBF4F6",
+    backgroundColor: colors.background,
   },
 });

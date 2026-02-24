@@ -10,5 +10,7 @@ const colors = {
   correct: "#2ECC71",
   wrong: "#E74C3C",
   text: "#7A9EA4",
+  optionCorrect: "#6BA368",
+  optionWrong: "#D96C6C",
 };
 export default colors;

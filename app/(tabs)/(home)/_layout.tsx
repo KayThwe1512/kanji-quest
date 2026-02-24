@@ -1,9 +1,13 @@
 import colors from "@/theme/colors";
 import { Stack } from "expo-router";
 
+type SectionParams = {
+  level?: string;
+};
+
 export default function HomeLayout() {
   return (
-    <Stack>
+    <Stack screenOptions={{ headerTintColor: colors.primary }}>
       <Stack.Screen name="home" options={{ headerShown: false }} />
       <Stack.Screen
         name="practicelevel"
@@ -16,16 +20,20 @@ export default function HomeLayout() {
           headerTitleAlign: "center",
         }}
       />
-
       <Stack.Screen
         name="section"
-        options={{
-          title: "Section",
-          headerBackTitle: "Back",
-          headerStyle: {
-            backgroundColor: colors.background,
-          },
-          headerTitleAlign: "center",
+        options={({ route }) => {
+          const params = route.params as SectionParams;
+          const level = params?.level ?? "";
+
+          return {
+            title: `${level} Sections`,
+            headerBackTitle: "Back",
+            headerStyle: {
+              backgroundColor: colors.background,
+            },
+            headerTitleAlign: "center",
+          };
         }}
       />
       <Stack.Screen
@@ -72,16 +80,6 @@ export default function HomeLayout() {
           headerTitleAlign: "center",
         }}
       />
-      {/* <Stack.Screen
-        name="complete"
-        options={{
-          title: "Complete Practice",
-          headerBackTitle: "Back",
-          headerStyle: {
-            backgroundColor: colors.background,
-          },
-        }}
-      /> */}
     </Stack>
   );
 }

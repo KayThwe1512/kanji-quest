@@ -1,3 +1,4 @@
+import QuizOption from "@/component/QuizOption";
 import { getQuiz } from "@/services/quizService";
 import colors from "@/theme/colors";
 import { useLocalSearchParams, useRouter } from "expo-router";
@@ -34,7 +35,6 @@ export default function QuizScreen() {
 
   useEffect(() => {
     if (!level) return;
-
     loadQuiz();
   }, [level]);
 
@@ -44,7 +44,7 @@ export default function QuizScreen() {
     try {
       setLoading(true);
 
-      const quiz = await getQuiz(level as string, 15);
+      const quiz = await getQuiz(level as string);
       console.log("Quiz received:", quiz);
 
       setQuestions(quiz);
@@ -54,21 +54,6 @@ export default function QuizScreen() {
       setLoading(false);
     }
   };
-
-  if (loading) {
-    return (
-      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        <Text>Loading quiz...</Text>
-      </View>
-    );
-  }
-  if (questions.length === 0) {
-    return (
-      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        <Text>There is no quiz yet </Text>
-      </View>
-    );
-  }
 
   const handleSelect = (id: number) => {
     if (showResult) return;
@@ -99,48 +84,53 @@ export default function QuizScreen() {
       });
     }
   };
-
   return (
     <View style={styles.container}>
-      <Text style={styles.progress}>
-        {currentIndex + 1} / {questions.length}
-      </Text>
+      {loading ? (
+        <View
+          style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
+        >
+          <Text>Loading quiz...</Text>
+        </View>
+      ) : questions.length === 0 ? (
+        <View
+          style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
+        >
+          <Text>There is no quiz yet</Text>
+        </View>
+      ) : (
+        <>
+          <Text style={styles.progress}>
+            {currentIndex + 1} / {questions.length}
+          </Text>
 
-      <Text style={styles.kanji}>{currentQuestion.kanji}</Text>
+          <Text style={styles.kanji}>{currentQuestion.kanji}</Text>
+          <Text style={styles.question}>{currentQuestion.question}</Text>
 
-      <Text style={styles.question}>{currentQuestion.question}</Text>
+          {currentQuestion.options.map((option) => (
+            <QuizOption
+              key={option.id}
+              option={option}
+              isSelected={selectedId === option.id}
+              isCorrect={option.id === currentQuestion.correctId}
+              showResult={showResult}
+              onPress={() => handleSelect(option.id)}
+            />
+          ))}
 
-      {/* Options */}
-      {currentQuestion.options.map((option) => {
-        const isSelected = selectedId === option.id;
-        const isCorrect = option.id === currentQuestion.correctId;
-
-        return (
           <TouchableOpacity
-            key={option.id}
-            style={[
-              styles.option,
-              showResult && isCorrect && styles.correct,
-              showResult && isSelected && !isCorrect && styles.wrong,
-            ]}
-            onPress={() => handleSelect(option.id)}
-            disabled={showResult}
+            style={[styles.continueBtn, !showResult && { opacity: 0.5 }]}
+            disabled={!showResult}
+            onPress={handleNext}
           >
-            <Text style={styles.optionText}>{option.text}</Text>
+            <Text style={styles.continueText}>
+              {currentIndex + 1 === questions.length
+                ? "See Result →"
+                : "Next →"}
+            </Text>
           </TouchableOpacity>
-        );
-      })}
-
-      {/* Continue Button */}
-      <TouchableOpacity
-        style={[styles.continueBtn, !showResult && { opacity: 0.5 }]}
-        disabled={!showResult}
-        onPress={handleNext}
-      >
-        <Text style={styles.continueText}>
-          {currentIndex + 1 === questions.length ? "See Result →" : "Next →"}
-        </Text>
-      </TouchableOpacity>
+        </>
+      )}
     </View>
   );
 }
@@ -198,12 +188,12 @@ const styles = StyleSheet.create({
   },
 
   correct: {
-    borderColor: "#6BA368",
+    borderColor: colors.optionCorrect,
     backgroundColor: "#EAF6EA",
   },
 
   wrong: {
-    borderColor: "#D96C6C",
+    borderColor: colors.optionWrong,
     backgroundColor: "#FDECEC",
   },
 
@@ -215,13 +205,13 @@ const styles = StyleSheet.create({
 
   correctIcon: {
     fontSize: 18,
-    color: "#6BA368",
+    color: colors.optionCorrect,
     fontWeight: "bold",
   },
 
   wrongIcon: {
     fontSize: 18,
-    color: "#D96C6C",
+    color: colors.optionWrong,
     fontWeight: "bold",
   },
 

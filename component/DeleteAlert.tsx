@@ -13,8 +13,6 @@ type ConfirmModalProps = {
   visible: boolean;
   title: string;
   message: string;
-  confirmText?: string;
-  cancelText?: string;
   onCancel: () => void;
   onConfirm: () => void;
 };
@@ -23,8 +21,6 @@ export default function ConfirmModal({
   visible,
   title,
   message,
-  confirmText = "Delete",
-  cancelText = "Cancel",
   onCancel,
   onConfirm,
 }: ConfirmModalProps) {
@@ -44,11 +40,11 @@ export default function ConfirmModal({
 
           <View style={styles.buttonRow}>
             <TouchableOpacity style={styles.cancelButton} onPress={onCancel}>
-              <Text style={styles.cancelText}>{cancelText}</Text>
+              <Text style={styles.cancelText}>Cancel</Text>
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.confirmButton} onPress={onConfirm}>
-              <Text style={styles.confirmText}>{confirmText}</Text>
+              <Text style={styles.confirmText}>Remove</Text>
             </TouchableOpacity>
           </View>
         </View>

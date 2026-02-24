@@ -80,58 +80,51 @@ export default function FlashcardScreen() {
   // const isFav = favorites.includes(currentCard?.kanji);
   const isFav = favorites.some((k) => k.kanji === currentCard?.kanji);
   const progressPercent = ((currentIndex + 1) / kanjiList.length) * 100;
-  if (loading) {
-    return (
-      <View style={styles.container}>
-        <Text>Loading flashcards...</Text>
-      </View>
-    );
-  }
-  if (!kanjiList.length) {
-    return (
-      <View style={styles.container}>
-        <Text>No flashcards found.</Text>
-      </View>
-    );
-  }
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Flashcard Practice</Text>
+      {loading ? (
+        <Text>Loading flashcards...</Text>
+      ) : !kanjiList.length ? (
+        <Text>No flashcards found.</Text>
+      ) : (
+        <>
+          <Text style={styles.title}>Flashcard Practice</Text>
 
-      {/* Progress Bar */}
-      <View style={styles.progressContainer}>
-        <View style={[styles.progressFill, { width: `${progressPercent}%` }]} />
-      </View>
+          <View style={styles.progressContainer}>
+            <View
+              style={[styles.progressFill, { width: `${progressPercent}%` }]}
+            />
+          </View>
 
-      <ThemeFlashcard
-        card={currentCard}
-        isFavorite={isFav}
-        ontoggleFavorite={() =>
-          toggleFavorite({
-            kanji: currentCard.kanji,
-            meanings: currentCard.meanings ?? [],
-            onyomi: currentCard.on_readings ?? [],
-            kunyomi: currentCard.kun_readings ?? [],
-          })
-        }
-        // ontoggleFavorite={() => toggleFavorite(currentCard?.kanji)}
-      />
+          <ThemeFlashcard
+            card={currentCard}
+            isFavorite={isFav}
+            ontoggleFavorite={() =>
+              toggleFavorite({
+                kanji: currentCard.kanji,
+                meanings: currentCard.meanings ?? [],
+                onyomi: currentCard.on_readings ?? [],
+                kunyomi: currentCard.kun_readings ?? [],
+              })
+            }
+          />
 
-      {/* Navigation Buttons */}
-      <View style={styles.navRow}>
-        {!isFirstCard && (
-          <TouchableOpacity style={styles.navButton} onPress={handlePrev}>
-            <Text style={styles.buttonText}>Prev</Text>
-          </TouchableOpacity>
-        )}
+          <View style={styles.navRow}>
+            {!isFirstCard && (
+              <TouchableOpacity style={styles.navButton} onPress={handlePrev}>
+                <Text style={styles.buttonText}>Prev</Text>
+              </TouchableOpacity>
+            )}
 
-        {!isLastCard && (
-          <TouchableOpacity style={styles.navButton} onPress={handleNext}>
-            <Text style={styles.buttonText}>Next</Text>
-          </TouchableOpacity>
-        )}
-      </View>
+            {!isLastCard && (
+              <TouchableOpacity style={styles.navButton} onPress={handleNext}>
+                <Text style={styles.buttonText}>Next</Text>
+              </TouchableOpacity>
+            )}
+          </View>
+        </>
+      )}
     </View>
   );
 }

@@ -1,13 +1,7 @@
+import { KanjiItem } from "@/context/FavoriteContext";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const storageKey = "favorite_kanji";
-
-export type KanjiItem = {
-  kanji: string;
-  meanings: string[];
-  onyomi: string[];
-  kunyomi: string[];
-};
 
 export async function getFavorite(): Promise<KanjiItem[]> {
   const data = await AsyncStorage.getItem(storageKey);

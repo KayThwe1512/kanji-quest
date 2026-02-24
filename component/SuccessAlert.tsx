@@ -44,10 +44,6 @@ export default function SuccessAlert({
           <Text style={styles.message}>
             "{kanji}" was removed from favorites
           </Text>
-
-          {/* <TouchableOpacity style={styles.button} onPress={onClose}>
-            <Text style={styles.buttonText}>Close!</Text>
-          </TouchableOpacity> */}
         </View>
       </View>
     </Modal>
