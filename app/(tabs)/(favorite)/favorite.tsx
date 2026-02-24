@@ -33,31 +33,35 @@ export default function FavoriteScreen() {
   };
 
   const renderItem = ({ item }: { item: KanjiItem }) => (
-    <View style={styles.row}>
-      <View style={styles.kanjiCard}>
+    <View style={styles.cardContainer}>
+      <View style={styles.kanjiBox}>
         <Text style={styles.kanjiText}>{item.kanji}</Text>
       </View>
 
-      <View style={styles.detailCard}>
-        <TouchableOpacity
-          style={styles.heartButton}
-          onPress={() => removeFavorite(item)}
-        >
-          <Ionicons name="heart" size={18} color={colors.primary} />
-        </TouchableOpacity>
-
-        <Text style={styles.meaning}>{item.meanings}</Text>
-
-        <View
-          style={{ flexDirection: "row", flexWrap: "nowrap", columnGap: 20 }}
-        >
-          <Text style={styles.reading}>
-            <Text style={styles.label}>くん:</Text> {item.kunyomi}
+      <View style={styles.infoSection}>
+        <View style={styles.headerRow}>
+          <Text style={styles.readingText} numberOfLines={1}>
+            <Text style={styles.label}>音: </Text>{" "}
+            {item.onyomi?.join(", ") || " - "}
           </Text>
-          <Text style={styles.reading}>
-            <Text style={styles.label}>おん:</Text> {item.onyomi}
-          </Text>
+          <TouchableOpacity
+            onPress={() => {
+              setSelectedItem(item);
+              setShowConfirm(true);
+            }}
+          >
+            <Ionicons name="heart" size={22} color={colors.primary} />
+          </TouchableOpacity>
         </View>
+
+        <Text style={styles.readingText} numberOfLines={1}>
+          <Text style={styles.label}>訓: </Text>{" "}
+          {item.kunyomi?.join(", ") || " - "}
+        </Text>
+
+        <Text style={styles.meaningText} numberOfLines={1}>
+          Meaning: {item.meanings?.join(", ") || " - "}
+        </Text>
       </View>
     </View>
   );
@@ -103,18 +107,12 @@ export default function FavoriteScreen() {
           showsVerticalScrollIndicator={false}
           contentContainerStyle={{ paddingBottom: 24 }}
           ListEmptyComponent={
-            <View
-              style={{
-                justifyContent: "center",
-                alignItems: "center",
-                paddingVertical: 50,
-              }}
-            >
+            <View style={styles.emptyContainer}>
               <Image
                 source={require("../../../assets/open-box.png")}
-                style={{ width: 150, height: 150 }}
+                style={styles.emptyImg}
               />
-              <Text style={styles.empty}>No favorite kanji yet</Text>
+              <Text style={styles.emptyText}>No favorite kanji yet</Text>
             </View>
           }
         />
@@ -126,77 +124,77 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.background,
-    padding: 16,
-    paddingVertical: 20,
   },
   title: {
-    marginVertical: 20,
-    fontSize: 20,
-    fontWeight: "bold",
+    fontSize: 24,
     color: colors.primary,
     textAlign: "center",
+    marginTop: 40,
+    marginBottom: 20,
+    fontWeight: "bold",
   },
 
-  row: {
-    flexDirection: "row",
-    marginBottom: 14,
-    gap: 12,
-  },
-
-  kanjiCard: {
-    width: 90,
-    height: 90,
+  cardContainer: {
     backgroundColor: colors.white,
-    borderRadius: 16,
+    flexDirection: "row",
+    borderRadius: 15,
+    padding: 12,
+    marginHorizontal: 12,
+    marginVertical: 5,
+    alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  kanjiBox: {
+    backgroundColor: colors.primary,
+    width: 75,
+    height: 75,
+    borderRadius: 12,
     justifyContent: "center",
     alignItems: "center",
-    borderWidth: 3,
-    borderColor: colors.border,
   },
-
   kanjiText: {
-    fontSize: 44,
-    fontWeight: "600",
-    color: colors.primary,
+    fontSize: 38,
+    color: colors.white,
   },
-
-  detailCard: {
+  infoSection: {
     flex: 1,
-    backgroundColor: colors.white,
-    padding: 14,
-    borderWidth: 3,
-    borderRadius: 16,
-    borderColor: colors.border,
+    marginLeft: 12,
   },
-
-  meaning: {
-    fontSize: 16,
-    fontWeight: "600",
-    marginBottom: 6,
+  headerRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  label: {
+    fontWeight: "700",
     color: colors.primary,
   },
-
-  reading: {
+  readingText: {
     fontSize: 13,
     color: colors.textSecondary,
-    marginTop: 2,
+    marginBottom: 2,
   },
-
-  label: {
+  meaningText: {
+    fontSize: 15,
+    color: colors.textPrimary,
+    marginTop: 4,
     fontWeight: "600",
-    color: colors.textSecondary,
   },
-
-  heartButton: {
-    position: "absolute",
-    top: 10,
-    right: 10,
+  emptyContainer: {
+    alignItems: "center",
+    marginTop: 100,
   },
-
-  empty: {
-    textAlign: "center",
-    marginTop: 60,
-    fontSize: 16,
-    color: colors.textSecondary,
+  emptyImg: {
+    width: 100,
+    height: 100,
+    opacity: 0.5,
+  },
+  emptyText: {
+    color: "#888",
+    marginTop: 20,
   },
 });

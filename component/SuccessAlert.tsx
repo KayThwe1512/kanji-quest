@@ -8,7 +8,7 @@ type SuccessModalProps = {
   onClose: () => void;
 };
 
-export default function SuccessBottomSheet({
+export default function SuccessAlert({
   visible,
   kanji,
   onClose,

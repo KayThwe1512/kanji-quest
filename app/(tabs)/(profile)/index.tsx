@@ -1,4 +1,4 @@
-import { Bar } from "@/component/bar";
+import { Bar } from "@/component/Bar";
 import { StatCard } from "@/component/StatCard";
 import { useLearning } from "@/context/ProgressContext";
 import colors from "@/theme/colors";

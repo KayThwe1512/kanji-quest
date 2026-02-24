@@ -18,7 +18,6 @@ const FavoriteContext = createContext<FavoriteContextType | null>(null);
 export const FavoriteProvider = ({ children }: any) => {
   const [favorites, setFavorites] = useState<KanjiItem[]>([]);
 
-  // Load favorites when app starts
   useEffect(() => {
     const loadFavorites = async () => {
       const stored = await getFavorite();
@@ -28,18 +27,20 @@ export const FavoriteProvider = ({ children }: any) => {
   }, []);
 
   const toggleFavorite = async (kanjiItem: KanjiItem) => {
-    const exists = favorites.find((k) => k.kanji === kanjiItem.kanji);
+    console.log("Saving item:", kanjiItem);
+    setFavorites((prev) => {
+      const exists = prev.find((k) => k.kanji === kanjiItem.kanji);
 
-    let updated;
+      let updated;
+      if (exists) {
+        updated = prev.filter((k) => k.kanji !== kanjiItem.kanji);
+      } else {
+        updated = [...prev, kanjiItem];
+      }
 
-    if (exists) {
-      updated = favorites.filter((k) => k.kanji !== kanjiItem.kanji);
-    } else {
-      updated = [...favorites, kanjiItem];
-    }
-
-    setFavorites(updated);
-    await saveFavorite(updated);
+      saveFavorite(updated);
+      return updated;
+    });
   };
 
   return (

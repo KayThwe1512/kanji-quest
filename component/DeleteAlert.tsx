@@ -37,7 +37,6 @@ export default function ConfirmModal({
               source={require("../assets/bin.png")}
               style={{ width: 50, height: 50 }}
             />
-            {/* <Ionicons name="trash" size={28} color={colors.wrong} /> */}
           </View>
 
           <Text style={styles.title}>{title}</Text>

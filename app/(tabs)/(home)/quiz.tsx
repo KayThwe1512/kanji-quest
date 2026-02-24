@@ -1,8 +1,20 @@
-import { questions } from "@/constants/question";
+import { getQuiz } from "@/services/quizService";
 import colors from "@/theme/colors";
-import { useRouter } from "expo-router";
-import { useRef, useState } from "react";
+import { useLocalSearchParams, useRouter } from "expo-router";
+import { useEffect, useRef, useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+
+type Option = {
+  id: number;
+  text: string;
+};
+
+type Question = {
+  kanji: string;
+  question: string;
+  options: Option[];
+  correctId: number;
+};
 
 export default function QuizScreen() {
   const router = useRouter();
@@ -12,9 +24,51 @@ export default function QuizScreen() {
   const [showResult, setShowResult] = useState(false);
   const [score, setScore] = useState(0);
 
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [loading, setLoading] = useState(true);
+  const { level } = useLocalSearchParams();
+
   const scoreRef = useRef(0);
 
   const currentQuestion = questions[currentIndex];
+
+  useEffect(() => {
+    if (!level) return;
+
+    loadQuiz();
+  }, [level]);
+
+  console.log("LEVEL VALUE:", level);
+
+  const loadQuiz = async () => {
+    try {
+      setLoading(true);
+
+      const quiz = await getQuiz(level as string, 15);
+      console.log("Quiz received:", quiz);
+
+      setQuestions(quiz);
+    } catch (err) {
+      console.log("Load quiz error:", err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  if (loading) {
+    return (
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text>Loading quiz...</Text>
+      </View>
+    );
+  }
+  if (questions.length === 0) {
+    return (
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text>There is no quiz yet </Text>
+      </View>
+    );
+  }
 
   const handleSelect = (id: number) => {
     if (showResult) return;

@@ -1,6 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-const PROGRESS_KEY = "user_progress";
+const STORAGE_KEY = "user_progress";
 
 export interface SectionProgress {
   sectionId: string;
@@ -14,10 +14,10 @@ export async function saveSectionProgress(progress: SectionProgress) {
 
   allProgress[progress.sectionId] = progress;
 
-  await AsyncStorage.setItem(PROGRESS_KEY, JSON.stringify(allProgress));
+  await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(allProgress));
 }
 
 export async function getAllProgress() {
-  const data = await AsyncStorage.getItem(PROGRESS_KEY);
+  const data = await AsyncStorage.getItem(STORAGE_KEY);
   return data ? JSON.parse(data) : {};
 }

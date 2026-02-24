@@ -77,7 +77,8 @@ export default function FlashcardScreen() {
     }
   };
 
-  const isFav = favorites.includes(currentCard?.kanji);
+  // const isFav = favorites.includes(currentCard?.kanji);
+  const isFav = favorites.some((k) => k.kanji === currentCard?.kanji);
   const progressPercent = ((currentIndex + 1) / kanjiList.length) * 100;
   if (loading) {
     return (
@@ -106,7 +107,14 @@ export default function FlashcardScreen() {
       <ThemeFlashcard
         card={currentCard}
         isFavorite={isFav}
-        ontoggleFavorite={() => toggleFavorite(currentCard)}
+        ontoggleFavorite={() =>
+          toggleFavorite({
+            kanji: currentCard.kanji,
+            meanings: currentCard.meanings ?? [],
+            onyomi: currentCard.on_readings ?? [],
+            kunyomi: currentCard.kun_readings ?? [],
+          })
+        }
         // ontoggleFavorite={() => toggleFavorite(currentCard?.kanji)}
       />
 

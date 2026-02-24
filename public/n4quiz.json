@@ -1,0 +1,3346 @@
+[
+  {
+    "question": "What is the reading of \"試験\"?",
+    "word": "試験",
+    "options": [
+      "ひどい",
+      "しけん",
+      "とまる",
+      "うつくしい"
+    ],
+    "correct": "しけん"
+  },
+  {
+    "question": "What is the reading of \"辞書\"?",
+    "word": "辞書",
+    "options": [
+      "じしょ",
+      "わすれる",
+      "つたえる",
+      "かなしむ"
+    ],
+    "correct": "じしょ"
+  },
+  {
+    "question": "What is the reading of \"宿題\"?",
+    "word": "宿題",
+    "options": [
+      "ならう",
+      "かわく",
+      "るすばん",
+      "しゅくだい"
+    ],
+    "correct": "しゅくだい"
+  },
+  {
+    "question": "What is the reading of \"意味\"?",
+    "word": "意味",
+    "options": [
+      "ぶんか",
+      "ほうほう",
+      "はこぶ",
+      "いみ"
+    ],
+    "correct": "いみ"
+  },
+  {
+    "question": "What is the reading of \"最近\"?",
+    "word": "最近",
+    "options": [
+      "じかん",
+      "まち",
+      "にる",
+      "さいきん"
+    ],
+    "correct": "さいきん"
+  },
+  {
+    "question": "What is the reading of \"場所\"?",
+    "word": "場所",
+    "options": [
+      "ばしょ",
+      "ぎょうじ",
+      "せんたくする",
+      "しょうたいする"
+    ],
+    "correct": "ばしょ"
+  },
+  {
+    "question": "What is the reading of \"工場\"?",
+    "word": "工場",
+    "options": [
+      "せいじ",
+      "かんばん",
+      "かたい",
+      "こうじょう"
+    ],
+    "correct": "こうじょう"
+  },
+  {
+    "question": "What is the reading of \"案内する\"?",
+    "word": "案内する",
+    "options": [
+      "ほんやく",
+      "しゅうまつ",
+      "こども",
+      "あんないする"
+    ],
+    "correct": "あんないする"
+  },
+  {
+    "question": "What is the reading of \"準備する\"?",
+    "word": "準備する",
+    "options": [
+      "おる",
+      "じゅんびする",
+      "こしょう",
+      "かなしむ"
+    ],
+    "correct": "じゅんびする"
+  },
+  {
+    "question": "What is the reading of \"連絡する\"?",
+    "word": "連絡する",
+    "options": [
+      "うんどう",
+      "れんらくする",
+      "さびしい",
+      "かいわ"
+    ],
+    "correct": "れんらくする"
+  },
+  {
+    "question": "What is the reading of \"相談する\"?",
+    "word": "相談する",
+    "options": [
+      "きじ",
+      "そうだんする",
+      "けっせき",
+      "べんり"
+    ],
+    "correct": "そうだんする"
+  },
+  {
+    "question": "What is the reading of \"注意する\"?",
+    "word": "注意する",
+    "options": [
+      "ちゅういする",
+      "あんない",
+      "まにあう",
+      "むかう"
+    ],
+    "correct": "ちゅういする"
+  },
+  {
+    "question": "What is the reading of \"反対する\"?",
+    "word": "反対する",
+    "options": [
+      "あげる",
+      "しま",
+      "みなと",
+      "はんたいする"
+    ],
+    "correct": "はんたいする"
+  },
+  {
+    "question": "What is the reading of \"賛成する\"?",
+    "word": "賛成する",
+    "options": [
+      "けっせき",
+      "さんせいする",
+      "しぜん",
+      "かよう"
+    ],
+    "correct": "さんせいする"
+  },
+  {
+    "question": "What is the reading of \"説明する\"?",
+    "word": "説明する",
+    "options": [
+      "ものがたり",
+      "かく",
+      "こしょう",
+      "せつめいする"
+    ],
+    "correct": "せつめいする"
+  },
+  {
+    "question": "What is the reading of \"参加する\"?",
+    "word": "参加する",
+    "options": [
+      "かえる",
+      "かじ",
+      "さんかする",
+      "ちょうし"
+    ],
+    "correct": "さんかする"
+  },
+  {
+    "question": "What is the reading of \"招待する\"?",
+    "word": "招待する",
+    "options": [
+      "やせる",
+      "しょうたいする",
+      "きかい",
+      "しんぶん"
+    ],
+    "correct": "しょうたいする"
+  },
+  {
+    "question": "What is the reading of \"心配する\"?",
+    "word": "心配する",
+    "options": [
+      "じこ",
+      "でんわ",
+      "しんぱいする",
+      "ふる"
+    ],
+    "correct": "しんぱいする"
+  },
+  {
+    "question": "What is the reading of \"安心する\"?",
+    "word": "安心する",
+    "options": [
+      "こくさい",
+      "こわい",
+      "さいきん",
+      "あんしんする"
+    ],
+    "correct": "あんしんする"
+  },
+  {
+    "question": "What is the reading of \"計算する\"?",
+    "word": "計算する",
+    "options": [
+      "ふゆ",
+      "わかす",
+      "いためる",
+      "けいさんする"
+    ],
+    "correct": "けいさんする"
+  },
+  {
+    "question": "What is the reading of \"予約する\"?",
+    "word": "予約する",
+    "options": [
+      "よやくする",
+      "りょうりする",
+      "うたう",
+      "わすれる"
+    ],
+    "correct": "よやくする"
+  },
+  {
+    "question": "What is the reading of \"約束する\"?",
+    "word": "約束する",
+    "options": [
+      "やくそくする",
+      "たいよう",
+      "やせる",
+      "しゅんかん"
+    ],
+    "correct": "やくそくする"
+  },
+  {
+    "question": "What is the reading of \"復習する\"?",
+    "word": "復習する",
+    "options": [
+      "みなと",
+      "さいきん",
+      "ふくしゅうする",
+      "かんじる"
+    ],
+    "correct": "ふくしゅうする"
+  },
+  {
+    "question": "What is the reading of \"予習する\"?",
+    "word": "予習する",
+    "options": [
+      "せつめいする",
+      "ふゆ",
+      "じゆう",
+      "よしゅうする"
+    ],
+    "correct": "よしゅうする"
+  },
+  {
+    "question": "What is the reading of \"練習する\"?",
+    "word": "練習する",
+    "options": [
+      "げつまつ",
+      "おしえる",
+      "かつどう",
+      "れんしゅうする"
+    ],
+    "correct": "れんしゅうする"
+  },
+  {
+    "question": "What is the reading of \"運転する\"?",
+    "word": "運転する",
+    "options": [
+      "にる",
+      "うんてんする",
+      "けしき",
+      "ふえる"
+    ],
+    "correct": "うんてんする"
+  },
+  {
+    "question": "What is the reading of \"散歩する\"?",
+    "word": "散歩する",
+    "options": [
+      "かじ",
+      "くるしむ",
+      "だんせい",
+      "さんぽする"
+    ],
+    "correct": "さんぽする"
+  },
+  {
+    "question": "What is the reading of \"洗濯する\"?",
+    "word": "洗濯する",
+    "options": [
+      "あんしんする",
+      "ちょうし",
+      "ちり",
+      "せんたくする"
+    ],
+    "correct": "せんたくする"
+  },
+  {
+    "question": "What is the reading of \"掃除する\"?",
+    "word": "掃除する",
+    "options": [
+      "さいきん",
+      "みつかる",
+      "そうじする",
+      "きかん"
+    ],
+    "correct": "そうじする"
+  },
+  {
+    "question": "What is the reading of \"料理する\"?",
+    "word": "料理する",
+    "options": [
+      "ばしょ",
+      "じだい",
+      "しごと",
+      "りょうりする"
+    ],
+    "correct": "りょうりする"
+  },
+  {
+    "question": "What is the reading of \"食事する\"?",
+    "word": "食事する",
+    "options": [
+      "しょうせつ",
+      "しょくじする",
+      "きびしい",
+      "しゅみ"
+    ],
+    "correct": "しょくじする"
+  },
+  {
+    "question": "What is the reading of \"見学する\"?",
+    "word": "見学する",
+    "options": [
+      "けんがくする",
+      "ぶんがく",
+      "ざっし",
+      "ならう"
+    ],
+    "correct": "けんがくする"
+  },
+  {
+    "question": "What is the reading of \"見物する\"?",
+    "word": "見物する",
+    "options": [
+      "けんぶつする",
+      "とまる",
+      "こうじょう",
+      "けしき"
+    ],
+    "correct": "けんぶつする"
+  },
+  {
+    "question": "What is the reading of \"関係\"?",
+    "word": "関係",
+    "options": [
+      "おどろく",
+      "ぬれる",
+      "かんけい",
+      "とまる"
+    ],
+    "correct": "かんけい"
+  },
+  {
+    "question": "What is the reading of \"世界\"?",
+    "word": "世界",
+    "options": [
+      "すばらしい",
+      "せかい",
+      "みつける",
+      "へんじ"
+    ],
+    "correct": "せかい"
+  },
+  {
+    "question": "What is the reading of \"自分\"?",
+    "word": "自分",
+    "options": [
+      "じぶん",
+      "まち",
+      "こくさい",
+      "とまる"
+    ],
+    "correct": "じぶん"
+  },
+  {
+    "question": "What is the reading of \"自由\"?",
+    "word": "自由",
+    "options": [
+      "とまる",
+      "じゆう",
+      "しま",
+      "なつ"
+    ],
+    "correct": "じゆう"
+  },
+  {
+    "question": "What is the reading of \"理由\"?",
+    "word": "理由",
+    "options": [
+      "かつどう",
+      "ばしょ",
+      "かじ",
+      "りゆう"
+    ],
+    "correct": "りゆう"
+  },
+  {
+    "question": "What is the reading of \"社会\"?",
+    "word": "社会",
+    "options": [
+      "かわく",
+      "にんげん",
+      "つなみ",
+      "しゃかい"
+    ],
+    "correct": "しゃかい"
+  },
+  {
+    "question": "What is the reading of \"文化\"?",
+    "word": "文化",
+    "options": [
+      "まんが",
+      "さんかする",
+      "しょうせつ",
+      "ぶんか"
+    ],
+    "correct": "ぶんか"
+  },
+  {
+    "question": "What is the reading of \"歴史\"?",
+    "word": "歴史",
+    "options": [
+      "れきし",
+      "じゆう",
+      "こうじょう",
+      "しゃかい"
+    ],
+    "correct": "れきし"
+  },
+  {
+    "question": "What is the reading of \"地理\"?",
+    "word": "地理",
+    "options": [
+      "ちり",
+      "はずかしい",
+      "しらべる",
+      "とどける"
+    ],
+    "correct": "ちり"
+  },
+  {
+    "question": "What is the reading of \"科学\"?",
+    "word": "科学",
+    "options": [
+      "くらべる",
+      "いわう",
+      "ほんやく",
+      "かがく"
+    ],
+    "correct": "かがく"
+  },
+  {
+    "question": "What is the reading of \"文学\"?",
+    "word": "文学",
+    "options": [
+      "かなしむ",
+      "じょうず",
+      "へた",
+      "ぶんがく"
+    ],
+    "correct": "ぶんがく"
+  },
+  {
+    "question": "What is the reading of \"数学\"?",
+    "word": "数学",
+    "options": [
+      "かるい",
+      "さいご",
+      "しょるい",
+      "すうがく"
+    ],
+    "correct": "すうがく"
+  },
+  {
+    "question": "What is the reading of \"法律\"?",
+    "word": "法律",
+    "options": [
+      "うんてんする",
+      "ほうりつ",
+      "しらべる",
+      "べんり"
+    ],
+    "correct": "ほうりつ"
+  },
+  {
+    "question": "What is the reading of \"経済\"?",
+    "word": "経済",
+    "options": [
+      "けいざい",
+      "あんない",
+      "へんじ",
+      "きかい"
+    ],
+    "correct": "けいざい"
+  },
+  {
+    "question": "What is the reading of \"政治\"?",
+    "word": "政治",
+    "options": [
+      "つうやく",
+      "しょくぶつ",
+      "せいじ",
+      "あげる"
+    ],
+    "correct": "せいじ"
+  },
+  {
+    "question": "What is the reading of \"国際\"?",
+    "word": "国際",
+    "options": [
+      "じだい",
+      "こくさい",
+      "かなしむ",
+      "せんたくする"
+    ],
+    "correct": "こくさい"
+  },
+  {
+    "question": "What is the reading of \"試合\"?",
+    "word": "試合",
+    "options": [
+      "ふべん",
+      "あう",
+      "とくい",
+      "しあい"
+    ],
+    "correct": "しあい"
+  },
+  {
+    "question": "What is the reading of \"運動\"?",
+    "word": "運動",
+    "options": [
+      "くらべる",
+      "まにあう",
+      "こわす",
+      "うんどう"
+    ],
+    "correct": "うんどう"
+  },
+  {
+    "question": "What is the reading of \"活動\"?",
+    "word": "活動",
+    "options": [
+      "やくそくする",
+      "ぎじゅつ",
+      "きかん",
+      "かつどう"
+    ],
+    "correct": "かつどう"
+  },
+  {
+    "question": "What is the reading of \"生活\"?",
+    "word": "生活",
+    "options": [
+      "せいかつ",
+      "くらべる",
+      "けんがくする",
+      "わかす"
+    ],
+    "correct": "せいかつ"
+  },
+  {
+    "question": "What is the reading of \"習慣\"?",
+    "word": "習慣",
+    "options": [
+      "ふべん",
+      "しゅうかん",
+      "ねむる",
+      "きめる"
+    ],
+    "correct": "しゅうかん"
+  },
+  {
+    "question": "What is the reading of \"機会\"?",
+    "word": "機会",
+    "options": [
+      "へんじ",
+      "けしき",
+      "しぜん",
+      "きかい"
+    ],
+    "correct": "きかい"
+  },
+  {
+    "question": "What is the reading of \"技術\"?",
+    "word": "技術",
+    "options": [
+      "くるしむ",
+      "ただしい",
+      "ぎじゅつ",
+      "へんじ"
+    ],
+    "correct": "ぎじゅつ"
+  },
+  {
+    "question": "What is the reading of \"方法\"?",
+    "word": "方法",
+    "options": [
+      "ちょうし",
+      "しゅうかん",
+      "ふとる",
+      "ほうほう"
+    ],
+    "correct": "ほうほう"
+  },
+  {
+    "question": "What is the reading of \"道具\"?",
+    "word": "道具",
+    "options": [
+      "こうじょう",
+      "やわらかい",
+      "きじ",
+      "どうぐ"
+    ],
+    "correct": "どうぐ"
+  },
+  {
+    "question": "What is the reading of \"家具\"?",
+    "word": "家具",
+    "options": [
+      "かぐ",
+      "だんせい",
+      "ねんまつ",
+      "かじ"
+    ],
+    "correct": "かぐ"
+  },
+  {
+    "question": "What is the reading of \"具合\"?",
+    "word": "具合",
+    "options": [
+      "ふく",
+      "ぐあい",
+      "けんがくする",
+      "べんり"
+    ],
+    "correct": "ぐあい"
+  },
+  {
+    "question": "What is the reading of \"調子\"?",
+    "word": "調子",
+    "options": [
+      "ちょうし",
+      "つき",
+      "きけん",
+      "ひつよう"
+    ],
+    "correct": "ちょうし"
+  },
+  {
+    "question": "What is the reading of \"気分\"?",
+    "word": "気分",
+    "options": [
+      "おこる",
+      "きぶん",
+      "すてる",
+      "めずらしい"
+    ],
+    "correct": "きぶん"
+  },
+  {
+    "question": "What is the reading of \"気持ち\"?",
+    "word": "気持ち",
+    "options": [
+      "せんたくする",
+      "じしょ",
+      "きもち",
+      "べんり"
+    ],
+    "correct": "きもち"
+  },
+  {
+    "question": "What is the reading of \"興味\"?",
+    "word": "興味",
+    "options": [
+      "げつまつ",
+      "ならぶ",
+      "じぶん",
+      "きょうみ"
+    ],
+    "correct": "きょうみ"
+  },
+  {
+    "question": "What is the reading of \"趣味\"?",
+    "word": "趣味",
+    "options": [
+      "しゅみ",
+      "しま",
+      "わる",
+      "ほうりつ"
+    ],
+    "correct": "しゅみ"
+  },
+  {
+    "question": "What is the reading of \"特急\"?",
+    "word": "特急",
+    "options": [
+      "とっきゅう",
+      "ばんぐみ",
+      "しけん",
+      "のぞむ"
+    ],
+    "correct": "とっきゅう"
+  },
+  {
+    "question": "What is the reading of \"急行\"?",
+    "word": "急行",
+    "options": [
+      "きゅうこう",
+      "きかん",
+      "さんぽする",
+      "しゅうまつ"
+    ],
+    "correct": "きゅうこう"
+  },
+  {
+    "question": "What is the reading of \"普通\"?",
+    "word": "普通",
+    "options": [
+      "しあい",
+      "つき",
+      "こくさい",
+      "ふつう"
+    ],
+    "correct": "ふつう"
+  },
+  {
+    "question": "What is the reading of \"特別\"?",
+    "word": "特別",
+    "options": [
+      "かのう",
+      "しま",
+      "とくべつ",
+      "かいわ"
+    ],
+    "correct": "とくべつ"
+  },
+  {
+    "question": "What is the reading of \"案内\"?",
+    "word": "案内",
+    "options": [
+      "にがて",
+      "ただしい",
+      "ひく",
+      "あんない"
+    ],
+    "correct": "あんない"
+  },
+  {
+    "question": "What is the reading of \"予定\"?",
+    "word": "予定",
+    "options": [
+      "ようじ",
+      "おどろく",
+      "とめる",
+      "よてい"
+    ],
+    "correct": "よてい"
+  },
+  {
+    "question": "What is the reading of \"決定\"?",
+    "word": "決定",
+    "options": [
+      "なおす",
+      "せいじ",
+      "けしき",
+      "けってい"
+    ],
+    "correct": "けってい"
+  },
+  {
+    "question": "What is the reading of \"出席\"?",
+    "word": "出席",
+    "options": [
+      "わかす",
+      "ふむ",
+      "かわく",
+      "しゅっせき"
+    ],
+    "correct": "しゅっせき"
+  },
+  {
+    "question": "What is the reading of \"欠席\"?",
+    "word": "欠席",
+    "options": [
+      "けっせき",
+      "うたう",
+      "ふべん",
+      "やく"
+    ],
+    "correct": "けっせき"
+  },
+  {
+    "question": "What is the reading of \"座席\"?",
+    "word": "座席",
+    "options": [
+      "ざせき",
+      "おもい",
+      "ねむい",
+      "かたい"
+    ],
+    "correct": "ざせき"
+  },
+  {
+    "question": "What is the reading of \"海岸\"?",
+    "word": "海岸",
+    "options": [
+      "ひつよう",
+      "ちり",
+      "かいがん",
+      "ならぶ"
+    ],
+    "correct": "かいがん"
+  },
+  {
+    "question": "What is the reading of \"湖\"?",
+    "word": "湖",
+    "options": [
+      "みずうみ",
+      "ばんぐみ",
+      "よてい",
+      "しょくじ"
+    ],
+    "correct": "みずうみ"
+  },
+  {
+    "question": "What is the reading of \"島\"?",
+    "word": "島",
+    "options": [
+      "さびしい",
+      "せいぶつ",
+      "かなしむ",
+      "しま"
+    ],
+    "correct": "しま"
+  },
+  {
+    "question": "What is the reading of \"港\"?",
+    "word": "港",
+    "options": [
+      "あう",
+      "わすれる",
+      "みなと",
+      "すわる"
+    ],
+    "correct": "みなと"
+  },
+  {
+    "question": "What is the reading of \"村\"?",
+    "word": "村",
+    "options": [
+      "むら",
+      "おもいだす",
+      "つうやく",
+      "ちり"
+    ],
+    "correct": "むら"
+  },
+  {
+    "question": "What is the reading of \"町\"?",
+    "word": "町",
+    "options": [
+      "まち",
+      "あつまる",
+      "さんかする",
+      "わかもの"
+    ],
+    "correct": "まち"
+  },
+  {
+    "question": "What is the reading of \"都会\"?",
+    "word": "都会",
+    "options": [
+      "おこる",
+      "ひえる",
+      "とかい",
+      "へた"
+    ],
+    "correct": "とかい"
+  },
+  {
+    "question": "What is the reading of \"田舎\"?",
+    "word": "田舎",
+    "options": [
+      "いなか",
+      "じしょ",
+      "こしょう",
+      "せんたくする"
+    ],
+    "correct": "いなか"
+  },
+  {
+    "question": "What is the reading of \"景色\"?",
+    "word": "景色",
+    "options": [
+      "けしき",
+      "せいじ",
+      "しゃかい",
+      "うんてんする"
+    ],
+    "correct": "けしき"
+  },
+  {
+    "question": "What is the reading of \"自然\"?",
+    "word": "自然",
+    "options": [
+      "しぜん",
+      "ほうりつ",
+      "おこる",
+      "とまる"
+    ],
+    "correct": "しぜん"
+  },
+  {
+    "question": "What is the reading of \"空気\"?",
+    "word": "空気",
+    "options": [
+      "くうき",
+      "しけん",
+      "すばらしい",
+      "ふゆ"
+    ],
+    "correct": "くうき"
+  },
+  {
+    "question": "What is the reading of \"地震\"?",
+    "word": "地震",
+    "options": [
+      "ざっし",
+      "じしん",
+      "きぶん",
+      "すわる"
+    ],
+    "correct": "じしん"
+  },
+  {
+    "question": "What is the reading of \"火事\"?",
+    "word": "火事",
+    "options": [
+      "しぜん",
+      "かじ",
+      "しゅくだい",
+      "しょくじする"
+    ],
+    "correct": "かじ"
+  },
+  {
+    "question": "What is the reading of \"事故\"?",
+    "word": "事故",
+    "options": [
+      "いみ",
+      "ものがたり",
+      "よしゅうする",
+      "じこ"
+    ],
+    "correct": "じこ"
+  },
+  {
+    "question": "What is the reading of \"故障\"?",
+    "word": "故障",
+    "options": [
+      "こしょう",
+      "とまる",
+      "かんけい",
+      "そうだんする"
+    ],
+    "correct": "こしょう"
+  },
+  {
+    "question": "What is the reading of \"台風\"?",
+    "word": "台風",
+    "options": [
+      "たいふう",
+      "せいかつ",
+      "こわい",
+      "いなか"
+    ],
+    "correct": "たいふう"
+  },
+  {
+    "question": "What is the reading of \"津波\"?",
+    "word": "津波",
+    "options": [
+      "つなみ",
+      "さいきん",
+      "おくる",
+      "おくれる"
+    ],
+    "correct": "つなみ"
+  },
+  {
+    "question": "What is the reading of \"洪水\"?",
+    "word": "洪水",
+    "options": [
+      "しごと",
+      "こうずい",
+      "じかん",
+      "おる"
+    ],
+    "correct": "こうずい"
+  },
+  {
+    "question": "What is the reading of \"太陽\"?",
+    "word": "太陽",
+    "options": [
+      "まち",
+      "かよう",
+      "ほそい",
+      "たいよう"
+    ],
+    "correct": "たいよう"
+  },
+  {
+    "question": "What is the reading of \"星\"?",
+    "word": "星",
+    "options": [
+      "わかれる",
+      "ほし",
+      "ふむ",
+      "たのしむ"
+    ],
+    "correct": "ほし"
+  },
+  {
+    "question": "What is the reading of \"月\"?",
+    "word": "月",
+    "options": [
+      "ちゅういする",
+      "とくい",
+      "どうぐ",
+      "つき"
+    ],
+    "correct": "つき"
+  },
+  {
+    "question": "What is the reading of \"光\"?",
+    "word": "光",
+    "options": [
+      "ひかり",
+      "しゅみ",
+      "こうじょう",
+      "きょうみ"
+    ],
+    "correct": "ひかり"
+  },
+  {
+    "question": "What is the reading of \"季節\"?",
+    "word": "季節",
+    "options": [
+      "じかん",
+      "せんたくする",
+      "すてる",
+      "きせつ"
+    ],
+    "correct": "きせつ"
+  },
+  {
+    "question": "What is the reading of \"春\"?",
+    "word": "春",
+    "options": [
+      "こくさい",
+      "かがく",
+      "なおす",
+      "はる"
+    ],
+    "correct": "はる"
+  },
+  {
+    "question": "What is the reading of \"夏\"?",
+    "word": "夏",
+    "options": [
+      "はる",
+      "なつ",
+      "ねむる",
+      "にっき"
+    ],
+    "correct": "なつ"
+  },
+  {
+    "question": "What is the reading of \"秋\"?",
+    "word": "秋",
+    "options": [
+      "あき",
+      "こくさい",
+      "しごと",
+      "しんぶん"
+    ],
+    "correct": "あき"
+  },
+  {
+    "question": "What is the reading of \"冬\"?",
+    "word": "冬",
+    "options": [
+      "ふゆ",
+      "まいにち",
+      "しらべる",
+      "こしょう"
+    ],
+    "correct": "ふゆ"
+  },
+  {
+    "question": "What is the reading of \"動物\"?",
+    "word": "動物",
+    "options": [
+      "どうぶつ",
+      "ふえる",
+      "すぎる",
+      "ひく"
+    ],
+    "correct": "どうぶつ"
+  },
+  {
+    "question": "What is the reading of \"植物\"?",
+    "word": "植物",
+    "options": [
+      "ふくしゅうする",
+      "にる",
+      "しょくぶつ",
+      "しあい"
+    ],
+    "correct": "しょくぶつ"
+  },
+  {
+    "question": "What is the reading of \"生物\"?",
+    "word": "生物",
+    "options": [
+      "せいぶつ",
+      "ねむい",
+      "べんり",
+      "にがて"
+    ],
+    "correct": "せいぶつ"
+  },
+  {
+    "question": "What is the reading of \"人間\"?",
+    "word": "人間",
+    "options": [
+      "じしょ",
+      "にんげん",
+      "かなしむ",
+      "しゅうまつ"
+    ],
+    "correct": "にんげん"
+  },
+  {
+    "question": "What is the reading of \"男性\"?",
+    "word": "男性",
+    "options": [
+      "だんせい",
+      "あさい",
+      "せつめいする",
+      "しあい"
+    ],
+    "correct": "だんせい"
+  },
+  {
+    "question": "What is the reading of \"女性\"?",
+    "word": "女性",
+    "options": [
+      "かじ",
+      "じょせい",
+      "ちゅういする",
+      "ふむ"
+    ],
+    "correct": "じょせい"
+  },
+  {
+    "question": "What is the reading of \"子供\"?",
+    "word": "子供",
+    "options": [
+      "こしょう",
+      "こども",
+      "むら",
+      "わすれる"
+    ],
+    "correct": "こども"
+  },
+  {
+    "question": "What is the reading of \"若者\"?",
+    "word": "若者",
+    "options": [
+      "まいにち",
+      "わかもの",
+      "あたためる",
+      "きかい"
+    ],
+    "correct": "わかもの"
+  },
+  {
+    "question": "What is the reading of \"老人\"?",
+    "word": "老人",
+    "options": [
+      "あげる",
+      "やく",
+      "かたい",
+      "ろうじん"
+    ],
+    "correct": "ろうじん"
+  },
+  {
+    "question": "What is the reading of \"将来\"?",
+    "word": "将来",
+    "options": [
+      "しょうらい",
+      "よしゅうする",
+      "とおる",
+      "どうぶつ"
+    ],
+    "correct": "しょうらい"
+  },
+  {
+    "question": "What is the reading of \"過去\"?",
+    "word": "過去",
+    "options": [
+      "ひかる",
+      "まいにち",
+      "かこ",
+      "にる"
+    ],
+    "correct": "かこ"
+  },
+  {
+    "question": "What is the reading of \"現在\"?",
+    "word": "現在",
+    "options": [
+      "げんざい",
+      "ざっし",
+      "ふとる",
+      "いみ"
+    ],
+    "correct": "げんざい"
+  },
+  {
+    "question": "What is the reading of \"時代\"?",
+    "word": "時代",
+    "options": [
+      "じだい",
+      "るすばん",
+      "ふとる",
+      "しょうたいする"
+    ],
+    "correct": "じだい"
+  },
+  {
+    "question": "What is the reading of \"毎日\"?",
+    "word": "毎日",
+    "options": [
+      "まいにち",
+      "かじ",
+      "しゅくだい",
+      "せんたくする"
+    ],
+    "correct": "まいにち"
+  },
+  {
+    "question": "What is the reading of \"平日\"?",
+    "word": "平日",
+    "options": [
+      "へいじつ",
+      "わすれる",
+      "しゃかい",
+      "ざっし"
+    ],
+    "correct": "へいじつ"
+  },
+  {
+    "question": "What is the reading of \"週末\"?",
+    "word": "週末",
+    "options": [
+      "しゅうまつ",
+      "おる",
+      "おもいだす",
+      "いわう"
+    ],
+    "correct": "しゅうまつ"
+  },
+  {
+    "question": "What is the reading of \"月末\"?",
+    "word": "月末",
+    "options": [
+      "げつまつ",
+      "さんせいする",
+      "すうがく",
+      "こしょう"
+    ],
+    "correct": "げつまつ"
+  },
+  {
+    "question": "What is the reading of \"年末\"?",
+    "word": "年末",
+    "options": [
+      "とどく",
+      "ねんまつ",
+      "さいきん",
+      "とくべつ"
+    ],
+    "correct": "ねんまつ"
+  },
+  {
+    "question": "What is the reading of \"期間\"?",
+    "word": "期間",
+    "options": [
+      "かんたん",
+      "ひく",
+      "あう",
+      "きかん"
+    ],
+    "correct": "きかん"
+  },
+  {
+    "question": "What is the reading of \"時間\"?",
+    "word": "時間",
+    "options": [
+      "ちり",
+      "じかん",
+      "ねむい",
+      "しょうたいする"
+    ],
+    "correct": "じかん"
+  },
+  {
+    "question": "What is the reading of \"瞬間\"?",
+    "word": "瞬間",
+    "options": [
+      "しゅんかん",
+      "しけん",
+      "しゃかい",
+      "よしゅうする"
+    ],
+    "correct": "しゅんかん"
+  },
+  {
+    "question": "What is the reading of \"最近\"?",
+    "word": "最近",
+    "options": [
+      "わる",
+      "さいきん",
+      "とどく",
+      "なげる"
+    ],
+    "correct": "さいきん"
+  },
+  {
+    "question": "What is the reading of \"最初\"?",
+    "word": "最初",
+    "options": [
+      "しぜん",
+      "さいきん",
+      "なつ",
+      "さいしょ"
+    ],
+    "correct": "さいしょ"
+  },
+  {
+    "question": "What is the reading of \"最後\"?",
+    "word": "最後",
+    "options": [
+      "さいご",
+      "しま",
+      "おもいだす",
+      "ぶんがく"
+    ],
+    "correct": "さいご"
+  },
+  {
+    "question": "What is the reading of \"最近\"?",
+    "word": "最近",
+    "options": [
+      "ふくしゅうする",
+      "だいじ",
+      "こわい",
+      "さいきん"
+    ],
+    "correct": "さいきん"
+  },
+  {
+    "question": "What is the reading of \"日記\"?",
+    "word": "日記",
+    "options": [
+      "あぶない",
+      "のぼる",
+      "はずかしい",
+      "にっき"
+    ],
+    "correct": "にっき"
+  },
+  {
+    "question": "What is the reading of \"記事\"?",
+    "word": "記事",
+    "options": [
+      "きじ",
+      "ぎょうじ",
+      "ざせき",
+      "とくべつ"
+    ],
+    "correct": "きじ"
+  },
+  {
+    "question": "What is the reading of \"新聞\"?",
+    "word": "新聞",
+    "options": [
+      "おどろく",
+      "みつける",
+      "しんぶん",
+      "とめる"
+    ],
+    "correct": "しんぶん"
+  },
+  {
+    "question": "What is the reading of \"雑誌\"?",
+    "word": "雑誌",
+    "options": [
+      "ふえる",
+      "おぼえる",
+      "ざっし",
+      "ふべん"
+    ],
+    "correct": "ざっし"
+  },
+  {
+    "question": "What is the reading of \"広告\"?",
+    "word": "広告",
+    "options": [
+      "こわい",
+      "こうこく",
+      "たのしむ",
+      "しゃかい"
+    ],
+    "correct": "こうこく"
+  },
+  {
+    "question": "What is the reading of \"看板\"?",
+    "word": "看板",
+    "options": [
+      "くもる",
+      "つよい",
+      "かんばん",
+      "おどろく"
+    ],
+    "correct": "かんばん"
+  },
+  {
+    "question": "What is the reading of \"手紙\"?",
+    "word": "手紙",
+    "options": [
+      "てがみ",
+      "しごと",
+      "きかん",
+      "ばんぐみ"
+    ],
+    "correct": "てがみ"
+  },
+  {
+    "question": "What is the reading of \"書類\"?",
+    "word": "書類",
+    "options": [
+      "しょるい",
+      "すてる",
+      "きかん",
+      "じしん"
+    ],
+    "correct": "しょるい"
+  },
+  {
+    "question": "What is the reading of \"資料\"?",
+    "word": "資料",
+    "options": [
+      "せいぶつ",
+      "せんたくする",
+      "あう",
+      "しりょう"
+    ],
+    "correct": "しりょう"
+  },
+  {
+    "question": "What is the reading of \"原稿\"?",
+    "word": "原稿",
+    "options": [
+      "げんこう",
+      "ばしょ",
+      "しゅくだい",
+      "けいさんする"
+    ],
+    "correct": "げんこう"
+  },
+  {
+    "question": "What is the reading of \"翻訳\"?",
+    "word": "翻訳",
+    "options": [
+      "ほんやく",
+      "こども",
+      "ちょうし",
+      "とおる"
+    ],
+    "correct": "ほんやく"
+  },
+  {
+    "question": "What is the reading of \"通訳\"?",
+    "word": "通訳",
+    "options": [
+      "つうやく",
+      "かなしむ",
+      "とまる",
+      "あんしんする"
+    ],
+    "correct": "つうやく"
+  },
+  {
+    "question": "What is the reading of \"放送\"?",
+    "word": "放送",
+    "options": [
+      "れきし",
+      "ふくしゅうする",
+      "けいさんする",
+      "ほうそう"
+    ],
+    "correct": "ほうそう"
+  },
+  {
+    "question": "What is the reading of \"番組\"?",
+    "word": "番組",
+    "options": [
+      "きびしい",
+      "かがく",
+      "とかい",
+      "ばんぐみ"
+    ],
+    "correct": "ばんぐみ"
+  },
+  {
+    "question": "What is the reading of \"漫画\"?",
+    "word": "漫画",
+    "options": [
+      "くもる",
+      "ふとる",
+      "かんたん",
+      "まんが"
+    ],
+    "correct": "まんが"
+  },
+  {
+    "question": "What is the reading of \"小説\"?",
+    "word": "小説",
+    "options": [
+      "ふむ",
+      "あんない",
+      "かんばん",
+      "しょうせつ"
+    ],
+    "correct": "しょうせつ"
+  },
+  {
+    "question": "What is the reading of \"物語\"?",
+    "word": "物語",
+    "options": [
+      "つなみ",
+      "なく",
+      "しけん",
+      "ものがたり"
+    ],
+    "correct": "ものがたり"
+  },
+  {
+    "question": "What is the reading of \"会話\"?",
+    "word": "会話",
+    "options": [
+      "しゃかい",
+      "おどろく",
+      "こうじょう",
+      "かいわ"
+    ],
+    "correct": "かいわ"
+  },
+  {
+    "question": "What is the reading of \"電話\"?",
+    "word": "電話",
+    "options": [
+      "ようじ",
+      "でんわ",
+      "ふべん",
+      "あらう"
+    ],
+    "correct": "でんわ"
+  },
+  {
+    "question": "What is the reading of \"留守番\"?",
+    "word": "留守番",
+    "options": [
+      "るすばん",
+      "ねむい",
+      "さんせいする",
+      "ほし"
+    ],
+    "correct": "るすばん"
+  },
+  {
+    "question": "What is the reading of \"用事\"?",
+    "word": "用事",
+    "options": [
+      "すぎる",
+      "ようじ",
+      "けしき",
+      "かんじる"
+    ],
+    "correct": "ようじ"
+  },
+  {
+    "question": "What is the reading of \"大事\"?",
+    "word": "大事",
+    "options": [
+      "だいじ",
+      "せいぶつ",
+      "こしょう",
+      "あさい"
+    ],
+    "correct": "だいじ"
+  },
+  {
+    "question": "What is the reading of \"仕事\"?",
+    "word": "仕事",
+    "options": [
+      "ひつよう",
+      "しごと",
+      "とおる",
+      "ふくざつ"
+    ],
+    "correct": "しごと"
+  },
+  {
+    "question": "What is the reading of \"家事\"?",
+    "word": "家事",
+    "options": [
+      "かじ",
+      "まち",
+      "でんわ",
+      "しょうせつ"
+    ],
+    "correct": "かじ"
+  },
+  {
+    "question": "What is the reading of \"食事\"?",
+    "word": "食事",
+    "options": [
+      "ふる",
+      "せんたくする",
+      "いためる",
+      "しょくじ"
+    ],
+    "correct": "しょくじ"
+  },
+  {
+    "question": "What is the reading of \"行事\"?",
+    "word": "行事",
+    "options": [
+      "ふべん",
+      "あらう",
+      "ぎょうじ",
+      "ひつよう"
+    ],
+    "correct": "ぎょうじ"
+  },
+  {
+    "question": "What is the reading of \"返事\"?",
+    "word": "返事",
+    "options": [
+      "へんじ",
+      "ざせき",
+      "きもち",
+      "うごく"
+    ],
+    "correct": "へんじ"
+  },
+  {
+    "question": "What is the reading of \"火事\"?",
+    "word": "火事",
+    "options": [
+      "たのしむ",
+      "すわる",
+      "なく",
+      "かじ"
+    ],
+    "correct": "かじ"
+  },
+  {
+    "question": "What is the reading of \"用事\"?",
+    "word": "用事",
+    "options": [
+      "ようじ",
+      "しゃかい",
+      "てつだう",
+      "だんせい"
+    ],
+    "correct": "ようじ"
+  },
+  {
+    "question": "What is the reading of \"安全\"?",
+    "word": "安全",
+    "options": [
+      "あんぜん",
+      "げんざい",
+      "ものがたり",
+      "なげる"
+    ],
+    "correct": "あんぜん"
+  },
+  {
+    "question": "What is the reading of \"危険\"?",
+    "word": "危険",
+    "options": [
+      "じこ",
+      "へる",
+      "しゅうまつ",
+      "きけん"
+    ],
+    "correct": "きけん"
+  },
+  {
+    "question": "What is the reading of \"必要\"?",
+    "word": "必要",
+    "options": [
+      "げんこう",
+      "げんざい",
+      "かわる",
+      "ひつよう"
+    ],
+    "correct": "ひつよう"
+  },
+  {
+    "question": "What is the reading of \"不便\"?",
+    "word": "不便",
+    "options": [
+      "しょくじする",
+      "かんたん",
+      "ふべん",
+      "みずうみ"
+    ],
+    "correct": "ふべん"
+  },
+  {
+    "question": "What is the reading of \"便利\"?",
+    "word": "便利",
+    "options": [
+      "べんり",
+      "よろこぶ",
+      "れんらくする",
+      "とかい"
+    ],
+    "correct": "べんり"
+  },
+  {
+    "question": "What is the reading of \"複雑\"?",
+    "word": "複雑",
+    "options": [
+      "ふくざつ",
+      "ひかり",
+      "へいじつ",
+      "おぼえる"
+    ],
+    "correct": "ふくざつ"
+  },
+  {
+    "question": "What is the reading of \"簡単\"?",
+    "word": "簡単",
+    "options": [
+      "かのう",
+      "ひかり",
+      "かんたん",
+      "きめる"
+    ],
+    "correct": "かんたん"
+  },
+  {
+    "question": "What is the reading of \"無理\"?",
+    "word": "無理",
+    "options": [
+      "かいわ",
+      "むり",
+      "ぶんがく",
+      "はんたいする"
+    ],
+    "correct": "むり"
+  },
+  {
+    "question": "What is the reading of \"可能\"?",
+    "word": "可能",
+    "options": [
+      "ふえる",
+      "かのう",
+      "つたえる",
+      "かじ"
+    ],
+    "correct": "かのう"
+  },
+  {
+    "question": "What is the reading of \"有名\"?",
+    "word": "有名",
+    "options": [
+      "ゆうめい",
+      "にる",
+      "やく",
+      "よごす"
+    ],
+    "correct": "ゆうめい"
+  },
+  {
+    "question": "What is the reading of \"上手\"?",
+    "word": "上手",
+    "options": [
+      "よやくする",
+      "じょうず",
+      "せつめいする",
+      "かがく"
+    ],
+    "correct": "じょうず"
+  },
+  {
+    "question": "What is the reading of \"下手\"?",
+    "word": "下手",
+    "options": [
+      "へた",
+      "ほんやく",
+      "つき",
+      "みなと"
+    ],
+    "correct": "へた"
+  },
+  {
+    "question": "What is the reading of \"苦手\"?",
+    "word": "苦手",
+    "options": [
+      "ぎょうじ",
+      "まんが",
+      "にがて",
+      "じこ"
+    ],
+    "correct": "にがて"
+  },
+  {
+    "question": "What is the reading of \"得意\"?",
+    "word": "得意",
+    "options": [
+      "さいご",
+      "じだい",
+      "とくい",
+      "ひやす"
+    ],
+    "correct": "とくい"
+  },
+  {
+    "question": "What is the reading of \"急ぐ\"?",
+    "word": "急ぐ",
+    "options": [
+      "いそぐ",
+      "かんがえる",
+      "じかん",
+      "しゃかい"
+    ],
+    "correct": "いそぐ"
+  },
+  {
+    "question": "What is the reading of \"遅れる\"?",
+    "word": "遅れる",
+    "options": [
+      "おくれる",
+      "こうじょう",
+      "こしょう",
+      "さんせいする"
+    ],
+    "correct": "おくれる"
+  },
+  {
+    "question": "What is the reading of \"間に合う\"?",
+    "word": "間に合う",
+    "options": [
+      "まにあう",
+      "にる",
+      "あげる",
+      "おぼえる"
+    ],
+    "correct": "まにあう"
+  },
+  {
+    "question": "What is the reading of \"止まる\"?",
+    "word": "止まる",
+    "options": [
+      "とまる",
+      "ふく",
+      "みずうみ",
+      "かぐ"
+    ],
+    "correct": "とまる"
+  },
+  {
+    "question": "What is the reading of \"止める\"?",
+    "word": "止める",
+    "options": [
+      "とめる",
+      "しょうたいする",
+      "うんてんする",
+      "ゆうめい"
+    ],
+    "correct": "とめる"
+  },
+  {
+    "question": "What is the reading of \"動く\"?",
+    "word": "動く",
+    "options": [
+      "とくべつ",
+      "みずうみ",
+      "ちり",
+      "うごく"
+    ],
+    "correct": "うごく"
+  },
+  {
+    "question": "What is the reading of \"変える\"?",
+    "word": "変える",
+    "options": [
+      "かえる",
+      "みずうみ",
+      "しま",
+      "こうこく"
+    ],
+    "correct": "かえる"
+  },
+  {
+    "question": "What is the reading of \"変わる\"?",
+    "word": "変わる",
+    "options": [
+      "かわる",
+      "れきし",
+      "はる",
+      "いためる"
+    ],
+    "correct": "かわる"
+  },
+  {
+    "question": "What is the reading of \"選ぶ\"?",
+    "word": "選ぶ",
+    "options": [
+      "すぎる",
+      "ぬすむ",
+      "にっき",
+      "えらぶ"
+    ],
+    "correct": "えらぶ"
+  },
+  {
+    "question": "What is the reading of \"決める\"?",
+    "word": "決める",
+    "options": [
+      "ふくしゅうする",
+      "あんないする",
+      "きめる",
+      "こうこく"
+    ],
+    "correct": "きめる"
+  },
+  {
+    "question": "What is the reading of \"比べる\"?",
+    "word": "比べる",
+    "options": [
+      "くらべる",
+      "ふくしゅうする",
+      "こくさい",
+      "げんこう"
+    ],
+    "correct": "くらべる"
+  },
+  {
+    "question": "What is the reading of \"調べる\"?",
+    "word": "調べる",
+    "options": [
+      "あんないする",
+      "しらべる",
+      "とかい",
+      "けしき"
+    ],
+    "correct": "しらべる"
+  },
+  {
+    "question": "What is the reading of \"見つける\"?",
+    "word": "見つける",
+    "options": [
+      "せつめいする",
+      "みつける",
+      "ふくしゅうする",
+      "へいじつ"
+    ],
+    "correct": "みつける"
+  },
+  {
+    "question": "What is the reading of \"見つかる\"?",
+    "word": "見つかる",
+    "options": [
+      "みつかる",
+      "やく",
+      "せかい",
+      "ふくしゅうする"
+    ],
+    "correct": "みつかる"
+  },
+  {
+    "question": "What is the reading of \"届ける\"?",
+    "word": "届ける",
+    "options": [
+      "あたためる",
+      "とどける",
+      "りょうりする",
+      "いためる"
+    ],
+    "correct": "とどける"
+  },
+  {
+    "question": "What is the reading of \"届く\"?",
+    "word": "届く",
+    "options": [
+      "とどく",
+      "じしん",
+      "かんけい",
+      "へいじつ"
+    ],
+    "correct": "とどく"
+  },
+  {
+    "question": "What is the reading of \"送る\"?",
+    "word": "送る",
+    "options": [
+      "わかす",
+      "うつくしい",
+      "おくる",
+      "おどる"
+    ],
+    "correct": "おくる"
+  },
+  {
+    "question": "What is the reading of \"払う\"?",
+    "word": "払う",
+    "options": [
+      "しゅくだい",
+      "ふとい",
+      "はらう",
+      "とくい"
+    ],
+    "correct": "はらう"
+  },
+  {
+    "question": "What is the reading of \"笑う\"?",
+    "word": "笑う",
+    "options": [
+      "さんせいする",
+      "ろうじん",
+      "じかん",
+      "わらう"
+    ],
+    "correct": "わらう"
+  },
+  {
+    "question": "What is the reading of \"泣く\"?",
+    "word": "泣く",
+    "options": [
+      "ちり",
+      "なく",
+      "みずうみ",
+      "きもち"
+    ],
+    "correct": "なく"
+  },
+  {
+    "question": "What is the reading of \"怒る\"?",
+    "word": "怒る",
+    "options": [
+      "かわく",
+      "うんどう",
+      "ふる",
+      "おこる"
+    ],
+    "correct": "おこる"
+  },
+  {
+    "question": "What is the reading of \"驚く\"?",
+    "word": "驚く",
+    "options": [
+      "おどろく",
+      "じこ",
+      "ねむる",
+      "みずうみ"
+    ],
+    "correct": "おどろく"
+  },
+  {
+    "question": "What is the reading of \"喜ぶ\"?",
+    "word": "喜ぶ",
+    "options": [
+      "よろこぶ",
+      "わる",
+      "ひえる",
+      "じかん"
+    ],
+    "correct": "よろこぶ"
+  },
+  {
+    "question": "What is the reading of \"悲しむ\"?",
+    "word": "悲しむ",
+    "options": [
+      "かなしむ",
+      "きゅうこう",
+      "よごす",
+      "いみ"
+    ],
+    "correct": "かなしむ"
+  },
+  {
+    "question": "What is the reading of \"楽しむ\"?",
+    "word": "楽しむ",
+    "options": [
+      "ひつよう",
+      "たすける",
+      "よごす",
+      "たのしむ"
+    ],
+    "correct": "たのしむ"
+  },
+  {
+    "question": "What is the reading of \"苦しむ\"?",
+    "word": "苦しむ",
+    "options": [
+      "きけん",
+      "ねがう",
+      "くるしむ",
+      "わらう"
+    ],
+    "correct": "くるしむ"
+  },
+  {
+    "question": "What is the reading of \"悩む\"?",
+    "word": "悩む",
+    "options": [
+      "なやむ",
+      "ぎょうじ",
+      "ぬすむ",
+      "あつまる"
+    ],
+    "correct": "なやむ"
+  },
+  {
+    "question": "What is the reading of \"望む\"?",
+    "word": "望む",
+    "options": [
+      "ぶんがく",
+      "のぞむ",
+      "ふゆ",
+      "かのう"
+    ],
+    "correct": "のぞむ"
+  },
+  {
+    "question": "What is the reading of \"願う\"?",
+    "word": "願う",
+    "options": [
+      "ひかり",
+      "やせる",
+      "ねがう",
+      "きかん"
+    ],
+    "correct": "ねがう"
+  },
+  {
+    "question": "What is the reading of \"信じる\"?",
+    "word": "信じる",
+    "options": [
+      "みずうみ",
+      "あつまる",
+      "かこ",
+      "しんじる"
+    ],
+    "correct": "しんじる"
+  },
+  {
+    "question": "What is the reading of \"疑う\"?",
+    "word": "疑う",
+    "options": [
+      "しま",
+      "うたがう",
+      "はずかしい",
+      "さいご"
+    ],
+    "correct": "うたがう"
+  },
+  {
+    "question": "What is the reading of \"感じる\"?",
+    "word": "感じる",
+    "options": [
+      "かんじる",
+      "ひく",
+      "ひやす",
+      "おどる"
+    ],
+    "correct": "かんじる"
+  },
+  {
+    "question": "What is the reading of \"考える\"?",
+    "word": "考える",
+    "options": [
+      "かんがえる",
+      "すわる",
+      "はんたいする",
+      "いためる"
+    ],
+    "correct": "かんがえる"
+  },
+  {
+    "question": "What is the reading of \"覚える\"?",
+    "word": "覚える",
+    "options": [
+      "おぼえる",
+      "へた",
+      "いなか",
+      "りょうりする"
+    ],
+    "correct": "おぼえる"
+  },
+  {
+    "question": "What is the reading of \"忘れる\"?",
+    "word": "忘れる",
+    "options": [
+      "そうじする",
+      "わすれる",
+      "かいがん",
+      "みずうみ"
+    ],
+    "correct": "わすれる"
+  },
+  {
+    "question": "What is the reading of \"思い出す\"?",
+    "word": "思い出す",
+    "options": [
+      "ちがう",
+      "ゆうめい",
+      "ようじ",
+      "おもいだす"
+    ],
+    "correct": "おもいだす"
+  },
+  {
+    "question": "What is the reading of \"伝える\"?",
+    "word": "伝える",
+    "options": [
+      "つたえる",
+      "でんわ",
+      "りゆう",
+      "しゃかい"
+    ],
+    "correct": "つたえる"
+  },
+  {
+    "question": "What is the reading of \"教える\"?",
+    "word": "教える",
+    "options": [
+      "しけん",
+      "おしえる",
+      "ぶんか",
+      "ざせき"
+    ],
+    "correct": "おしえる"
+  },
+  {
+    "question": "What is the reading of \"習う\"?",
+    "word": "習う",
+    "options": [
+      "きもち",
+      "ならう",
+      "よしゅうする",
+      "くらべる"
+    ],
+    "correct": "ならう"
+  },
+  {
+    "question": "What is the reading of \"通う\"?",
+    "word": "通う",
+    "options": [
+      "かよう",
+      "しんぱいする",
+      "しけん",
+      "しゃかい"
+    ],
+    "correct": "かよう"
+  },
+  {
+    "question": "What is the reading of \"辞める\"?",
+    "word": "辞める",
+    "options": [
+      "さいしょ",
+      "めずらしい",
+      "やめる",
+      "つなみ"
+    ],
+    "correct": "やめる"
+  },
+  {
+    "question": "What is the reading of \"集まる\"?",
+    "word": "集まる",
+    "options": [
+      "こうじょう",
+      "さんかする",
+      "こくさい",
+      "あつまる"
+    ],
+    "correct": "あつまる"
+  },
+  {
+    "question": "What is the reading of \"集める\"?",
+    "word": "集める",
+    "options": [
+      "あつめる",
+      "しゃかい",
+      "まち",
+      "うつ"
+    ],
+    "correct": "あつめる"
+  },
+  {
+    "question": "What is the reading of \"別れる\"?",
+    "word": "別れる",
+    "options": [
+      "はらう",
+      "わかれる",
+      "おしえる",
+      "ようじ"
+    ],
+    "correct": "わかれる"
+  },
+  {
+    "question": "What is the reading of \"違う\"?",
+    "word": "違う",
+    "options": [
+      "なく",
+      "わたる",
+      "ちがう",
+      "わすれる"
+    ],
+    "correct": "ちがう"
+  },
+  {
+    "question": "What is the reading of \"似る\"?",
+    "word": "似る",
+    "options": [
+      "しらべる",
+      "げんこう",
+      "せいかつ",
+      "にる"
+    ],
+    "correct": "にる"
+  },
+  {
+    "question": "What is the reading of \"合う\"?",
+    "word": "合う",
+    "options": [
+      "あう",
+      "ふとい",
+      "さんせいする",
+      "りょうりする"
+    ],
+    "correct": "あう"
+  },
+  {
+    "question": "What is the reading of \"間に合う\"?",
+    "word": "間に合う",
+    "options": [
+      "なく",
+      "かじ",
+      "とどく",
+      "まにあう"
+    ],
+    "correct": "まにあう"
+  },
+  {
+    "question": "What is the reading of \"手伝う\"?",
+    "word": "手伝う",
+    "options": [
+      "かんけい",
+      "てつだう",
+      "みつかる",
+      "どうぐ"
+    ],
+    "correct": "てつだう"
+  },
+  {
+    "question": "What is the reading of \"助ける\"?",
+    "word": "助ける",
+    "options": [
+      "たすける",
+      "こしょう",
+      "しんぶん",
+      "いわう"
+    ],
+    "correct": "たすける"
+  },
+  {
+    "question": "What is the reading of \"祈る\"?",
+    "word": "祈る",
+    "options": [
+      "あつめる",
+      "くらべる",
+      "とまる",
+      "いのる"
+    ],
+    "correct": "いのる"
+  },
+  {
+    "question": "What is the reading of \"祝う\"?",
+    "word": "祝う",
+    "options": [
+      "ねんまつ",
+      "いわう",
+      "ようじ",
+      "けいざい"
+    ],
+    "correct": "いわう"
+  },
+  {
+    "question": "What is the reading of \"慣れる\"?",
+    "word": "慣れる",
+    "options": [
+      "みずうみ",
+      "こくさい",
+      "なれる",
+      "わる"
+    ],
+    "correct": "なれる"
+  },
+  {
+    "question": "What is the reading of \"晴れる\"?",
+    "word": "晴れる",
+    "options": [
+      "しあい",
+      "はれる",
+      "てつだう",
+      "はんたいする"
+    ],
+    "correct": "はれる"
+  },
+  {
+    "question": "What is the reading of \"曇る\"?",
+    "word": "曇る",
+    "options": [
+      "くもる",
+      "なげる",
+      "すうがく",
+      "ばんぐみ"
+    ],
+    "correct": "くもる"
+  },
+  {
+    "question": "What is the reading of \"光る\"?",
+    "word": "光る",
+    "options": [
+      "ひかる",
+      "ねむる",
+      "さいきん",
+      "やくそくする"
+    ],
+    "correct": "ひかる"
+  },
+  {
+    "question": "What is the reading of \"吹く\"?",
+    "word": "吹く",
+    "options": [
+      "にっき",
+      "のぼる",
+      "こうじょう",
+      "ふく"
+    ],
+    "correct": "ふく"
+  },
+  {
+    "question": "What is the reading of \"降る\"?",
+    "word": "降る",
+    "options": [
+      "ひやす",
+      "ふる",
+      "やくそくする",
+      "さいご"
+    ],
+    "correct": "ふる"
+  },
+  {
+    "question": "What is the reading of \"冷える\"?",
+    "word": "冷える",
+    "options": [
+      "ひえる",
+      "わる",
+      "しけん",
+      "やくそくする"
+    ],
+    "correct": "ひえる"
+  },
+  {
+    "question": "What is the reading of \"冷やす\"?",
+    "word": "冷やす",
+    "options": [
+      "じしん",
+      "さんぽする",
+      "ひやす",
+      "まち"
+    ],
+    "correct": "ひやす"
+  },
+  {
+    "question": "What is the reading of \"温める\"?",
+    "word": "温める",
+    "options": [
+      "なれる",
+      "あたためる",
+      "やわらかい",
+      "ひつよう"
+    ],
+    "correct": "あたためる"
+  },
+  {
+    "question": "What is the reading of \"沸かす\"?",
+    "word": "沸かす",
+    "options": [
+      "さいしょ",
+      "うつ",
+      "ひかり",
+      "わかす"
+    ],
+    "correct": "わかす"
+  },
+  {
+    "question": "What is the reading of \"焼く\"?",
+    "word": "焼く",
+    "options": [
+      "しゅうまつ",
+      "ふつう",
+      "うごく",
+      "やく"
+    ],
+    "correct": "やく"
+  },
+  {
+    "question": "What is the reading of \"煮る\"?",
+    "word": "煮る",
+    "options": [
+      "しゅんかん",
+      "かいわ",
+      "にる",
+      "おもい"
+    ],
+    "correct": "にる"
+  },
+  {
+    "question": "What is the reading of \"揚げる\"?",
+    "word": "揚げる",
+    "options": [
+      "じこ",
+      "しんぶん",
+      "あげる",
+      "ぎじゅつ"
+    ],
+    "correct": "あげる"
+  },
+  {
+    "question": "What is the reading of \"炒める\"?",
+    "word": "炒める",
+    "options": [
+      "いためる",
+      "きけん",
+      "しけん",
+      "とかい"
+    ],
+    "correct": "いためる"
+  },
+  {
+    "question": "What is the reading of \"包む\"?",
+    "word": "包む",
+    "options": [
+      "ぶんか",
+      "まんが",
+      "つつむ",
+      "やわらかい"
+    ],
+    "correct": "つつむ"
+  },
+  {
+    "question": "What is the reading of \"運ぶ\"?",
+    "word": "運ぶ",
+    "options": [
+      "ひつよう",
+      "かわる",
+      "にる",
+      "はこぶ"
+    ],
+    "correct": "はこぶ"
+  },
+  {
+    "question": "What is the reading of \"投げる\"?",
+    "word": "投げる",
+    "options": [
+      "けしき",
+      "ものがたり",
+      "なげる",
+      "たいふう"
+    ],
+    "correct": "なげる"
+  },
+  {
+    "question": "What is the reading of \"打つ\"?",
+    "word": "打つ",
+    "options": [
+      "ふむ",
+      "なおす",
+      "ひえる",
+      "うつ"
+    ],
+    "correct": "うつ"
+  },
+  {
+    "question": "What is the reading of \"押す\"?",
+    "word": "押す",
+    "options": [
+      "たいふう",
+      "あう",
+      "おす",
+      "ほんやく"
+    ],
+    "correct": "おす"
+  },
+  {
+    "question": "What is the reading of \"引く\"?",
+    "word": "引く",
+    "options": [
+      "ひく",
+      "じだい",
+      "へる",
+      "しあい"
+    ],
+    "correct": "ひく"
+  },
+  {
+    "question": "What is the reading of \"折る\"?",
+    "word": "折る",
+    "options": [
+      "おる",
+      "にっき",
+      "よしゅうする",
+      "なおす"
+    ],
+    "correct": "おる"
+  },
+  {
+    "question": "What is the reading of \"割る\"?",
+    "word": "割る",
+    "options": [
+      "しま",
+      "わる",
+      "みずうみ",
+      "あつめる"
+    ],
+    "correct": "わる"
+  },
+  {
+    "question": "What is the reading of \"切る\"?",
+    "word": "切る",
+    "options": [
+      "まち",
+      "ぎょうじ",
+      "ちり",
+      "きる"
+    ],
+    "correct": "きる"
+  },
+  {
+    "question": "What is the reading of \"貼る\"?",
+    "word": "貼る",
+    "options": [
+      "はる",
+      "ふつう",
+      "とくい",
+      "あんしんする"
+    ],
+    "correct": "はる"
+  },
+  {
+    "question": "What is the reading of \"振る\"?",
+    "word": "振る",
+    "options": [
+      "いなか",
+      "ふる",
+      "ひく",
+      "しゃかい"
+    ],
+    "correct": "ふる"
+  },
+  {
+    "question": "What is the reading of \"踏む\"?",
+    "word": "踏む",
+    "options": [
+      "ふむ",
+      "きけん",
+      "れんしゅうする",
+      "ふつう"
+    ],
+    "correct": "ふむ"
+  },
+  {
+    "question": "What is the reading of \"踊る\"?",
+    "word": "踊る",
+    "options": [
+      "はる",
+      "おどる",
+      "わかす",
+      "やめる"
+    ],
+    "correct": "おどる"
+  },
+  {
+    "question": "What is the reading of \"歌う\"?",
+    "word": "歌う",
+    "options": [
+      "おこる",
+      "うたう",
+      "あんしんする",
+      "けんぶつする"
+    ],
+    "correct": "うたう"
+  },
+  {
+    "question": "What is the reading of \"描く\"?",
+    "word": "描く",
+    "options": [
+      "ひえる",
+      "こしょう",
+      "かく",
+      "てつだう"
+    ],
+    "correct": "かく"
+  },
+  {
+    "question": "What is the reading of \"並べる\"?",
+    "word": "並べる",
+    "options": [
+      "しんぱいする",
+      "すうがく",
+      "ならべる",
+      "よろこぶ"
+    ],
+    "correct": "ならべる"
+  },
+  {
+    "question": "What is the reading of \"並ぶ\"?",
+    "word": "並ぶ",
+    "options": [
+      "さんせいする",
+      "かのう",
+      "ならぶ",
+      "れんしゅうする"
+    ],
+    "correct": "ならぶ"
+  },
+  {
+    "question": "What is the reading of \"座る\"?",
+    "word": "座る",
+    "options": [
+      "へた",
+      "すわる",
+      "ほうりつ",
+      "ふべん"
+    ],
+    "correct": "すわる"
+  },
+  {
+    "question": "What is the reading of \"眠る\"?",
+    "word": "眠る",
+    "options": [
+      "ばんぐみ",
+      "かなしむ",
+      "ねむる",
+      "まにあう"
+    ],
+    "correct": "ねむる"
+  },
+  {
+    "question": "What is the reading of \"訪ねる\"?",
+    "word": "訪ねる",
+    "options": [
+      "りゆう",
+      "あんしんする",
+      "たずねる",
+      "すてる"
+    ],
+    "correct": "たずねる"
+  },
+  {
+    "question": "What is the reading of \"尋ねる\"?",
+    "word": "尋ねる",
+    "options": [
+      "ほんやく",
+      "きじ",
+      "わかす",
+      "たずねる"
+    ],
+    "correct": "たずねる"
+  },
+  {
+    "question": "What is the reading of \"泊まる\"?",
+    "word": "泊まる",
+    "options": [
+      "とまる",
+      "あき",
+      "めずらしい",
+      "けいざい"
+    ],
+    "correct": "とまる"
+  },
+  {
+    "question": "What is the reading of \"通る\"?",
+    "word": "通る",
+    "options": [
+      "ねんまつ",
+      "いためる",
+      "いなか",
+      "とおる"
+    ],
+    "correct": "とおる"
+  },
+  {
+    "question": "What is the reading of \"渡る\"?",
+    "word": "渡る",
+    "options": [
+      "わたる",
+      "じょせい",
+      "へた",
+      "やめる"
+    ],
+    "correct": "わたる"
+  },
+  {
+    "question": "What is the reading of \"登る\"?",
+    "word": "登る",
+    "options": [
+      "きびしい",
+      "すてる",
+      "はなれる",
+      "のぼる"
+    ],
+    "correct": "のぼる"
+  },
+  {
+    "question": "What is the reading of \"下りる\"?",
+    "word": "下りる",
+    "options": [
+      "しょるい",
+      "かえる",
+      "おりる",
+      "だいじ"
+    ],
+    "correct": "おりる"
+  },
+  {
+    "question": "What is the reading of \"向かう\"?",
+    "word": "向かう",
+    "options": [
+      "しゅんかん",
+      "せつめいする",
+      "むかう",
+      "ふとい"
+    ],
+    "correct": "むかう"
+  },
+  {
+    "question": "What is the reading of \"過ぎる\"?",
+    "word": "過ぎる",
+    "options": [
+      "すぎる",
+      "ほし",
+      "じゆう",
+      "そうだんする"
+    ],
+    "correct": "すぎる"
+  },
+  {
+    "question": "What is the reading of \"離れる\"?",
+    "word": "離れる",
+    "options": [
+      "きけん",
+      "けしき",
+      "うつくしい",
+      "はなれる"
+    ],
+    "correct": "はなれる"
+  },
+  {
+    "question": "What is the reading of \"急ぐ\"?",
+    "word": "急ぐ",
+    "options": [
+      "いそぐ",
+      "ひどい",
+      "せいぶつ",
+      "さいきん"
+    ],
+    "correct": "いそぐ"
+  },
+  {
+    "question": "What is the reading of \"拾う\"?",
+    "word": "拾う",
+    "options": [
+      "ちゅういする",
+      "しゃかい",
+      "しゅくだい",
+      "ひろう"
+    ],
+    "correct": "ひろう"
+  },
+  {
+    "question": "What is the reading of \"捨てる\"?",
+    "word": "捨てる",
+    "options": [
+      "すてる",
+      "しゅうまつ",
+      "けんぶつする",
+      "こうずい"
+    ],
+    "correct": "すてる"
+  },
+  {
+    "question": "What is the reading of \"盗む\"?",
+    "word": "盗む",
+    "options": [
+      "ぬすむ",
+      "とくい",
+      "じだい",
+      "れんしゅうする"
+    ],
+    "correct": "ぬすむ"
+  },
+  {
+    "question": "What is the reading of \"壊す\"?",
+    "word": "壊す",
+    "options": [
+      "こわす",
+      "おもい",
+      "へいじつ",
+      "せいかつ"
+    ],
+    "correct": "こわす"
+  },
+  {
+    "question": "What is the reading of \"治す\"?",
+    "word": "治す",
+    "options": [
+      "はんたいする",
+      "なおす",
+      "おくれる",
+      "しゃかい"
+    ],
+    "correct": "なおす"
+  },
+  {
+    "question": "What is the reading of \"直す\"?",
+    "word": "直す",
+    "options": [
+      "しゅくだい",
+      "なおす",
+      "こども",
+      "はる"
+    ],
+    "correct": "なおす"
+  },
+  {
+    "question": "What is the reading of \"汚す\"?",
+    "word": "汚す",
+    "options": [
+      "おす",
+      "ふとい",
+      "よごす",
+      "みつける"
+    ],
+    "correct": "よごす"
+  },
+  {
+    "question": "What is the reading of \"洗う\"?",
+    "word": "洗う",
+    "options": [
+      "あらう",
+      "しま",
+      "へる",
+      "わらう"
+    ],
+    "correct": "あらう"
+  },
+  {
+    "question": "What is the reading of \"乾く\"?",
+    "word": "乾く",
+    "options": [
+      "そうじする",
+      "いみ",
+      "きゅうこう",
+      "かわく"
+    ],
+    "correct": "かわく"
+  },
+  {
+    "question": "What is the reading of \"濡れる\"?",
+    "word": "濡れる",
+    "options": [
+      "しょくじする",
+      "しょうせつ",
+      "ぬれる",
+      "ひつよう"
+    ],
+    "correct": "ぬれる"
+  },
+  {
+    "question": "What is the reading of \"太る\"?",
+    "word": "太る",
+    "options": [
+      "ねむる",
+      "うつくしい",
+      "にる",
+      "ふとる"
+    ],
+    "correct": "ふとる"
+  },
+  {
+    "question": "What is the reading of \"痩せる\"?",
+    "word": "痩せる",
+    "options": [
+      "しょくじ",
+      "はこぶ",
+      "やせる",
+      "へいじつ"
+    ],
+    "correct": "やせる"
+  },
+  {
+    "question": "What is the reading of \"増える\"?",
+    "word": "増える",
+    "options": [
+      "けいざい",
+      "しんぱいする",
+      "かいがん",
+      "ふえる"
+    ],
+    "correct": "ふえる"
+  },
+  {
+    "question": "What is the reading of \"減る\"?",
+    "word": "減る",
+    "options": [
+      "やめる",
+      "はる",
+      "へる",
+      "かえる"
+    ],
+    "correct": "へる"
+  },
+  {
+    "question": "What is the reading of \"重い\"?",
+    "word": "重い",
+    "options": [
+      "おもい",
+      "かく",
+      "とどける",
+      "ならう"
+    ],
+    "correct": "おもい"
+  },
+  {
+    "question": "What is the reading of \"軽い\"?",
+    "word": "軽い",
+    "options": [
+      "ふとい",
+      "こわい",
+      "かいわ",
+      "かるい"
+    ],
+    "correct": "かるい"
+  },
+  {
+    "question": "What is the reading of \"太い\"?",
+    "word": "太い",
+    "options": [
+      "ばしょ",
+      "かがく",
+      "はる",
+      "ふとい"
+    ],
+    "correct": "ふとい"
+  },
+  {
+    "question": "What is the reading of \"細い\"?",
+    "word": "細い",
+    "options": [
+      "ほそい",
+      "ふゆ",
+      "ようじ",
+      "あき"
+    ],
+    "correct": "ほそい"
+  },
+  {
+    "question": "What is the reading of \"固い\"?",
+    "word": "固い",
+    "options": [
+      "かたい",
+      "ろうじん",
+      "おどる",
+      "あらう"
+    ],
+    "correct": "かたい"
+  },
+  {
+    "question": "What is the reading of \"柔らかい\"?",
+    "word": "柔らかい",
+    "options": [
+      "かよう",
+      "つたえる",
+      "じょうず",
+      "やわらかい"
+    ],
+    "correct": "やわらかい"
+  },
+  {
+    "question": "What is the reading of \"強い\"?",
+    "word": "強い",
+    "options": [
+      "つよい",
+      "はる",
+      "みつかる",
+      "ゆうめい"
+    ],
+    "correct": "つよい"
+  },
+  {
+    "question": "What is the reading of \"弱い\"?",
+    "word": "弱い",
+    "options": [
+      "よわい",
+      "えらぶ",
+      "ふる",
+      "しらべる"
+    ],
+    "correct": "よわい"
+  },
+  {
+    "question": "What is the reading of \"深い\"?",
+    "word": "深い",
+    "options": [
+      "ふかい",
+      "わかれる",
+      "あんないする",
+      "ちり"
+    ],
+    "correct": "ふかい"
+  },
+  {
+    "question": "What is the reading of \"浅い\"?",
+    "word": "浅い",
+    "options": [
+      "かいわ",
+      "じだい",
+      "やめる",
+      "あさい"
+    ],
+    "correct": "あさい"
+  },
+  {
+    "question": "What is the reading of \"美しい\"?",
+    "word": "美しい",
+    "options": [
+      "へいじつ",
+      "うつくしい",
+      "まいにち",
+      "こくさい"
+    ],
+    "correct": "うつくしい"
+  },
+  {
+    "question": "What is the reading of \"珍しい\"?",
+    "word": "珍しい",
+    "options": [
+      "なく",
+      "つつむ",
+      "じょうず",
+      "めずらしい"
+    ],
+    "correct": "めずらしい"
+  },
+  {
+    "question": "What is the reading of \"素晴らしい\"?",
+    "word": "素晴らしい",
+    "options": [
+      "すばらしい",
+      "へんじ",
+      "ぎょうじ",
+      "ひえる"
+    ],
+    "correct": "すばらしい"
+  },
+  {
+    "question": "What is the reading of \"恥ずかしい\"?",
+    "word": "恥ずかしい",
+    "options": [
+      "つうやく",
+      "はずかしい",
+      "かんじる",
+      "ぐあい"
+    ],
+    "correct": "はずかしい"
+  },
+  {
+    "question": "What is the reading of \"厳しい\"?",
+    "word": "厳しい",
+    "options": [
+      "かんがえる",
+      "れんしゅうする",
+      "きびしい",
+      "ものがたり"
+    ],
+    "correct": "きびしい"
+  },
+  {
+    "question": "What is the reading of \"正しい\"?",
+    "word": "正しい",
+    "options": [
+      "ただしい",
+      "せいかつ",
+      "こうずい",
+      "いためる"
+    ],
+    "correct": "ただしい"
+  },
+  {
+    "question": "What is the reading of \"珍しい\"?",
+    "word": "珍しい",
+    "options": [
+      "ひえる",
+      "いわう",
+      "あさい",
+      "めずらしい"
+    ],
+    "correct": "めずらしい"
+  },
+  {
+    "question": "What is the reading of \"酷い\"?",
+    "word": "酷い",
+    "options": [
+      "ものがたり",
+      "れんしゅうする",
+      "たのしむ",
+      "ひどい"
+    ],
+    "correct": "ひどい"
+  },
+  {
+    "question": "What is the reading of \"怖い\"?",
+    "word": "怖い",
+    "options": [
+      "しけん",
+      "くうき",
+      "ねむる",
+      "こわい"
+    ],
+    "correct": "こわい"
+  },
+  {
+    "question": "What is the reading of \"危ない\"?",
+    "word": "危ない",
+    "options": [
+      "ぬすむ",
+      "たいよう",
+      "あぶない",
+      "めずらしい"
+    ],
+    "correct": "あぶない"
+  },
+  {
+    "question": "What is the reading of \"寂しい\"?",
+    "word": "寂しい",
+    "options": [
+      "さびしい",
+      "くるしむ",
+      "こわす",
+      "ねむい"
+    ],
+    "correct": "さびしい"
+  },
+  {
+    "question": "What is the reading of \"苦しい\"?",
+    "word": "苦しい",
+    "options": [
+      "じしん",
+      "くるしい",
+      "じだい",
+      "ふつう"
+    ],
+    "correct": "くるしい"
+  },
+  {
+    "question": "What is the reading of \"眠い\"?",
+    "word": "眠い",
+    "options": [
+      "ねむい",
+      "はんたいする",
+      "せいかつ",
+      "さいきん"
+    ],
+    "correct": "ねむい"
+  },
+  {
+    "question": "What is the reading of \"汚い\"?",
+    "word": "汚い",
+    "options": [
+      "きたない",
+      "ふとい",
+      "くうき",
+      "へいじつ"
+    ],
+    "correct": "きたない"
+  }
+]

@@ -6,13 +6,18 @@ type FavoriteProps = {
   isFavorite: boolean;
   toggleFavorite: () => void;
 };
-
 export default function FavoriteButton({
   isFavorite,
   toggleFavorite,
 }: FavoriteProps) {
   return (
-    <TouchableOpacity style={styles.favIcon} onPress={toggleFavorite}>
+    <TouchableOpacity
+      style={styles.favIcon}
+      onPress={(e) => {
+        e.stopPropagation();
+        toggleFavorite();
+      }}
+    >
       {isFavorite ? (
         <Ionicons name="heart" color={colors.primary} size={26} />
       ) : (

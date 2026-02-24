@@ -1,4 +1,5 @@
-import { createContext, useContext, useState } from "react";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import { createContext, useContext, useEffect, useState } from "react";
 
 type ProgressContextType = {
   learnedKanji: string[];
@@ -8,6 +9,8 @@ type ProgressContextType = {
   longestStreak: number;
   addLearnedKanji: (kanji: string) => void;
 };
+
+const STORAGE_KEY = "learning_progress";
 
 export const LearnedprogressContext = createContext<ProgressContextType | null>(
   null,
@@ -19,6 +22,52 @@ export const ProgressProvider = ({ children }: { children: any }) => {
   const [highestDailyCount, setHighestDailyCount] = useState(0);
   const [lastLearnedDate, setLastLearnedDate] = useState<string | null>(null);
   const [longestStreak, setLongestStreak] = useState(0);
+
+  const [loaded, setLoaded] = useState(false); // important
+
+  // Load saved progress
+  useEffect(() => {
+    const loadProgress = async () => {
+      const saved = await AsyncStorage.getItem(STORAGE_KEY);
+
+      if (saved) {
+        const data = JSON.parse(saved);
+
+        setLearnedKanji(data.learnedKanji || []);
+        setTodayLearned(data.todayLearned || 0);
+        setHighestDailyCount(data.highestDailyCount || 0);
+        setLastLearnedDate(data.lastLearnedDate || null);
+        setLongestStreak(data.longestStreak || 0);
+      }
+
+      setLoaded(true); // allow saving after loading
+    };
+
+    loadProgress();
+  }, []);
+
+  // Save progress ONLY after data is loaded
+  useEffect(() => {
+    if (!loaded) return;
+
+    AsyncStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify({
+        learnedKanji,
+        todayLearned,
+        highestDailyCount,
+        lastLearnedDate,
+        longestStreak,
+      }),
+    );
+  }, [
+    learnedKanji,
+    todayLearned,
+    highestDailyCount,
+    lastLearnedDate,
+    longestStreak,
+    loaded,
+  ]);
 
   const addLearnedKanji = (kanji: string) => {
     const today = new Date().toDateString();

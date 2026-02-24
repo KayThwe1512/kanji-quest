@@ -7,7 +7,7 @@ export default function RootLayout() {
     <>
       <FavoriteProvider>
         <ProgressProvider>
-          <Stack screenOptions={{ headerShown: false }} />;
+          <Stack screenOptions={{ headerShown: false }} />
         </ProgressProvider>
       </FavoriteProvider>
     </>
