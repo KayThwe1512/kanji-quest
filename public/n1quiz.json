@@ -1,0 +1,5513 @@
+[
+  {
+    "question": "What is the reading of \"享受\"?",
+    "word": "享受",
+    "options": [
+      "じゅうそく",
+      "すうじく",
+      "へいこう",
+      "きょうじゅ"
+    ],
+    "correct": "きょうじゅ"
+  },
+  {
+    "question": "What is the reading of \"核心\"?",
+    "word": "核心",
+    "options": [
+      "かくしん",
+      "かごう",
+      "こうはい",
+      "だけつ"
+    ],
+    "correct": "かくしん"
+  },
+  {
+    "question": "What is the reading of \"転換\"?",
+    "word": "転換",
+    "options": [
+      "せいきょう",
+      "へんせん",
+      "しんてん",
+      "てんかん"
+    ],
+    "correct": "てんかん"
+  },
+  {
+    "question": "What is the reading of \"均衡\"?",
+    "word": "均衡",
+    "options": [
+      "かじゅう",
+      "かくしん",
+      "きょうり",
+      "きんこう"
+    ],
+    "correct": "きんこう"
+  },
+  {
+    "question": "What is the reading of \"便宜\"?",
+    "word": "便宜",
+    "options": [
+      "かくしん",
+      "こっけい",
+      "べんぎ",
+      "てつや"
+    ],
+    "correct": "べんぎ"
+  },
+  {
+    "question": "What is the reading of \"邸宅\"?",
+    "word": "邸宅",
+    "options": [
+      "しっちょう",
+      "ていたく",
+      "てっかい",
+      "かんげん"
+    ],
+    "correct": "ていたく"
+  },
+  {
+    "question": "What is the reading of \"合法\"?",
+    "word": "合法",
+    "options": [
+      "ごうほう",
+      "じこう",
+      "はいぜつ",
+      "だけつ"
+    ],
+    "correct": "ごうほう"
+  },
+  {
+    "question": "What is the reading of \"把握\"?",
+    "word": "把握",
+    "options": [
+      "はあく",
+      "ぼうがい",
+      "せんぼう",
+      "せんりょう"
+    ],
+    "correct": "はあく"
+  },
+  {
+    "question": "What is the reading of \"還元\"?",
+    "word": "還元",
+    "options": [
+      "かんげん",
+      "こうし",
+      "せんぼう",
+      "きんみつ"
+    ],
+    "correct": "かんげん"
+  },
+  {
+    "question": "What is the reading of \"妥協\"?",
+    "word": "妥協",
+    "options": [
+      "ごうどう",
+      "きょうせい",
+      "そうさ",
+      "だきょう"
+    ],
+    "correct": "だきょう"
+  },
+  {
+    "question": "What is the reading of \"凝縮\"?",
+    "word": "凝縮",
+    "options": [
+      "じたい",
+      "せいだい",
+      "そうてい",
+      "ぎょうしゅく"
+    ],
+    "correct": "ぎょうしゅく"
+  },
+  {
+    "question": "What is the reading of \"是正\"?",
+    "word": "是正",
+    "options": [
+      "ほうき",
+      "ひはん",
+      "ついらく",
+      "ぜせい"
+    ],
+    "correct": "ぜせい"
+  },
+  {
+    "question": "What is the reading of \"包括\"?",
+    "word": "包括",
+    "options": [
+      "ぎょうしゃ",
+      "かくほ",
+      "せいだい",
+      "ほうかつ"
+    ],
+    "correct": "ほうかつ"
+  },
+  {
+    "question": "What is the reading of \"隠蔽\"?",
+    "word": "隠蔽",
+    "options": [
+      "いんぺい",
+      "しこう",
+      "しれい",
+      "しさ"
+    ],
+    "correct": "いんぺい"
+  },
+  {
+    "question": "What is the reading of \"欠陥\"?",
+    "word": "欠陥",
+    "options": [
+      "きょうぐう",
+      "おせん",
+      "けっかん",
+      "きょうぎ"
+    ],
+    "correct": "けっかん"
+  },
+  {
+    "question": "What is the reading of \"媒介\"?",
+    "word": "媒介",
+    "options": [
+      "きょうじゅ",
+      "きょうぎ",
+      "ほうち",
+      "ばいかい"
+    ],
+    "correct": "ばいかい"
+  },
+  {
+    "question": "What is the reading of \"推移\"?",
+    "word": "推移",
+    "options": [
+      "たいしゅう",
+      "はげむ",
+      "せいさん",
+      "すいい"
+    ],
+    "correct": "すいい"
+  },
+  {
+    "question": "What is the reading of \"典型的\"?",
+    "word": "典型的",
+    "options": [
+      "ばける",
+      "てんけいてき",
+      "てったい",
+      "てんぼう"
+    ],
+    "correct": "てんけいてき"
+  },
+  {
+    "question": "What is the reading of \"一掃\"?",
+    "word": "一掃",
+    "options": [
+      "じれい",
+      "こうし",
+      "はんえい",
+      "いっそう"
+    ],
+    "correct": "いっそう"
+  },
+  {
+    "question": "What is the reading of \"露骨\"?",
+    "word": "露骨",
+    "options": [
+      "ろこつ",
+      "ぶじょく",
+      "しょうさん",
+      "こころえ"
+    ],
+    "correct": "ろこつ"
+  },
+  {
+    "question": "What is the reading of \"逸脱\"?",
+    "word": "逸脱",
+    "options": [
+      "いつだつ",
+      "こうし",
+      "とくめい",
+      "かんしょう"
+    ],
+    "correct": "いつだつ"
+  },
+  {
+    "question": "What is the reading of \"抑制\"?",
+    "word": "抑制",
+    "options": [
+      "かくめい",
+      "ひこう",
+      "かくとく",
+      "よくせい"
+    ],
+    "correct": "よくせい"
+  },
+  {
+    "question": "What is the reading of \"権威\"?",
+    "word": "権威",
+    "options": [
+      "せっちゅう",
+      "しさ",
+      "こうりつ",
+      "けんい"
+    ],
+    "correct": "けんい"
+  },
+  {
+    "question": "What is the reading of \"諮問\"?",
+    "word": "諮問",
+    "options": [
+      "そしょう",
+      "せんねん",
+      "そがい",
+      "しもん"
+    ],
+    "correct": "しもん"
+  },
+  {
+    "question": "What is the reading of \"批准\"?",
+    "word": "批准",
+    "options": [
+      "ひじゅん",
+      "してん",
+      "しょじ",
+      "きよう"
+    ],
+    "correct": "ひじゅん"
+  },
+  {
+    "question": "What is the reading of \"更生\"?",
+    "word": "更生",
+    "options": [
+      "こうせい",
+      "がくせつ",
+      "せんぼう",
+      "きょうじゅ"
+    ],
+    "correct": "こうせい"
+  },
+  {
+    "question": "What is the reading of \"啓蒙\"?",
+    "word": "啓蒙",
+    "options": [
+      "けいもう",
+      "じつむ",
+      "かくほ",
+      "きょうい"
+    ],
+    "correct": "けいもう"
+  },
+  {
+    "question": "What is the reading of \"看過\"?",
+    "word": "看過",
+    "options": [
+      "けいしゃ",
+      "はいりょ",
+      "じゅりつ",
+      "かんか"
+    ],
+    "correct": "かんか"
+  },
+  {
+    "question": "What is the reading of \"便宜\"?",
+    "word": "便宜",
+    "options": [
+      "しゅび",
+      "べんぎ",
+      "こっけい",
+      "すいさつ"
+    ],
+    "correct": "べんぎ"
+  },
+  {
+    "question": "What is the reading of \"享受\"?",
+    "word": "享受",
+    "options": [
+      "かくほ",
+      "すいしん",
+      "きょうじゅ",
+      "じりき"
+    ],
+    "correct": "きょうじゅ"
+  },
+  {
+    "question": "What is the reading of \"吟味\"?",
+    "word": "吟味",
+    "options": [
+      "こうにゅう",
+      "じっせん",
+      "こうせい",
+      "ぎんみ"
+    ],
+    "correct": "ぎんみ"
+  },
+  {
+    "question": "What is the reading of \"附随\"?",
+    "word": "附随",
+    "options": [
+      "がくせつ",
+      "ふずい",
+      "きょひ",
+      "へいさ"
+    ],
+    "correct": "ふずい"
+  },
+  {
+    "question": "What is the reading of \"沈黙\"?",
+    "word": "沈黙",
+    "options": [
+      "ちんもく",
+      "どうにゅう",
+      "ほうかつ",
+      "ついらく"
+    ],
+    "correct": "ちんもく"
+  },
+  {
+    "question": "What is the reading of \"反映\"?",
+    "word": "反映",
+    "options": [
+      "はんえい",
+      "じゅんすい",
+      "きょてん",
+      "かくてい"
+    ],
+    "correct": "はんえい"
+  },
+  {
+    "question": "What is the reading of \"連鎖\"?",
+    "word": "連鎖",
+    "options": [
+      "せいけい",
+      "てつや",
+      "ちゅうしょう",
+      "れんさ"
+    ],
+    "correct": "れんさ"
+  },
+  {
+    "question": "What is the reading of \"束縛\"?",
+    "word": "束縛",
+    "options": [
+      "ひとしい",
+      "つうこく",
+      "ねばり",
+      "そくばく"
+    ],
+    "correct": "そくばく"
+  },
+  {
+    "question": "What is the reading of \"執着\"?",
+    "word": "執着",
+    "options": [
+      "しゅうちゃく",
+      "こうはい",
+      "せんこく",
+      "すいそく"
+    ],
+    "correct": "しゅうちゃく"
+  },
+  {
+    "question": "What is the reading of \"阻害\"?",
+    "word": "阻害",
+    "options": [
+      "そがい",
+      "かくほ",
+      "はあく",
+      "つうち"
+    ],
+    "correct": "そがい"
+  },
+  {
+    "question": "What is the reading of \"便宜\"?",
+    "word": "便宜",
+    "options": [
+      "べんぎ",
+      "ひきょう",
+      "じゅんよう",
+      "しょち"
+    ],
+    "correct": "べんぎ"
+  },
+  {
+    "question": "What is the reading of \"究明\"?",
+    "word": "究明",
+    "options": [
+      "きゅうめい",
+      "ひじゅん",
+      "こころえ",
+      "こうばい"
+    ],
+    "correct": "きゅうめい"
+  },
+  {
+    "question": "What is the reading of \"示唆\"?",
+    "word": "示唆",
+    "options": [
+      "ちゅうざい",
+      "ぜいじゃく",
+      "しんわ",
+      "しさ"
+    ],
+    "correct": "しさ"
+  },
+  {
+    "question": "What is the reading of \"付随\"?",
+    "word": "付随",
+    "options": [
+      "じっせん",
+      "かくしゅう",
+      "こうりゅう",
+      "ふずい"
+    ],
+    "correct": "ふずい"
+  },
+  {
+    "question": "What is the reading of \"排斥\"?",
+    "word": "排斥",
+    "options": [
+      "はいせき",
+      "きゅうめい",
+      "じれい",
+      "けいせき"
+    ],
+    "correct": "はいせき"
+  },
+  {
+    "question": "What is the reading of \"滑稽\"?",
+    "word": "滑稽",
+    "options": [
+      "よくせい",
+      "きょうり",
+      "しっぴつ",
+      "こっけい"
+    ],
+    "correct": "こっけい"
+  },
+  {
+    "question": "What is the reading of \"卓越\"?",
+    "word": "卓越",
+    "options": [
+      "excellence, superiority",
+      "すいちょく",
+      "かどう",
+      "きてん"
+    ],
+    "correct": "excellence, superiority"
+  },
+  {
+    "question": "What is the reading of \"享受\"?",
+    "word": "享受",
+    "options": [
+      "きょうじゅ",
+      "じょうりゅう",
+      "べんぎ",
+      "じょうちゅう"
+    ],
+    "correct": "きょうじゅ"
+  },
+  {
+    "question": "What is the reading of \"便宜\"?",
+    "word": "便宜",
+    "options": [
+      "こうたく",
+      "きょうじゅ",
+      "じったい",
+      "べんぎ"
+    ],
+    "correct": "べんぎ"
+  },
+  {
+    "question": "What is the reading of \"緩和\"?",
+    "word": "緩和",
+    "options": [
+      "こうみょう",
+      "はんのう",
+      "かじょうがき",
+      "かんわ"
+    ],
+    "correct": "かんわ"
+  },
+  {
+    "question": "What is the reading of \"郷愁\"?",
+    "word": "郷愁",
+    "options": [
+      "おんわ",
+      "ほうき",
+      "きょうしゅう",
+      "かしつ"
+    ],
+    "correct": "きょうしゅう"
+  },
+  {
+    "question": "What is the reading of \"驚異\"?",
+    "word": "驚異",
+    "options": [
+      "じょうりゅう",
+      "きょうじゅ",
+      "きょうい",
+      "ぎょうし"
+    ],
+    "correct": "きょうい"
+  },
+  {
+    "question": "What is the reading of \"軌道\"?",
+    "word": "軌道",
+    "options": [
+      "きどう",
+      "じゅくれん",
+      "こうはい",
+      "はんどう"
+    ],
+    "correct": "きどう"
+  },
+  {
+    "question": "What is the reading of \"既知\"?",
+    "word": "既知",
+    "options": [
+      "きち",
+      "きょうじゅ",
+      "かんてん",
+      "しゅうちゃく"
+    ],
+    "correct": "きち"
+  },
+  {
+    "question": "What is the reading of \"棄却\"?",
+    "word": "棄却",
+    "options": [
+      "せいそう",
+      "しょうもう",
+      "ききゃく",
+      "はいせき"
+    ],
+    "correct": "ききゃく"
+  },
+  {
+    "question": "What is the reading of \"均衡\"?",
+    "word": "均衡",
+    "options": [
+      "すいこう",
+      "きんこう",
+      "はんどう",
+      "せいとう"
+    ],
+    "correct": "きんこう"
+  },
+  {
+    "question": "What is the reading of \"緊密\"?",
+    "word": "緊密",
+    "options": [
+      "しや",
+      "しゅうよう",
+      "はげむ",
+      "きんみつ"
+    ],
+    "correct": "きんみつ"
+  },
+  {
+    "question": "What is the reading of \"供述\"?",
+    "word": "供述",
+    "options": [
+      "かくとく",
+      "きはん",
+      "どうとう",
+      "きょうじゅつ"
+    ],
+    "correct": "きょうじゅつ"
+  },
+  {
+    "question": "What is the reading of \"共鳴\"?",
+    "word": "共鳴",
+    "options": [
+      "せいりょく",
+      "しょうさん",
+      "ぎょうせい",
+      "きょうめい"
+    ],
+    "correct": "きょうめい"
+  },
+  {
+    "question": "What is the reading of \"強制\"?",
+    "word": "強制",
+    "options": [
+      "どうとう",
+      "かんわ",
+      "きょうせい",
+      "してい"
+    ],
+    "correct": "きょうせい"
+  },
+  {
+    "question": "What is the reading of \"境界\"?",
+    "word": "境界",
+    "options": [
+      "こうせい",
+      "きょうかい",
+      "がっぺい",
+      "しゅうよう"
+    ],
+    "correct": "きょうかい"
+  },
+  {
+    "question": "What is the reading of \"享受\"?",
+    "word": "享受",
+    "options": [
+      "きょうじゅ",
+      "きぞく",
+      "じゅうなん",
+      "かみつ"
+    ],
+    "correct": "きょうじゅ"
+  },
+  {
+    "question": "What is the reading of \"凶作\"?",
+    "word": "凶作",
+    "options": [
+      "ばいかい",
+      "かくてい",
+      "たいまん",
+      "きょうさく"
+    ],
+    "correct": "きょうさく"
+  },
+  {
+    "question": "What is the reading of \"郷里\"?",
+    "word": "郷里",
+    "options": [
+      "しげん",
+      "つうしょう",
+      "きょうり",
+      "きち"
+    ],
+    "correct": "きょうり"
+  },
+  {
+    "question": "What is the reading of \"強烈\"?",
+    "word": "強烈",
+    "options": [
+      "がいか",
+      "てんかん",
+      "ほうかい",
+      "きょうれつ"
+    ],
+    "correct": "きょうれつ"
+  },
+  {
+    "question": "What is the reading of \"驚嘆\"?",
+    "word": "驚嘆",
+    "options": [
+      "だとう",
+      "ちゅうざい",
+      "ちょさく",
+      "きょうたん"
+    ],
+    "correct": "きょうたん"
+  },
+  {
+    "question": "What is the reading of \"協議\"?",
+    "word": "協議",
+    "options": [
+      "こうりゅう",
+      "きょうぎ",
+      "けいせき",
+      "こうひょう"
+    ],
+    "correct": "きょうぎ"
+  },
+  {
+    "question": "What is the reading of \"境遇\"?",
+    "word": "境遇",
+    "options": [
+      "きぜん",
+      "かくしゅう",
+      "はけん",
+      "きょうぐう"
+    ],
+    "correct": "きょうぐう"
+  },
+  {
+    "question": "What is the reading of \"凝視\"?",
+    "word": "凝視",
+    "options": [
+      "ぎょうし",
+      "じょげん",
+      "きよう",
+      "べんぎ"
+    ],
+    "correct": "ぎょうし"
+  },
+  {
+    "question": "What is the reading of \"業者\"?",
+    "word": "業者",
+    "options": [
+      "ぎょうしゃ",
+      "こうねつひ",
+      "はんしゃ",
+      "せんりつ"
+    ],
+    "correct": "ぎょうしゃ"
+  },
+  {
+    "question": "What is the reading of \"行政\"?",
+    "word": "行政",
+    "options": [
+      "きょくせつ",
+      "ぎょうせい",
+      "ふとう",
+      "しゅうちゃく"
+    ],
+    "correct": "ぎょうせい"
+  },
+  {
+    "question": "What is the reading of \"業績\"?",
+    "word": "業績",
+    "options": [
+      "ぎょうせき",
+      "きょうじゅ",
+      "どじょう",
+      "きょよう"
+    ],
+    "correct": "ぎょうせき"
+  },
+  {
+    "question": "What is the reading of \"業務\"?",
+    "word": "業務",
+    "options": [
+      "きょうさく",
+      "かくほ",
+      "ごうかく",
+      "ぎょうむ"
+    ],
+    "correct": "ぎょうむ"
+  },
+  {
+    "question": "What is the reading of \"曲折\"?",
+    "word": "曲折",
+    "options": [
+      "けいかい",
+      "しょうごう",
+      "そうしょく",
+      "きょくせつ"
+    ],
+    "correct": "きょくせつ"
+  },
+  {
+    "question": "What is the reading of \"局限\"?",
+    "word": "局限",
+    "options": [
+      "きょくげん",
+      "がくせつ",
+      "せつり",
+      "きょうじゅ"
+    ],
+    "correct": "きょくげん"
+  },
+  {
+    "question": "What is the reading of \"極限\"?",
+    "word": "極限",
+    "options": [
+      "かんぺき",
+      "きんこう",
+      "こころえ",
+      "きょくげん"
+    ],
+    "correct": "きょくげん"
+  },
+  {
+    "question": "What is the reading of \"拒絶\"?",
+    "word": "拒絶",
+    "options": [
+      "がくせつ",
+      "かんこく",
+      "ひみつ",
+      "きょぜつ"
+    ],
+    "correct": "きょぜつ"
+  },
+  {
+    "question": "What is the reading of \"拠点\"?",
+    "word": "拠点",
+    "options": [
+      "きょてん",
+      "きょうじゅ",
+      "きょうめい",
+      "してん"
+    ],
+    "correct": "きょてん"
+  },
+  {
+    "question": "What is the reading of \"挙動\"?",
+    "word": "挙動",
+    "options": [
+      "きょどう",
+      "とくめい",
+      "なじむ",
+      "かくてい"
+    ],
+    "correct": "きょどう"
+  },
+  {
+    "question": "What is the reading of \"拒否\"?",
+    "word": "拒否",
+    "options": [
+      "しゅび",
+      "しこう",
+      "きょひ",
+      "かんりょう"
+    ],
+    "correct": "きょひ"
+  },
+  {
+    "question": "What is the reading of \"許容\"?",
+    "word": "許容",
+    "options": [
+      "かくしゅう",
+      "じょうちゅう",
+      "かんこう",
+      "きょよう"
+    ],
+    "correct": "きょよう"
+  },
+  {
+    "question": "What is the reading of \"強引\"?",
+    "word": "強引",
+    "options": [
+      "ごういん",
+      "かくほ",
+      "だけつ",
+      "きどう"
+    ],
+    "correct": "ごういん"
+  },
+  {
+    "question": "What is the reading of \"豪華\"?",
+    "word": "豪華",
+    "options": [
+      "すいこう",
+      "じゅうふく",
+      "じゅよ",
+      "ごうか"
+    ],
+    "correct": "ごうか"
+  },
+  {
+    "question": "What is the reading of \"号外\"?",
+    "word": "号外",
+    "options": [
+      "こうたく",
+      "かんりょう",
+      "ごうがい",
+      "がくげい"
+    ],
+    "correct": "ごうがい"
+  },
+  {
+    "question": "What is the reading of \"合格\"?",
+    "word": "合格",
+    "options": [
+      "かごう",
+      "はんしゃ",
+      "がいか",
+      "ごうかく"
+    ],
+    "correct": "ごうかく"
+  },
+  {
+    "question": "What is the reading of \"強盗\"?",
+    "word": "強盗",
+    "options": [
+      "ごうとう",
+      "はいき",
+      "がいねん",
+      "きょうじゅ"
+    ],
+    "correct": "ごうとう"
+  },
+  {
+    "question": "What is the reading of \"合同\"?",
+    "word": "合同",
+    "options": [
+      "けいたい",
+      "ごうどう",
+      "たいはい",
+      "きょうしゅう"
+    ],
+    "correct": "ごうどう"
+  },
+  {
+    "question": "What is the reading of \"合理\"?",
+    "word": "合理",
+    "options": [
+      "どうにゅう",
+      "しっと",
+      "かんか",
+      "ごうり"
+    ],
+    "correct": "ごうり"
+  },
+  {
+    "question": "What is the reading of \"交流\"?",
+    "word": "交流",
+    "options": [
+      "きょうたん",
+      "がいせつ",
+      "こうりゅう",
+      "はいぜつ"
+    ],
+    "correct": "こうりゅう"
+  },
+  {
+    "question": "What is the reading of \"考慮\"?",
+    "word": "考慮",
+    "options": [
+      "せっちゅう",
+      "じょうちょ",
+      "はけん",
+      "こうりょ"
+    ],
+    "correct": "こうりょ"
+  },
+  {
+    "question": "What is the reading of \"公認\"?",
+    "word": "公認",
+    "options": [
+      "がいか",
+      "こうにん",
+      "じょうちゅう",
+      "こくち"
+    ],
+    "correct": "こうにん"
+  },
+  {
+    "question": "What is the reading of \"光熱費\"?",
+    "word": "光熱費",
+    "options": [
+      "かんべん",
+      "こうどく",
+      "こうど",
+      "こうねつひ"
+    ],
+    "correct": "こうねつひ"
+  },
+  {
+    "question": "What is the reading of \"荒廃\"?",
+    "word": "荒廃",
+    "options": [
+      "ぎょうし",
+      "かくめい",
+      "こうはい",
+      "せいれつ"
+    ],
+    "correct": "こうはい"
+  },
+  {
+    "question": "What is the reading of \"購買\"?",
+    "word": "購買",
+    "options": [
+      "こうばい",
+      "ぎょうしゃ",
+      "すうはい",
+      "だんりょく"
+    ],
+    "correct": "こうばい"
+  },
+  {
+    "question": "What is the reading of \"公表\"?",
+    "word": "公表",
+    "options": [
+      "ていたく",
+      "こうひょう",
+      "じゅうじつ",
+      "きょうじゅ"
+    ],
+    "correct": "こうひょう"
+  },
+  {
+    "question": "What is the reading of \"幸福\"?",
+    "word": "幸福",
+    "options": [
+      "かごう",
+      "かんこう",
+      "はけん",
+      "こうふく"
+    ],
+    "correct": "こうふく"
+  },
+  {
+    "question": "What is the reading of \"交付\"?",
+    "word": "交付",
+    "options": [
+      "てっかい",
+      "ふどうさん",
+      "こうふ",
+      "たいのう"
+    ],
+    "correct": "こうふ"
+  },
+  {
+    "question": "What is the reading of \"興奮\"?",
+    "word": "興奮",
+    "options": [
+      "こうふん",
+      "ぎょうむ",
+      "きどう",
+      "しじ"
+    ],
+    "correct": "こうふん"
+  },
+  {
+    "question": "What is the reading of \"巧妙\"?",
+    "word": "巧妙",
+    "options": [
+      "こうみょう",
+      "こうりょ",
+      "しゅうよう",
+      "こうよう"
+    ],
+    "correct": "こうみょう"
+  },
+  {
+    "question": "What is the reading of \"公用\"?",
+    "word": "公用",
+    "options": [
+      "こうよう",
+      "ぜにん",
+      "てんかん",
+      "がっぺい"
+    ],
+    "correct": "こうよう"
+  },
+  {
+    "question": "What is the reading of \"小売\"?",
+    "word": "小売",
+    "options": [
+      "じょうよ",
+      "きよう",
+      "こうたく",
+      "こうり"
+    ],
+    "correct": "こうり"
+  },
+  {
+    "question": "What is the reading of \"効率\"?",
+    "word": "効率",
+    "options": [
+      "しげん",
+      "いんぺい",
+      "ほうかい",
+      "こうりつ"
+    ],
+    "correct": "こうりつ"
+  },
+  {
+    "question": "What is the reading of \"閣僚\"?",
+    "word": "閣僚",
+    "options": [
+      "はんえい",
+      "しょうげき",
+      "かくりょう",
+      "きょうたん"
+    ],
+    "correct": "かくりょう"
+  },
+  {
+    "question": "What is the reading of \"過失\"?",
+    "word": "過失",
+    "options": [
+      "ぼうがい",
+      "しょうごう",
+      "すいい",
+      "かしつ"
+    ],
+    "correct": "かしつ"
+  },
+  {
+    "question": "What is the reading of \"介入\"?",
+    "word": "介入",
+    "options": [
+      "けいべつ",
+      "おんわ",
+      "せいび",
+      "かいにゅう"
+    ],
+    "correct": "かいにゅう"
+  },
+  {
+    "question": "What is the reading of \"介抱\"?",
+    "word": "介抱",
+    "options": [
+      "かいほう",
+      "かくう",
+      "きょぜつ",
+      "かんか"
+    ],
+    "correct": "かいほう"
+  },
+  {
+    "question": "What is the reading of \"警戒\"?",
+    "word": "警戒",
+    "options": [
+      "こうし",
+      "ぜにん",
+      "けいかい",
+      "こうろく"
+    ],
+    "correct": "けいかい"
+  },
+  {
+    "question": "What is the reading of \"掲載\"?",
+    "word": "掲載",
+    "options": [
+      "ひろう",
+      "しょち",
+      "かんよう",
+      "けいさい"
+    ],
+    "correct": "けいさい"
+  },
+  {
+    "question": "What is the reading of \"傾斜\"?",
+    "word": "傾斜",
+    "options": [
+      "かくめい",
+      "かくしゅう",
+      "はんえい",
+      "けいしゃ"
+    ],
+    "correct": "けいしゃ"
+  },
+  {
+    "question": "What is the reading of \"形成\"?",
+    "word": "形成",
+    "options": [
+      "がいとう",
+      "けいせい",
+      "はあく",
+      "ていたく"
+    ],
+    "correct": "けいせい"
+  },
+  {
+    "question": "What is the reading of \"形跡\"?",
+    "word": "形跡",
+    "options": [
+      "だは",
+      "けいせき",
+      "しんしゅつ",
+      "てったい"
+    ],
+    "correct": "けいせき"
+  },
+  {
+    "question": "What is the reading of \"形態\"?",
+    "word": "形態",
+    "options": [
+      "しっと",
+      "けいたい",
+      "けいさい",
+      "こうにん"
+    ],
+    "correct": "けいたい"
+  },
+  {
+    "question": "What is the reading of \"刑罰\"?",
+    "word": "刑罰",
+    "options": [
+      "そうさ",
+      "そうかつ",
+      "けいばつ",
+      "せいれん"
+    ],
+    "correct": "けいばつ"
+  },
+  {
+    "question": "What is the reading of \"経緯\"?",
+    "word": "経緯",
+    "options": [
+      "しもん",
+      "じょうせい",
+      "けいい",
+      "ほうかつ"
+    ],
+    "correct": "けいい"
+  },
+  {
+    "question": "What is the reading of \"軽蔑\"?",
+    "word": "軽蔑",
+    "options": [
+      "けいべつ",
+      "はあく",
+      "しょうげん",
+      "がっち"
+    ],
+    "correct": "けいべつ"
+  },
+  {
+    "question": "What is the reading of \"経路\"?",
+    "word": "経路",
+    "options": [
+      "すいてい",
+      "ちょうしゅう",
+      "だけつ",
+      "けいろ"
+    ],
+    "correct": "けいろ"
+  },
+  {
+    "question": "What is the reading of \"汚染\"?",
+    "word": "汚染",
+    "options": [
+      "しょち",
+      "こうはい",
+      "とくめい",
+      "おせん"
+    ],
+    "correct": "おせん"
+  },
+  {
+    "question": "What is the reading of \"穏和\"?",
+    "word": "穏和",
+    "options": [
+      "かんしょく",
+      "excellence, superiority",
+      "てんかん",
+      "おんわ"
+    ],
+    "correct": "おんわ"
+  },
+  {
+    "question": "What is the reading of \"架空\"?",
+    "word": "架空",
+    "options": [
+      "ごういん",
+      "ちゅうこく",
+      "かくう",
+      "ごうとう"
+    ],
+    "correct": "かくう"
+  },
+  {
+    "question": "What is the reading of \"加工\"?",
+    "word": "加工",
+    "options": [
+      "かくめい",
+      "かこう",
+      "そがい",
+      "ばいたい"
+    ],
+    "correct": "かこう"
+  },
+  {
+    "question": "What is the reading of \"化合\"?",
+    "word": "化合",
+    "options": [
+      "かごう",
+      "てんかん",
+      "てんぼう",
+      "べんぎ"
+    ],
+    "correct": "かごう"
+  },
+  {
+    "question": "What is the reading of \"荷重\"?",
+    "word": "荷重",
+    "options": [
+      "かじゅう",
+      "はいぜつ",
+      "とつじょ",
+      "はんどう"
+    ],
+    "correct": "かじゅう"
+  },
+  {
+    "question": "What is the reading of \"加速\"?",
+    "word": "加速",
+    "options": [
+      "しょうもう",
+      "かそく",
+      "こうりつ",
+      "かんりょう"
+    ],
+    "correct": "かそく"
+  },
+  {
+    "question": "What is the reading of \"過密\"?",
+    "word": "過密",
+    "options": [
+      "かみつ",
+      "はいりょ",
+      "ちょうほう",
+      "てんかん"
+    ],
+    "correct": "かみつ"
+  },
+  {
+    "question": "What is the reading of \"過疎\"?",
+    "word": "過疎",
+    "options": [
+      "かそ",
+      "がくせつ",
+      "へいこう",
+      "しゅうちゃく"
+    ],
+    "correct": "かそ"
+  },
+  {
+    "question": "What is the reading of \"回避\"?",
+    "word": "回避",
+    "options": [
+      "せつじつ",
+      "じにん",
+      "てんけい",
+      "かいひ"
+    ],
+    "correct": "かいひ"
+  },
+  {
+    "question": "What is the reading of \"確保\"?",
+    "word": "確保",
+    "options": [
+      "かくほ",
+      "きてん",
+      "がいせつ",
+      "はげむ"
+    ],
+    "correct": "かくほ"
+  },
+  {
+    "question": "What is the reading of \"拡散\"?",
+    "word": "拡散",
+    "options": [
+      "ぞうわい",
+      "きぜん",
+      "かくさん",
+      "しゅかん"
+    ],
+    "correct": "かくさん"
+  },
+  {
+    "question": "What is the reading of \"各種\"?",
+    "word": "各種",
+    "options": [
+      "そしょう",
+      "せいさい",
+      "かくしゅ",
+      "つうち"
+    ],
+    "correct": "かくしゅ"
+  },
+  {
+    "question": "What is the reading of \"隔週\"?",
+    "word": "隔週",
+    "options": [
+      "かくしゅう",
+      "すいちょく",
+      "おせん",
+      "かんげん"
+    ],
+    "correct": "かくしゅう"
+  },
+  {
+    "question": "What is the reading of \"革新\"?",
+    "word": "革新",
+    "options": [
+      "かくしん",
+      "こうばい",
+      "けいい",
+      "へいさ"
+    ],
+    "correct": "かくしん"
+  },
+  {
+    "question": "What is the reading of \"格差\"?",
+    "word": "格差",
+    "options": [
+      "じょきょ",
+      "てったい",
+      "かくさ",
+      "せいさく"
+    ],
+    "correct": "かくさ"
+  },
+  {
+    "question": "What is the reading of \"確定\"?",
+    "word": "確定",
+    "options": [
+      "こうてい",
+      "ひきょう",
+      "きょうじゅ",
+      "かくてい"
+    ],
+    "correct": "かくてい"
+  },
+  {
+    "question": "What is the reading of \"獲得\"?",
+    "word": "獲得",
+    "options": [
+      "ししゅう",
+      "しょうげん",
+      "せいり",
+      "かくとく"
+    ],
+    "correct": "かくとく"
+  },
+  {
+    "question": "What is the reading of \"革命\"?",
+    "word": "革命",
+    "options": [
+      "どうとう",
+      "はんらん",
+      "かくめい",
+      "はいご"
+    ],
+    "correct": "かくめい"
+  },
+  {
+    "question": "What is the reading of \"確保\"?",
+    "word": "確保",
+    "options": [
+      "きょうめい",
+      "すいこう",
+      "きょうぐう",
+      "かくほ"
+    ],
+    "correct": "かくほ"
+  },
+  {
+    "question": "What is the reading of \"箇条書き\"?",
+    "word": "箇条書き",
+    "options": [
+      "かじょうがき",
+      "かいほう",
+      "べんぎ",
+      "じきゅう"
+    ],
+    "correct": "かじょうがき"
+  },
+  {
+    "question": "What is the reading of \"過剰\"?",
+    "word": "過剰",
+    "options": [
+      "ひへい",
+      "てんぼう",
+      "べんぎ",
+      "かじょう"
+    ],
+    "correct": "かじょう"
+  },
+  {
+    "question": "What is the reading of \"稼働\"?",
+    "word": "稼働",
+    "options": [
+      "かどう",
+      "ごうどう",
+      "ししゅう",
+      "ふはい"
+    ],
+    "correct": "かどう"
+  },
+  {
+    "question": "What is the reading of \"管轄\"?",
+    "word": "管轄",
+    "options": [
+      "こうたく",
+      "かんかつ",
+      "じょうせい",
+      "きんこう"
+    ],
+    "correct": "かんかつ"
+  },
+  {
+    "question": "What is the reading of \"慣行\"?",
+    "word": "慣行",
+    "options": [
+      "しもん",
+      "ごうか",
+      "こうせい",
+      "かんこう"
+    ],
+    "correct": "かんこう"
+  },
+  {
+    "question": "What is the reading of \"勧告\"?",
+    "word": "勧告",
+    "options": [
+      "きょうしゅう",
+      "かくしゅ",
+      "ていたく",
+      "かんこく"
+    ],
+    "correct": "かんこく"
+  },
+  {
+    "question": "What is the reading of \"看守\"?",
+    "word": "看守",
+    "options": [
+      "じったい",
+      "かんしゅ",
+      "すいしょう",
+      "せっちゅう"
+    ],
+    "correct": "かんしゅ"
+  },
+  {
+    "question": "What is the reading of \"干渉\"?",
+    "word": "干渉",
+    "options": [
+      "きょうじゅつ",
+      "しもん",
+      "かしつ",
+      "かんしょう"
+    ],
+    "correct": "かんしょう"
+  },
+  {
+    "question": "What is the reading of \"感触\"?",
+    "word": "感触",
+    "options": [
+      "しょじ",
+      "かんしょく",
+      "ほうかつ",
+      "ちゅうこく"
+    ],
+    "correct": "かんしょく"
+  },
+  {
+    "question": "What is the reading of \"観点\"?",
+    "word": "観点",
+    "options": [
+      "ねばり",
+      "かんてん",
+      "ちょうわ",
+      "ばける"
+    ],
+    "correct": "かんてん"
+  },
+  {
+    "question": "What is the reading of \"感度\"?",
+    "word": "感度",
+    "options": [
+      "かんど",
+      "ちょさく",
+      "じこう",
+      "じゅうふく"
+    ],
+    "correct": "かんど"
+  },
+  {
+    "question": "What is the reading of \"幹部\"?",
+    "word": "幹部",
+    "options": [
+      "はんどう",
+      "せっちゅう",
+      "management, executive, nucleus",
+      "しんじょう"
+    ],
+    "correct": "management, executive, nucleus"
+  },
+  {
+    "question": "What is the reading of \"勘弁\"?",
+    "word": "勘弁",
+    "options": [
+      "かんべん",
+      "ひりつ",
+      "どじょう",
+      "ちんれつ"
+    ],
+    "correct": "かんべん"
+  },
+  {
+    "question": "What is the reading of \"完璧\"?",
+    "word": "完璧",
+    "options": [
+      "はんけつ",
+      "きょうせい",
+      "こうせい",
+      "かんぺき"
+    ],
+    "correct": "かんぺき"
+  },
+  {
+    "question": "What is the reading of \"官僚\"?",
+    "word": "官僚",
+    "options": [
+      "かんりょう",
+      "ちょさく",
+      "かくしん",
+      "かくりょう"
+    ],
+    "correct": "かんりょう"
+  },
+  {
+    "question": "What is the reading of \"寛容\"?",
+    "word": "寛容",
+    "options": [
+      "かんよう",
+      "がっち",
+      "しゅどう",
+      "じょうほ"
+    ],
+    "correct": "かんよう"
+  },
+  {
+    "question": "What is the reading of \"概説\"?",
+    "word": "概説",
+    "options": [
+      "きょうい",
+      "こうにん",
+      "きょうたん",
+      "がいせつ"
+    ],
+    "correct": "がいせつ"
+  },
+  {
+    "question": "What is the reading of \"該当\"?",
+    "word": "該当",
+    "options": [
+      "がいとう",
+      "ぶじょく",
+      "よくせい",
+      "けいろ"
+    ],
+    "correct": "がいとう"
+  },
+  {
+    "question": "What is the reading of \"街頭\"?",
+    "word": "街頭",
+    "options": [
+      "がいとう",
+      "しすう",
+      "どうき",
+      "きょうしゅう"
+    ],
+    "correct": "がいとう"
+  },
+  {
+    "question": "What is the reading of \"概念\"?",
+    "word": "概念",
+    "options": [
+      "せいれん",
+      "しゅどう",
+      "きんこう",
+      "がいねん"
+    ],
+    "correct": "がいねん"
+  },
+  {
+    "question": "What is the reading of \"外貨\"?",
+    "word": "外貨",
+    "options": [
+      "きょてん",
+      "がいか",
+      "こうふ",
+      "しぎょう"
+    ],
+    "correct": "がいか"
+  },
+  {
+    "question": "What is the reading of \"学芸\"?",
+    "word": "学芸",
+    "options": [
+      "だったい",
+      "かそく",
+      "がくげい",
+      "てんかん"
+    ],
+    "correct": "がくげい"
+  },
+  {
+    "question": "What is the reading of \"学士\"?",
+    "word": "学士",
+    "options": [
+      "しもん",
+      "しせつ",
+      "はんのう",
+      "がくし"
+    ],
+    "correct": "がくし"
+  },
+  {
+    "question": "What is the reading of \"学説\"?",
+    "word": "学説",
+    "options": [
+      "がくせつ",
+      "こうはい",
+      "とうひ",
+      "きょうじゅ"
+    ],
+    "correct": "がくせつ"
+  },
+  {
+    "question": "What is the reading of \"合致\"?",
+    "word": "合致",
+    "options": [
+      "かくほ",
+      "こうぎょう",
+      "がいせつ",
+      "がっち"
+    ],
+    "correct": "がっち"
+  },
+  {
+    "question": "What is the reading of \"合併\"?",
+    "word": "合併",
+    "options": [
+      "すいちょく",
+      "はんけつ",
+      "すいしょう",
+      "がっぺい"
+    ],
+    "correct": "がっぺい"
+  },
+  {
+    "question": "What is the reading of \"願望\"?",
+    "word": "願望",
+    "options": [
+      "してい",
+      "がくし",
+      "じんりょく",
+      "がんぼう"
+    ],
+    "correct": "がんぼう"
+  },
+  {
+    "question": "What is the reading of \"含有\"?",
+    "word": "含有",
+    "options": [
+      "じょうちょ",
+      "せいり",
+      "たいこう",
+      "がんゆう"
+    ],
+    "correct": "がんゆう"
+  },
+  {
+    "question": "What is the reading of \"毅然\"?",
+    "word": "毅然",
+    "options": [
+      "きぜん",
+      "せんれん",
+      "こうひょう",
+      "ねんしょう"
+    ],
+    "correct": "きぜん"
+  },
+  {
+    "question": "What is the reading of \"奇跡\"?",
+    "word": "奇跡",
+    "options": [
+      "きせき",
+      "きんみつ",
+      "がくせつ",
+      "こうにん"
+    ],
+    "correct": "きせき"
+  },
+  {
+    "question": "What is the reading of \"貴族\"?",
+    "word": "貴族",
+    "options": [
+      "ごうどう",
+      "きょどう",
+      "つうしょう",
+      "きぞく"
+    ],
+    "correct": "きぞく"
+  },
+  {
+    "question": "What is the reading of \"起点\"?",
+    "word": "起点",
+    "options": [
+      "じっせん",
+      "きてん",
+      "しもん",
+      "はんぱつ"
+    ],
+    "correct": "きてん"
+  },
+  {
+    "question": "What is the reading of \"軌道\"?",
+    "word": "軌道",
+    "options": [
+      "きょうたん",
+      "かんわ",
+      "きどう",
+      "とくめい"
+    ],
+    "correct": "きどう"
+  },
+  {
+    "question": "What is the reading of \"規範\"?",
+    "word": "規範",
+    "options": [
+      "きはん",
+      "ごうかく",
+      "きんこう",
+      "きょうじゅ"
+    ],
+    "correct": "きはん"
+  },
+  {
+    "question": "What is the reading of \"起伏\"?",
+    "word": "起伏",
+    "options": [
+      "じこう",
+      "きふく",
+      "ちょうしゅう",
+      "とうひ"
+    ],
+    "correct": "きふく"
+  },
+  {
+    "question": "What is the reading of \"規模\"?",
+    "word": "規模",
+    "options": [
+      "しょうごう",
+      "きょくせつ",
+      "きぼ",
+      "ちゅうざい"
+    ],
+    "correct": "きぼ"
+  },
+  {
+    "question": "What is the reading of \"規約\"?",
+    "word": "規約",
+    "options": [
+      "ごうどう",
+      "しゅどう",
+      "がいねん",
+      "きやく"
+    ],
+    "correct": "きやく"
+  },
+  {
+    "question": "What is the reading of \"起用\"?",
+    "word": "起用",
+    "options": [
+      "きよう",
+      "しさ",
+      "けいばつ",
+      "けいたい"
+    ],
+    "correct": "きよう"
+  },
+  {
+    "question": "What is the reading of \"享受\"?",
+    "word": "享受",
+    "options": [
+      "じゅんかつ",
+      "じょこう",
+      "かんよう",
+      "きょうじゅ"
+    ],
+    "correct": "きょうじゅ"
+  },
+  {
+    "question": "What is the reading of \"郷愁\"?",
+    "word": "郷愁",
+    "options": [
+      "きょうしゅう",
+      "ひじゅん",
+      "こうふく",
+      "しょち"
+    ],
+    "correct": "きょうしゅう"
+  },
+  {
+    "question": "What is the reading of \"興行\"?",
+    "word": "興行",
+    "options": [
+      "じぞく",
+      "ちゅうせん",
+      "こうぎょう",
+      "はんけつ"
+    ],
+    "correct": "こうぎょう"
+  },
+  {
+    "question": "What is the reading of \"講師\"?",
+    "word": "講師",
+    "options": [
+      "こうし",
+      "けっかん",
+      "つうこく",
+      "きょうい"
+    ],
+    "correct": "こうし"
+  },
+  {
+    "question": "What is the reading of \"公使\"?",
+    "word": "公使",
+    "options": [
+      "きょうかい",
+      "せいだい",
+      "しょうげん",
+      "こうし"
+    ],
+    "correct": "こうし"
+  },
+  {
+    "question": "What is the reading of \"行使\"?",
+    "word": "行使",
+    "options": [
+      "しっと",
+      "こっけい",
+      "こうし",
+      "へんせん"
+    ],
+    "correct": "こうし"
+  },
+  {
+    "question": "What is the reading of \"更生\"?",
+    "word": "更生",
+    "options": [
+      "こうせい",
+      "どうにゅう",
+      "しさ",
+      "べんぎ"
+    ],
+    "correct": "こうせい"
+  },
+  {
+    "question": "What is the reading of \"公正\"?",
+    "word": "公正",
+    "options": [
+      "こうはい",
+      "こうせい",
+      "たいこう",
+      "こうねつひ"
+    ],
+    "correct": "こうせい"
+  },
+  {
+    "question": "What is the reading of \"構成\"?",
+    "word": "構成",
+    "options": [
+      "せいだい",
+      "せつり",
+      "つうち",
+      "こうせい"
+    ],
+    "correct": "こうせい"
+  },
+  {
+    "question": "What is the reading of \"拘束\"?",
+    "word": "拘束",
+    "options": [
+      "こうそく",
+      "なげく",
+      "じゅうふく",
+      "せっちゅう"
+    ],
+    "correct": "こうそく"
+  },
+  {
+    "question": "What is the reading of \"後退\"?",
+    "word": "後退",
+    "options": [
+      "かくさ",
+      "こうたい",
+      "ごうり",
+      "しれい"
+    ],
+    "correct": "こうたい"
+  },
+  {
+    "question": "What is the reading of \"光沢\"?",
+    "word": "光沢",
+    "options": [
+      "こうたく",
+      "こうぎょう",
+      "きょうぎ",
+      "せつじつ"
+    ],
+    "correct": "こうたく"
+  },
+  {
+    "question": "What is the reading of \"公邸\"?",
+    "word": "公邸",
+    "options": [
+      "がっち",
+      "ひやく",
+      "こうてい",
+      "けいせい"
+    ],
+    "correct": "こうてい"
+  },
+  {
+    "question": "What is the reading of \"肯定\"?",
+    "word": "肯定",
+    "options": [
+      "しょめい",
+      "こうてい",
+      "せいは",
+      "てっかい"
+    ],
+    "correct": "こうてい"
+  },
+  {
+    "question": "What is the reading of \"高度\"?",
+    "word": "高度",
+    "options": [
+      "こうど",
+      "はんらん",
+      "じこう",
+      "せいみつど"
+    ],
+    "correct": "こうど"
+  },
+  {
+    "question": "What is the reading of \"購読\"?",
+    "word": "購読",
+    "options": [
+      "ちょさく",
+      "ほうち",
+      "すうはい",
+      "こうどく"
+    ],
+    "correct": "こうどく"
+  },
+  {
+    "question": "What is the reading of \"購入\"?",
+    "word": "購入",
+    "options": [
+      "こうにゅう",
+      "ぎょうむ",
+      "ばいたい",
+      "こうせい"
+    ],
+    "correct": "こうにゅう"
+  },
+  {
+    "question": "What is the reading of \"公認\"?",
+    "word": "公認",
+    "options": [
+      "こうみょう",
+      "ごうか",
+      "こうにん",
+      "がくせつ"
+    ],
+    "correct": "こうにん"
+  },
+  {
+    "question": "What is the reading of \"荒廃\"?",
+    "word": "荒廃",
+    "options": [
+      "じにん",
+      "ひきょう",
+      "こうはい",
+      "だは"
+    ],
+    "correct": "こうはい"
+  },
+  {
+    "question": "What is the reading of \"購買\"?",
+    "word": "購買",
+    "options": [
+      "ついらく",
+      "ふか",
+      "こうばい",
+      "こうそく"
+    ],
+    "correct": "こうばい"
+  },
+  {
+    "question": "What is the reading of \"公表\"?",
+    "word": "公表",
+    "options": [
+      "こうひょう",
+      "はんしょく",
+      "かくさ",
+      "かくしん"
+    ],
+    "correct": "こうひょう"
+  },
+  {
+    "question": "What is the reading of \"巧妙\"?",
+    "word": "巧妙",
+    "options": [
+      "きょうたん",
+      "ごうどう",
+      "こうみょう",
+      "けいばつ"
+    ],
+    "correct": "こうみょう"
+  },
+  {
+    "question": "What is the reading of \"小売\"?",
+    "word": "小売",
+    "options": [
+      "すいそく",
+      "こうり",
+      "じったい",
+      "せんりょう"
+    ],
+    "correct": "こうり"
+  },
+  {
+    "question": "What is the reading of \"効率\"?",
+    "word": "効率",
+    "options": [
+      "はんえい",
+      "はんえい",
+      "こうりつ",
+      "どうき"
+    ],
+    "correct": "こうりつ"
+  },
+  {
+    "question": "What is the reading of \"公録\"?",
+    "word": "公録",
+    "options": [
+      "てんか",
+      "はげむ",
+      "ついらく",
+      "こうろく"
+    ],
+    "correct": "こうろく"
+  },
+  {
+    "question": "What is the reading of \"克服\"?",
+    "word": "克服",
+    "options": [
+      "じゅりつ",
+      "はあく",
+      "こくふく",
+      "せいりょく"
+    ],
+    "correct": "こくふく"
+  },
+  {
+    "question": "What is the reading of \"告知\"?",
+    "word": "告知",
+    "options": [
+      "きょどう",
+      "はけん",
+      "かくしん",
+      "こくち"
+    ],
+    "correct": "こくち"
+  },
+  {
+    "question": "What is the reading of \"心得\"?",
+    "word": "心得",
+    "options": [
+      "がいとう",
+      "かくほ",
+      "けいろ",
+      "こころえ"
+    ],
+    "correct": "こころえ"
+  },
+  {
+    "question": "What is the reading of \"試行錯誤\"?",
+    "word": "試行錯誤",
+    "options": [
+      "きょうじゅ",
+      "こうにん",
+      "ぎょうせき",
+      "しこうさくご"
+    ],
+    "correct": "しこうさくご"
+  },
+  {
+    "question": "What is the reading of \"施設\"?",
+    "word": "施設",
+    "options": [
+      "せいやく",
+      "しせつ",
+      "きやく",
+      "こうりつ"
+    ],
+    "correct": "しせつ"
+  },
+  {
+    "question": "What is the reading of \"施行\"?",
+    "word": "施行",
+    "options": [
+      "しぎょう",
+      "こうにゅう",
+      "こうてい",
+      "きぞく"
+    ],
+    "correct": "しぎょう"
+  },
+  {
+    "question": "What is the reading of \"刺激\"?",
+    "word": "刺激",
+    "options": [
+      "しげき",
+      "しゅぎょう",
+      "こうにん",
+      "ついらく"
+    ],
+    "correct": "しげき"
+  },
+  {
+    "question": "What is the reading of \"自源\"?",
+    "word": "自源",
+    "options": [
+      "じゅんかん",
+      "しげん",
+      "きはん",
+      "かくとく"
+    ],
+    "correct": "しげん"
+  },
+  {
+    "question": "What is the reading of \"思考\"?",
+    "word": "思考",
+    "options": [
+      "すいい",
+      "しこう",
+      "ほうかい",
+      "きょうじゅつ"
+    ],
+    "correct": "しこう"
+  },
+  {
+    "question": "What is the reading of \"志向\"?",
+    "word": "志向",
+    "options": [
+      "ついらく",
+      "ねばり",
+      "つうしょう",
+      "しこう"
+    ],
+    "correct": "しこう"
+  },
+  {
+    "question": "What is the reading of \"指向\"?",
+    "word": "指向",
+    "options": [
+      "してん",
+      "しすう",
+      "かくさん",
+      "しこう"
+    ],
+    "correct": "しこう"
+  },
+  {
+    "question": "What is the reading of \"示唆\"?",
+    "word": "示唆",
+    "options": [
+      "じょうせい",
+      "しょうごう",
+      "しさ",
+      "しょざい"
+    ],
+    "correct": "しさ"
+  },
+  {
+    "question": "What is the reading of \"視察\"?",
+    "word": "視察",
+    "options": [
+      "しさつ",
+      "ちょさく",
+      "じまん",
+      "じょうりく"
+    ],
+    "correct": "しさつ"
+  },
+  {
+    "question": "What is the reading of \"資産\"?",
+    "word": "資産",
+    "options": [
+      "びみょう",
+      "ふっきゅう",
+      "ほうかつ",
+      "しさん"
+    ],
+    "correct": "しさん"
+  },
+  {
+    "question": "What is the reading of \"刺繍\"?",
+    "word": "刺繍",
+    "options": [
+      "きょうじゅ",
+      "ししゅう",
+      "ぜにん",
+      "ていたく"
+    ],
+    "correct": "ししゅう"
+  },
+  {
+    "question": "What is the reading of \"支持\"?",
+    "word": "支持",
+    "options": [
+      "そうかつ",
+      "じょうせい",
+      "そがい",
+      "しじ"
+    ],
+    "correct": "しじ"
+  },
+  {
+    "question": "What is the reading of \"指標\"?",
+    "word": "指標",
+    "options": [
+      "しせつ",
+      "しひょう",
+      "しんわ",
+      "こうにん"
+    ],
+    "correct": "しひょう"
+  },
+  {
+    "question": "What is the reading of \"指数\"?",
+    "word": "指数",
+    "options": [
+      "しすう",
+      "かんしょく",
+      "へんせん",
+      "ほうかつ"
+    ],
+    "correct": "しすう"
+  },
+  {
+    "question": "What is the reading of \"視点\"?",
+    "word": "視点",
+    "options": [
+      "かんしょく",
+      "だんりょく",
+      "てんかん",
+      "してん"
+    ],
+    "correct": "してん"
+  },
+  {
+    "question": "What is the reading of \"自任\"?",
+    "word": "自任",
+    "options": [
+      "じにん",
+      "だったい",
+      "ぎょうし",
+      "かんぺき"
+    ],
+    "correct": "じにん"
+  },
+  {
+    "question": "What is the reading of \"執筆\"?",
+    "word": "執筆",
+    "options": [
+      "しょざい",
+      "ひさん",
+      "けいろ",
+      "しっぴつ"
+    ],
+    "correct": "しっぴつ"
+  },
+  {
+    "question": "What is the reading of \"失調\"?",
+    "word": "失調",
+    "options": [
+      "しっちょう",
+      "けんい",
+      "きやく",
+      "きょうしゅう"
+    ],
+    "correct": "しっちょう"
+  },
+  {
+    "question": "What is the reading of \"嫉妬\"?",
+    "word": "嫉妬",
+    "options": [
+      "しっと",
+      "かくしゅ",
+      "おせん",
+      "こうりゅう"
+    ],
+    "correct": "しっと"
+  },
+  {
+    "question": "What is the reading of \"質量\"?",
+    "word": "質量",
+    "options": [
+      "へいしゃ",
+      "てんか",
+      "しつりょう",
+      "はんどう"
+    ],
+    "correct": "しつりょう"
+  },
+  {
+    "question": "What is the reading of \"指定\"?",
+    "word": "指定",
+    "options": [
+      "しさ",
+      "じゅりつ",
+      "してい",
+      "こっけい"
+    ],
+    "correct": "してい"
+  },
+  {
+    "question": "What is the reading of \"指摘\"?",
+    "word": "指摘",
+    "options": [
+      "じっせん",
+      "してき",
+      "けいしゃ",
+      "べんぎ"
+    ],
+    "correct": "してき"
+  },
+  {
+    "question": "What is the reading of \"私的\"?",
+    "word": "私的",
+    "options": [
+      "してき",
+      "ふずい",
+      "しじ",
+      "はんどう"
+    ],
+    "correct": "してき"
+  },
+  {
+    "question": "What is the reading of \"視野\"?",
+    "word": "視野",
+    "options": [
+      "けいせき",
+      "きょうしゅう",
+      "すいちょく",
+      "しや"
+    ],
+    "correct": "しや"
+  },
+  {
+    "question": "What is the reading of \"主観\"?",
+    "word": "主観",
+    "options": [
+      "すいてい",
+      "せいし",
+      "じょうやく",
+      "しゅかん"
+    ],
+    "correct": "しゅかん"
+  },
+  {
+    "question": "What is the reading of \"修行\"?",
+    "word": "修行",
+    "options": [
+      "ほうかつ",
+      "しこう",
+      "せいは",
+      "しゅぎょう"
+    ],
+    "correct": "しゅぎょう"
+  },
+  {
+    "question": "What is the reading of \"主導\"?",
+    "word": "主導",
+    "options": [
+      "ていたく",
+      "しゅどう",
+      "ねんしょう",
+      "すいこう"
+    ],
+    "correct": "しゅどう"
+  },
+  {
+    "question": "What is the reading of \"守備\"?",
+    "word": "守備",
+    "options": [
+      "しゅび",
+      "かくてい",
+      "しゅし",
+      "きょうぎ"
+    ],
+    "correct": "しゅび"
+  },
+  {
+    "question": "What is the reading of \"執着\"?",
+    "word": "執着",
+    "options": [
+      "せいれつ",
+      "しゅうちゃく",
+      "たいとう",
+      "すうじく"
+    ],
+    "correct": "しゅうちゃく"
+  },
+  {
+    "question": "What is the reading of \"収容\"?",
+    "word": "収容",
+    "options": [
+      "しゅうよう",
+      "しんてん",
+      "しゅうちゃく",
+      "こうどく"
+    ],
+    "correct": "しゅうよう"
+  },
+  {
+    "question": "What is the reading of \"修了\"?",
+    "word": "修了",
+    "options": [
+      "しさつ",
+      "しょうさい",
+      "こうみょう",
+      "しゅうりょう"
+    ],
+    "correct": "しゅうりょう"
+  },
+  {
+    "question": "What is the reading of \"取得\"?",
+    "word": "取得",
+    "options": [
+      "ひじゅん",
+      "こうりょ",
+      "しゅとく",
+      "ごういん"
+    ],
+    "correct": "しゅとく"
+  },
+  {
+    "question": "What is the reading of \"趣旨\"?",
+    "word": "趣旨",
+    "options": [
+      "ひだい",
+      "せいとう",
+      "そち",
+      "しゅし"
+    ],
+    "correct": "しゅし"
+  },
+  {
+    "question": "What is the reading of \"縮小\"?",
+    "word": "縮小",
+    "options": [
+      "かくほ",
+      "かじょうがき",
+      "しゅくしょう",
+      "きんみつ"
+    ],
+    "correct": "しゅくしょう"
+  },
+  {
+    "question": "What is the reading of \"熟練\"?",
+    "word": "熟練",
+    "options": [
+      "じゅくれん",
+      "かくしん",
+      "じゅんきょ",
+      "ひだい"
+    ],
+    "correct": "じゅくれん"
+  },
+  {
+    "question": "What is the reading of \"樹立\"?",
+    "word": "樹立",
+    "options": [
+      "かんしゅ",
+      "きょうぎ",
+      "ふきょう",
+      "じゅりつ"
+    ],
+    "correct": "じゅりつ"
+  },
+  {
+    "question": "What is the reading of \"準拠\"?",
+    "word": "準拠",
+    "options": [
+      "かくさ",
+      "はげむ",
+      "はあく",
+      "じゅんきょ"
+    ],
+    "correct": "じゅんきょ"
+  },
+  {
+    "question": "What is the reading of \"循環\"?",
+    "word": "循環",
+    "options": [
+      "すいち",
+      "じょうほ",
+      "だんぜつ",
+      "じゅんかん"
+    ],
+    "correct": "じゅんかん"
+  },
+  {
+    "question": "What is the reading of \"享受\"?",
+    "word": "享受",
+    "options": [
+      "じょうほ",
+      "きょうじゅ",
+      "かいにゅう",
+      "かんしょう"
+    ],
+    "correct": "きょうじゅ"
+  },
+  {
+    "question": "What is the reading of \"称号\"?",
+    "word": "称号",
+    "options": [
+      "きせき",
+      "しょうれい",
+      "しょうごう",
+      "しすう"
+    ],
+    "correct": "しょうごう"
+  },
+  {
+    "question": "What is the reading of \"衝撃\"?",
+    "word": "衝撃",
+    "options": [
+      "しさつ",
+      "こうど",
+      "びみょう",
+      "しょうげき"
+    ],
+    "correct": "しょうげき"
+  },
+  {
+    "question": "What is the reading of \"証言\"?",
+    "word": "証言",
+    "options": [
+      "しょうげん",
+      "ついらく",
+      "せいは",
+      "べんぎ"
+    ],
+    "correct": "しょうげん"
+  },
+  {
+    "question": "What is the reading of \"照合\"?",
+    "word": "照合",
+    "options": [
+      "どうよう",
+      "ぎょうし",
+      "しょうごう",
+      "きょうじゅ"
+    ],
+    "correct": "しょうごう"
+  },
+  {
+    "question": "What is the reading of \"詳細\"?",
+    "word": "詳細",
+    "options": [
+      "せんりょう",
+      "じりき",
+      "どうき",
+      "しょうさい"
+    ],
+    "correct": "しょうさい"
+  },
+  {
+    "question": "What is the reading of \"昇進\"?",
+    "word": "昇進",
+    "options": [
+      "しつりょう",
+      "きょうたん",
+      "ひろう",
+      "しょうしん"
+    ],
+    "correct": "しょうしん"
+  },
+  {
+    "question": "What is the reading of \"称賛\"?",
+    "word": "称賛",
+    "options": [
+      "しょうさん",
+      "きょうしゅう",
+      "こうばい",
+      "へんけん"
+    ],
+    "correct": "しょうさん"
+  },
+  {
+    "question": "What is the reading of \"承認\"?",
+    "word": "承認",
+    "options": [
+      "せんこく",
+      "せっちゅう",
+      "しょうにん",
+      "ひはん"
+    ],
+    "correct": "しょうにん"
+  },
+  {
+    "question": "What is the reading of \"消耗\"?",
+    "word": "消耗",
+    "options": [
+      "ききゃく",
+      "きんこう",
+      "かくしゅ",
+      "しょうもう"
+    ],
+    "correct": "しょうもう"
+  },
+  {
+    "question": "What is the reading of \"奨励\"?",
+    "word": "奨励",
+    "options": [
+      "きんこう",
+      "しょうれい",
+      "こくち",
+      "きょうぐう"
+    ],
+    "correct": "しょうれい"
+  },
+  {
+    "question": "What is the reading of \"所在\"?",
+    "word": "所在",
+    "options": [
+      "しょざい",
+      "かんげん",
+      "こうりつ",
+      "になう"
+    ],
+    "correct": "しょざい"
+  },
+  {
+    "question": "What is the reading of \"所持\"?",
+    "word": "所持",
+    "options": [
+      "しょじ",
+      "てんけい",
+      "だきょう",
+      "じゅうなん"
+    ],
+    "correct": "しょじ"
+  },
+  {
+    "question": "What is the reading of \"処置\"?",
+    "word": "処置",
+    "options": [
+      "こうど",
+      "きょうたん",
+      "しょち",
+      "せんこく"
+    ],
+    "correct": "しょち"
+  },
+  {
+    "question": "What is the reading of \"署名\"?",
+    "word": "署名",
+    "options": [
+      "かそく",
+      "しょめい",
+      "せんれん",
+      "きょうぐう"
+    ],
+    "correct": "しょめい"
+  },
+  {
+    "question": "What is the reading of \"指令\"?",
+    "word": "指令",
+    "options": [
+      "しれい",
+      "はいぜつ",
+      "かくとく",
+      "しゅどう"
+    ],
+    "correct": "しれい"
+  },
+  {
+    "question": "What is the reading of \"進出\"?",
+    "word": "進出",
+    "options": [
+      "しんしゅつ",
+      "たいまん",
+      "そうしょく",
+      "せいりょく"
+    ],
+    "correct": "しんしゅつ"
+  },
+  {
+    "question": "What is the reading of \"信条\"?",
+    "word": "信条",
+    "options": [
+      "しんじょう",
+      "じょうちゅう",
+      "かくさ",
+      "よくせい"
+    ],
+    "correct": "しんじょう"
+  },
+  {
+    "question": "What is the reading of \"進展\"?",
+    "word": "進展",
+    "options": [
+      "しんてん",
+      "かんか",
+      "かんど",
+      "がっぺい"
+    ],
+    "correct": "しんてん"
+  },
+  {
+    "question": "What is the reading of \"神話\"?",
+    "word": "神話",
+    "options": [
+      "ぎょうむ",
+      "ぎんみ",
+      "かんりょう",
+      "しんわ"
+    ],
+    "correct": "しんわ"
+  },
+  {
+    "question": "What is the reading of \"自給\"?",
+    "word": "自給",
+    "options": [
+      "じきゅう",
+      "じょうよ",
+      "けんい",
+      "かくしゅ"
+    ],
+    "correct": "じきゅう"
+  },
+  {
+    "question": "What is the reading of \"事項\"?",
+    "word": "事項",
+    "options": [
+      "じこう",
+      "とくしゅ",
+      "こうせい",
+      "ぎょうし"
+    ],
+    "correct": "じこう"
+  },
+  {
+    "question": "What is the reading of \"持久\"?",
+    "word": "持久",
+    "options": [
+      "じきゅう",
+      "せいりょく",
+      "きはん",
+      "してき"
+    ],
+    "correct": "じきゅう"
+  },
+  {
+    "question": "What is the reading of \"辞退\"?",
+    "word": "辞退",
+    "options": [
+      "せんにゅう",
+      "ほうき",
+      "じたい",
+      "せいきょう"
+    ],
+    "correct": "じたい"
+  },
+  {
+    "question": "What is the reading of \"実態\"?",
+    "word": "実態",
+    "options": [
+      "ごういん",
+      "かくしゅう",
+      "せんにゅう",
+      "じったい"
+    ],
+    "correct": "じったい"
+  },
+  {
+    "question": "What is the reading of \"実践\"?",
+    "word": "実践",
+    "options": [
+      "じっせん",
+      "こうせい",
+      "ていたく",
+      "いっそう"
+    ],
+    "correct": "じっせん"
+  },
+  {
+    "question": "What is the reading of \"実務\"?",
+    "word": "実務",
+    "options": [
+      "きょうじゅ",
+      "こうふく",
+      "きょうじゅ",
+      "じつむ"
+    ],
+    "correct": "じつむ"
+  },
+  {
+    "question": "What is the reading of \"辞任\"?",
+    "word": "辞任",
+    "options": [
+      "じにん",
+      "しげん",
+      "ごうかく",
+      "ぎょうせき"
+    ],
+    "correct": "じにん"
+  },
+  {
+    "question": "What is the reading of \"持続\"?",
+    "word": "持続",
+    "options": [
+      "いんぺい",
+      "はいしん",
+      "じぞく",
+      "はんえい"
+    ],
+    "correct": "じぞく"
+  },
+  {
+    "question": "What is the reading of \"地元\"?",
+    "word": "地元",
+    "options": [
+      "がくせつ",
+      "しょうさい",
+      "ぎょうせい",
+      "じもと"
+    ],
+    "correct": "じもと"
+  },
+  {
+    "question": "What is the reading of \"自慢\"?",
+    "word": "自慢",
+    "options": [
+      "じゅんすい",
+      "おせん",
+      "かんこう",
+      "じまん"
+    ],
+    "correct": "じまん"
+  },
+  {
+    "question": "What is the reading of \"充実\"?",
+    "word": "充実",
+    "options": [
+      "じゅうじつ",
+      "ちっそく",
+      "せいりょく",
+      "どうき"
+    ],
+    "correct": "じゅうじつ"
+  },
+  {
+    "question": "What is the reading of \"柔軟\"?",
+    "word": "柔軟",
+    "options": [
+      "こうひょう",
+      "きんみつ",
+      "はくじゃく",
+      "じゅうなん"
+    ],
+    "correct": "じゅうなん"
+  },
+  {
+    "question": "What is the reading of \"充足\"?",
+    "word": "充足",
+    "options": [
+      "じゅうそく",
+      "てんかん",
+      "べんぎ",
+      "こうふ"
+    ],
+    "correct": "じゅうそく"
+  },
+  {
+    "question": "What is the reading of \"重複\"?",
+    "word": "重複",
+    "options": [
+      "ついほう",
+      "じゅうふく",
+      "じもと",
+      "じにん"
+    ],
+    "correct": "じゅうふく"
+  },
+  {
+    "question": "What is the reading of \"熟達\"?",
+    "word": "熟達",
+    "options": [
+      "かんしょく",
+      "じゅくたつ",
+      "しさん",
+      "けいさい"
+    ],
+    "correct": "じゅくたつ"
+  },
+  {
+    "question": "What is the reading of \"授与\"?",
+    "word": "授与",
+    "options": [
+      "じゅよ",
+      "かいひ",
+      "ひみつ",
+      "てったい"
+    ],
+    "correct": "じゅよ"
+  },
+  {
+    "question": "What is the reading of \"受領\"?",
+    "word": "受領",
+    "options": [
+      "とくめい",
+      "しんしゅつ",
+      "じゅりょう",
+      "てんかん"
+    ],
+    "correct": "じゅりょう"
+  },
+  {
+    "question": "What is the reading of \"潤滑\"?",
+    "word": "潤滑",
+    "options": [
+      "じゅんかつ",
+      "はんい",
+      "きょくげん",
+      "きょうじゅ"
+    ],
+    "correct": "じゅんかつ"
+  },
+  {
+    "question": "What is the reading of \"純粋\"?",
+    "word": "純粋",
+    "options": [
+      "じゅんすい",
+      "はんしょく",
+      "こうふ",
+      "かくほ"
+    ],
+    "correct": "じゅんすい"
+  },
+  {
+    "question": "What is the reading of \"準用\"?",
+    "word": "準用",
+    "options": [
+      "せいとう",
+      "なげく",
+      "じゅんよう",
+      "じりつ"
+    ],
+    "correct": "じゅんよう"
+  },
+  {
+    "question": "What is the reading of \"譲与\"?",
+    "word": "譲与",
+    "options": [
+      "ぎょうせき",
+      "してい",
+      "じょうよ",
+      "しゅうよう"
+    ],
+    "correct": "じょうよ"
+  },
+  {
+    "question": "What is the reading of \"情勢\"?",
+    "word": "情勢",
+    "options": [
+      "じょうせい",
+      "じれい",
+      "かんかつ",
+      "こうにん"
+    ],
+    "correct": "じょうせい"
+  },
+  {
+    "question": "What is the reading of \"情緒\"?",
+    "word": "情緒",
+    "options": [
+      "じったい",
+      "つうち",
+      "ちゅうせん",
+      "じょうちょ"
+    ],
+    "correct": "じょうちょ"
+  },
+  {
+    "question": "What is the reading of \"常駐\"?",
+    "word": "常駐",
+    "options": [
+      "じょうちゅう",
+      "しぎょう",
+      "こうど",
+      "こうぎょう"
+    ],
+    "correct": "じょうちゅう"
+  },
+  {
+    "question": "What is the reading of \"譲歩\"?",
+    "word": "譲歩",
+    "options": [
+      "じょうほ",
+      "ついほう",
+      "けいもう",
+      "きょうじゅ"
+    ],
+    "correct": "じょうほ"
+  },
+  {
+    "question": "What is the reading of \"条約\"?",
+    "word": "条約",
+    "options": [
+      "しんわ",
+      "かんわ",
+      "じょうやく",
+      "ぜせい"
+    ],
+    "correct": "じょうやく"
+  },
+  {
+    "question": "What is the reading of \"上陸\"?",
+    "word": "上陸",
+    "options": [
+      "せいり",
+      "かくしん",
+      "てんかん",
+      "じょうりく"
+    ],
+    "correct": "じょうりく"
+  },
+  {
+    "question": "What is the reading of \"蒸留\"?",
+    "word": "蒸留",
+    "options": [
+      "こうりゅう",
+      "はいりょ",
+      "じょうりゅう",
+      "ばいかい"
+    ],
+    "correct": "じょうりゅう"
+  },
+  {
+    "question": "What is the reading of \"助言\"?",
+    "word": "助言",
+    "options": [
+      "じょげん",
+      "きょうじゅ",
+      "しんわ",
+      "きょうじゅつ"
+    ],
+    "correct": "じょげん"
+  },
+  {
+    "question": "What is the reading of \"叙述\"?",
+    "word": "叙述",
+    "options": [
+      "ねつぞう",
+      "じょじゅつ",
+      "せいけい",
+      "しれい"
+    ],
+    "correct": "じょじゅつ"
+  },
+  {
+    "question": "What is the reading of \"徐行\"?",
+    "word": "徐行",
+    "options": [
+      "じょこう",
+      "どくせん",
+      "かくてい",
+      "きょうじゅ"
+    ],
+    "correct": "じょこう"
+  },
+  {
+    "question": "What is the reading of \"除去\"?",
+    "word": "除去",
+    "options": [
+      "そがい",
+      "ひはん",
+      "じょきょ",
+      "てんかん"
+    ],
+    "correct": "じょきょ"
+  },
+  {
+    "question": "What is the reading of \"指令\"?",
+    "word": "指令",
+    "options": [
+      "しれい",
+      "きょうたん",
+      "ふか",
+      "がいせつ"
+    ],
+    "correct": "しれい"
+  },
+  {
+    "question": "What is the reading of \"自立\"?",
+    "word": "自立",
+    "options": [
+      "じりつ",
+      "どっかい",
+      "しさ",
+      "かくとく"
+    ],
+    "correct": "じりつ"
+  },
+  {
+    "question": "What is the reading of \"事例\"?",
+    "word": "事例",
+    "options": [
+      "じれい",
+      "せいとう",
+      "きゅうめい",
+      "だんりょく"
+    ],
+    "correct": "じれい"
+  },
+  {
+    "question": "What is the reading of \"辞令\"?",
+    "word": "辞令",
+    "options": [
+      "じれい",
+      "ひやく",
+      "こうみょう",
+      "こうりょ"
+    ],
+    "correct": "じれい"
+  },
+  {
+    "question": "What is the reading of \"自力\"?",
+    "word": "自力",
+    "options": [
+      "じりき",
+      "きょうじゅ",
+      "きせき",
+      "そち"
+    ],
+    "correct": "じりき"
+  },
+  {
+    "question": "What is the reading of \"甚大\"?",
+    "word": "甚大",
+    "options": [
+      "じんだい",
+      "しんしゅつ",
+      "きょうさく",
+      "こうみょう"
+    ],
+    "correct": "じんだい"
+  },
+  {
+    "question": "What is the reading of \"人力\"?",
+    "word": "人力",
+    "options": [
+      "じんりき",
+      "こころえ",
+      "きょうじゅつ",
+      "こうりつ"
+    ],
+    "correct": "じんりき"
+  },
+  {
+    "question": "What is the reading of \"尽力\"?",
+    "word": "尽力",
+    "options": [
+      "じんりょく",
+      "きょうじゅ",
+      "こうせい",
+      "ついほう"
+    ],
+    "correct": "じんりょく"
+  },
+  {
+    "question": "What is the reading of \"随時\"?",
+    "word": "随時",
+    "options": [
+      "ずいじ",
+      "しせつ",
+      "かんど",
+      "せいやく"
+    ],
+    "correct": "ずいじ"
+  },
+  {
+    "question": "What is the reading of \"遂行\"?",
+    "word": "遂行",
+    "options": [
+      "きんこう",
+      "ちょうわ",
+      "しょうもう",
+      "すいこう"
+    ],
+    "correct": "すいこう"
+  },
+  {
+    "question": "What is the reading of \"推察\"?",
+    "word": "推察",
+    "options": [
+      "きょうじゅ",
+      "すいさつ",
+      "せいとう",
+      "しっちょう"
+    ],
+    "correct": "すいさつ"
+  },
+  {
+    "question": "What is the reading of \"推奨\"?",
+    "word": "推奨",
+    "options": [
+      "つうしょう",
+      "きょうぐう",
+      "きんこう",
+      "すいしょう"
+    ],
+    "correct": "すいしょう"
+  },
+  {
+    "question": "What is the reading of \"推敲\"?",
+    "word": "推敲",
+    "options": [
+      "すいこう",
+      "かこう",
+      "こうにん",
+      "きょうたん"
+    ],
+    "correct": "すいこう"
+  },
+  {
+    "question": "What is the reading of \"垂直\"?",
+    "word": "垂直",
+    "options": [
+      "すいちょく",
+      "こうりゅう",
+      "かじょう",
+      "けいもう"
+    ],
+    "correct": "すいちょく"
+  },
+  {
+    "question": "What is the reading of \"推測\"?",
+    "word": "推測",
+    "options": [
+      "すいそく",
+      "じたい",
+      "てっかい",
+      "じゅんすい"
+    ],
+    "correct": "すいそく"
+  },
+  {
+    "question": "What is the reading of \"推致\"?",
+    "word": "推致",
+    "options": [
+      "すいち",
+      "がいとう",
+      "こくち",
+      "てつや"
+    ],
+    "correct": "すいち"
+  },
+  {
+    "question": "What is the reading of \"推定\"?",
+    "word": "推定",
+    "options": [
+      "こうりゅう",
+      "すいてい",
+      "きてん",
+      "そち"
+    ],
+    "correct": "すいてい"
+  },
+  {
+    "question": "What is the reading of \"推進\"?",
+    "word": "推進",
+    "options": [
+      "すいしん",
+      "ばける",
+      "ぎょうせい",
+      "しゅし"
+    ],
+    "correct": "すいしん"
+  },
+  {
+    "question": "What is the reading of \"推移\"?",
+    "word": "推移",
+    "options": [
+      "かどう",
+      "すいい",
+      "へいしゃ",
+      "せんぼう"
+    ],
+    "correct": "すいい"
+  },
+  {
+    "question": "What is the reading of \"枢軸\"?",
+    "word": "枢軸",
+    "options": [
+      "じゅんすい",
+      "すうじく",
+      "こころえ",
+      "こうてい"
+    ],
+    "correct": "すうじく"
+  },
+  {
+    "question": "What is the reading of \"崇拝\"?",
+    "word": "崇拝",
+    "options": [
+      "すうはい",
+      "はげむ",
+      "せいれつ",
+      "しょめい"
+    ],
+    "correct": "すうはい"
+  },
+  {
+    "question": "What is the reading of \"据え置く\"?",
+    "word": "据え置く",
+    "options": [
+      "しゅぎょう",
+      "こうり",
+      "すえおく",
+      "ふずい"
+    ],
+    "correct": "すえおく"
+  },
+  {
+    "question": "What is the reading of \"清算\"?",
+    "word": "清算",
+    "options": [
+      "しょち",
+      "せいさん",
+      "へんかく",
+      "せいけい"
+    ],
+    "correct": "せいさん"
+  },
+  {
+    "question": "What is the reading of \"盛装\"?",
+    "word": "盛装",
+    "options": [
+      "はあく",
+      "きょうれつ",
+      "きょうたん",
+      "せいそう"
+    ],
+    "correct": "せいそう"
+  },
+  {
+    "question": "What is the reading of \"盛大\"?",
+    "word": "盛大",
+    "options": [
+      "こうりゅう",
+      "せいだい",
+      "せいび",
+      "べんご"
+    ],
+    "correct": "せいだい"
+  },
+  {
+    "question": "What is the reading of \"静止\"?",
+    "word": "静止",
+    "options": [
+      "しゅくしょう",
+      "せいし",
+      "きょうたん",
+      "つうち"
+    ],
+    "correct": "せいし"
+  },
+  {
+    "question": "What is the reading of \"正当\"?",
+    "word": "正当",
+    "options": [
+      "きょうたん",
+      "こうにん",
+      "ほうかつ",
+      "せいとう"
+    ],
+    "correct": "せいとう"
+  },
+  {
+    "question": "What is the reading of \"制覇\"?",
+    "word": "制覇",
+    "options": [
+      "じりつ",
+      "かんりょう",
+      "きょどう",
+      "せいは"
+    ],
+    "correct": "せいは"
+  },
+  {
+    "question": "What is the reading of \"整備\"?",
+    "word": "整備",
+    "options": [
+      "せいび",
+      "せいし",
+      "すいい",
+      "どうとう"
+    ],
+    "correct": "せいび"
+  },
+  {
+    "question": "What is the reading of \"制約\"?",
+    "word": "制約",
+    "options": [
+      "こうせい",
+      "はいき",
+      "せいやく",
+      "しょうもう"
+    ],
+    "correct": "せいやく"
+  },
+  {
+    "question": "What is the reading of \"生理\"?",
+    "word": "生理",
+    "options": [
+      "せいり",
+      "はんらん",
+      "こうばい",
+      "しゅどう"
+    ],
+    "correct": "せいり"
+  },
+  {
+    "question": "What is the reading of \"勢力\"?",
+    "word": "勢力",
+    "options": [
+      "だは",
+      "せいりょく",
+      "じょうりゅう",
+      "ちょうわ"
+    ],
+    "correct": "せいりょく"
+  },
+  {
+    "question": "What is the reading of \"整列\"?",
+    "word": "整列",
+    "options": [
+      "せいれつ",
+      "こうろく",
+      "きてん",
+      "じぞく"
+    ],
+    "correct": "せいれつ"
+  },
+  {
+    "question": "What is the reading of \"正義\"?",
+    "word": "正義",
+    "options": [
+      "せいぎ",
+      "けいべつ",
+      "かくしゅ",
+      "そうてい"
+    ],
+    "correct": "せいぎ"
+  },
+  {
+    "question": "What is the reading of \"生計\"?",
+    "word": "生計",
+    "options": [
+      "せいけい",
+      "しんわ",
+      "だけつ",
+      "ふひょう"
+    ],
+    "correct": "せいけい"
+  },
+  {
+    "question": "What is the reading of \"盛況\"?",
+    "word": "盛況",
+    "options": [
+      "しょうもう",
+      "ちんもく",
+      "かくめい",
+      "せいきょう"
+    ],
+    "correct": "せいきょう"
+  },
+  {
+    "question": "What is the reading of \"制裁\"?",
+    "word": "制裁",
+    "options": [
+      "してい",
+      "しっちょう",
+      "せいさい",
+      "こうにん"
+    ],
+    "correct": "せいさい"
+  },
+  {
+    "question": "What is the reading of \"政策\"?",
+    "word": "政策",
+    "options": [
+      "ひこう",
+      "せいさく",
+      "じまん",
+      "そうおう"
+    ],
+    "correct": "せいさく"
+  },
+  {
+    "question": "What is the reading of \"精密度\"?",
+    "word": "精密度",
+    "options": [
+      "せっちゅう",
+      "せいみつど",
+      "ほうかつ",
+      "じゅうそく"
+    ],
+    "correct": "せいみつど"
+  },
+  {
+    "question": "What is the reading of \"清廉\"?",
+    "word": "清廉",
+    "options": [
+      "せいれん",
+      "ちゅうざい",
+      "きはん",
+      "じぞく"
+    ],
+    "correct": "せいれん"
+  },
+  {
+    "question": "What is the reading of \"脆弱\"?",
+    "word": "脆弱",
+    "options": [
+      "じにん",
+      "そうさ",
+      "ぜいじゃく",
+      "じきゅう"
+    ],
+    "correct": "ぜいじゃく"
+  },
+  {
+    "question": "What is the reading of \"是認\"?",
+    "word": "是認",
+    "options": [
+      "ぜにん",
+      "かごう",
+      "こうどく",
+      "しょじ"
+    ],
+    "correct": "ぜにん"
+  },
+  {
+    "question": "What is the reading of \"是非\"?",
+    "word": "是非",
+    "options": [
+      "ぜひ",
+      "ひみつ",
+      "たいのう",
+      "つうこく"
+    ],
+    "correct": "ぜひ"
+  },
+  {
+    "question": "What is the reading of \"折衷\"?",
+    "word": "折衷",
+    "options": [
+      "せっちゅう",
+      "はんえい",
+      "かんわ",
+      "かんしゅ"
+    ],
+    "correct": "せっちゅう"
+  },
+  {
+    "question": "What is the reading of \"切実\"?",
+    "word": "切実",
+    "options": [
+      "かくめい",
+      "きょうせい",
+      "ごうがい",
+      "せつじつ"
+    ],
+    "correct": "せつじつ"
+  },
+  {
+    "question": "What is the reading of \"摂理\"?",
+    "word": "摂理",
+    "options": [
+      "せつり",
+      "がいとう",
+      "ちつじょ",
+      "しげき"
+    ],
+    "correct": "せつり"
+  },
+  {
+    "question": "What is the reading of \"専念\"?",
+    "word": "専念",
+    "options": [
+      "きはん",
+      "せんねん",
+      "ねんがん",
+      "しょうれい"
+    ],
+    "correct": "せんねん"
+  },
+  {
+    "question": "What is the reading of \"宣告\"?",
+    "word": "宣告",
+    "options": [
+      "せんこく",
+      "たいせい",
+      "せんにゅう",
+      "ちゅうざい"
+    ],
+    "correct": "せんこく"
+  },
+  {
+    "question": "What is the reading of \"洗練\"?",
+    "word": "洗練",
+    "options": [
+      "ぎんみ",
+      "きち",
+      "せんれん",
+      "せつり"
+    ],
+    "correct": "せんれん"
+  },
+  {
+    "question": "What is the reading of \"潜入\"?",
+    "word": "潜入",
+    "options": [
+      "ぎょうし",
+      "かくほ",
+      "せんにゅう",
+      "かそ"
+    ],
+    "correct": "せんにゅう"
+  },
+  {
+    "question": "What is the reading of \"占領\"?",
+    "word": "占領",
+    "options": [
+      "べんご",
+      "じゅうそく",
+      "そっせん",
+      "せんりょう"
+    ],
+    "correct": "せんりょう"
+  },
+  {
+    "question": "What is the reading of \"羨望\"?",
+    "word": "羨望",
+    "options": [
+      "かくしゅう",
+      "しや",
+      "かくしゅ",
+      "せんぼう"
+    ],
+    "correct": "せんぼう"
+  },
+  {
+    "question": "What is the reading of \"戦慄\"?",
+    "word": "戦慄",
+    "options": [
+      "せんりつ",
+      "だっかい",
+      "しゅび",
+      "けいべつ"
+    ],
+    "correct": "せんりつ"
+  },
+  {
+    "question": "What is the reading of \"相応\"?",
+    "word": "相応",
+    "options": [
+      "そうおう",
+      "きょくせつ",
+      "ぜせい",
+      "せいやく"
+    ],
+    "correct": "そうおう"
+  },
+  {
+    "question": "What is the reading of \"総括\"?",
+    "word": "総括",
+    "options": [
+      "そうかつ",
+      "こうひょう",
+      "きょうたん",
+      "けいさい"
+    ],
+    "correct": "そうかつ"
+  },
+  {
+    "question": "What is the reading of \"操作\"?",
+    "word": "操作",
+    "options": [
+      "きせき",
+      "せんねん",
+      "せいとう",
+      "そうさ"
+    ],
+    "correct": "そうさ"
+  },
+  {
+    "question": "What is the reading of \"捜索\"?",
+    "word": "捜索",
+    "options": [
+      "べんぎ",
+      "そうさく",
+      "じゅうそく",
+      "しつりょう"
+    ],
+    "correct": "そうさく"
+  },
+  {
+    "question": "What is the reading of \"装飾\"?",
+    "word": "装飾",
+    "options": [
+      "しょうもう",
+      "しすう",
+      "しこう",
+      "そうしょく"
+    ],
+    "correct": "そうしょく"
+  },
+  {
+    "question": "What is the reading of \"想定\"?",
+    "word": "想定",
+    "options": [
+      "してき",
+      "こうふく",
+      "かくほ",
+      "そうてい"
+    ],
+    "correct": "そうてい"
+  },
+  {
+    "question": "What is the reading of \"創出\"?",
+    "word": "創出",
+    "options": [
+      "ついらく",
+      "はんえい",
+      "じきゅう",
+      "そうしゅつ"
+    ],
+    "correct": "そうしゅつ"
+  },
+  {
+    "question": "What is the reading of \"贈賄\"?",
+    "word": "贈賄",
+    "options": [
+      "ぞうわい",
+      "かくさん",
+      "つうしょう",
+      "ついらく"
+    ],
+    "correct": "ぞうわい"
+  },
+  {
+    "question": "What is the reading of \"疎外\"?",
+    "word": "疎外",
+    "options": [
+      "こうふく",
+      "しひょう",
+      "つうち",
+      "そがい"
+    ],
+    "correct": "そがい"
+  },
+  {
+    "question": "What is the reading of \"阻害\"?",
+    "word": "阻害",
+    "options": [
+      "そがい",
+      "かくしゅう",
+      "きょてん",
+      "てつや"
+    ],
+    "correct": "そがい"
+  },
+  {
+    "question": "What is the reading of \"組織\"?",
+    "word": "組織",
+    "options": [
+      "そがい",
+      "すいさつ",
+      "つうしょう",
+      "そしき"
+    ],
+    "correct": "そしき"
+  },
+  {
+    "question": "What is the reading of \"訴訟\"?",
+    "word": "訴訟",
+    "options": [
+      "こうぎょう",
+      "しれい",
+      "かくう",
+      "そしょう"
+    ],
+    "correct": "そしょう"
+  },
+  {
+    "question": "What is the reading of \"措置\"?",
+    "word": "措置",
+    "options": [
+      "かそく",
+      "きよう",
+      "そち",
+      "びみょう"
+    ],
+    "correct": "そち"
+  },
+  {
+    "question": "What is the reading of \"率先\"?",
+    "word": "率先",
+    "options": [
+      "はんしょく",
+      "になう",
+      "ちょさく",
+      "そっせん"
+    ],
+    "correct": "そっせん"
+  },
+  {
+    "question": "What is the reading of \"妥当\"?",
+    "word": "妥当",
+    "options": [
+      "けいろ",
+      "しじ",
+      "きょうたん",
+      "だとう"
+    ],
+    "correct": "だとう"
+  },
+  {
+    "question": "What is the reading of \"奪回\"?",
+    "word": "奪回",
+    "options": [
+      "だっかい",
+      "しょち",
+      "けいせい",
+      "ひだい"
+    ],
+    "correct": "だっかい"
+  },
+  {
+    "question": "What is the reading of \"脱却\"?",
+    "word": "脱却",
+    "options": [
+      "しんしゅつ",
+      "がっち",
+      "だっきゃく",
+      "いんぺい"
+    ],
+    "correct": "だっきゃく"
+  },
+  {
+    "question": "What is the reading of \"脱退\"?",
+    "word": "脱退",
+    "options": [
+      "きょうじゅ",
+      "かじょう",
+      "だったい",
+      "きょよう"
+    ],
+    "correct": "だったい"
+  },
+  {
+    "question": "What is the reading of \"打破\"?",
+    "word": "打破",
+    "options": [
+      "じにん",
+      "じんりょく",
+      "きょうたん",
+      "だは"
+    ],
+    "correct": "だは"
+  },
+  {
+    "question": "What is the reading of \"妥協\"?",
+    "word": "妥協",
+    "options": [
+      "へいしゃ",
+      "ていたく",
+      "じょうちょ",
+      "だきょう"
+    ],
+    "correct": "だきょう"
+  },
+  {
+    "question": "What is the reading of \"断絶\"?",
+    "word": "断絶",
+    "options": [
+      "だんぜつ",
+      "かくさ",
+      "こうりゅう",
+      "きょうぐう"
+    ],
+    "correct": "だんぜつ"
+  },
+  {
+    "question": "What is the reading of \"弾力\"?",
+    "word": "弾力",
+    "options": [
+      "きょうたん",
+      "だんりょく",
+      "ふか",
+      "こうろく"
+    ],
+    "correct": "だんりょく"
+  },
+  {
+    "question": "What is the reading of \"蓄積\"?",
+    "word": "蓄積",
+    "options": [
+      "ほうかつ",
+      "せいり",
+      "かくさ",
+      "ちくせき"
+    ],
+    "correct": "ちくせき"
+  },
+  {
+    "question": "What is the reading of \"秩序\"?",
+    "word": "秩序",
+    "options": [
+      "てんかん",
+      "きょうり",
+      "じょうせい",
+      "ちつじょ"
+    ],
+    "correct": "ちつじょ"
+  },
+  {
+    "question": "What is the reading of \"窒息\"?",
+    "word": "窒息",
+    "options": [
+      "そうしょく",
+      "じにん",
+      "がいとう",
+      "ちっそく"
+    ],
+    "correct": "ちっそく"
+  },
+  {
+    "question": "What is the reading of \"抽象\"?",
+    "word": "抽象",
+    "options": [
+      "けいべつ",
+      "はんらん",
+      "きょよう",
+      "ちゅうしょう"
+    ],
+    "correct": "ちゅうしょう"
+  },
+  {
+    "question": "What is the reading of \"忠告\"?",
+    "word": "忠告",
+    "options": [
+      "ちゅうこく",
+      "ふふく",
+      "ほうかつ",
+      "ちょさく"
+    ],
+    "correct": "ちゅうこく"
+  },
+  {
+    "question": "What is the reading of \"中傷\"?",
+    "word": "中傷",
+    "options": [
+      "じょじゅつ",
+      "ちゅうしょう",
+      "しもん",
+      "ごうがい"
+    ],
+    "correct": "ちゅうしょう"
+  },
+  {
+    "question": "What is the reading of \"抽選\"?",
+    "word": "抽選",
+    "options": [
+      "きょうかい",
+      "せんりつ",
+      "ちゅうせん",
+      "management, executive, nucleus"
+    ],
+    "correct": "ちゅうせん"
+  },
+  {
+    "question": "What is the reading of \"駐在\"?",
+    "word": "駐在",
+    "options": [
+      "ちゅうざい",
+      "つうち",
+      "こっけい",
+      "はんえい"
+    ],
+    "correct": "ちゅうざい"
+  },
+  {
+    "question": "What is the reading of \"超越\"?",
+    "word": "超越",
+    "options": [
+      "せつじつ",
+      "ちょうえつ",
+      "こうし",
+      "ぎょうむ"
+    ],
+    "correct": "ちょうえつ"
+  },
+  {
+    "question": "What is the reading of \"調和\"?",
+    "word": "調和",
+    "options": [
+      "ひろう",
+      "ちょうわ",
+      "かじょうがき",
+      "じきゅう"
+    ],
+    "correct": "ちょうわ"
+  },
+  {
+    "question": "What is the reading of \"徴収\"?",
+    "word": "徴収",
+    "options": [
+      "ちょうしゅう",
+      "かくしん",
+      "ろこつ",
+      "けいせい"
+    ],
+    "correct": "ちょうしゅう"
+  },
+  {
+    "question": "What is the reading of \"重宝\"?",
+    "word": "重宝",
+    "options": [
+      "ちょうほう",
+      "びみょう",
+      "べんぎ",
+      "しげん"
+    ],
+    "correct": "ちょうほう"
+  },
+  {
+    "question": "What is the reading of \"著作\"?",
+    "word": "著作",
+    "options": [
+      "しんじょう",
+      "ちょさく",
+      "がくせつ",
+      "じゅうなん"
+    ],
+    "correct": "ちょさく"
+  },
+  {
+    "question": "What is the reading of \"沈黙\"?",
+    "word": "沈黙",
+    "options": [
+      "だんぜつ",
+      "ちゅうこく",
+      "はんえい",
+      "ちんもく"
+    ],
+    "correct": "ちんもく"
+  },
+  {
+    "question": "What is the reading of \"陳列\"?",
+    "word": "陳列",
+    "options": [
+      "こくち",
+      "せいだい",
+      "ごういん",
+      "ちんれつ"
+    ],
+    "correct": "ちんれつ"
+  },
+  {
+    "question": "What is the reading of \"追放\"?",
+    "word": "追放",
+    "options": [
+      "ぎょうせき",
+      "きょてん",
+      "ついほう",
+      "てんか"
+    ],
+    "correct": "ついほう"
+  },
+  {
+    "question": "What is the reading of \"墜落\"?",
+    "word": "墜落",
+    "options": [
+      "じつむ",
+      "すいしょう",
+      "じゅんかつ",
+      "ついらく"
+    ],
+    "correct": "ついらく"
+  },
+  {
+    "question": "What is the reading of \"通過\"?",
+    "word": "通過",
+    "options": [
+      "てんけいてき",
+      "つうか",
+      "ほうかつ",
+      "せいみつど"
+    ],
+    "correct": "つうか"
+  },
+  {
+    "question": "What is the reading of \"通告\"?",
+    "word": "通告",
+    "options": [
+      "しげき",
+      "きょうぐう",
+      "かごう",
+      "つうこく"
+    ],
+    "correct": "つうこく"
+  },
+  {
+    "question": "What is the reading of \"通称\"?",
+    "word": "通称",
+    "options": [
+      "せんりつ",
+      "ちゅうしょう",
+      "じっせん",
+      "つうしょう"
+    ],
+    "correct": "つうしょう"
+  },
+  {
+    "question": "What is the reading of \"通知\"?",
+    "word": "通知",
+    "options": [
+      "しさ",
+      "だっかい",
+      "こくふく",
+      "つうち"
+    ],
+    "correct": "つうち"
+  },
+  {
+    "question": "What is the reading of \"典型\"?",
+    "word": "典型",
+    "options": [
+      "とくしゅ",
+      "おせん",
+      "しょうげき",
+      "てんけい"
+    ],
+    "correct": "てんけい"
+  },
+  {
+    "question": "What is the reading of \"展望\"?",
+    "word": "展望",
+    "options": [
+      "かくしん",
+      "かんわ",
+      "かじゅう",
+      "てんぼう"
+    ],
+    "correct": "てんぼう"
+  },
+  {
+    "question": "What is the reading of \"転換\"?",
+    "word": "転換",
+    "options": [
+      "てんかん",
+      "こくふく",
+      "べんぎ",
+      "てんか"
+    ],
+    "correct": "てんかん"
+  },
+  {
+    "question": "What is the reading of \"展示\"?",
+    "word": "展示",
+    "options": [
+      "てんじ",
+      "ちんれつ",
+      "しすう",
+      "かそ"
+    ],
+    "correct": "てんじ"
+  },
+  {
+    "question": "What is the reading of \"徹夜\"?",
+    "word": "徹夜",
+    "options": [
+      "ちんれつ",
+      "つうか",
+      "しげき",
+      "てつや"
+    ],
+    "correct": "てつや"
+  },
+  {
+    "question": "What is the reading of \"撤退\"?",
+    "word": "撤退",
+    "options": [
+      "てったい",
+      "ぎょうせき",
+      "どうとう",
+      "きょうせい"
+    ],
+    "correct": "てったい"
+  },
+  {
+    "question": "What is the reading of \"撤回\"?",
+    "word": "撤回",
+    "options": [
+      "てっかい",
+      "きょうじゅ",
+      "しゅうよう",
+      "かどう"
+    ],
+    "correct": "てっかい"
+  },
+  {
+    "question": "What is the reading of \"添加\"?",
+    "word": "添加",
+    "options": [
+      "てんか",
+      "じにん",
+      "つうか",
+      "しんてん"
+    ],
+    "correct": "てんか"
+  },
+  {
+    "question": "What is the reading of \"転覆\"?",
+    "word": "転覆",
+    "options": [
+      "てんぷく",
+      "ひとしい",
+      "してん",
+      "じゅりつ"
+    ],
+    "correct": "てんぷく"
+  },
+  {
+    "question": "What is the reading of \"等しい\"?",
+    "word": "等しい",
+    "options": [
+      "ひとしい",
+      "しょうさい",
+      "どうよう",
+      "きょうじゅ"
+    ],
+    "correct": "ひとしい"
+  },
+  {
+    "question": "What is the reading of \"到底\"?",
+    "word": "到底",
+    "options": [
+      "とうてい",
+      "かくしゅ",
+      "こっけい",
+      "きょうじゅ"
+    ],
+    "correct": "とうてい"
+  },
+  {
+    "question": "What is the reading of \"逃避\"?",
+    "word": "逃避",
+    "options": [
+      "じんりき",
+      "はあく",
+      "ぎょうせい",
+      "とうひ"
+    ],
+    "correct": "とうひ"
+  },
+  {
+    "question": "What is the reading of \"匿名\"?",
+    "word": "匿名",
+    "options": [
+      "こうにん",
+      "しぎょう",
+      "じょうほ",
+      "とくめい"
+    ],
+    "correct": "とくめい"
+  },
+  {
+    "question": "What is the reading of \"特殊\"?",
+    "word": "特殊",
+    "options": [
+      "とくしゅ",
+      "ごうり",
+      "かそく",
+      "かくしん"
+    ],
+    "correct": "とくしゅ"
+  },
+  {
+    "question": "What is the reading of \"独占\"?",
+    "word": "独占",
+    "options": [
+      "どくせん",
+      "してき",
+      "せいきょう",
+      "ぎょうし"
+    ],
+    "correct": "どくせん"
+  },
+  {
+    "question": "What is the reading of \"独自\"?",
+    "word": "独自",
+    "options": [
+      "どくじ",
+      "こうにん",
+      "はんえい",
+      "ごうかく"
+    ],
+    "correct": "どくじ"
+  },
+  {
+    "question": "What is the reading of \"同感\"?",
+    "word": "同感",
+    "options": [
+      "どうかん",
+      "けいもう",
+      "そがい",
+      "しじ"
+    ],
+    "correct": "どうかん"
+  },
+  {
+    "question": "What is the reading of \"動機\"?",
+    "word": "動機",
+    "options": [
+      "どうき",
+      "しょうさい",
+      "はあく",
+      "かんしょう"
+    ],
+    "correct": "どうき"
+  },
+  {
+    "question": "What is the reading of \"同等\"?",
+    "word": "同等",
+    "options": [
+      "きよう",
+      "ほうかつ",
+      "しょめい",
+      "どうとう"
+    ],
+    "correct": "どうとう"
+  },
+  {
+    "question": "What is the reading of \"導入\"?",
+    "word": "導入",
+    "options": [
+      "こうねつひ",
+      "どうこう",
+      "どうにゅう",
+      "しっと"
+    ],
+    "correct": "どうにゅう"
+  },
+  {
+    "question": "What is the reading of \"動揺\"?",
+    "word": "動揺",
+    "options": [
+      "すいい",
+      "はんどう",
+      "こうてい",
+      "どうよう"
+    ],
+    "correct": "どうよう"
+  },
+  {
+    "question": "What is the reading of \"動向\"?",
+    "word": "動向",
+    "options": [
+      "どうこう",
+      "そうおう",
+      "しもん",
+      "こうみょう"
+    ],
+    "correct": "どうこう"
+  },
+  {
+    "question": "What is the reading of \"土壌\"?",
+    "word": "土壌",
+    "options": [
+      "どじょう",
+      "かくしん",
+      "こうにん",
+      "じょうせい"
+    ],
+    "correct": "どじょう"
+  },
+  {
+    "question": "What is the reading of \"読解\"?",
+    "word": "読解",
+    "options": [
+      "どっかい",
+      "じょうちょ",
+      "じょげん",
+      "ちょうほう"
+    ],
+    "correct": "どっかい"
+  },
+  {
+    "question": "What is the reading of \"突如\"?",
+    "word": "突如",
+    "options": [
+      "がくげい",
+      "こうばい",
+      "しょじ",
+      "とつじょ"
+    ],
+    "correct": "とつじょ"
+  },
+  {
+    "question": "What is the reading of \"突破\"?",
+    "word": "突破",
+    "options": [
+      "しんわ",
+      "ぎょうしゃ",
+      "ろこつ",
+      "とっぱ"
+    ],
+    "correct": "とっぱ"
+  },
+  {
+    "question": "What is the reading of \"滞納\"?",
+    "word": "滞納",
+    "options": [
+      "かくしん",
+      "しこう",
+      "たいのう",
+      "ふずい"
+    ],
+    "correct": "たいのう"
+  },
+  {
+    "question": "What is the reading of \"対等\"?",
+    "word": "対等",
+    "options": [
+      "かくう",
+      "たいとう",
+      "はんけい",
+      "ちんもく"
+    ],
+    "correct": "たいとう"
+  },
+  {
+    "question": "What is the reading of \"大衆\"?",
+    "word": "大衆",
+    "options": [
+      "たいしゅう",
+      "こうふ",
+      "てんか",
+      "かみつ"
+    ],
+    "correct": "たいしゅう"
+  },
+  {
+    "question": "What is the reading of \"耐性\"?",
+    "word": "耐性",
+    "options": [
+      "ひけつ",
+      "せいさい",
+      "たいせい",
+      "せいとう"
+    ],
+    "correct": "たいせい"
+  },
+  {
+    "question": "What is the reading of \"怠慢\"?",
+    "word": "怠慢",
+    "options": [
+      "かんげん",
+      "いんぺい",
+      "はあく",
+      "たいまん"
+    ],
+    "correct": "たいまん"
+  },
+  {
+    "question": "What is the reading of \"対抗\"?",
+    "word": "対抗",
+    "options": [
+      "しょうさい",
+      "たいしゅう",
+      "してん",
+      "たいこう"
+    ],
+    "correct": "たいこう"
+  },
+  {
+    "question": "What is the reading of \"退廃\"?",
+    "word": "退廃",
+    "options": [
+      "たいはい",
+      "しゅし",
+      "かくほ",
+      "かくとく"
+    ],
+    "correct": "たいはい"
+  },
+  {
+    "question": "What is the reading of \"台頭\"?",
+    "word": "台頭",
+    "options": [
+      "ぎょうし",
+      "けいばつ",
+      "たいとう",
+      "きょうれつ"
+    ],
+    "correct": "たいとう"
+  },
+  {
+    "question": "What is the reading of \"妥結\"?",
+    "word": "妥結",
+    "options": [
+      "ほうかつ",
+      "だけつ",
+      "かくほ",
+      "かくしゅ"
+    ],
+    "correct": "だけつ"
+  },
+  {
+    "question": "What is the reading of \"打診\"?",
+    "word": "打診",
+    "options": [
+      "とくしゅ",
+      "じにん",
+      "いんぺい",
+      "だしん"
+    ],
+    "correct": "だしん"
+  },
+  {
+    "question": "What is the reading of \"脱退\"?",
+    "word": "脱退",
+    "options": [
+      "ろこつ",
+      "こうみょう",
+      "じっせん",
+      "だったい"
+    ],
+    "correct": "だったい"
+  },
+  {
+    "question": "What is the reading of \"担う\"?",
+    "word": "担う",
+    "options": [
+      "しっと",
+      "しさん",
+      "はあく",
+      "になう"
+    ],
+    "correct": "になう"
+  },
+  {
+    "question": "What is the reading of \"嘆く\"?",
+    "word": "嘆く",
+    "options": [
+      "なげく",
+      "はんしょく",
+      "しすう",
+      "きょうめい"
+    ],
+    "correct": "なげく"
+  },
+  {
+    "question": "What is the reading of \"馴染む\"?",
+    "word": "馴染む",
+    "options": [
+      "ひこう",
+      "なじむ",
+      "きょうぐう",
+      "こうにん"
+    ],
+    "correct": "なじむ"
+  },
+  {
+    "question": "What is the reading of \"捏造\"?",
+    "word": "捏造",
+    "options": [
+      "きよう",
+      "けいもう",
+      "こうり",
+      "ねつぞう"
+    ],
+    "correct": "ねつぞう"
+  },
+  {
+    "question": "What is the reading of \"粘り\"?",
+    "word": "粘り",
+    "options": [
+      "ねばり",
+      "けいしゃ",
+      "はんい",
+      "とうひ"
+    ],
+    "correct": "ねばり"
+  },
+  {
+    "question": "What is the reading of \"燃料\"?",
+    "word": "燃料",
+    "options": [
+      "じょうりゅう",
+      "ねんりょう",
+      "だんりょく",
+      "すいそく"
+    ],
+    "correct": "ねんりょう"
+  },
+  {
+    "question": "What is the reading of \"念願\"?",
+    "word": "念願",
+    "options": [
+      "せいみつど",
+      "しれい",
+      "ねんがん",
+      "ちょさく"
+    ],
+    "correct": "ねんがん"
+  },
+  {
+    "question": "What is the reading of \"燃焼\"?",
+    "word": "燃焼",
+    "options": [
+      "こうたく",
+      "せんれん",
+      "ねんしょう",
+      "かんぺき"
+    ],
+    "correct": "ねんしょう"
+  },
+  {
+    "question": "What is the reading of \"把握\"?",
+    "word": "把握",
+    "options": [
+      "しすう",
+      "たいまん",
+      "こうそく",
+      "はあく"
+    ],
+    "correct": "はあく"
+  },
+  {
+    "question": "What is the reading of \"派遣\"?",
+    "word": "派遣",
+    "options": [
+      "べんぎ",
+      "はくじゃく",
+      "ぎょうせい",
+      "はけん"
+    ],
+    "correct": "はけん"
+  },
+  {
+    "question": "What is the reading of \"背後\"?",
+    "word": "背後",
+    "options": [
+      "きょうしゅう",
+      "こうたく",
+      "しっぴつ",
+      "はいご"
+    ],
+    "correct": "はいご"
+  },
+  {
+    "question": "What is the reading of \"廃棄\"?",
+    "word": "廃棄",
+    "options": [
+      "きぞく",
+      "はいき",
+      "いつだつ",
+      "きょうたん"
+    ],
+    "correct": "はいき"
+  },
+  {
+    "question": "What is the reading of \"配慮\"?",
+    "word": "配慮",
+    "options": [
+      "ほうち",
+      "ふはい",
+      "じゅうなん",
+      "はいりょ"
+    ],
+    "correct": "はいりょ"
+  },
+  {
+    "question": "What is the reading of \"背信\"?",
+    "word": "背信",
+    "options": [
+      "きょてん",
+      "べんぎ",
+      "こうにん",
+      "はいしん"
+    ],
+    "correct": "はいしん"
+  },
+  {
+    "question": "What is the reading of \"廃絶\"?",
+    "word": "廃絶",
+    "options": [
+      "せんれん",
+      "せつじつ",
+      "しっと",
+      "はいぜつ"
+    ],
+    "correct": "はいぜつ"
+  },
+  {
+    "question": "What is the reading of \"媒体\"?",
+    "word": "媒体",
+    "options": [
+      "かじゅう",
+      "こうたく",
+      "ばいたい",
+      "かくしん"
+    ],
+    "correct": "ばいたい"
+  },
+  {
+    "question": "What is the reading of \"博物館\"?",
+    "word": "博物館",
+    "options": [
+      "はくぶつかん",
+      "だきょう",
+      "こうり",
+      "べんご"
+    ],
+    "correct": "はくぶつかん"
+  },
+  {
+    "question": "What is the reading of \"薄弱\"?",
+    "word": "薄弱",
+    "options": [
+      "かんこう",
+      "ごうり",
+      "じゅうふく",
+      "はくじゃく"
+    ],
+    "correct": "はくじゃく"
+  },
+  {
+    "question": "What is the reading of \"派遣\"?",
+    "word": "派遣",
+    "options": [
+      "はんしょく",
+      "はけん",
+      "せいとう",
+      "ちんもく"
+    ],
+    "correct": "はけん"
+  },
+  {
+    "question": "What is the reading of \"励む\"?",
+    "word": "励む",
+    "options": [
+      "せいやく",
+      "ぎょうし",
+      "はげむ",
+      "かんりょう"
+    ],
+    "correct": "はげむ"
+  },
+  {
+    "question": "What is the reading of \"化ける\"?",
+    "word": "化ける",
+    "options": [
+      "いんぺい",
+      "ぎょうしゃ",
+      "しげん",
+      "ばける"
+    ],
+    "correct": "ばける"
+  },
+  {
+    "question": "What is the reading of \"反動\"?",
+    "word": "反動",
+    "options": [
+      "はんどう",
+      "こうひょう",
+      "かんしゅ",
+      "こうろく"
+    ],
+    "correct": "はんどう"
+  },
+  {
+    "question": "What is the reading of \"反映\"?",
+    "word": "反映",
+    "options": [
+      "せいだい",
+      "ちょうしゅう",
+      "じょうちゅう",
+      "はんえい"
+    ],
+    "correct": "はんえい"
+  },
+  {
+    "question": "What is the reading of \"反発\"?",
+    "word": "反発",
+    "options": [
+      "しょうさい",
+      "しょうげき",
+      "はんぱつ",
+      "へいさ"
+    ],
+    "correct": "はんぱつ"
+  },
+  {
+    "question": "What is the reading of \"範囲\"?",
+    "word": "範囲",
+    "options": [
+      "はんい",
+      "たいまん",
+      "はんどう",
+      "しじ"
+    ],
+    "correct": "はんい"
+  },
+  {
+    "question": "What is the reading of \"繁栄\"?",
+    "word": "繁栄",
+    "options": [
+      "きふく",
+      "とつじょ",
+      "ぎょうしゃ",
+      "はんえい"
+    ],
+    "correct": "はんえい"
+  },
+  {
+    "question": "What is the reading of \"半径\"?",
+    "word": "半径",
+    "options": [
+      "じゅうなん",
+      "しれい",
+      "はんけい",
+      "ふとう"
+    ],
+    "correct": "はんけい"
+  },
+  {
+    "question": "What is the reading of \"判決\"?",
+    "word": "判決",
+    "options": [
+      "はんけつ",
+      "けいろ",
+      "はけん",
+      "しひょう"
+    ],
+    "correct": "はんけつ"
+  },
+  {
+    "question": "What is the reading of \"反射\"?",
+    "word": "反射",
+    "options": [
+      "はんしゃ",
+      "かそく",
+      "たいのう",
+      "こうひょう"
+    ],
+    "correct": "はんしゃ"
+  },
+  {
+    "question": "What is the reading of \"繁殖\"?",
+    "word": "繁殖",
+    "options": [
+      "けいせい",
+      "きんこう",
+      "ちつじょ",
+      "はんしょく"
+    ],
+    "correct": "はんしょく"
+  },
+  {
+    "question": "What is the reading of \"反応\"?",
+    "word": "反応",
+    "options": [
+      "しゅぎょう",
+      "はんのう",
+      "かそく",
+      "きょぜつ"
+    ],
+    "correct": "はんのう"
+  },
+  {
+    "question": "What is the reading of \"規範\"?",
+    "word": "規範",
+    "options": [
+      "せいやく",
+      "せんりょう",
+      "だしん",
+      "きはん"
+    ],
+    "correct": "きはん"
+  },
+  {
+    "question": "What is the reading of \"氾濫\"?",
+    "word": "氾濫",
+    "options": [
+      "はんらん",
+      "よくせい",
+      "いんぺい",
+      "ぎょうしゃ"
+    ],
+    "correct": "はんらん"
+  },
+  {
+    "question": "What is the reading of \"把握\"?",
+    "word": "把握",
+    "options": [
+      "はあく",
+      "こうふく",
+      "てんけい",
+      "きょうぎ"
+    ],
+    "correct": "はあく"
+  },
+  {
+    "question": "What is the reading of \"非行\"?",
+    "word": "非行",
+    "options": [
+      "しぎょう",
+      "しゅし",
+      "かくしゅう",
+      "ひこう"
+    ],
+    "correct": "ひこう"
+  },
+  {
+    "question": "What is the reading of \"悲惨\"?",
+    "word": "悲惨",
+    "options": [
+      "ふずい",
+      "ぎょうむ",
+      "じょうちょ",
+      "ひさん"
+    ],
+    "correct": "ひさん"
+  },
+  {
+    "question": "What is the reading of \"秘訣\"?",
+    "word": "秘訣",
+    "options": [
+      "しょうもう",
+      "ひけつ",
+      "きょうぎ",
+      "かくほ"
+    ],
+    "correct": "ひけつ"
+  },
+  {
+    "question": "What is the reading of \"卑怯\"?",
+    "word": "卑怯",
+    "options": [
+      "しゅうりょう",
+      "てんかん",
+      "ひきょう",
+      "きち"
+    ],
+    "correct": "ひきょう"
+  },
+  {
+    "question": "What is the reading of \"肥大\"?",
+    "word": "肥大",
+    "options": [
+      "ひだい",
+      "ふずい",
+      "かそく",
+      "がいか"
+    ],
+    "correct": "ひだい"
+  },
+  {
+    "question": "What is the reading of \"比率\"?",
+    "word": "比率",
+    "options": [
+      "そうかつ",
+      "はんしょく",
+      "こうりゅう",
+      "ひりつ"
+    ],
+    "correct": "ひりつ"
+  },
+  {
+    "question": "What is the reading of \"批判\"?",
+    "word": "批判",
+    "options": [
+      "きやく",
+      "ひはん",
+      "そうてい",
+      "こうにん"
+    ],
+    "correct": "ひはん"
+  },
+  {
+    "question": "What is the reading of \"飛躍\"?",
+    "word": "飛躍",
+    "options": [
+      "ひやく",
+      "どうき",
+      "けいせい",
+      "ぎょうし"
+    ],
+    "correct": "ひやく"
+  },
+  {
+    "question": "What is the reading of \"疲弊\"?",
+    "word": "疲弊",
+    "options": [
+      "ひへい",
+      "きち",
+      "すいい",
+      "ぎょうむ"
+    ],
+    "correct": "ひへい"
+  },
+  {
+    "question": "What is the reading of \"披露\"?",
+    "word": "披露",
+    "options": [
+      "はあく",
+      "がいねん",
+      "どうにゅう",
+      "ひろう"
+    ],
+    "correct": "ひろう"
+  },
+  {
+    "question": "What is the reading of \"批准\"?",
+    "word": "批准",
+    "options": [
+      "じきゅう",
+      "そうさ",
+      "ひじゅん",
+      "ほうき"
+    ],
+    "correct": "ひじゅん"
+  },
+  {
+    "question": "What is the reading of \"秘密\"?",
+    "word": "秘密",
+    "options": [
+      "ひみつ",
+      "てんけい",
+      "ひきょう",
+      "ねつぞう"
+    ],
+    "correct": "ひみつ"
+  },
+  {
+    "question": "What is the reading of \"微妙\"?",
+    "word": "微妙",
+    "options": [
+      "じょうほ",
+      "いつだつ",
+      "びみょう",
+      "こうそく"
+    ],
+    "correct": "びみょう"
+  },
+  {
+    "question": "What is the reading of \"不備\"?",
+    "word": "不備",
+    "options": [
+      "がいねん",
+      "かんぺき",
+      "せいび",
+      "ふび"
+    ],
+    "correct": "ふび"
+  },
+  {
+    "question": "What is the reading of \"負荷\"?",
+    "word": "負荷",
+    "options": [
+      "かくさ",
+      "しょうげき",
+      "ちょうほう",
+      "ふか"
+    ],
+    "correct": "ふか"
+  },
+  {
+    "question": "What is the reading of \"普及\"?",
+    "word": "普及",
+    "options": [
+      "ふきゅう",
+      "せんぼう",
+      "ふび",
+      "せんりつ"
+    ],
+    "correct": "ふきゅう"
+  },
+  {
+    "question": "What is the reading of \"不況\"?",
+    "word": "不況",
+    "options": [
+      "ふきょう",
+      "じんだい",
+      "じゅよ",
+      "けいべつ"
+    ],
+    "correct": "ふきょう"
+  },
+  {
+    "question": "What is the reading of \"復旧\"?",
+    "word": "復旧",
+    "options": [
+      "きやく",
+      "しょうさん",
+      "ふっきゅう",
+      "ねつぞう"
+    ],
+    "correct": "ふっきゅう"
+  },
+  {
+    "question": "What is the reading of \"布告\"?",
+    "word": "布告",
+    "options": [
+      "ちくせき",
+      "ぎんみ",
+      "ふこく",
+      "そうさ"
+    ],
+    "correct": "ふこく"
+  },
+  {
+    "question": "What is the reading of \"不当\"?",
+    "word": "不当",
+    "options": [
+      "かどう",
+      "ふとう",
+      "じんだい",
+      "ていたく"
+    ],
+    "correct": "ふとう"
+  },
+  {
+    "question": "What is the reading of \"不動産\"?",
+    "word": "不動産",
+    "options": [
+      "ふどうさん",
+      "すいそく",
+      "ぎょうむ",
+      "きょうじゅ"
+    ],
+    "correct": "ふどうさん"
+  },
+  {
+    "question": "What is the reading of \"腐敗\"?",
+    "word": "腐敗",
+    "options": [
+      "きょうじゅ",
+      "かくしゅう",
+      "たいまん",
+      "ふはい"
+    ],
+    "correct": "ふはい"
+  },
+  {
+    "question": "What is the reading of \"不評\"?",
+    "word": "不評",
+    "options": [
+      "ふひょう",
+      "つうしょう",
+      "どうかん",
+      "はんぱつ"
+    ],
+    "correct": "ふひょう"
+  },
+  {
+    "question": "What is the reading of \"不服\"?",
+    "word": "不服",
+    "options": [
+      "せいそう",
+      "ふふく",
+      "きょうじゅ",
+      "どっかい"
+    ],
+    "correct": "ふふく"
+  },
+  {
+    "question": "What is the reading of \"侮辱\"?",
+    "word": "侮辱",
+    "options": [
+      "ぶじょく",
+      "かくほ",
+      "きょうたん",
+      "しょうさい"
+    ],
+    "correct": "ぶじょく"
+  },
+  {
+    "question": "What is the reading of \"負傷\"?",
+    "word": "負傷",
+    "options": [
+      "きよう",
+      "せいみつど",
+      "ふしょう",
+      "いんぺい"
+    ],
+    "correct": "ふしょう"
+  },
+  {
+    "question": "What is the reading of \"侮蔑\"?",
+    "word": "侮蔑",
+    "options": [
+      "がくせつ",
+      "じきゅう",
+      "ふずい",
+      "ぶべつ"
+    ],
+    "correct": "ぶべつ"
+  },
+  {
+    "question": "What is the reading of \"閉鎖\"?",
+    "word": "閉鎖",
+    "options": [
+      "へいさ",
+      "べんご",
+      "しんてん",
+      "そうさく"
+    ],
+    "correct": "へいさ"
+  },
+  {
+    "question": "What is the reading of \"並行\"?",
+    "word": "並行",
+    "options": [
+      "へいこう",
+      "はげむ",
+      "きょうめい",
+      "こうりつ"
+    ],
+    "correct": "へいこう"
+  },
+  {
+    "question": "What is the reading of \"弊社\"?",
+    "word": "弊社",
+    "options": [
+      "じんりょく",
+      "へいしゃ",
+      "すえおく",
+      "じっせん"
+    ],
+    "correct": "へいしゃ"
+  },
+  {
+    "question": "What is the reading of \"変革\"?",
+    "word": "変革",
+    "options": [
+      "きょどう",
+      "きせき",
+      "へんかく",
+      "せいは"
+    ],
+    "correct": "へんかく"
+  },
+  {
+    "question": "What is the reading of \"偏見\"?",
+    "word": "偏見",
+    "options": [
+      "しゅうよう",
+      "そがい",
+      "はくぶつかん",
+      "へんけん"
+    ],
+    "correct": "へんけん"
+  },
+  {
+    "question": "What is the reading of \"弁護\"?",
+    "word": "弁護",
+    "options": [
+      "じょうちょ",
+      "だっきゃく",
+      "ばける",
+      "べんご"
+    ],
+    "correct": "べんご"
+  },
+  {
+    "question": "What is the reading of \"変遷\"?",
+    "word": "変遷",
+    "options": [
+      "へんせん",
+      "ねばり",
+      "たいこう",
+      "ぼうがい"
+    ],
+    "correct": "へんせん"
+  },
+  {
+    "question": "What is the reading of \"弁解\"?",
+    "word": "弁解",
+    "options": [
+      "すいこう",
+      "せんにゅう",
+      "ひろう",
+      "べんかい"
+    ],
+    "correct": "べんかい"
+  },
+  {
+    "question": "What is the reading of \"便宜\"?",
+    "word": "便宜",
+    "options": [
+      "じんだい",
+      "きんこう",
+      "しょざい",
+      "べんぎ"
+    ],
+    "correct": "べんぎ"
+  },
+  {
+    "question": "What is the reading of \"包括\"?",
+    "word": "包括",
+    "options": [
+      "かくさん",
+      "ほうかつ",
+      "じんりき",
+      "しっぴつ"
+    ],
+    "correct": "ほうかつ"
+  },
+  {
+    "question": "What is the reading of \"崩壊\"?",
+    "word": "崩壊",
+    "options": [
+      "しゅぎょう",
+      "きんこう",
+      "じんだい",
+      "ほうかい"
+    ],
+    "correct": "ほうかい"
+  },
+  {
+    "question": "What is the reading of \"妨害\"?",
+    "word": "妨害",
+    "options": [
+      "してん",
+      "ぼうがい",
+      "へいこう",
+      "かいひ"
+    ],
+    "correct": "ぼうがい"
+  },
+  {
+    "question": "What is the reading of \"放置\"?",
+    "word": "放置",
+    "options": [
+      "かんぺき",
+      "きょてん",
+      "ごうとう",
+      "ほうち"
+    ],
+    "correct": "ほうち"
+  },
+  {
+    "question": "What is the reading of \"報酬\"?",
+    "word": "報酬",
+    "options": [
+      "きぞく",
+      "がんゆう",
+      "ほうしゅう",
+      "だとう"
+    ],
+    "correct": "ほうしゅう"
+  },
+  {
+    "question": "What is the reading of \"放棄\"?",
+    "word": "放棄",
+    "options": [
+      "きょうしゅう",
+      "こうはい",
+      "ほうき",
+      "しっちょう"
+    ],
+    "correct": "ほうき"
+  }
+]
