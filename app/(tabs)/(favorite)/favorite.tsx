@@ -1,6 +1,6 @@
 import ConfirmModal from "@/component/DeleteAlert";
 import FavoriteCard from "@/component/FavoriteCard";
-import SuccessAlert from "@/component/SuccessAlert";
+import Toast from "@/component/SuccessToast";
 import { KanjiItem, useFavorite } from "@/context/FavoriteContext";
 import colors from "@/theme/colors";
 import React, { useState } from "react";
@@ -44,14 +44,8 @@ export default function FavoriteScreen() {
         onConfirm={confirmRemove}
       />
 
-      <SuccessAlert
-        visible={showSuccess}
-        kanji={deletedKanji}
-        onClose={() => setShowSuccess(false)}
-      />
-
       <View style={styles.container}>
-        <Text style={styles.title}>Favorite Kanji lists</Text>
+        {/* <Text style={styles.title}>Favorite Kanji lists</Text> */}
 
         <FlatList
           data={favorites}
@@ -71,6 +65,11 @@ export default function FavoriteScreen() {
             </View>
           }
         />
+        <Toast
+          visible={showSuccess}
+          kanji={deletedKanji}
+          onClose={() => setShowSuccess(false)}
+        />
       </View>
     </>
   );
@@ -80,6 +79,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.background,
+    paddingTop: 20,
   },
   title: {
     fontSize: 24,

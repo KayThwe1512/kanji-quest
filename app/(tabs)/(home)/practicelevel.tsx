@@ -8,7 +8,7 @@ import { FlatList, StyleSheet, View } from "react-native";
 
 export default function LevelScreen() {
   const { learnedKanji } = useLearning();
-  const getCompletedForLevel = (levelId: string) => {
+  const getCompletedKanji = (levelId: string) => {
     const sections = SECTIONS[levelId as keyof typeof SECTIONS] || [];
     const allKanjiInLevel = sections.flatMap((section) => section.kanjiIds);
     const learnedInLevel = learnedKanji.filter((kanji) =>
@@ -34,8 +34,9 @@ export default function LevelScreen() {
           <LevelCard
             levelId={item.id}
             name={item.name}
+            variant="practice"
             totalKanji={item.totalKanji}
-            completedKanji={getCompletedForLevel(item.id)}
+            completedKanji={getCompletedKanji(item.id)}
             onPress={() => handlePress(item.id)}
           />
         )}

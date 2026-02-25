@@ -4,12 +4,10 @@ import { Stack } from "expo-router";
 
 export default function RootLayout() {
   return (
-    <>
-      <FavoriteProvider>
-        <ProgressProvider>
-          <Stack screenOptions={{ headerShown: false }} />
-        </ProgressProvider>
-      </FavoriteProvider>
-    </>
+    <FavoriteProvider>
+      <ProgressProvider>
+        <Stack screenOptions={{ headerShown: false }} />
+      </ProgressProvider>
+    </FavoriteProvider>
   );
 }

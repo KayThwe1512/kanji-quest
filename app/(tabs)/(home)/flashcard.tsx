@@ -103,9 +103,9 @@ export default function FlashcardScreen() {
             ontoggleFavorite={() =>
               toggleFavorite({
                 kanji: currentCard.kanji,
-                meanings: currentCard.meanings ?? [],
-                onyomi: currentCard.on_readings ?? [],
-                kunyomi: currentCard.kun_readings ?? [],
+                meanings: currentCard.meaning ?? [],
+                onyomi: currentCard.onyomi ?? [],
+                kunyomi: currentCard.kunyomi ?? [],
               })
             }
           />

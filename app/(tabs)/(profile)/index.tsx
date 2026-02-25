@@ -27,6 +27,8 @@ export default function ProfileScreen() {
     }));
   };
 
+  const today = new Date().toDateString();
+
   return (
     <SafeAreaView style={styles.container}>
       <View>
@@ -35,7 +37,7 @@ export default function ProfileScreen() {
             Your <Text style={{ color: "#F4D03F" }}>Progress!</Text>
           </Text>
           <Text style={styles.subtitle}>Track your learning day by day!</Text>
-          <Text style={styles.date}>Tuesday, Febuary 10, 2026</Text>
+          <Text style={styles.date}>{today}</Text>
         </View>
 
         <View style={styles.content}>
@@ -86,8 +88,8 @@ const styles = StyleSheet.create({
   },
 
   header: {
-    padding: 24,
-    paddingTop: 30,
+    paddingHorizontal: 24,
+    // paddingTop: 30,
   },
 
   progressTitle: {

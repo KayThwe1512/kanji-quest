@@ -1,12 +1,25 @@
+import n1quiz from "@/assets/data/n1quiz.json";
+import n2quiz from "@/assets/data/n2quiz.json";
+import n3quiz from "@/assets/data/n3quiz.json";
+import n4quiz from "@/assets/data/n4quiz.json";
+import n5quiz from "@/assets/data/n5quiz.json";
+
+const quizDataMap: Record<string, any[]> = {
+  n1: n1quiz,
+  n2: n2quiz,
+  n3: n3quiz,
+  n4: n4quiz,
+  n5: n5quiz,
+};
+
 export const getQuiz = async (level: string, count = 10) => {
   try {
-    const res = await fetch(`/${level.toLowerCase()}quiz.json`);
+    const data = quizDataMap[level.toLowerCase()];
 
-    if (!res.ok) {
-      throw new Error("Failed to fetch quiz file");
+    if (!data) {
+      throw new Error("Quiz level not found");
     }
 
-    const data = await res.json();
     const shuffled = [...data].sort(() => Math.random() - 0.5);
     const selected = shuffled.slice(0, count);
 
@@ -22,7 +35,7 @@ export const getQuiz = async (level: string, count = 10) => {
 
     return quiz;
   } catch (error) {
-    console.log("Quiz fetch error:", error);
+    console.log("Quiz load error:", error);
     return [];
   }
 };

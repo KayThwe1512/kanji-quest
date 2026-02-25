@@ -28,6 +28,11 @@ export default function ThemeFlashcard({
   const animatedValue = useRef(new Animated.Value(0)).current;
   const [flipped, setFlipped] = useState(false);
 
+  useEffect(() => {
+    animatedValue.setValue(0);
+    setFlipped(false);
+  }, [card]);
+
   const flipCard = () => {
     Animated.timing(animatedValue, {
       toValue: flipped ? 0 : 180,
@@ -48,11 +53,6 @@ export default function ThemeFlashcard({
     outputRange: ["180deg", "360deg"],
   });
 
-  useEffect(() => {
-    animatedValue.setValue(0);
-    setFlipped(false);
-  }, [card]);
-
   return (
     <TouchableOpacity activeOpacity={1} onPress={flipCard}>
       <View style={styles.cardWrapper}>
@@ -72,7 +72,7 @@ export default function ThemeFlashcard({
 
           <Text style={styles.kanji}>{card.kanji}</Text>
           <Text style={styles.smallReading}>
-            {card.kun_readings?.[0] ?? ""}
+            {card.kunyomi?.[0] || card.onyomi?.[0] || "-"}
           </Text>
         </Animated.View>
 
@@ -95,21 +95,21 @@ export default function ThemeFlashcard({
             <View style={styles.section}>
               <Text style={styles.label}>Meaning</Text>
               <Text style={styles.sectionText}>
-                {card.meanings?.join(", ") ?? "-"}
+                {card.meaning?.join(", ") ?? "-"}
               </Text>
             </View>
 
             <View style={styles.section}>
               <Text style={styles.label}>Onyomi</Text>
               <Text style={styles.sectionText}>
-                {card.on_readings?.join(", ") ?? "-"}
+                {card.onyomi?.join(", ") ?? "-"}
               </Text>
             </View>
 
             <View style={styles.section}>
               <Text style={styles.label}>Kunyomi</Text>
               <Text style={styles.sectionText}>
-                {card.kun_readings?.join(", ") ?? "-"}
+                {card.kunyomi?.join(", ") || "-"}
               </Text>
             </View>
           </View>

@@ -23,8 +23,9 @@ export const ProgressProvider = ({ children }: { children: any }) => {
   const [lastLearnedDate, setLastLearnedDate] = useState<string | null>(null);
   const [longestStreak, setLongestStreak] = useState(0);
 
-  const [loaded, setLoaded] = useState(false); 
+  const [loaded, setLoaded] = useState(false);
 
+  //get user progress data from storage
   useEffect(() => {
     const loadProgress = async () => {
       const saved = await AsyncStorage.getItem(STORAGE_KEY);
@@ -39,12 +40,13 @@ export const ProgressProvider = ({ children }: { children: any }) => {
         setLongestStreak(data.longestStreak || 0);
       }
 
-      setLoaded(true); 
+      setLoaded(true);
     };
 
     loadProgress();
   }, []);
 
+  //save progress to storage whatever changes in these items
   useEffect(() => {
     if (!loaded) return;
 
@@ -68,16 +70,31 @@ export const ProgressProvider = ({ children }: { children: any }) => {
   ]);
 
   const addLearnedKanji = (kanji: string) => {
-    const today = new Date().toDateString();
+    const today = new Date();
+    const todayString = today.toDateString();
+
+    const yesterday = new Date();
+    yesterday.setDate(today.getDate() - 1);
+    const yesterdayString = yesterday.toDateString();
 
     setLearnedKanji((prev) => {
       if (prev.includes(kanji)) return prev;
       return [...prev, kanji];
     });
 
-    if (lastLearnedDate !== today) {
+    if (lastLearnedDate !== todayString) {
+      if (lastLearnedDate === yesterdayString) {
+        setLongestStreak((prev) => prev + 1);
+      } else {
+        setLongestStreak(1);
+      }
+
       setTodayLearned(1);
-      setLastLearnedDate(today);
+      setLastLearnedDate(todayString);
+
+      if (1 > highestDailyCount) {
+        setHighestDailyCount(1);
+      }
     } else {
       const updated = todayLearned + 1;
       setTodayLearned(updated);

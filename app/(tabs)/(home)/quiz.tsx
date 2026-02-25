@@ -1,5 +1,6 @@
 import QuizOption from "@/component/QuizOption";
 import { getQuiz } from "@/services/quizService";
+import { saveQuizAttempt } from "@/services/quizStorage";
 import colors from "@/theme/colors";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { useEffect, useRef, useState } from "react";
@@ -19,15 +20,14 @@ type Question = {
 
 export default function QuizScreen() {
   const router = useRouter();
+  const { level } = useLocalSearchParams();
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
   const [score, setScore] = useState(0);
-
   const [questions, setQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
-  const { level } = useLocalSearchParams();
 
   const scoreRef = useRef(0);
 
@@ -37,8 +37,6 @@ export default function QuizScreen() {
     if (!level) return;
     loadQuiz();
   }, [level]);
-
-  console.log("LEVEL VALUE:", level);
 
   const loadQuiz = async () => {
     try {
@@ -67,7 +65,7 @@ export default function QuizScreen() {
     }
   };
 
-  const handleNext = () => {
+  const handleNext = async () => {
     const isLast = currentIndex + 1 === questions.length;
 
     if (!isLast) {
@@ -75,6 +73,7 @@ export default function QuizScreen() {
       setSelectedId(null);
       setShowResult(false);
     } else {
+      await saveQuizAttempt(level as string);
       router.push({
         pathname: "/result",
         params: {

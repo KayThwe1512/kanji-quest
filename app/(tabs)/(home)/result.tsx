@@ -1,12 +1,11 @@
+import StatItem from "@/component/ResultStatusItem";
 import colors from "@/theme/colors";
 import { Ionicons } from "@expo/vector-icons";
-import { router } from "expo-router";
+import { router, useLocalSearchParams } from "expo-router";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { useLocalSearchParams } from "expo-router";
-import StatItem from "@/component/ResultStatusItem";
 
 export default function ResultScreen() {
-   const { score, total } = useLocalSearchParams();
+  const { score, total } = useLocalSearchParams();
 
   const scoreNum = Number(score) || 0;
   const totalNum = Number(total) || 0;
@@ -66,7 +65,6 @@ export default function ResultScreen() {
   );
 }
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -104,7 +102,7 @@ const styles = StyleSheet.create({
     width: "100%",
     marginVertical: 20,
   },
- 
+
   buttonRow: {
     flexDirection: "row",
     gap: 12,
@@ -112,6 +110,8 @@ const styles = StyleSheet.create({
   },
   button: {
     flex: 1,
+    width: 130,
+    height: 50,
     paddingVertical: 14,
     borderRadius: 12,
     alignItems: "center",
