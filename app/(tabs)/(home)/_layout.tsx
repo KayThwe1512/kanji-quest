@@ -38,13 +38,18 @@ export default function HomeLayout() {
       />
       <Stack.Screen
         name="flashcard"
-        options={{
-          title: "Flashcards",
-          headerBackTitle: "Back",
-          headerStyle: {
-            backgroundColor: colors.background,
-          },
-          headerTitleAlign: "center",
+        options={({ route }) => {
+          const params = route.params as SectionParams;
+          const level = params?.level ?? "";
+
+          return {
+            title: `${level} Sections`,
+            headerBackTitle: "Back",
+            headerStyle: {
+              backgroundColor: colors.background,
+            },
+            headerTitleAlign: "center",
+          };
         }}
       />
       <Stack.Screen

@@ -86,15 +86,11 @@ export default function QuizScreen() {
   return (
     <View style={styles.container}>
       {loading ? (
-        <View
-          style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
-        >
+        <View style={styles.empty}>
           <Text>Loading quiz...</Text>
         </View>
       ) : questions.length === 0 ? (
-        <View
-          style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
-        >
+        <View style={styles.empty}>
           <Text>There is no quiz yet</Text>
         </View>
       ) : (
@@ -226,5 +222,10 @@ const styles = StyleSheet.create({
     color: colors.white,
     fontSize: 16,
     fontWeight: "600",
+  },
+  empty: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
   },
 });

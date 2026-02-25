@@ -3,7 +3,7 @@ import { SECTIONS } from "@/constants/section";
 import { useFavorite } from "@/context/FavoriteContext";
 import { useLearning } from "@/context/ProgressContext";
 import { getFlashcardKanji } from "@/services/kanjiService";
-import { saveSectionProgress } from "@/services/userProgress";
+import { getAllProgress, saveSectionProgress } from "@/services/userProgress";
 import colors from "@/theme/colors";
 import { useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
@@ -20,20 +20,28 @@ export default function FlashcardScreen() {
     level: string;
     sectionId: string;
   }>();
+  const section = SECTIONS[level as keyof typeof SECTIONS]?.find(
+    (s) => s.id === sectionId,
+  );
+
+  const sectionName = section?.name ?? "";
 
   const loadKanji = async () => {
     try {
       setLoading(true);
 
-      const section = SECTIONS[level as keyof typeof SECTIONS]?.find(
-        (s) => s.id === sectionId,
-      );
-
       if (!section) return;
       const data = await getFlashcardKanji(sectionId, section.kanjiIds);
       setKanjiList(data);
 
-      setCurrentIndex(0);
+      const allProgress = await getAllProgress();
+      const savedProgress = allProgress[sectionId];
+
+      if (savedProgress) {
+        setCurrentIndex(savedProgress.lastIndex ?? 0);
+      } else {
+        setCurrentIndex(0);
+      }
     } catch (error) {
       console.log("API error:", error);
     } finally {
@@ -89,7 +97,10 @@ export default function FlashcardScreen() {
         <Text>No flashcards found.</Text>
       ) : (
         <>
-          <Text style={styles.title}>Flashcard Practice</Text>
+          <Text style={styles.sectionName}>{sectionName}</Text>
+          <Text style={styles.progress}>
+            {currentIndex + 1} / {kanjiList.length}
+          </Text>
 
           <View style={styles.progressContainer}>
             <View
@@ -97,31 +108,37 @@ export default function FlashcardScreen() {
             />
           </View>
 
-          <ThemeFlashcard
-            card={currentCard}
-            isFavorite={isFav}
-            ontoggleFavorite={() =>
-              toggleFavorite({
-                kanji: currentCard.kanji,
-                meanings: currentCard.meaning ?? [],
-                onyomi: currentCard.onyomi ?? [],
-                kunyomi: currentCard.kunyomi ?? [],
-              })
-            }
-          />
+          {currentCard && (
+            <ThemeFlashcard
+              card={currentCard}
+              isFavorite={isFav}
+              ontoggleFavorite={() =>
+                toggleFavorite({
+                  kanji: currentCard.kanji,
+                  meanings: currentCard.meaning ?? [],
+                  onyomi: currentCard.onyomi ?? [],
+                  kunyomi: currentCard.kunyomi ?? [],
+                })
+              }
+            />
+          )}
 
           <View style={styles.navRow}>
-            {!isFirstCard && (
-              <TouchableOpacity style={styles.navButton} onPress={handlePrev}>
-                <Text style={styles.buttonText}>Prev</Text>
-              </TouchableOpacity>
-            )}
+            <TouchableOpacity
+              style={[styles.navButton, isFirstCard && styles.disabledButton]}
+              onPress={handlePrev}
+              disabled={isFirstCard}
+            >
+              <Text style={styles.buttonText}>Prev</Text>
+            </TouchableOpacity>
 
-            {!isLastCard && (
-              <TouchableOpacity style={styles.navButton} onPress={handleNext}>
-                <Text style={styles.buttonText}>Next</Text>
-              </TouchableOpacity>
-            )}
+            <TouchableOpacity
+              style={[styles.navButton, isLastCard && styles.disabledButton]}
+              onPress={handleNext}
+              disabled={isLastCard}
+            >
+              <Text style={styles.buttonText}>Next</Text>
+            </TouchableOpacity>
           </View>
         </>
       )}
@@ -132,16 +149,17 @@ export default function FlashcardScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
-    justifyContent: "center",
+    paddingHorizontal: 20,
     alignItems: "center",
     backgroundColor: colors.background,
+    justifyContent: "center",
   },
-  title: {
-    fontSize: 24,
+  sectionName: {
+    fontSize: 20,
     fontWeight: "bold",
-    color: colors.textPrimary,
-    marginBottom: 15,
+    color: colors.primary,
+    marginBottom: 20,
+    textAlign: "center",
   },
   progressContainer: {
     width: "90%",
@@ -170,11 +188,36 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginBottom: 15,
     boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
+    // iOS shadow
+    // shadowColor: "#000",
+    // shadowOffset: { width: 0, height: 4 },
+    // shadowOpacity: 0.2,
+    // shadowRadius: 6,
+
+    // // Android shadow
+    // elevation: 5,
   },
   buttonText: {
     color: colors.white,
     textAlign: "center",
     fontSize: 16,
     fontWeight: "bold",
+  },
+  progress: {
+    marginVertical: 10,
+    fontSize: 14,
+    color: colors.textSecondary,
+    justifyContent: "center",
+    textAlign: "center",
+  },
+
+  disabledButton: {
+    backgroundColor: colors.border,
+    shadowOpacity: 0,
+    elevation: 0,
+  },
+
+  disabledText: {
+    color: colors.text,
   },
 });

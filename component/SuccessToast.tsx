@@ -1,6 +1,7 @@
 import colors from "@/theme/colors";
+import { Ionicons } from "@expo/vector-icons";
 import React, { useEffect } from "react";
-import { Modal, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 type ToastProps = {
   visible: boolean;
@@ -13,59 +14,76 @@ export default function Toast({ visible, kanji, onClose }: ToastProps) {
     if (visible) {
       const timer = setTimeout(() => {
         onClose();
-      }, 2000);
+      }, 1000);
 
       return () => clearTimeout(timer);
     }
   }, [visible]);
 
-  return (
-    <Modal visible={visible} transparent animationType="fade">
-      <View style={styles.overlay}>
-        <View style={styles.container}>
-          <Text style={styles.text}>"{kanji}" was removed from favorites</Text>
+  if (!visible) return null;
 
-          <TouchableOpacity onPress={onClose}>
-            <Text style={styles.close}>✕</Text>
-          </TouchableOpacity>
+  return (
+    <View style={styles.wrapper}>
+      <View style={styles.container}>
+        <View style={styles.leftContent}>
+          <Ionicons
+            name="checkmark-circle"
+            size={20}
+            color={colors.correct}
+            style={styles.icon}
+          />
+
+          <Text style={styles.text}>"{kanji}" was removed from favorites</Text>
         </View>
+
+        <TouchableOpacity onPress={onClose}>
+          <Ionicons name="close" size={20} color={colors.textSecondary} />
+        </TouchableOpacity>
       </View>
-    </Modal>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  overlay: {
-    flex: 1,
-    backgroundColor: "rgba(0,0,0,0.25)",
-    justifyContent: "flex-start",
+  wrapper: {
+    position: "absolute",
+    top: 60,
+    width: "100%",
     alignItems: "center",
-    paddingTop: 70,
+    zIndex: 999,
+    elevation: 20,
   },
   container: {
-    width: "90%",
+    width: "92%",
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
     backgroundColor: colors.white,
-    paddingVertical: 20,
-    paddingHorizontal: 18,
+    paddingVertical: 22,
+    paddingHorizontal: 16,
     borderRadius: 14,
+
+    borderLeftWidth: 6,
+    borderLeftColor: colors.correct,
+
     shadowColor: "#000",
-    shadowOpacity: 0.15,
-    shadowRadius: 12,
+    shadowOpacity: 0.1,
+    shadowRadius: 10,
+    shadowOffset: { width: 0, height: 4 },
+
     elevation: 10,
   },
-  text: {
+  leftContent: {
+    flexDirection: "row",
+    alignItems: "center",
     flex: 1,
-    fontSize: 15,
-    fontWeight: "600",
-    color: colors.primary,
   },
-  close: {
-    marginLeft: 12,
-    fontSize: 16,
-    fontWeight: "700",
-    color: colors.primary,
+  icon: {
+    marginRight: 8,
+  },
+  text: {
+    fontSize: 15,
+    color: colors.textPrimary,
+    flexShrink: 1,
   },
 });

@@ -2,8 +2,8 @@ import SectionCard from "@/component/ThemeSection";
 import { SECTIONS } from "@/constants/section";
 import { getAllProgress } from "@/services/userProgress";
 import colors from "@/theme/colors";
-import { router, useLocalSearchParams } from "expo-router";
-import { useEffect, useState } from "react";
+import { router, useFocusEffect, useLocalSearchParams } from "expo-router";
+import { useCallback, useState } from "react";
 import { FlatList, StyleSheet, View } from "react-native";
 
 export default function PracticeSectionScreen() {
@@ -11,14 +11,16 @@ export default function PracticeSectionScreen() {
 
   const sections = SECTIONS[level as keyof typeof SECTIONS] || [];
   const [sectionProgress, setSectionProgress] = useState<any>({});
-  useEffect(() => {
-    const loadProgress = async () => {
-      const progress = await getAllProgress();
-      setSectionProgress(progress);
-    };
+  useFocusEffect(
+    useCallback(() => {
+      const loadProgress = async () => {
+        const progress = await getAllProgress();
+        setSectionProgress(progress);
+      };
 
-    loadProgress();
-  }, []);
+      loadProgress();
+    }, []),
+  );
 
   return (
     <View style={styles.container}>
