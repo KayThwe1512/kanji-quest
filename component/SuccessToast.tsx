@@ -29,7 +29,7 @@ export default function Toast({ visible, kanji, onClose }: ToastProps) {
           <Ionicons
             name="checkmark-circle"
             size={20}
-            color={colors.correct}
+            color={colors.secondary}
             style={styles.icon}
           />
 
@@ -37,7 +37,7 @@ export default function Toast({ visible, kanji, onClose }: ToastProps) {
         </View>
 
         <TouchableOpacity onPress={onClose}>
-          <Ionicons name="close" size={20} color={colors.textSecondary} />
+          <Ionicons name="close" size={20} color={colors.secondary} />
         </TouchableOpacity>
       </View>
     </View>
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     borderRadius: 14,
 
     borderLeftWidth: 6,
-    borderLeftColor: colors.correct,
+    borderLeftColor: colors.secondary,
 
     shadowColor: "#000",
     shadowOpacity: 0.1,

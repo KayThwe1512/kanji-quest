@@ -45,8 +45,6 @@ export default function FavoriteScreen() {
       />
 
       <View style={styles.container}>
-        {/* <Text style={styles.title}>Favorite Kanji lists</Text> */}
-
         <FlatList
           data={favorites}
           keyExtractor={(item) => item.kanji}

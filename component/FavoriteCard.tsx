@@ -1,6 +1,7 @@
 import { KanjiItem } from "@/context/FavoriteContext";
 import colors from "@/theme/colors";
 import { Ionicons } from "@expo/vector-icons";
+import { useRouter } from "expo-router";
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
@@ -10,34 +11,47 @@ type Props = {
 };
 
 export default function FavoriteCard({ item, onRemove }: Props) {
+  const router = useRouter();
+
+  const handleOpenFlashcard = () => {
+    router.navigate({
+      pathname: "/flashcard",
+      params: {
+        from: "favorite",
+        kanji: item.kanji,
+      },
+    });
+  };
   return (
-    <View style={styles.cardContainer}>
-      <View style={styles.kanjiBox}>
-        <Text style={styles.kanjiText}>{item.kanji}</Text>
-      </View>
-
-      <View style={styles.infoSection}>
-        <View style={styles.headerRow}>
-          <Text style={styles.readingText} numberOfLines={1}>
-            <Text style={styles.label}>音: </Text>
-            {item.onyomi?.join(", ") || " - "}
-          </Text>
-
-          <TouchableOpacity onPress={() => onRemove(item)}>
-            <Ionicons name="heart" size={22} color={colors.primary} />
-          </TouchableOpacity>
+    <TouchableOpacity onPress={handleOpenFlashcard} activeOpacity={0.8}>
+      <View style={styles.cardContainer}>
+        <View style={styles.kanjiBox}>
+          <Text style={styles.kanjiText}>{item.kanji}</Text>
         </View>
 
-        <Text style={styles.readingText} numberOfLines={1}>
-          <Text style={styles.label}>訓: </Text>
-          {item.kunyomi?.join(", ") || " - "}
-        </Text>
+        <View style={styles.infoSection}>
+          <View style={styles.headerRow}>
+            <Text style={styles.readingText} numberOfLines={1}>
+              <Text style={styles.label}>音: </Text>
+              {item.onyomi?.join(", ") || " - "}
+            </Text>
 
-        <Text style={styles.meaningText} numberOfLines={1}>
-          Meaning: {item.meanings?.join(", ") || " - "}
-        </Text>
+            <TouchableOpacity onPress={() => onRemove(item)}>
+              <Ionicons name="heart" size={22} color={colors.primary} />
+            </TouchableOpacity>
+          </View>
+
+          <Text style={styles.readingText} numberOfLines={1}>
+            <Text style={styles.label}>訓: </Text>
+            {item.kunyomi?.join(", ") || " - "}
+          </Text>
+
+          <Text style={styles.meaningText} numberOfLines={1}>
+            Meaning: {item.meanings?.join(", ") || " - "}
+          </Text>
+        </View>
       </View>
-    </View>
+    </TouchableOpacity>
   );
 }
 

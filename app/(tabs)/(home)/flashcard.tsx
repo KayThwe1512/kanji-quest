@@ -1,3 +1,4 @@
+import Spinner from "@/component/Spinner";
 import ThemeFlashcard from "@/component/ThemeFlashcard";
 import { SECTIONS } from "@/constants/section";
 import { useFavorite } from "@/context/FavoriteContext";
@@ -8,7 +9,6 @@ import colors from "@/theme/colors";
 import { useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
-
 export default function FlashcardScreen() {
   const [kanjiList, setKanjiList] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
@@ -16,10 +16,13 @@ export default function FlashcardScreen() {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const { favorites, toggleFavorite } = useFavorite();
-  const { level, sectionId } = useLocalSearchParams<{
+  const { level, sectionId, from, kanji } = useLocalSearchParams<{
     level: string;
     sectionId: string;
+    from?: string;
+    kanji?: string;
   }>();
+  const isFavoriteMode = from === "favorite";
   const section = SECTIONS[level as keyof typeof SECTIONS]?.find(
     (s) => s.id === sectionId,
   );
@@ -29,7 +32,17 @@ export default function FlashcardScreen() {
   const loadKanji = async () => {
     try {
       setLoading(true);
+      if (from === "favorite" && kanji) {
+        const favItem = favorites.find((k) => k.kanji === kanji);
 
+        if (favItem) {
+          setKanjiList(favorites);
+          setCurrentIndex(favorites.findIndex((k) => k.kanji === kanji));
+          setCurrentIndex(0);
+        }
+
+        return;
+      }
       if (!section) return;
       const data = await getFlashcardKanji(sectionId, section.kanjiIds);
       setKanjiList(data);
@@ -49,14 +62,24 @@ export default function FlashcardScreen() {
     }
   };
 
-  useEffect(() => {
-    if (!sectionId) return;
-    const timer = setTimeout(() => {
-      loadKanji();
-    }, 500);
+  // useEffect(() => {
+  //   if (!sectionId) return;
+  //   const timer = setTimeout(() => {
+  //     loadKanji();
+  //   }, 500);
 
-    return () => clearTimeout(timer);
-  }, [sectionId]);
+  //   return () => clearTimeout(timer);
+  // }, [sectionId]);
+  useEffect(() => {
+    if (from === "favorite" && kanji) {
+      loadKanji();
+      return;
+    }
+
+    if (sectionId) {
+      loadKanji();
+    }
+  }, [sectionId, kanji, from]);
 
   const currentCard = kanjiList[currentIndex];
   const isFirstCard = currentIndex === 0;
@@ -85,28 +108,34 @@ export default function FlashcardScreen() {
     }
   };
 
-  // const isFav = favorites.includes(currentCard?.kanji);
   const isFav = favorites.some((k) => k.kanji === currentCard?.kanji);
   const progressPercent = ((currentIndex + 1) / kanjiList.length) * 100;
 
   return (
     <View style={styles.container}>
       {loading ? (
-        <Text>Loading flashcards...</Text>
+        <Spinner />
       ) : !kanjiList.length ? (
         <Text>No flashcards found.</Text>
       ) : (
         <>
-          <Text style={styles.sectionName}>{sectionName}</Text>
-          <Text style={styles.progress}>
-            {currentIndex + 1} / {kanjiList.length}
-          </Text>
+          {!isFavoriteMode && (
+            <>
+              <Text style={styles.sectionName}>{sectionName}</Text>
+              <Text style={styles.progress}>
+                {currentIndex + 1} / {kanjiList.length}
+              </Text>
 
-          <View style={styles.progressContainer}>
-            <View
-              style={[styles.progressFill, { width: `${progressPercent}%` }]}
-            />
-          </View>
+              <View style={styles.progressContainer}>
+                <View
+                  style={[
+                    styles.progressFill,
+                    { width: `${progressPercent}%` },
+                  ]}
+                />
+              </View>
+            </>
+          )}
 
           {currentCard && (
             <ThemeFlashcard
@@ -122,24 +151,25 @@ export default function FlashcardScreen() {
               }
             />
           )}
+          {!isFavoriteMode && (
+            <View style={styles.navRow}>
+              <TouchableOpacity
+                style={[styles.navButton, isFirstCard && styles.disabledButton]}
+                onPress={handlePrev}
+                disabled={isFirstCard}
+              >
+                <Text style={styles.buttonText}>Prev</Text>
+              </TouchableOpacity>
 
-          <View style={styles.navRow}>
-            <TouchableOpacity
-              style={[styles.navButton, isFirstCard && styles.disabledButton]}
-              onPress={handlePrev}
-              disabled={isFirstCard}
-            >
-              <Text style={styles.buttonText}>Prev</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity
-              style={[styles.navButton, isLastCard && styles.disabledButton]}
-              onPress={handleNext}
-              disabled={isLastCard}
-            >
-              <Text style={styles.buttonText}>Next</Text>
-            </TouchableOpacity>
-          </View>
+              <TouchableOpacity
+                style={[styles.navButton, isLastCard && styles.disabledButton]}
+                onPress={handleNext}
+                disabled={isLastCard}
+              >
+                <Text style={styles.buttonText}>Next</Text>
+              </TouchableOpacity>
+            </View>
+          )}
         </>
       )}
     </View>
@@ -153,6 +183,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: colors.background,
     justifyContent: "center",
+  },
+  loaderContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
   },
   sectionName: {
     fontSize: 20,

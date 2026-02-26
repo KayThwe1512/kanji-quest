@@ -12,19 +12,29 @@ export default function ProfileScreen() {
     lastLearnedDate,
     longestStreak,
     todayLearned,
+    dailyProgress,
   } = useLearning();
 
   const totalLearned = learnedKanji.length;
 
   const getWeeklyData = () => {
     const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-    const todayIndex = new Date().getDay();
+    const today = new Date();
+    const startOfWeek = new Date(today);
+    startOfWeek.setDate(today.getDate() - today.getDay());
 
-    return days.map((day, index) => ({
-      label: day,
-      value: index === todayIndex ? todayLearned : 0,
-      frontColor: colors.secondary,
-    }));
+    return days.map((day, index) => {
+      const date = new Date(startOfWeek);
+      date.setDate(startOfWeek.getDate() + index);
+
+      const key = date.toISOString().split("T")[0];
+
+      return {
+        label: day,
+        value: dailyProgress[key] || 0,
+        frontColor: colors.secondary,
+      };
+    });
   };
 
   const today = new Date().toDateString();

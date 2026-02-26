@@ -7,6 +7,7 @@ type ProgressContextType = {
   highestDailyCount: number;
   lastLearnedDate: string | null;
   longestStreak: number;
+  dailyProgress: Record<string, number>;
   addLearnedKanji: (kanji: string) => void;
 };
 
@@ -22,6 +23,9 @@ export const ProgressProvider = ({ children }: { children: any }) => {
   const [highestDailyCount, setHighestDailyCount] = useState(0);
   const [lastLearnedDate, setLastLearnedDate] = useState<string | null>(null);
   const [longestStreak, setLongestStreak] = useState(0);
+  const [dailyProgress, setDailyProgress] = useState<Record<string, number>>(
+    {},
+  );
 
   const [loaded, setLoaded] = useState(false);
 
@@ -38,6 +42,7 @@ export const ProgressProvider = ({ children }: { children: any }) => {
         setHighestDailyCount(data.highestDailyCount || 0);
         setLastLearnedDate(data.lastLearnedDate || null);
         setLongestStreak(data.longestStreak || 0);
+        setDailyProgress(data.dailyProgress || {});
       }
 
       setLoaded(true);
@@ -58,6 +63,7 @@ export const ProgressProvider = ({ children }: { children: any }) => {
         highestDailyCount,
         lastLearnedDate,
         longestStreak,
+        dailyProgress,
       }),
     );
   }, [
@@ -67,41 +73,50 @@ export const ProgressProvider = ({ children }: { children: any }) => {
     lastLearnedDate,
     longestStreak,
     loaded,
+    dailyProgress,
   ]);
+  const getTodayKey = () => {
+    const now = new Date();
+    return now.toISOString().split("T")[0];
+  };
 
   const addLearnedKanji = (kanji: string) => {
-    const today = new Date();
-    const todayString = today.toDateString();
-
-    const yesterday = new Date();
-    yesterday.setDate(today.getDate() - 1);
-    const yesterdayString = yesterday.toDateString();
+    const todayKey = getTodayKey();
 
     setLearnedKanji((prev) => {
       if (prev.includes(kanji)) return prev;
       return [...prev, kanji];
     });
 
-    if (lastLearnedDate !== todayString) {
-      if (lastLearnedDate === yesterdayString) {
+    setDailyProgress((prev) => {
+      const updated = {
+        ...prev,
+        [todayKey]: (prev[todayKey] || 0) + 1,
+      };
+
+      const todayCount = updated[todayKey];
+      setTodayLearned(todayCount);
+
+      if (todayCount > highestDailyCount) {
+        setHighestDailyCount(todayCount);
+      }
+
+      return updated;
+    });
+
+    // streak logic
+    if (lastLearnedDate !== todayKey) {
+      const yesterday = new Date();
+      yesterday.setDate(yesterday.getDate() - 1);
+      const yesterdayKey = yesterday.toISOString().split("T")[0];
+
+      if (lastLearnedDate === yesterdayKey) {
         setLongestStreak((prev) => prev + 1);
       } else {
         setLongestStreak(1);
       }
 
-      setTodayLearned(1);
-      setLastLearnedDate(todayString);
-
-      if (1 > highestDailyCount) {
-        setHighestDailyCount(1);
-      }
-    } else {
-      const updated = todayLearned + 1;
-      setTodayLearned(updated);
-
-      if (updated > highestDailyCount) {
-        setHighestDailyCount(updated);
-      }
+      setLastLearnedDate(todayKey);
     }
   };
 
@@ -114,6 +129,7 @@ export const ProgressProvider = ({ children }: { children: any }) => {
         lastLearnedDate,
         longestStreak,
         addLearnedKanji,
+        dailyProgress,
       }}
     >
       {children}
