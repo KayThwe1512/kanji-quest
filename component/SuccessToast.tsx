@@ -37,7 +37,7 @@ export default function Toast({ visible, kanji, onClose }: ToastProps) {
         </View>
 
         <TouchableOpacity onPress={onClose}>
-          <Ionicons name="close" size={20} color={colors.textSecondary} />
+          <Ionicons name="close" size={20} color={colors.secondary} />
         </TouchableOpacity>
       </View>
     </View>

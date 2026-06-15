@@ -12,7 +12,6 @@ import colors from "@/theme/colors";
 import { useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
-
 export default function FlashcardScreen() {
   const [kanjiList, setKanjiList] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
@@ -50,7 +49,17 @@ export default function FlashcardScreen() {
   const loadKanji = async () => {
     try {
       setLoading(true);
+      if (from === "favorite" && kanji) {
+        const favItem = favorites.find((k) => k.kanji === kanji);
 
+        if (favItem) {
+          setKanjiList(favorites);
+          setCurrentIndex(favorites.findIndex((k) => k.kanji === kanji));
+          setCurrentIndex(0);
+        }
+
+        return;
+      }
       if (!section) return;
 
       const data = getFlashcardKanji(section.kanjiIds);
@@ -204,6 +213,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: colors.background,
     justifyContent: "center",
+  },
+  loaderContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
   },
   sectionName: {
     fontSize: 20,

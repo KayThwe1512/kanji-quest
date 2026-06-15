@@ -26,6 +26,9 @@ export const ProgressProvider = ({ children }: { children: any }) => {
   const [highestDailyCount, setHighestDailyCount] = useState(0);
   const [lastLearnedDate, setLastLearnedDate] = useState<string | null>(null);
   const [longestStreak, setLongestStreak] = useState(0);
+  const [dailyProgress, setDailyProgress] = useState<Record<string, number>>(
+    {},
+  );
 
   const [dailyCounts, setDailyCounts] = useState<Record<number, number>>({});
 
@@ -77,6 +80,7 @@ export const ProgressProvider = ({ children }: { children: any }) => {
     longestStreak,
     dailyCounts,
     loaded,
+    dailyProgress,
   ]);
   const addLearnedKanji = (kanji: string, customDate?: Date) => {
     if (!loaded) return;
