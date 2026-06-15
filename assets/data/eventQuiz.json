@@ -1,0 +1,2702 @@
+[
+  {
+    "id": 1,
+    "word": "保証",
+    "reading": "ほしょう",
+    "meaning": "guarantee, warranty",
+    "level": "N2",
+    "sameReading": ["保障", "補償", "発祥", "捕笑"],
+    "similarKanji": ["保険", "証明", "証拠", "保持", "邪魔"]
+  },
+  {
+    "id": 2,
+    "word": "普及",
+    "reading": "ふきゅう",
+    "meaning": "diffusion, spread, popularization",
+    "level": "N2",
+    "sameReading": ["不急", "不休", "富級", "布究"],
+    "similarKanji": ["高級", "吸収", "呼吸", "及ぶ", "初級"]
+  },
+  {
+    "id": 3,
+    "word": "冷静",
+    "reading": "れいせい",
+    "meaning": "calm, composed, cool-headed",
+    "level": "N2",
+    "sameReading": ["黎明", "励声", "冷製", "例政"],
+    "similarKanji": ["情熱", "清涼", "静か", "冷房", "綺麗"]
+  },
+  {
+    "id": 4,
+    "word": "延期",
+    "reading": "えんき",
+    "meaning": "postponement, adjournment",
+    "level": "N2",
+    "sameReading": ["縁起", "塩基", "演技", "遠忌"],
+    "similarKanji": ["誕生", "定期", "延長", "期待", "廷臣"]
+  },
+  {
+    "id": 5,
+    "word": "義務",
+    "reading": "ぎむ",
+    "meaning": "duty, obligation",
+    "level": "N2",
+    "sameReading": ["ギム", "義無"],
+    "similarKanji": ["権利", "任務", "公務", "正義", "事務所"]
+  },
+  {
+    "id": 6,
+    "word": "充実",
+    "reading": "じゅうじつ",
+    "meaning": "fullness, completion, perfection",
+    "level": "N2",
+    "sameReading": ["銃実", "充日"],
+    "similarKanji": ["誠実", "事実", "果実", "充電", "充実感"]
+  },
+  {
+    "id": 7,
+    "word": "豊富",
+    "reading": "ほうふ",
+    "meaning": "abundance, wealth, plenty",
+    "level": "N2",
+    "sameReading": ["抱負", "防腐", "法服", "放孵"],
+    "similarKanji": ["富士", "報告", "富豪", "豊富さ", "法律"]
+  },
+  {
+    "id": 8,
+    "word": "歓迎",
+    "reading": "かんげい",
+    "meaning": "welcome",
+    "level": "N2",
+    "sameReading": ["歓声", "観影", "官営", "間隙"],
+    "similarKanji": ["歓声", "送迎", "迎える", "歓迎会", "観客"]
+  },
+  {
+    "id": 9,
+    "word": "移動",
+    "reading": "いどう",
+    "meaning": "removal, migration, movement",
+    "level": "N2",
+    "sameReading": ["異動", "異同", "緯度", "医道"],
+    "similarKanji": ["運転", "労働", "移転", "活動", "移民"]
+  },
+  {
+    "id": 10,
+    "word": "感謝",
+    "reading": "かんしゃ",
+    "meaning": "thanks, gratitude",
+    "level": "N2",
+    "sameReading": ["患者", "間謝", "含車"],
+    "similarKanji": ["謝罪", "感知", "謝る", "感情", "射撃"]
+  },
+  {
+    "id": 11,
+    "word": "緊張",
+    "reading": "きんちょう",
+    "meaning": "tension, nervousness",
+    "level": "N2",
+    "sameReading": ["近頂", "金鳥", "錦帳"],
+    "similarKanji": ["主張", "緊急", "出張", "拡張", "金属"]
+  },
+  {
+    "id": 12,
+    "word": "深刻",
+    "reading": "しんこく",
+    "meaning": "serious, grave",
+    "level": "N2",
+    "sameReading": ["申告", "新緑", "清国", "新国"],
+    "similarKanji": ["深海", "時刻", "刻む", "深夜", "遅刻"]
+  },
+  {
+    "id": 13,
+    "word": "信頼",
+    "reading": "しんらい",
+    "meaning": "reliance, trust, confidence",
+    "level": "N2",
+    "sameReading": ["新緑", "森羅", "深頼"],
+    "similarKanji": ["依頼", "信号", "頼む", "頼ましい", "信念"]
+  },
+  {
+    "id": 14,
+    "word": "快適",
+    "reading": "かいてき",
+    "meaning": "pleasant, agreeable, comfortable",
+    "level": "N2",
+    "sameReading": ["開敵", "快滴"],
+    "similarKanji": ["適切", "快速", "適度", "適応", "快晴"]
+  },
+  {
+    "id": 15,
+    "word": "確認",
+    "reading": "かくにん",
+    "meaning": "confirmation, verification",
+    "level": "N2",
+    "sameReading": ["核認", "確任"],
+    "similarKanji": ["認識", "正確", "認める", "確率", "明確"]
+  },
+  {
+    "id": 16,
+    "word": "一致",
+    "reading": "いっち",
+    "meaning": "coincidence, agreement, match",
+    "level": "N2",
+    "sameReading": ["一知", "一智"],
+    "similarKanji": ["致す", "一回", "合致", "致命的", "一等"]
+  },
+  {
+    "id": 17,
+    "word": "演奏",
+    "reading": "えんそう",
+    "meaning": "musical performance",
+    "level": "N2",
+    "sameReading": ["演窓", "沿層"],
+    "similarKanji": ["伴奏", "園芸", "出演", "講演", "奏でる"]
+  },
+  {
+    "id": 18,
+    "word": "応援",
+    "reading": "おうえん",
+    "meaning": "aid, assistance, cheering",
+    "level": "N2",
+    "sameReading": ["往遠", "応縁"],
+    "similarKanji": ["援助", "応答", "応援団", "応用", "支援"]
+  },
+  {
+    "id": 19,
+    "word": "回収",
+    "reading": "かいしゅう",
+    "meaning": "collection, recovery",
+    "level": "N2",
+    "sameReading": ["改修", "買収", "階層", "怪獣"],
+    "similarKanji": ["吸収", "回数", "収集", "回復", "収入"]
+  },
+  {
+    "id": 20,
+    "word": "改善",
+    "reading": "かいぜん",
+    "meaning": "betterment, improvement",
+    "level": "N2",
+    "sameReading": ["回善", "海鮮", "開戦", "会戦"],
+    "similarKanji": ["親善", "改造", "善意", "善良", "改める"]
+  },
+  {
+    "id": 21,
+    "word": "開催",
+    "reading": "かいさい",
+    "meaning": "holding a meeting, open an exhibition",
+    "level": "N2",
+    "sameReading": ["海際", "開際"],
+    "similarKanji": ["催促", "開始", "主催", "催し", "裁判"]
+  },
+  {
+    "id": 22,
+    "word": "解消",
+    "reading": "かいしょう",
+    "meaning": "cancellation, liquidation, resolution",
+    "level": "N2",
+    "sameReading": ["対象", "快勝", "大将", "会葬"],
+    "similarKanji": ["消費", "解決", "消去", "消防", "解散"]
+  },
+  {
+    "id": 23,
+    "word": "拡大",
+    "reading": "かくだい",
+    "meaning": "magnification, enlargement",
+    "level": "N2",
+    "sameReading": ["格大", "確大"],
+    "similarKanji": ["拡張", "大国", "確実", "大体", "広大"]
+  },
+  {
+    "id": 24,
+    "word": "覚悟",
+    "reading": "かくご",
+    "meaning": "resolution, readiness, preparedness",
+    "level": "N2",
+    "sameReading": ["客語", "核後"],
+    "similarKanji": ["感覚", "悟る", "視覚", "目覚まし", "覚える"]
+  },
+  {
+    "id": 25,
+    "word": "確率",
+    "reading": "かくりつ",
+    "meaning": "probability, likelihood",
+    "level": "N2",
+    "sameReading": ["確立", "確実", "核率"],
+    "similarKanji": ["比率", "確実", "効率", "能率", "確認"]
+  },
+  {
+    "id": 26,
+    "word": "果実",
+    "reading": "かじつ",
+    "meaning": "fruit, nut, berry",
+    "level": "N2",
+    "sameReading": ["過日", "夏日", "佳日"],
+    "similarKanji": ["事実", "成果", "効果", "実験", "果物"]
+  },
+  {
+    "id": 27,
+    "word": "活気",
+    "reading": "かっき",
+    "meaning": "energy, liveliness",
+    "level": "N2",
+    "sameReading": ["各機", "画期", "活気"],
+    "similarKanji": ["活動", "気体", "生活", "元気", "活用"]
+  },
+  {
+    "id": 28,
+    "word": "活用",
+    "reading": "かつよう",
+    "meaning": "practical use, application",
+    "level": "N2",
+    "sameReading": ["褐葉", "活葉"],
+    "similarKanji": ["生活", "利用", "活動", "用意", "応用"]
+  },
+  {
+    "id": 29,
+    "word": "勘定",
+    "reading": "かんじょう",
+    "meaning": "calculation, counting, bill",
+    "level": "N2",
+    "sameReading": ["感情", "勘情", "環状", "観照"],
+    "similarKanji": ["勘違い", "予定", "決定", "安定", "勘弁"]
+  },
+  {
+    "id": 30,
+    "word": "管理",
+    "reading": "かんり",
+    "meaning": "control, management",
+    "level": "N2",
+    "sameReading": ["還暦", "慣例", "艦利"],
+    "similarKanji": ["処理", "菅原", "理解", "理想", "理由"]
+  },
+  {
+    "id": 31,
+    "word": "関連",
+    "reading": "かんれん",
+    "meaning": "relation, connection",
+    "level": "N2",
+    "sameReading": ["観覧", "感涙", "完連"],
+    "similarKanji": ["連続", "関心", "関係", "機関車", "連れて行く"]
+  },
+  {
+    "id": 32,
+    "word": "議員",
+    "reading": "ぎいん",
+    "meaning": "member of an assembly",
+    "level": "N2",
+    "sameReading": ["医院", "偽印", "義院"],
+    "similarKanji": ["会議", "職員", "全員", "議論", "不思議"]
+  },
+  {
+    "id": 33,
+    "word": "記憶",
+    "reading": "きおく",
+    "meaning": "memory, recollection",
+    "level": "N2",
+    "sameReading": ["気おく", "既億"],
+    "similarKanji": ["追憶", "記入", "記事", "億万長者", "おく病"]
+  },
+  {
+    "id": 34,
+    "word": "気候",
+    "reading": "きこう",
+    "meaning": "climate",
+    "level": "N2",
+    "sameReading": ["機構", "寄稿", "紀行", "奇行"],
+    "similarKanji": ["天候", "気体", "候補", "元気", "天気の"]
+  },
+  {
+    "id": 35,
+    "word": "技術",
+    "reading": "ぎじゅつ",
+    "meaning": "art, craft, technique, technology",
+    "level": "N2",
+    "sameReading": ["偽術", "議術"],
+    "similarKanji": ["美術", "演技", "競技", "手術", "芸術"]
+  },
+  {
+    "id": 36,
+    "word": "基本",
+    "reading": "きほん",
+    "meaning": "foundation, basis, standard",
+    "level": "N2",
+    "sameReading": ["既婚", "旗本", "気品"],
+    "similarKanji": ["本質", "基地", "本当", "日本", "基準"]
+  },
+  {
+    "id": 37,
+    "word": "義務",
+    "reading": "ぎむ",
+    "meaning": "duty, obligation",
+    "level": "N2",
+    "sameReading": ["事務", "業務", "財務"],
+    "similarKanji": ["公務", "義理", "正義", "勤務", "務める"]
+  },
+  {
+    "id": 38,
+    "word": "疑問",
+    "reading": "ぎもん",
+    "meaning": "question, doubt, suspicion",
+    "level": "N2",
+    "sameReading": ["儀門", "偽問"],
+    "similarKanji": ["問題", "疑う", "訪問", "質問", "学問"]
+  },
+  {
+    "id": 39,
+    "word": "逆転",
+    "reading": "ぎゃくてん",
+    "meaning": "sudden change, reversal",
+    "level": "N2",
+    "sameReading": ["逆点", "虐天"],
+    "similarKanji": ["運転", "逆襲", "自転車", "反対", "回転"]
+  },
+  {
+    "id": 40,
+    "word": "急速",
+    "reading": "きゅうそく",
+    "meaning": "rapid, swift",
+    "level": "N2",
+    "sameReading": ["休息", "旧俗", "吸息"],
+    "similarKanji": ["速度", "急行", "早速", "高速", "救急"]
+  },
+  {
+    "id": 41,
+    "word": "吸収",
+    "reading": "きゅうしゅう",
+    "meaning": "absorption, suction, attraction",
+    "level": "N2",
+    "sameReading": ["九州", "急襲", "旧習"],
+    "similarKanji": ["回収", "呼吸", "収入", "収集", "救助"]
+  },
+  {
+    "id": 42,
+    "word": "救助",
+    "reading": "きゅうじょ",
+    "meaning": "relief, aid, rescue",
+    "level": "N2",
+    "sameReading": ["旧除", "求助"],
+    "similarKanji": ["援助", "救急", "助ける", "助手", "救う"]
+  },
+  {
+    "id": 43,
+    "word": "共通",
+    "reading": "きょうつう",
+    "meaning": "community, commonness",
+    "level": "N2",
+    "sameReading": ["今日中", "境中"],
+    "similarKanji": ["通常", "共同", "普通", "交通", "共に"]
+  },
+  {
+    "id": 44,
+    "word": "共同",
+    "reading": "きょうどう",
+    "meaning": "cooperation, association, collaboration",
+    "level": "N2",
+    "sameReading": ["協同", "強大", "郷土", "鏡胴"],
+    "similarKanji": ["共通", "同様", "同僚", "学校", "同等"]
+  },
+  {
+    "id": 45,
+    "word": "興味",
+    "reading": "きょうみ",
+    "meaning": "interest",
+    "level": "N2",
+    "sameReading": ["強味", "凶魅"],
+    "similarKanji": ["趣味", "余興", "意味", "調味", "興味深い"]
+  },
+  {
+    "id": 46,
+    "word": "強力",
+    "reading": "きょうりょく",
+    "meaning": "powerful, strong",
+    "level": "N2",
+    "sameReading": ["協力", "教力", "郷力"],
+    "similarKanji": ["努力", "強制", "権力", "能力", "強烈"]
+  },
+  {
+    "id": 47,
+    "word": "許可",
+    "reading": "きょか",
+    "meaning": "permission, approval",
+    "level": "N2",
+    "sameReading": ["虚仮", "巨家"],
+    "similarKanji": ["可能", "免許", "不可能", "何個", "可愛い"]
+  },
+  {
+    "id": 48,
+    "word": "巨大",
+    "reading": "きょだい",
+    "meaning": "huge, gigantic, immense",
+    "level": "N2",
+    "sameReading": ["巨体", "拠台"],
+    "similarKanji": ["大国", "拒否", "拡大", "距離", "大丈夫"]
+  },
+  {
+    "id": 49,
+    "word": "距離",
+    "reading": "きょり",
+    "meaning": "distance, interval",
+    "level": "N2",
+    "sameReading": ["居留", "巨利"],
+    "similarKanji": ["離婚", "拒絶", "巨大", "離れる", "拒否"]
+  },
+  {
+    "id": 50,
+    "word": "議論",
+    "reading": "ぎろん",
+    "meaning": "argument, discussion, dispute",
+    "level": "N2",
+    "sameReading": ["戯論", "議論"],
+    "similarKanji": ["理論", "会議", "論文", "結論", "不思議"]
+  },
+  {
+    "id": 51,
+    "word": "緊張",
+    "reading": "きんちょう",
+    "meaning": "tension, mental strain",
+    "level": "N2",
+    "sameReading": ["近頂", "金鳥"],
+    "similarKanji": ["拡張", "緊急", "出張", "主張", "緊張感"]
+  },
+  {
+    "id": 52,
+    "word": "金融",
+    "reading": "きんゆう",
+    "meaning": "finance, monetary circulation",
+    "level": "N2",
+    "sameReading": ["金利", "親友"],
+    "similarKanji": ["融資", "現金", "融合", "金属", "禁止"]
+  },
+  {
+    "id": 53,
+    "word": "偶然",
+    "reading": "ぐうぜん",
+    "meaning": "chance, accident, fortuity",
+    "level": "N2",
+    "sameReading": ["宮殿", "遇然"],
+    "similarKanji": ["突然", "必然", "自然", "全然", "一遇"]
+  },
+  {
+    "id": 54,
+    "word": "具体的",
+    "reading": "ぐたいてき",
+    "meaning": "concrete, specific",
+    "level": "N2",
+    "sameReading": ["具体性", "具諦的"],
+    "similarKanji": ["道具", "抽象的", "家具", "目的", "的確"]
+  },
+  {
+    "id": 55,
+    "word": "苦情",
+    "reading": "くじょう",
+    "meaning": "complaint, grievance",
+    "level": "N2",
+    "sameReading": ["九条", "公条", "苦乗"],
+    "similarKanji": ["苦痛", "事情", "感情", "苦情処理", "苦しい"]
+  },
+  {
+    "id": 56,
+    "word": "工夫",
+    "reading": "くふう",
+    "meaning": "scheme, device, engineering, wit",
+    "level": "N2",
+    "sameReading": ["クフウ", "苦風"],
+    "similarKanji": ["工夫する", "夫婦", "夫", "工程", "大工"]
+  },
+  {
+    "id": 57,
+    "word": "区分",
+    "reading": "くぶん",
+    "meaning": "division, section, classification",
+    "level": "N2",
+    "sameReading": ["公分", "苦分"],
+    "similarKanji": ["部分", "区画", "区別", "十分", "区役所"]
+  },
+  {
+    "id": 58,
+    "word": "傾向",
+    "reading": "けいこう",
+    "meaning": "tendency, trend, inclination",
+    "level": "N2",
+    "sameReading": ["蛍光", "敬向", "軽口"],
+    "similarKanji": ["方向", "傾斜", "向こう", "関係", "向かう"]
+  },
+  {
+    "id": 59,
+    "word": "警告",
+    "reading": "けいこく",
+    "meaning": "warning, advice",
+    "level": "N2",
+    "sameReading": ["渓谷", "傾国", "経国"],
+    "similarKanji": ["警察", "報告", "広告", "告訴", "経過"]
+  },
+  {
+    "id": 60,
+    "word": "計算",
+    "reading": "けいさん",
+    "meaning": "calculation, reckoning",
+    "level": "N2",
+    "sameReading": ["経産", "刑算", "形散"],
+    "similarKanji": ["予算", "計画", "計算機", "経験", "引き算"]
+  },
+  {
+    "id": 61,
+    "word": "契約",
+    "reading": "けいやく",
+    "meaning": "contract, compact, agreement",
+    "level": "N2",
+    "sameReading": ["刑約", "敬約"],
+    "similarKanji": ["約束", "割愛", "予約", "約10", "結束"]
+  },
+  {
+    "id": 62,
+    "word": "経由",
+    "reading": "けいゆ",
+    "meaning": "via, by way of",
+    "level": "N2",
+    "sameReading": ["軽油", "刑由"],
+    "similarKanji": ["経過", "自由", "理由", "経理", "由来"]
+  },
+  {
+    "id": 63,
+    "word": "欠陥",
+    "reading": "けっかん",
+    "meaning": "defect, fault, flaw",
+    "level": "N2",
+    "sameReading": ["血管", "決着", "結実"],
+    "similarKanji": ["欠席", "陥没", "結果", "欠点", "陥る"]
+  },
+  {
+    "id": 64,
+    "word": "結局",
+    "reading": "けっきょく",
+    "meaning": "after all, in the end",
+    "level": "N2",
+    "sameReading": ["決局", "血局"],
+    "similarKanji": ["結論", "薬局", "結果", "決定", "局長"]
+  },
+  {
+    "id": 65,
+    "word": "決算",
+    "reading": "けっさん",
+    "meaning": "settlement of accounts",
+    "level": "N2",
+    "sameReading": ["欠山", "結賛"],
+    "similarKanji": ["決定", "計算", "予算", "結果", "決める"]
+  },
+  {
+    "id": 66,
+    "word": "結論",
+    "reading": "けつろん",
+    "meaning": "conclusion",
+    "level": "N2",
+    "sameReading": ["血論", "欠論"],
+    "similarKanji": ["結果", "議論", "論文", "決定", "論じる"]
+  },
+  {
+    "id": 67,
+    "word": "検査",
+    "reading": "けんさ",
+    "meaning": "inspection, scan, test",
+    "level": "N2",
+    "sameReading": ["検索", "憲査", "遣使"],
+    "similarKanji": ["検索", "調査", "審査", "点検", "捜査"]
+  },
+  {
+    "id": 68,
+    "word": "検索",
+    "reading": "けんさく",
+    "meaning": "looking up, searching for data",
+    "level": "N2",
+    "sameReading": ["検査", "研削", "憲作"],
+    "similarKanji": ["検査", "模索", "索引", "模索する", "調査"]
+  },
+  {
+    "id": 69,
+    "word": "見当",
+    "reading": "けんとう",
+    "meaning": "aim, mark, estimate, direction",
+    "level": "N2",
+    "sameReading": ["検討", "拳闘", "建白", "見倒"],
+    "similarKanji": ["見当違い", "弁当", "本当に", "適当", "見物"]
+  },
+  {
+    "id": 70,
+    "word": "検討",
+    "reading": "けんとう",
+    "meaning": "consideration, examination, scrutiny",
+    "level": "N2",
+    "sameReading": ["見当", "拳闘", "建白"],
+    "similarKanji": ["討議", "検索", "討論", "討つ", "調査"]
+  },
+  {
+    "id": 71,
+    "word": "現場",
+    "reading": "げんば",
+    "meaning": "actual spot, scene of action",
+    "level": "N2",
+    "sameReading": ["現像", "原版", "言刃"],
+    "similarKanji": ["現在", "場所", "広場", "工場", "表現"]
+  },
+  {
+    "id": 72,
+    "word": "憲法",
+    "reading": "けんぽう",
+    "meaning": "constitution",
+    "level": "N2",
+    "sameReading": ["拳法", "建邦"],
+    "similarKanji": ["法律", "方法", "文法", "違法", "都道府県"]
+  },
+  {
+    "id": 73,
+    "word": "権利",
+    "reading": "けんり",
+    "meaning": "right, privilege",
+    "level": "N2",
+    "sameReading": ["権限", "賢利", "件利"],
+    "similarKanji": ["義務", "利益", "便利", "利用", "政権"]
+  },
+  {
+    "id": 74,
+    "word": "交際",
+    "reading": "こうさい",
+    "meaning": "company, friendship, association",
+    "level": "N2",
+    "sameReading": ["公債", "光彩", "校際", "高才"],
+    "similarKanji": ["交通", "国際", "実際", "交渉", "交番"]
+  },
+  {
+    "id": 75,
+    "word": "構成",
+    "reading": "こうせい",
+    "meaning": "organization, composition",
+    "level": "N2",
+    "sameReading": ["公正", "厚生", "校正", "後生", "高精"],
+    "similarKanji": ["成功", "構造", "賛成", "作成", "成分"]
+  },
+  {
+    "id": 76,
+    "word": "高速",
+    "reading": "こうそく",
+    "meaning": "high speed",
+    "level": "N2",
+    "sameReading": ["拘束", "校則", "公則", "光速"],
+    "similarKanji": ["速度", "高校", "急速", "早速", "速い"]
+  },
+  {
+    "id": 77,
+    "word": "行動",
+    "reading": "こうど",
+    "meaning": "action, conduct, behavior",
+    "level": "N2",
+    "sameReading": ["高度", "硬度", "光度", "講堂"],
+    "similarKanji": ["活動", "行為", "運動", "動物", "移動"]
+  },
+  {
+    "id": 78,
+    "word": "候補",
+    "reading": "こうほ",
+    "meaning": "candidate, prospect",
+    "level": "N2",
+    "sameReading": ["後方", "公募", "高歩"],
+    "similarKanji": ["補給", "天候", "補習", "気候", "方法"]
+  },
+  {
+    "id": 79,
+    "word": "考慮",
+    "reading": "こうりょ",
+    "meaning": "consideration, taking into account",
+    "level": "N2",
+    "sameReading": ["光慮", "広慮"],
+    "similarKanji": ["遠慮", "配慮", "顧みる", "心配", "配慮する"]
+  },
+  {
+    "id": 80,
+    "word": "誤解",
+    "reading": "ごかい",
+    "meaning": "misunderstanding",
+    "level": "N2",
+    "sameReading": ["五回", "御開", "五階"],
+    "similarKanji": ["解決", "誤診", "理解", "解説", "誤る"]
+  },
+  {
+    "id": 81,
+    "word": "国境",
+    "reading": "こっきょう",
+    "meaning": "national border",
+    "level": "N2",
+    "sameReading": ["滑稽", "国教"],
+    "similarKanji": ["環境", "国内", "外国人", "境界", "県境"]
+  },
+  {
+    "id": 82,
+    "word": "困難",
+    "reading": "こんなん",
+    "meaning": "difficulty, distress",
+    "level": "N2",
+    "sameReading": ["困難度", "混難"],
+    "similarKanji": ["難解", "困惑", "困る", "難しい", "難民"]
+  },
+  {
+    "id": 83,
+    "word": "災害",
+    "reading": "さいがい",
+    "meaning": "disaster, calamity",
+    "level": "N2",
+    "sameReading": ["再会", "際会"],
+    "similarKanji": ["被害", "裁判", "公害", "損害", "震災"]
+  },
+  {
+    "id": 84,
+    "word": "才能",
+    "reading": "さいのう",
+    "meaning": "talent, ability",
+    "level": "N2",
+    "sameReading": ["再納", "細能"],
+    "similarKanji": ["能力", "天才", "可能", "機能", "栽培"]
+  },
+  {
+    "id": 85,
+    "word": "裁判",
+    "reading": "さいばん",
+    "meaning": "trial, judgment",
+    "level": "N2",
+    "sameReading": ["再販", "祭壇"],
+    "similarKanji": ["判断", "裁決", "評判", "裁く", "交番"]
+  },
+  {
+    "id": 86,
+    "word": "採用",
+    "reading": "さいよう",
+    "meaning": "adoption, employment",
+    "level": "N2",
+    "sameReading": ["再用", "最良"],
+    "similarKanji": ["利用", "応募", "用意", "活用", "愛用"]
+  },
+  {
+    "id": 87,
+    "word": "逆らう",
+    "reading": "さからう",
+    "meaning": "to go against, to disobey",
+    "level": "N2",
+    "sameReading": ["逆らう者", "坂路"],
+    "similarKanji": ["逆転", "反対", "坂道", "逆さ", "返す"]
+  },
+  {
+    "id": 88,
+    "word": "支える",
+    "reading": "ささえる",
+    "meaning": "to support, to sustain",
+    "level": "N2",
+    "sameReading": ["囁く", "捧げる"],
+    "similarKanji": ["支配", "支店", "支持", "支払い", "差し支え"]
+  },
+  {
+    "id": 89,
+    "word": "削減",
+    "reading": "さくげん",
+    "meaning": "cut, reduction",
+    "level": "N2",
+    "sameReading": ["作言", "錯言"],
+    "similarKanji": ["減少", "削る", "増減", "減る", "作成"]
+  },
+  {
+    "id": 90,
+    "word": "差別",
+    "reading": "さべつ",
+    "meaning": "discrimination, distinction",
+    "level": "N2",
+    "sameReading": ["砂別", "佐別"],
+    "similarKanji": ["区別", "差出人", "特別", "別れる", "時差"]
+  },
+  {
+    "id": 91,
+    "word": "作法",
+    "reading": "さほう",
+    "meaning": "manners, etiquette",
+    "level": "N2",
+    "sameReading": ["左方", "沙法"],
+    "similarKanji": ["法律", "作業", "方法", "作品", "文法"]
+  },
+  {
+    "id": 92,
+    "word": "刺激",
+    "reading": "しげき",
+    "meaning": "stimulus, incentive, motivation",
+    "level": "N2",
+    "sameReading": ["史劇", "司劇"],
+    "similarKanji": ["激励", "名刺", "名刺", "感激", "激しい"]
+  },
+  {
+    "id": 93,
+    "word": "資源",
+    "reading": "しげん",
+    "meaning": "resources",
+    "level": "N2",
+    "sameReading": ["私言", "始原", "試言"],
+    "similarKanji": ["財源", "資産", "資料", "源泉", "電源"]
+  },
+  {
+    "id": 94,
+    "word": "支持",
+    "reading": "しじ",
+    "meaning": "support, backing",
+    "level": "N2",
+    "sameReading": ["指示", "師事", "私事", "四時"],
+    "similarKanji": ["持参", "支配", "維持", "気持ち", "表示"]
+  },
+  {
+    "id": 95,
+    "word": "思考",
+    "reading": "しこう",
+    "meaning": "thought, consideration",
+    "level": "N2",
+    "sameReading": ["志向", "試行", "施行", "至高"],
+    "similarKanji": ["考慮", "参考", "考える", "考古学", "思想"]
+  },
+  {
+    "id": 96,
+    "word": "自慢",
+    "reading": "じまん",
+    "meaning": "pride, boast",
+    "level": "N2",
+    "sameReading": ["時間", "示談"],
+    "similarKanji": ["我慢", "自動車", "自分", "我慢する", "漫画"]
+  },
+  {
+    "id": 97,
+    "word": "地味",
+    "reading": "じみ",
+    "meaning": "plain, simple, sober",
+    "level": "N2",
+    "sameReading": ["滋味", "地未"],
+    "similarKanji": ["地主", "意味", "地球", "趣味", "地味な"]
+  },
+  {
+    "id": 98,
+    "word": "支配",
+    "reading": "しはい",
+    "meaning": "rule, control, direction",
+    "level": "N2",
+    "sameReading": ["市販", "司会"],
+    "similarKanji": ["支店", "心配", "配達", "支持", "支える"]
+  },
+  {
+    "id": 99,
+    "word": "司法",
+    "reading": "しほう",
+    "meaning": "administration of justice, judicature",
+    "level": "N2",
+    "sameReading": ["脂肪", "四方", "私法", "至宝"],
+    "similarKanji": ["法律", "司会", "方法", "上司", "司会者"]
+  },
+  {
+    "id": 100,
+    "word": "志望",
+    "reading": "しぼう",
+    "meaning": "wish, desire, ambition",
+    "level": "N2",
+    "sameReading": ["死亡", "脂肪", "私忘"],
+    "similarKanji": ["希望", "意志", "忘れる", "絶望", "多忙"]
+  },
+  {
+    "id": 101,
+    "word": "資本",
+    "reading": "しほん",
+    "meaning": "capital, funds",
+    "level": "N2",
+    "sameReading": ["基本", "既婚", "私本"],
+    "similarKanji": ["基本", "資産", "本当", "日本", "本店"]
+  },
+  {
+    "id": 102,
+    "word": "私生活",
+    "reading": "しせいかつ",
+    "meaning": "private life",
+    "level": "N2",
+    "sameReading": ["市生活", "師生活"],
+    "similarKanji": ["社会生活", "私用", "生活", "活動", "私立"]
+  },
+  {
+    "id": 103,
+    "word": "指示",
+    "reading": "しじ",
+    "meaning": "instructions, directions",
+    "level": "N2",
+    "sameReading": ["支持", "私事", "四時", "師事"],
+    "similarKanji": ["表示", "指摘", "暗示", "示す", "支持する"]
+  },
+  {
+    "id": 104,
+    "word": "持参",
+    "reading": "じさん",
+    "meaning": "bringing, carrying",
+    "level": "N2",
+    "sameReading": ["資産", "時産"],
+    "similarKanji": ["参加", "維持", "参考", "気持ち", "参る"]
+  },
+  {
+    "id": 105,
+    "word": "事情",
+    "reading": "じじょう",
+    "meaning": "circumstances, conditions",
+    "level": "N2",
+    "sameReading": ["自乗", "次条", "地状"],
+    "similarKanji": ["感情", "事実", "同情", "友情", "事態"]
+  },
+  {
+    "id": 106,
+    "word": "事実",
+    "reading": "じじつ",
+    "meaning": "fact, truth",
+    "level": "N2",
+    "sameReading": ["自失", "次日"],
+    "similarKanji": ["実力", "事情", "現実", "確実", "事故"]
+  },
+  {
+    "id": 107,
+    "word": "実績",
+    "reading": "じっせき",
+    "meaning": "achievements, actual results",
+    "level": "N2",
+    "sameReading": ["実地", "実績値"],
+    "similarKanji": ["成績", "実行", "実際", "紡績", "蓄積"]
+  },
+  {
+    "id": 108,
+    "word": "地盤",
+    "reading": "じばん",
+    "meaning": "the ground, foundation",
+    "level": "N2",
+    "sameReading": ["自慢", "地番"],
+    "similarKanji": ["看板", "地面", "地球", "一般", "交番"]
+  },
+  {
+    "id": 109,
+    "word": "上品",
+    "reading": "じょうひん",
+    "meaning": "elegant, refined, polite",
+    "level": "N2",
+    "sameReading": ["商品", "乗品"],
+    "similarKanji": ["下品", "商品", "作品", "以上", "品質"]
+  },
+  {
+    "id": 110,
+    "word": "乗客",
+    "reading": "じょうきゃく",
+    "meaning": "passenger",
+    "level": "N2",
+    "sameReading": ["乗車", "政客"],
+    "similarKanji": ["観客", "乗車", "お客様", "乗り物", "観光"]
+  },
+  {
+    "id": 111,
+    "word": "状態",
+    "reading": "じょうたい",
+    "meaning": "state, condition, situation",
+    "level": "N2",
+    "sameReading": ["常態", "情態"],
+    "similarKanji": ["態度", "状況", "態度", "形態", "以上"]
+  },
+  {
+    "id": 112,
+    "word": "情熱",
+    "reading": "じょうねつ",
+    "meaning": "passion, enthusiasm",
+    "level": "N2",
+    "sameReading": ["情実", "情念"],
+    "similarKanji": ["熱心", "友情", "感情", "熱い", "熱中"]
+  },
+  {
+    "id": 113,
+    "word": "証明",
+    "reading": "しょうめい",
+    "meaning": "proof, verification",
+    "level": "N2",
+    "sameReading": ["照明", "将命", "小名"],
+    "similarKanji": ["説明", "証拠", "保証", "明確", "発明"]
+  },
+  {
+    "id": 114,
+    "word": "処理",
+    "reading": "しょり",
+    "meaning": "processing, disposal, treatment",
+    "level": "N2",
+    "sameReading": ["初理", "署理"],
+    "similarKanji": ["理由", "処分", "管理", "料理", "処置"]
+  },
+  {
+    "id": 115,
+    "word": "処分",
+    "reading": "しょぶん",
+    "meaning": "disposal, punishment",
+    "level": "N2",
+    "sameReading": ["初分", "署分"],
+    "similarKanji": ["部分", "処理", "半分", "処置", "分量"]
+  },
+  {
+    "id": 116,
+    "word": "自立",
+    "reading": "じりつ",
+    "meaning": "independence, self-reliance",
+    "level": "N2",
+    "sameReading": ["自律", "時律", "事律"],
+    "similarKanji": ["独立", "自身", "自分", "起立", "目立つ"]
+  },
+  {
+    "id": 117,
+    "word": "進行",
+    "reading": "しんこう",
+    "meaning": "advance, progress",
+    "level": "N2",
+    "sameReading": ["信仰", "振興", "新興", "親交", "深好"],
+    "similarKanji": ["行動", "進出", "進歩", "飛行機", "銀行"]
+  },
+  {
+    "id": 118,
+    "word": "慎重",
+    "reading": "しんちょう",
+    "meaning": "careful, prudent, cautious",
+    "level": "N2",
+    "sameReading": ["身長", "新調", "深長"],
+    "similarKanji": ["重厚", "真実", "重要", "体重", "慎む"]
+  },
+  {
+    "id": 119,
+    "word": "侵入",
+    "reading": "しんにゅう",
+    "meaning": "penetration, invasion, trespass",
+    "level": "N2",
+    "sameReading": ["新入", "進入", "親入"],
+    "similarKanji": ["進入", "侵害", "侵略", "入学", "購入"]
+  },
+  {
+    "id": 120,
+    "word": "信用",
+    "reading": "しんよう",
+    "meaning": "confidence, dependence, credit",
+    "level": "N2",
+    "sameReading": ["新緑", "親和"],
+    "similarKanji": ["信頼", "自信", "利用", "用意", "信じる"]
+  },
+  {
+    "id": 121,
+    "word": "心理",
+    "reading": "しんり",
+    "meaning": "mentality, psychology",
+    "level": "N2",
+    "sameReading": ["真理", "審理", "新理"],
+    "similarKanji": ["理由", "心臓", "理解", "理想", "心配"]
+  },
+  {
+    "id": 122,
+    "word": "推薦",
+    "reading": "すいせん",
+    "meaning": "recommendation, referral",
+    "level": "N2",
+    "sameReading": ["水仙", "垂線", "推選"],
+    "similarKanji": ["進める", "推量", "推進", "選択", "選挙"]
+  },
+  {
+    "id": 123,
+    "word": "睡眠",
+    "reading": "すいみん",
+    "meaning": "sleep",
+    "level": "N2",
+    "sameReading": ["水面", "吸眠"],
+    "similarKanji": ["冬眠", "水分", "眠い", "眠る", "居眠り"]
+  },
+  {
+    "id": 124,
+    "word": "数字",
+    "reading": "すうじ",
+    "meaning": "numeral, figure",
+    "level": "N2",
+    "sameReading": ["趨時", "数日"],
+    "similarKanji": ["漢字", "数量", "文字", "数学", "数える"]
+  },
+  {
+    "id": 125,
+    "word": "優れる",
+    "reading": "すぐれる",
+    "meaning": "to surpass, to excel",
+    "level": "N2",
+    "sameReading": ["優れる者", "優れる点"],
+    "similarKanji": ["優秀", "優しい", "優先", "俳優", "優位"]
+  },
+  {
+    "id": 126,
+    "word": "涼しい",
+    "reading": "すずしい",
+    "meaning": "cool, refreshing",
+    "level": "N2",
+    "sameReading": ["清々しい", "涼しさ"],
+    "similarKanji": ["驚く", "涼風", "北京", "景色", "涼む"]
+  },
+  {
+    "id": 127,
+    "word": "清潔",
+    "reading": "せいけつ",
+    "meaning": "clean, sanitary",
+    "level": "N2",
+    "sameReading": ["性急", "成決"],
+    "similarKanji": ["不潔", "清楚", "簡潔", "清水", "潔い"]
+  },
+  {
+    "id": 128,
+    "word": "制限",
+    "reading": "せいげん",
+    "meaning": "restriction, restraint, limitation",
+    "level": "N2",
+    "sameReading": ["誓言", "西諺"],
+    "similarKanji": ["限度", "制度", "限界", "制作", "期限"]
+  },
+  {
+    "id": 129,
+    "word": "制作",
+    "reading": "せいさく",
+    "meaning": "production, creation (art, film)",
+    "level": "N2",
+    "sameReading": ["製作", "政策", "精作", "成作"],
+    "similarKanji": ["作品", "作成", "製造", "作業", "作文"]
+  },
+  {
+    "id": 130,
+    "word": "性質",
+    "reading": "せいしつ",
+    "meaning": "nature, property, disposition",
+    "level": "N2",
+    "sameReading": ["正室", "聖日"],
+    "similarKanji": ["本質", "質問", "品質", "実質", "物質"]
+  },
+  {
+    "id": 131,
+    "word": "清算",
+    "reading": "せいさん",
+    "meaning": "settlement, clearing",
+    "level": "N2",
+    "sameReading": ["生産", "成算", "正産"],
+    "similarKanji": ["計算", "決算", "予算", "清水", "引き算"]
+  },
+  {
+    "id": 132,
+    "word": "精神",
+    "reading": "せいしん",
+    "meaning": "mind, soul, heart, spirit",
+    "level": "N2",
+    "sameReading": ["清新", "成心"],
+    "similarKanji": ["神経", "神話", "神社", "政権", "神様"]
+  },
+  {
+    "id": 133,
+    "word": "勢力",
+    "reading": "せいりょく",
+    "meaning": "influence, power, energy",
+    "level": "N2",
+    "sameReading": ["精力", "正力", "成力"],
+    "similarKanji": ["能力", "姿勢", "権力", "努力", "大勢"]
+  },
+  {
+    "id": 134,
+    "word": "責任",
+    "reading": "せきにん",
+    "meaning": "duty, responsibility",
+    "level": "N2",
+    "sameReading": ["席に", "積年"],
+    "similarKanji": ["担任", "責める", "任務", "信頼", "座席"]
+  },
+  {
+    "id": 135,
+    "word": "世間",
+    "reading": "せけん",
+    "meaning": "world, society, public",
+    "level": "N2",
+    "sameReading": ["世件", "施権"],
+    "similarKanji": ["人間", "世界", "世代", "世話", "時間"]
+  },
+  {
+    "id": 136,
+    "word": "説得",
+    "reading": "せっとく",
+    "meaning": "persuasion",
+    "level": "N2",
+    "sameReading": ["節得", "設特"],
+    "similarKanji": ["説明", "納得", "小説", "得る", "得点"]
+  },
+  {
+    "id": 137,
+    "word": "絶滅",
+    "reading": "ぜつめつ",
+    "meaning": "destruction, extinction",
+    "level": "N2",
+    "sameReading": ["絶滅種", "舌滅"],
+    "similarKanji": ["気絶", "滅ぼす", "絶対", "絶えず", "点滅"]
+  },
+  {
+    "id": 138,
+    "word": "設備",
+    "reading": "せつび",
+    "meaning": "equipment, device, facilities",
+    "level": "N2",
+    "sameReading": ["節日", "設日"],
+    "similarKanji": ["準備", "設定", "設計", "予備", "備える"]
+  },
+  {
+    "id": 139,
+    "word": "宣言",
+    "reading": "せんげん",
+    "meaning": "declaration, proclamation",
+    "level": "N2",
+    "sameReading": ["千言", "船原"],
+    "similarKanji": ["言語", "宣伝", "発言", "伝言", "宣伝する"]
+  },
+  {
+    "id": 140,
+    "word": "選択",
+    "reading": "せんたく",
+    "meaning": "selection, choice",
+    "level": "N2",
+    "sameReading": ["洗濯", "先着", "浅学"],
+    "similarKanji": ["択一", "採択", "選手", "洗濯機", "お宅"]
+  },
+  {
+    "id": 141,
+    "word": "占める",
+    "reading": "しめる",
+    "meaning": "to comprise, to account for, to occupy",
+    "level": "N2",
+    "sameReading": ["閉める", "締める", "湿める"],
+    "similarKanji": ["占い", "独占", "占う", "閉じる", "締め切り"]
+  },
+  {
+    "id": 142,
+    "word": "専門",
+    "reading": "せんもん",
+    "meaning": "specialty, major",
+    "level": "N2",
+    "sameReading": ["正門", "先問", "泉門"],
+    "similarKanji": ["正門", "専念", "専門家", "門口", "専務"]
+  },
+  {
+    "id": 143,
+    "word": "相互",
+    "reading": "そうご",
+    "meaning": "mutual, reciprocal",
+    "level": "N2",
+    "sameReading": ["相談", "相好", "壮語"],
+    "similarKanji": ["お互い", "交互", "相談", "相手", "互換性"]
+  },
+  {
+    "id": 144,
+    "word": "操作",
+    "reading": "そうさ",
+    "meaning": "operation, management, handling",
+    "level": "N2",
+    "sameReading": ["捜査", "葬儀", "相違"],
+    "similarKanji": ["作業", "操縦", "作成", "制作", "体操"]
+  },
+  {
+    "id": 145,
+    "word": "相談",
+    "reading": "そうだん",
+    "meaning": "consultation, discussion",
+    "level": "N2",
+    "sameReading": ["装弾", "壮談", "総談"],
+    "similarKanji": ["談話", "相手", "相互", "冗談", "会談"]
+  },
+  {
+    "id": 146,
+    "word": "送信",
+    "reading": "そうしん",
+    "meaning": "transmission, sending",
+    "level": "N2",
+    "sameReading": ["創身", "操心"],
+    "similarKanji": ["受信", "送料", "信号", "信頼", "転送"]
+  },
+  {
+    "id": 147,
+    "word": "装置",
+    "reading": "そうち",
+    "meaning": "equipment, device, installation",
+    "level": "N2",
+    "sameReading": ["送致", "早朝"],
+    "similarKanji": ["設置", "服装", "配置", "置く", "位置"]
+  },
+  {
+    "id": 148,
+    "word": "相当",
+    "reading": "そうとう",
+    "meaning": "suitable, fair, tolerably, equivalent",
+    "level": "N2",
+    "sameReading": ["争闘", "総統", "双頭"],
+    "similarKanji": ["当然", "弁当", "本当", "相談", "当たる"]
+  },
+  {
+    "id": 149,
+    "word": "組織",
+    "reading": "そしき",
+    "meaning": "organization, structure",
+    "level": "N2",
+    "sameReading": ["祖職", "素志気"],
+    "similarKanji": ["織物", "組成", "意識", "知識", "織る"]
+  },
+  {
+    "id": 150,
+    "word": "測定",
+    "reading": "そくてい",
+    "meaning": "measurement",
+    "level": "N2",
+    "sameReading": ["側定", "速定"],
+    "similarKanji": ["規則", "予定", "決定", "予測", "測る"]
+  },
+  {
+    "id": 151,
+    "word": "損害",
+    "reading": "そんがい",
+    "meaning": "damage, injury, loss",
+    "level": "N2",
+    "sameReading": ["尊骸", "存外"],
+    "similarKanji": ["被害", "損失", "公害", "災害", "損得"]
+  },
+  {
+    "id": 152,
+    "word": "尊敬",
+    "reading": "そんけい",
+    "meaning": "respect, esteem, reverence",
+    "level": "N2",
+    "sameReading": ["尊経", "村景"],
+    "similarKanji": ["謙譲", "敬意", "敬語", "存在", "尊重"]
+  },
+  {
+    "id": 153,
+    "word": "存在",
+    "reading": "そんzai",
+    "meaning": "existence, being",
+    "level": "N2",
+    "sameReading": ["現在", "存続"],
+    "similarKanji": ["在住", "存続", "現在", "保存", "滞在"]
+  },
+  {
+    "id": 154,
+    "word": "尊重",
+    "reading": "そんちょう",
+    "meaning": "respect, esteem, prize",
+    "level": "N2",
+    "sameReading": ["村長", "尊長"],
+    "similarKanji": ["重要", "尊い", "体重", "慎重", "尊敬"]
+  },
+  {
+    "id": 155,
+    "word": "態度",
+    "reading": "たいど",
+    "meaning": "attitude, manner",
+    "level": "N2",
+    "sameReading": ["タイ度", "対土"],
+    "similarKanji": ["状態", "度数", "速度", "程度", "形態"]
+  },
+  {
+    "id": 156,
+    "word": "体力",
+    "reading": "たいりょく",
+    "meaning": "physical strength",
+    "level": "N2",
+    "sameReading": ["耐力", "対力"],
+    "similarKanji": ["体重", "気力", "能力", "努力", "体験"]
+  },
+  {
+    "id": 157,
+    "word": "代理",
+    "reading": "だいり",
+    "meaning": "representation, agency, proxy",
+    "level": "N2",
+    "sameReading": ["内裏", "台裏"],
+    "similarKanji": ["理由", "代金", "時代", "理解", "料理"]
+  },
+  {
+    "id": 158,
+    "word": "大量",
+    "reading": "たいりょう",
+    "meaning": "large quantity, massive",
+    "level": "N2",
+    "sameReading": ["大漁", "対僚"],
+    "similarKanji": ["分量", "大国", "数量", "量る", "大切"]
+  },
+  {
+    "id": 159,
+    "word": "蓄積",
+    "reading": "ちくせき",
+    "meaning": "accumulation, amassing",
+    "level": "N2",
+    "sameReading": ["築籍", "逐籍"],
+    "similarKanji": ["成績", "貯蓄", "実績", "面積", "蓄える"]
+  },
+  {
+    "id": 160,
+    "word": "知識",
+    "reading": "ちしき",
+    "meaning": "knowledge, information",
+    "level": "N2",
+    "sameReading": ["知敷", "地色"],
+    "similarKanji": ["認識", "知能", "意識", "知る", "常識"]
+  },
+  {
+    "id": 161,
+    "word": "注目",
+    "reading": "ちゅうもく",
+    "meaning": "notice, attention, observation",
+    "level": "N2",
+    "sameReading": ["中木", "中目"],
+    "similarKanji": ["注文", "目線", "中心", "目的", "目覚まし"]
+  },
+  {
+    "id": 162,
+    "word": "注文",
+    "reading": "ちゅうもん",
+    "meaning": "order, request",
+    "level": "N2",
+    "sameReading": ["中門", "駐門"],
+    "similarKanji": ["注目", "文章", "文化", "中心", "文字"]
+  },
+  {
+    "id": 163,
+    "word": "超過",
+    "reading": "ちょうか",
+    "meaning": "excess, being more than",
+    "level": "N2",
+    "sameReading": ["釣果", "長靴", "朝霞"],
+    "similarKanji": ["過去", "超える", "通過", "過半数", "調和"]
+  },
+  {
+    "id": 164,
+    "word": "調査",
+    "reading": "ちょうさ",
+    "meaning": "investigation, examination, inquiry",
+    "level": "N2",
+    "sameReading": ["庁舎", "長沙"],
+    "similarKanji": ["検査", "調べる", "審査", "調整", "体調"]
+  },
+  {
+    "id": 165,
+    "word": "調整",
+    "reading": "ちょうせい",
+    "meaning": "regulation, adjustment",
+    "level": "N2",
+    "sameReading": ["聴取", "長生", "朝生"],
+    "similarKanji": ["整理", "調和", "調べる", "体調", "整備"]
+  },
+  {
+    "id": 166,
+    "word": "貯金",
+    "reading": "ちょきん",
+    "meaning": "savings, deposit",
+    "level": "N2",
+    "sameReading": ["初金", "著金"],
+    "similarKanji": ["現金", "貯蔵", "料金", "貯蓄", "お金"]
+  },
+  {
+    "id": 167,
+    "word": "直接",
+    "reading": "ちょくせつ",
+    "meaning": "direct, immediate",
+    "level": "N2",
+    "sameReading": ["直線", "直説"],
+    "similarKanji": ["面接", "直線", "正直", "接続", "直す"]
+  },
+  {
+    "id": 168,
+    "word": "著者",
+    "reading": "ちょしゃ",
+    "meaning": "author, writer",
+    "level": "N2",
+    "sameReading": ["著書", "長者"],
+    "similarKanji": ["若者", "著作", "医者", "読者", "名著"]
+  },
+  {
+    "id": 169,
+    "word": "地理",
+    "reading": "ちり",
+    "meaning": "geography",
+    "level": "N2",
+    "sameReading": ["塵", "知利"],
+    "similarKanji": ["地球", "理由", "地面", "料理", "理想"]
+  },
+  {
+    "id": 170,
+    "word": "追加",
+    "reading": "ついか",
+    "meaning": "addition, supplement",
+    "level": "N2",
+    "sameReading": ["追歌", "対価"],
+    "similarKanji": ["加える", "追う", "参加", "追いかける", "加工"]
+  },
+  {
+    "id": 171,
+    "word": "通知",
+    "reading": "つうち",
+    "meaning": "notice, notification",
+    "level": "N2",
+    "sameReading": ["通話", "通地"],
+    "similarKanji": ["知識", "通過", "通学", "知る", "通知表"]
+  },
+  {
+    "id": 172,
+    "word": "通勤",
+    "reading": "つうきん",
+    "meaning": "commuting to work",
+    "level": "N2",
+    "sameReading": ["通金", "痛禁"],
+    "similarKanji": ["通学", "勤務", "通常", "通る", "勤める"]
+  },
+  {
+    "id": 173,
+    "word": "冷たい",
+    "reading": "つめたい",
+    "meaning": "cold (to the touch), chilly, icy",
+    "level": "N2",
+    "sameReading": ["冷たさ", "冷めたい"],
+    "similarKanji": ["冷却", "冷凍", "冷房", "冷える", "冷ます"]
+  },
+  {
+    "id": 174,
+    "word": "提案",
+    "reading": "ていあん",
+    "meaning": "proposal, proposition, suggestion",
+    "level": "N2",
+    "sameReading": ["定案", "低案"],
+    "similarKanji": ["案内", "提出", "案内する", "提出する", "提供"]
+  },
+  {
+    "id": 175,
+    "word": "定期",
+    "reading": "ていき",
+    "meaning": "fixed period, fixed term",
+    "level": "N2",
+    "sameReading": ["定価", "低気", "提起"],
+    "similarKanji": ["期待", "定価", "時期", "決定", "学期"]
+  },
+  {
+    "id": 176,
+    "word": "抵抗",
+    "reading": "ていこう",
+    "meaning": "resistance, opposition",
+    "level": "N2",
+    "sameReading": ["廷臣", "挺抗"],
+    "similarKanji": ["抗う", "停止", "停留所", "反抗", "停電"]
+  },
+  {
+    "id": 177,
+    "word": "提出",
+    "reading": "ていしゅつ",
+    "meaning": "presentation, submission, filing",
+    "level": "N2",
+    "sameReading": ["低出", "定出"],
+    "similarKanji": ["出席", "提供", "提案", "外出", "出発"]
+  },
+  {
+    "id": 178,
+    "word": "程度",
+    "reading": "ていど",
+    "meaning": "degree, amount, grade, standard",
+    "level": "N2",
+    "sameReading": ["低度", "定度"],
+    "similarKanji": ["速度", "日程", "態度", "度数", "方程式"]
+  },
+  {
+    "id": 179,
+    "word": "適合",
+    "reading": "てきごう",
+    "meaning": "conformity, adaptation",
+    "level": "N2",
+    "sameReading": ["適好", "敵合"],
+    "similarKanji": ["適切", "合同", "適当", "場合", "合格"]
+  },
+  {
+    "id": 180,
+    "word": "適切",
+    "reading": "てきせつ",
+    "meaning": "pertinent, appropriate, proper",
+    "level": "N2",
+    "sameReading": ["敵接", "滴節"],
+    "similarKanji": ["親切", "適当", "大切", "適度", "切る"]
+  },
+  {
+    "id": 181,
+    "word": "適用",
+    "reading": "てきよう",
+    "meaning": "applying (a rule), adoption",
+    "level": "N2",
+    "sameReading": ["摘要", "敵用", "滴用"],
+    "similarKanji": ["利用", "適応", "用意", "応用", "愛用"]
+  },
+  {
+    "id": 182,
+    "word": "手配",
+    "reading": "てはい",
+    "meaning": "arrangement, search (by police)",
+    "level": "N2",
+    "sameReading": ["手背", "低配"],
+    "similarKanji": ["心配", "手続き", "配達", "手紙", "配る"]
+  },
+  {
+    "id": 183,
+    "word": "展開",
+    "reading": "てんかい",
+    "meaning": "development, evolution, unfolding",
+    "level": "N2",
+    "sameReading": ["天界", "転回"],
+    "similarKanji": ["開始", "展示", "開店", "開く", "展望"]
+  },
+  {
+    "id": 184,
+    "word": "典型",
+    "reading": "てんけい",
+    "meaning": "type, pattern, model, archetype",
+    "level": "N2",
+    "sameReading": ["天景", "転形"],
+    "similarKanji": ["模型", "天候", "髪型", "大型", "天気"]
+  },
+  {
+    "id": 185,
+    "word": "天才",
+    "reading": "てんさい",
+    "meaning": "genius, prodigy",
+    "level": "N2",
+    "sameReading": ["天災", "転載", "添削"],
+    "similarKanji": ["才能", "天気", "裁判", "財布", "万才"]
+  },
+  {
+    "id": 186,
+    "word": "検討",
+    "reading": "けんとう",
+    "meaning": "consideration, examination",
+    "level": "N2",
+    "sameReading": ["見当", "拳闘"],
+    "similarKanji": ["討議", "討論", "見当", "討つ", "調査"]
+  },
+  {
+    "id": 187,
+    "word": "伝言",
+    "reading": "でんごん",
+    "meaning": "verbal message",
+    "level": "N2",
+    "sameReading": ["田言", "電権"],
+    "similarKanji": ["言語", "伝説", "伝える", "発言", "手伝う"]
+  },
+  {
+    "id": 188,
+    "word": "伝統",
+    "reading": "でんとう",
+    "meaning": "tradition, convention",
+    "level": "N2",
+    "sameReading": ["電灯", "殿堂"],
+    "similarKanji": ["統計", "伝える", "大統領", "統合", "手伝う"]
+  },
+  {
+    "id": 189,
+    "word": "投資",
+    "reading": "とうし",
+    "meaning": "investment",
+    "level": "N2",
+    "sameReading": ["闘志", "凍死", "当市", "透視"],
+    "similarKanji": ["資金", "投げる", "資料", "資産", "投書"]
+  },
+  {
+    "id": 190,
+    "word": "到着",
+    "reading": "とうちゃく",
+    "meaning": "arrival",
+    "level": "N2",
+    "sameReading": ["当着", "盗着"],
+    "similarKanji": ["着物", "落ち着く", "着る", "下着", "到着口"]
+  },
+  {
+    "id": 191,
+    "word": "道徳",
+    "reading": "どうとく",
+    "meaning": "morals, ethics",
+    "level": "N2",
+    "sameReading": ["同特", "同得"],
+    "similarKanji": ["徳用", "道路", "道具", "鉄道", "水道"]
+  },
+  {
+    "id": 192,
+    "word": "投票",
+    "reading": "とうひょう",
+    "meaning": "voting, ballot",
+    "level": "N2",
+    "sameReading": ["同票", "当票"],
+    "similarKanji": ["目標", "標識", "標準", "目標物", "投げる"]
+  },
+  {
+    "id": 193,
+    "word": "同僚",
+    "reading": "どうりょう",
+    "meaning": "coworker, colleague",
+    "level": "N2",
+    "sameReading": ["度量", "動量"],
+    "similarKanji": ["官僚", "同時", "同等", "同情", "同僚"]
+  },
+  {
+    "id": 194,
+    "word": "独特",
+    "reading": "どくとく",
+    "meaning": "peculiarity, uniqueness",
+    "level": "N2",
+    "sameReading": ["毒特に", "独得"],
+    "similarKanji": ["特別", "独立", "独身", "特徴", "特に"]
+  },
+  {
+    "id": 195,
+    "word": "独立",
+    "reading": "どくりつ",
+    "meaning": "independence, freedom",
+    "level": "N2",
+    "sameReading": ["特立", "独律"],
+    "similarKanji": ["起立", "独特", "独身", "国立", "立つ"]
+  },
+  {
+    "id": 196,
+    "word": "納得",
+    "reading": "なっとく",
+    "meaning": "consent, assent, understanding",
+    "level": "N2",
+    "sameReading": ["納得", "ナットク"],
+    "similarKanji": ["得点", "納品", "得る", "納得感", "お得"]
+  },
+  {
+    "id": 197,
+    "word": "生意気",
+    "reading": "なまいき",
+    "meaning": "impertinent, saucy, cheeky",
+    "level": "N2",
+    "sameReading": ["生息", "生行き"],
+    "similarKanji": ["意気地", "生意気", "天気", "気持ち", "生きる"]
+  },
+  {
+    "id": 198,
+    "word": "日常",
+    "reading": "にちじょう",
+    "meaning": "everyday, daily, routine",
+    "level": "N2",
+    "sameReading": ["日乗", "日常的"],
+    "similarKanji": ["常に", "日記", "日本", "通常", "非常口"]
+  },
+  {
+    "id": 199,
+    "word": "認識",
+    "reading": "にんしき",
+    "meaning": "recognition, awareness, cognition",
+    "level": "N2",
+    "sameReading": ["人式", "認職"],
+    "similarKanji": ["知識", "確認", "意識", "認める", "常識"]
+  },
+  {
+    "id": 200,
+    "word": "任務",
+    "reading": "にんむ",
+    "meaning": "duty, function, mission",
+    "level": "N2",
+    "sameReading": ["任命", "人務"],
+    "similarKanji": ["義務", "任命", "公務", "業務", "務める"]
+  },
+  {
+    "id": 201,
+    "word": "熱中",
+    "reading": "ねっちゅう",
+    "meaning": "passion, enthusiasm, absorption",
+    "level": "N2",
+    "sameReading": ["熱中症", "熱中度"],
+    "similarKanji": ["熱心", "中心", "熱い", "情熱", "中国"]
+  },
+  {
+    "id": 202,
+    "word": "能率",
+    "reading": "のうりつ",
+    "meaning": "efficiency",
+    "level": "N2",
+    "sameReading": ["効率", "納率"],
+    "similarKanji": ["能力", "確率", "比率", "芸能", "効率的"]
+  },
+  {
+    "id": 203,
+    "word": "把握",
+    "reading": "はあく",
+    "meaning": "grasp, catch, understanding",
+    "level": "N2",
+    "sameReading": ["波悪", "派悪"],
+    "similarKanji": ["握手", "把手", "握る", "選択", "拝見する"]
+  },
+  {
+    "id": 204,
+    "word": "配置",
+    "reading": "はいち",
+    "meaning": "arrangement (of resources), deployment",
+    "level": "N2",
+    "sameReading": ["背地", "配地"],
+    "similarKanji": ["設置", "配布", "心配", "置く", "位置"]
+  },
+  {
+    "id": 205,
+    "word": "破壊",
+    "reading": "はかい",
+    "meaning": "destruction, disruption",
+    "level": "N2",
+    "sameReading": ["歯医者", "薄会"],
+    "similarKanji": ["崩壊", "破る", "壊す", "破産", "壊滅"]
+  },
+  {
+    "id": 206,
+    "word": "派遣",
+    "reading": "はけん",
+    "meaning": "dispatch, send",
+    "level": "N2",
+    "sameReading": ["覇権", "波乱", "破券"],
+    "similarKanji": ["小遣い", "無駄遣い", "遣う", "派遣社員", "金遣い"]
+  },
+  {
+    "id": 207,
+    "word": "発行",
+    "reading": "はっこう",
+    "meaning": "issue, publishing",
+    "level": "N2",
+    "sameReading": ["発酵", "薄紅", "発光", "八校"],
+    "similarKanji": ["発表", "行事", "旅行", "発見", "飛行機"]
+  },
+  {
+    "id": 208,
+    "word": "発展",
+    "reading": "はってん",
+    "meaning": "development, growth",
+    "level": "N2",
+    "sameReading": ["八点", "初転"],
+    "similarKanji": ["展開", "展示", "展望", "開店", "展示会"]
+  },
+  {
+    "id": 209,
+    "word": "発明",
+    "reading": "はつめい",
+    "meaning": "invention",
+    "level": "N2",
+    "sameReading": ["初名", "発名"],
+    "similarKanji": ["発見", "説明", "明白", "発言", "明日"]
+  },
+  {
+    "id": 210,
+    "word": "範囲",
+    "reading": "はんい",
+    "meaning": "extent, scope, sphere, range",
+    "level": "N2",
+    "sameReading": ["半円", "反意", "班位"],
+    "similarKanji": ["周囲", "犯人", "囲む", "反省", "ご飯"]
+  },
+  {
+    "id": 211,
+    "word": "反省",
+    "reading": "はんせい",
+    "meaning": "reflection, reconsideration, introspection",
+    "level": "N2",
+    "sameReading": ["繁盛", "半生", "犯性"],
+    "similarKanji": ["省みる", "反対", "帰省", "省略", "ご飯"]
+  },
+  {
+    "id": 212,
+    "word": "繁栄",
+    "reading": "はんえい",
+    "meaning": "prosperity",
+    "level": "N2",
+    "sameReading": ["反映", "半影"],
+    "similarKanji": ["光栄", "繁華街", "栄養", "栄える", "反映する"]
+  },
+  {
+    "id": 213,
+    "word": "比較",
+    "reading": "ひかく",
+    "meaning": "comparison",
+    "level": "N2",
+    "sameReading": ["皮革", "比格", "非核"],
+    "similarKanji": ["比較的", "校舎", "比率", "比べる", "学校"]
+  },
+  {
+    "id": 214,
+    "word": "評価",
+    "reading": "ひょうか",
+    "meaning": "valuation, estimation, assessment",
+    "level": "N2",
+    "sameReading": ["氷河", "票価"],
+    "similarKanji": ["評判", "価格", "表現", "投票", "物価"]
+  },
+  {
+    "id": 215,
+    "word": "平等",
+    "reading": "びょうどう",
+    "meaning": "equality, impartiality",
+    "level": "N2",
+    "sameReading": ["病道", "廟堂"],
+    "similarKanji": ["同等", "病気", "病院", "一等", "高等"]
+  },
+  {
+    "id": 216,
+    "word": "普及",
+    "reading": "ふきゅう",
+    "meaning": "diffusion, spread",
+    "level": "N2",
+    "sameReading": ["不急", "不休", "富級"],
+    "similarKanji": ["追求", "及ぶ", "高級", "吸収", "初級"]
+  },
+  {
+    "id": 217,
+    "word": "負担",
+    "reading": "ふたん",
+    "meaning": "burden, charge, responsibility",
+    "level": "N2",
+    "sameReading": ["二反", "不端"],
+    "similarKanji": ["担当", "担ぐ", "担任", "不便", "担当者"]
+  },
+  {
+    "id": 218,
+    "word": "普遍",
+    "reading": "ふへん",
+    "meaning": "universality, ubiquity",
+    "level": "N2",
+    "sameReading": ["不変", "不偏", "譜辺"],
+    "similarKanji": ["大変", "周辺", "変化", "編集", "一辺"]
+  },
+  {
+    "id": 219,
+    "word": "不満",
+    "reading": "ふまん",
+    "meaning": "dissatisfaction, displeasure",
+    "level": "N2",
+    "sameReading": ["未満", "肥満"],
+    "similarKanji": ["満足", "不足", "不便", "満員", "満ちる"]
+  },
+  {
+    "id": 220,
+    "word": "利害",
+    "reading": "りがい",
+    "meaning": "advantages and disadvantages, interest",
+    "level": "N2",
+    "sameReading": ["離脱", "理外"],
+    "similarKanji": ["利益", "被害", "利用", "公害", "便利"]
+  },
+  {
+    "id": 221,
+    "word": "快適",
+    "reading": "かいてき",
+    "meaning": "comfortable, pleasant",
+    "level": "N3",
+    "sameReading": ["開敵", "快滴"],
+    "similarKanji": ["適切", "適度", "快適な", "快速", "適応"]
+  },
+  {
+    "id": 222,
+    "word": "関心",
+    "reading": "かんしん",
+    "meaning": "interest, concern",
+    "level": "N3",
+    "sameReading": ["感心", "歓心", "歓進", "寒心"],
+    "similarKanji": ["関係", "安心", "心配", "機関車", "中心"]
+  },
+  {
+    "id": 223,
+    "word": "管理",
+    "reading": "かんり",
+    "meaning": "management, control",
+    "level": "N3",
+    "sameReading": ["還暦", "慣例"],
+    "similarKanji": ["無理", "処理", "理由", "料理", "理解"]
+  },
+  {
+    "id": 224,
+    "word": "解決",
+    "reading": "かいけつ",
+    "meaning": "settlement, solution",
+    "level": "N3",
+    "sameReading": ["怪傑", "開血"],
+    "similarKanji": ["決定", "解散", "理解", "解説", "決める"]
+  },
+  {
+    "id": 225,
+    "word": "改善",
+    "reading": "かいぜん",
+    "meaning": "improvement, betterment",
+    "level": "N3",
+    "sameReading": ["回善", "海鮮", "開戦"],
+    "similarKanji": ["変更", "善意", "親善", "善良", "改める"]
+  },
+  {
+    "id": 226,
+    "word": "期待",
+    "reading": "きたい",
+    "meaning": "expectation, anticipation",
+    "level": "N3",
+    "sameReading": ["気体", "基台", "機体", "帰隊"],
+    "similarKanji": ["招待", "待つ", "時期", "定期", "招待する"]
+  },
+  {
+    "id": 227,
+    "word": "希望",
+    "reading": "きぼう",
+    "meaning": "hope, wish, aspiration",
+    "level": "N3",
+    "sameReading": ["既望", "機防"],
+    "similarKanji": ["失望", "要望", "忘れる", "望む", "絶望"]
+  },
+  {
+    "id": 228,
+    "word": "気味",
+    "reading": "きみ",
+    "meaning": "sensation, feeling, tendency",
+    "level": "N3",
+    "sameReading": ["君", "黄身", "忌み"],
+    "similarKanji": ["興味", "意味", "趣味", "元気", "調味"]
+  },
+  {
+    "id": 229,
+    "word": "逆",
+    "reading": "ぎゃく",
+    "meaning": "reverse, opposite",
+    "level": "N3",
+    "sameReading": ["逆転", "逆襲"],
+    "similarKanji": ["坂", "返す", "坂道", "逆さ", "黒板"]
+  },
+  {
+    "id": 230,
+    "word": "球",
+    "reading": "きゅう",
+    "meaning": "globe, sphere, ball",
+    "level": "N3",
+    "sameReading": ["急", "旧", "救", "九", "級"],
+    "similarKanji": ["救う", "求める", "地球", "野球", "電球"]
+  },
+  {
+    "id": 231,
+    "word": "急速",
+    "reading": "きゅうそく",
+    "meaning": "rapid, fast",
+    "level": "N3",
+    "sameReading": ["休息", "旧俗", "吸息"],
+    "similarKanji": ["早速", "速度", "急行", "高速", "速い"]
+  },
+  {
+    "id": 232,
+    "word": "器用",
+    "reading": "きよう",
+    "meaning": "skillful, handy",
+    "level": "N3",
+    "sameReading": ["器用さ", "起用"],
+    "similarKanji": ["用事", "食器", "利用", "用意", "器具"]
+  },
+  {
+    "id": 233,
+    "word": "共通",
+    "reading": "きょうつう",
+    "meaning": "common, shared",
+    "level": "N3",
+    "sameReading": ["今日中", "境中"],
+    "similarKanji": ["普通", "共に", "通常", "交通", "通る"]
+  },
+  {
+    "id": 234,
+    "word": "恐怖",
+    "reading": "きょうふ",
+    "meaning": "fear, terror",
+    "level": "N3",
+    "sameReading": ["強風", "教父", "境遇"],
+    "similarKanji": ["怖い", "呼吸", "恐れる", "恐ろしい", "恐怖感"]
+  },
+  {
+    "id": 235,
+    "word": "協力",
+    "reading": "きょうりょく",
+    "meaning": "cooperation, collaboration",
+    "level": "N3",
+    "sameReading": ["強力", "教力", "郷力"],
+    "similarKanji": ["努力", "強制", "能力", "強烈", "協力する"]
+  },
+  {
+    "id": 236,
+    "word": "許可",
+    "reading": "きょか",
+    "meaning": "permission, approval",
+    "level": "N3",
+    "sameReading": ["虚仮", "巨家"],
+    "similarKanji": ["可能", "何個", "不可能", "許可書", "可愛い"]
+  },
+  {
+    "id": 237,
+    "word": "巨大",
+    "reading": "きょだい",
+    "meaning": "huge, gigantic",
+    "level": "N3",
+    "sameReading": ["巨体", "拠台"],
+    "similarKanji": ["拡大", "拒絶", "大国", "距離", "大丈夫"]
+  },
+  {
+    "id": 238,
+    "word": "現金",
+    "reading": "げんきん",
+    "meaning": "cash, ready money",
+    "level": "N3",
+    "sameReading": ["厳禁", "言近"],
+    "similarKanji": ["お金", "現在", "料金", "金持ち", "表現"]
+  },
+  {
+    "id": 239,
+    "word": "現在",
+    "reading": "げんざい",
+    "meaning": "present, current time",
+    "level": "N3",
+    "sameReading": ["現在地", "現財"],
+    "similarKanji": ["存在", "現金", "在住", "表現", "滞在"]
+  },
+  {
+    "id": 240,
+    "word": "現実",
+    "reading": "げんじつ",
+    "meaning": "reality",
+    "level": "N3",
+    "sameReading": ["減失", "言実"],
+    "similarKanji": ["事実", "実力", "表現", "確実", "実験"]
+  },
+  {
+    "id": 241,
+    "word": "効果",
+    "reading": "こうか",
+    "meaning": "effect, efficiency, result",
+    "level": "N3",
+    "sameReading": ["高価", "硬貨", "校歌", "降下", "工科"],
+    "similarKanji": ["果物", "効く", "成果", "結果", "効果的"]
+  },
+  {
+    "id": 242,
+    "word": "交換",
+    "reading": "こうかん",
+    "meaning": "exchange, trade",
+    "level": "N3",
+    "sameReading": ["好感", "高官", "交歓", "公刊"],
+    "similarKanji": ["乗り換え", "交通", "交番", "国際", "換える"]
+  },
+  {
+    "id": 243,
+    "word": "航空",
+    "reading": "こうくう",
+    "meaning": "aviation, flying",
+    "level": "N3",
+    "sameReading": ["高級", "港区"],
+    "similarKanji": ["空港", "空気", "空間", "空く", "港町"]
+  },
+  {
+    "id": 244,
+    "word": "光栄",
+    "reading": "こうえい",
+    "meaning": "honor, privilege",
+    "level": "N3",
+    "sameReading": ["後衛", "公営", "光影", "高鋭"],
+    "similarKanji": ["栄える", "観光", "景色", "栄養", "繁栄"]
+  },
+  {
+    "id": 245,
+    "word": "公式",
+    "reading": "こうしき",
+    "meaning": "official, formality, formula",
+    "level": "N3",
+    "sameReading": ["高職", "公職"],
+    "similarKanji": ["正式", "公演", "公園", "結婚式", "形式"]
+  },
+  {
+    "id": 246,
+    "word": "後輩",
+    "reading": "こうはい",
+    "meaning": "junior (at work or school)",
+    "level": "N3",
+    "sameReading": ["荒廃", "高配", "交配"],
+    "similarKanji": ["先輩", "後ろ", "午後", "最後", "後で"]
+  },
+  {
+    "id": 247,
+    "word": "公平",
+    "reading": "こうへい",
+    "meaning": "fairness, impartiality",
+    "level": "N3",
+    "sameReading": ["校兵", "高兵"],
+    "similarKanji": ["平日", "公園", "平安", "平均", "平気"]
+  },
+  {
+    "id": 248,
+    "word": "凍る",
+    "reading": "こおる",
+    "meaning": "to freeze",
+    "level": "N3",
+    "sameReading": ["凍る夜", "氷る"],
+    "similarKanji": ["氷", "冷凍", "冷房", "氷山", "凍える"]
+  },
+  {
+    "id": 249,
+    "word": "誤解",
+    "reading": "ごかい",
+    "meaning": "misunderstanding",
+    "level": "N3",
+    "sameReading": ["五回", "五階", "御開"],
+    "similarKanji": ["解決", "正解", "理解", "解説", "誤る"]
+  },
+  {
+    "id": 250,
+    "word": "呼吸",
+    "reading": "こきゅう",
+    "meaning": "breath, respiration",
+    "level": "N3",
+    "sameReading": ["高級", "固急"],
+    "similarKanji": ["吸収", "呼ぶ", "回収", "呼び出す", "収入"]
+  },
+  {
+    "id": 251,
+    "word": "材料",
+    "reading": "ざいりょう",
+    "meaning": "ingredients, material",
+    "level": "N3",
+    "sameReading": ["在留", "才領"],
+    "similarKanji": ["料金", "教材", "料理", "木材", "資産"]
+  },
+  {
+    "id": 252,
+    "word": "幸せ",
+    "reading": "しあわせ",
+    "meaning": "happiness, good fortune",
+    "level": "N3",
+    "sameReading": ["幸福", "仕合わせ"],
+    "similarKanji": ["辛い", "幸福", "幸運", "幸い", "辛さ"]
+  },
+  {
+    "id": 253,
+    "word": "支出",
+    "reading": "ししゅつ",
+    "meaning": "expenses, expenditure",
+    "level": "N3",
+    "sameReading": ["私室", "死出"],
+    "similarKanji": ["収入", "外出", "出発", "出す", "支店"]
+  },
+  {
+    "id": 254,
+    "word": "自信",
+    "reading": "じしん",
+    "meaning": "self-confidence",
+    "level": "N3",
+    "sameReading": ["地震", "自身", "時針", "事親"],
+    "similarKanji": ["信用", "自由", "自転車", "自分", "信じる"]
+  },
+  {
+    "id": 255,
+    "word": "自然",
+    "reading": "しぜん",
+    "meaning": "nature, natural",
+    "level": "N3",
+    "sameReading": ["自然児", "地然"],
+    "similarKanji": ["全然", "自身", "突然", "自分", "自動車"]
+  },
+  {
+    "id": 256,
+    "word": "品物",
+    "reading": "しなもの",
+    "meaning": "goods, article",
+    "level": "N3",
+    "sameReading": ["品物代", "支那物"],
+    "similarKanji": ["商品", "建物", "作品", "動物", "品質"]
+  },
+  {
+    "id": 257,
+    "word": "支払う",
+    "reading": "しはらう",
+    "meaning": "to pay",
+    "level": "N3",
+    "sameReading": ["支払う金", "市原"],
+    "similarKanji": ["払う", "支配", "支店", "支える", "払い戻す"]
+  },
+  {
+    "id": 258,
+    "word": "死亡",
+    "reading": "しぼう",
+    "meaning": "death",
+    "level": "N3",
+    "sameReading": ["志望", "脂肪", "私忘", "四亡"],
+    "similarKanji": ["忘れる", "多忙", "希望", "絶望", "忙しい"]
+  },
+  {
+    "id": 259,
+    "word": "資本",
+    "reading": "しほん",
+    "meaning": "capital, funds",
+    "level": "N3",
+    "sameReading": ["基本", "既婚", "私本"],
+    "similarKanji": ["基本", "本質", "日本", "本当", "本店"]
+  },
+  {
+    "id": 260,
+    "word": "姉妹",
+    "reading": "しまい",
+    "meaning": "sisters",
+    "level": "N3",
+    "sameReading": ["終い", "仕舞い", "四枚"],
+    "similarKanji": ["兄弟", "妹", "お姉さん", "お嬢さん", "弟子"]
+  },
+  {
+    "id": 261,
+    "word": "収穫",
+    "reading": "しゅうかく",
+    "meaning": "harvest, crop",
+    "level": "N3",
+    "sameReading": ["週画", "衆客"],
+    "similarKanji": ["収集", "獲得", "回収", "収入", "秋の"]
+  },
+  {
+    "id": 262,
+    "word": "種類",
+    "reading": "しゅるい",
+    "meaning": "variety, kind, category",
+    "level": "N3",
+    "sameReading": ["書類", "主類"],
+    "similarKanji": ["書類", "分類", "人類", "同類", "主婦"]
+  },
+  {
+    "id": 263,
+    "word": "順序",
+    "reading": "じゅんじょ",
+    "meaning": "order, sequence",
+    "level": "N3",
+    "sameReading": ["純情", "順路"],
+    "similarKanji": ["順番", "序列", "順番に", "順調", "序文"]
+  },
+  {
+    "id": 264,
+    "word": "紹介",
+    "reading": "しょうかい",
+    "meaning": "introduction",
+    "level": "N3",
+    "sameReading": ["照会", "小会", "商会", "消去"],
+    "similarKanji": ["仲介", "介入", "自己紹介", "魚介類", "紹介状"]
+  },
+  {
+    "id": 265,
+    "word": "証明",
+    "reading": "しょうめい",
+    "meaning": "proof, verification",
+    "level": "N3",
+    "sameReading": ["照明", "将命", "小名"],
+    "similarKanji": ["説明", "透明", "明確", "保証", "証拠"]
+  },
+  {
+    "id": 266,
+    "word": "食器",
+    "reading": "しょっき",
+    "meaning": "tableware, dishes",
+    "level": "N3",
+    "sameReading": ["初期", "触気", "直帰"],
+    "similarKanji": ["器具", "器用", "料理", "用意", "食器棚"]
+  },
+  {
+    "id": 267,
+    "word": "信頼",
+    "reading": "しんらい",
+    "meaning": "reliance, trust",
+    "level": "N3",
+    "sameReading": ["新緑", "森羅"],
+    "similarKanji": ["信用", "頼む", "依頼", "頼ましい", "信号"]
+  },
+  {
+    "id": 268,
+    "word": "推薦",
+    "reading": "すいせん",
+    "meaning": "recommendation",
+    "level": "N3",
+    "sameReading": ["水仙", "垂線", "推選"],
+    "similarKanji": ["進める", "推量", "選択", "推進", "進歩"]
+  },
+  {
+    "id": 269,
+    "word": "睡眠",
+    "reading": "すいみん",
+    "meaning": "sleep",
+    "level": "N3",
+    "sameReading": ["水面", "吸眠"],
+    "similarKanji": ["冬眠", "眠い", "水分", "眠る", "居眠り"]
+  },
+  {
+    "id": 270,
+    "word": "清潔",
+    "reading": "せいけつ",
+    "meaning": "clean, sanitary",
+    "level": "N3",
+    "sameReading": ["性急", "成決"],
+    "similarKanji": ["不潔", "清楚", "清水", "簡潔", "潔い"]
+  },
+  {
+    "id": 271,
+    "word": "制限",
+    "reading": "せいげん",
+    "meaning": "restriction, limitation",
+    "level": "N3",
+    "sameReading": ["誓言", "西諺"],
+    "similarKanji": ["限界", "制度", "限度", "期限", "最低"]
+  },
+  {
+    "id": 272,
+    "word": "生産",
+    "reading": "せいさん",
+    "meaning": "production, manufacture",
+    "level": "N3",
+    "sameReading": ["清算", "成算", "正産"],
+    "similarKanji": ["お土産", "製造", "計算", "産業", "出産"]
+  },
+  {
+    "id": 273,
+    "word": "製品",
+    "reading": "せいひん",
+    "meaning": "manufactured goods",
+    "level": "N3",
+    "sameReading": ["正品", "生品"],
+    "similarKanji": ["商品", "制作", "作品", "品質", "品物"]
+  },
+  {
+    "id": 274,
+    "word": "席",
+    "reading": "せき",
+    "meaning": "seat",
+    "level": "N3",
+    "sameReading": ["咳", "関", "籍", "赤"],
+    "similarKanji": ["出席", "度々", "座席", "欠席", "席を外す"]
+  },
+  {
+    "id": 275,
+    "word": "責任",
+    "reading": "せきにん",
+    "meaning": "responsibility",
+    "level": "N3",
+    "sameReading": ["席に", "積年"],
+    "similarKanji": ["担任", "責める", "任務", "信頼", "座席"]
+  },
+  {
+    "id": 276,
+    "word": "設備",
+    "reading": "せつび",
+    "meaning": "equipment, facilities",
+    "level": "N3",
+    "sameReading": ["節日", "設日"],
+    "similarKanji": ["準備", "予備", "設定", "設計", "備える"]
+  },
+  {
+    "id": 277,
+    "word": "選択",
+    "reading": "せんたく",
+    "meaning": "choice, selection",
+    "level": "N3",
+    "sameReading": ["洗濯", "先着", "浅学"],
+    "similarKanji": ["採択", "タク一", "選手", "洗濯機", "お宅"]
+  },
+  {
+    "id": 278,
+    "word": "想像",
+    "reading": "そうぞう",
+    "meaning": "imagination, guess",
+    "level": "N3",
+    "sameReading": ["創造", "騒々しい"],
+    "similarKanji": ["映像", "感想", "仏像", "想像力", "視覚"]
+  },
+  {
+    "id": 279,
+    "word": "相談",
+    "reading": "そうだん",
+    "meaning": "consultation, discussion",
+    "level": "N3",
+    "sameReading": ["装弾", "壮談", "総談"],
+    "similarKanji": ["談話", "相手", "冗談", "会談", "話し合い"]
+  },
+  {
+    "id": 280,
+    "word": "速度",
+    "reading": "そくど",
+    "meaning": "speed, velocity",
+    "level": "N3",
+    "sameReading": ["側度", "測度"],
+    "similarKanji": ["程度", "高速", "度数", "急速", "早速"]
+  },
+  {
+    "id": 281,
+    "word": "案内",
+    "reading": "あんない",
+    "meaning": "guidance, information",
+    "level": "N4",
+    "sameReading": ["安内", "案無い"],
+    "similarKanji": ["以内", "提案", "家内", "国内", "案外"]
+  },
+  {
+    "id": 282,
+    "word": "安全",
+    "reading": "あんぜん",
+    "meaning": "safety, security",
+    "level": "N4",
+    "sameReading": ["安然", "暗然"],
+    "similarKanji": ["全部", "安心", "全く", "全国", "安全第一"]
+  },
+  {
+    "id": 283,
+    "word": "安心",
+    "reading": "あんしん",
+    "meaning": "relief, peace of mind",
+    "level": "N4",
+    "sameReading": ["安針", "暗心"],
+    "similarKanji": ["安全", "心配", "中心", "親切", "心理"]
+  },
+  {
+    "id": 284,
+    "word": "以下",
+    "reading": "いか",
+    "meaning": "less than, below",
+    "level": "N4",
+    "sameReading": ["医科", "イカ", "遺過"],
+    "similarKanji": ["以上", "以外", "地下", "下手", "以降"]
+  },
+  {
+    "id": 285,
+    "word": "以外",
+    "reading": "いがい",
+    "meaning": "except, with the exception of",
+    "level": "N4",
+    "sameReading": ["意外", "医街", "遺骸"],
+    "similarKanji": ["外国", "以下", "以上", "外車", "海外"]
+  },
+  {
+    "id": 286,
+    "word": "以上",
+    "reading": "いじょう",
+    "meaning": "more than, this is all",
+    "level": "N4",
+    "sameReading": ["異常", "意匠", "移乗"],
+    "similarKanji": ["以下", "上がる", "以外", "上手", "屋上"]
+  },
+  {
+    "id": 287,
+    "word": "意見",
+    "reading": "いけん",
+    "meaning": "opinion, view",
+    "level": "N4",
+    "sameReading": ["異見", "遺言"],
+    "similarKanji": ["意味", "見る", "見物", "見学", "意識"]
+  },
+  {
+    "id": 288,
+    "word": "意味",
+    "reading": "いみ",
+    "meaning": "meaning, significance",
+    "level": "N4",
+    "sameReading": ["移民", "意未"],
+    "similarKanji": ["趣味", "意見", "興味", "美味しい", "調味"]
+  },
+  {
+    "id": 289,
+    "word": "工業",
+    "reading": "こうぎょう",
+    "meaning": "manufacturing industry",
+    "level": "N4",
+    "sameReading": ["興行", "高教"],
+    "similarKanji": ["授業", "工場", "卒業", "産業", "工事"]
+  },
+  {
+    "id": 290,
+    "word": "工場",
+    "reading": "こうじょう",
+    "meaning": "factory, mill, workshop",
+    "level": "N4",
+    "sameReading": ["向上", "公場"],
+    "similarKanji": ["場所", "工業", "広場", "工事", "現場"]
+  },
+  {
+    "id": 291,
+    "word": "校長",
+    "reading": "こうちょう",
+    "meaning": "principal, headmaster",
+    "level": "N4",
+    "sameReading": ["好調", "高潮", "口調"],
+    "similarKanji": ["学校", "社長", "高校", "校舎", "長生き"]
+  },
+  {
+    "id": 292,
+    "word": "社長",
+    "reading": "しゃちょう",
+    "meaning": "company president",
+    "level": "N4",
+    "sameReading": ["社帳", "射鳥"],
+    "similarKanji": ["社会", "校長", "神社", "部長", "長生き"]
+  },
+  {
+    "id": 293,
+    "word": "心配",
+    "reading": "しんぱい",
+    "meaning": "worry, anxiety",
+    "level": "N4",
+    "sameReading": ["審判", "親拝"],
+    "similarKanji": ["配る", "安心", "配達", "心理", "手配"]
+  },
+  {
+    "id": 294,
+    "word": "新聞",
+    "reading": "しんぶん",
+    "meaning": "newspaper",
+    "level": "N4",
+    "sameReading": ["新分", "親分"],
+    "similarKanji": ["新幹線", "聞く", "新鮮", "見聞", "新聞紙"]
+  },
+  {
+    "id": 295,
+    "word": "説明",
+    "reading": "せつめい",
+    "meaning": "explanation, exposition",
+    "level": "N4",
+    "sameReading": ["設明", "節明"],
+    "similarKanji": ["明るい", "小説", "明白", "明日", "説明書"]
+  },
+  {
+    "id": 296,
+    "word": "注意",
+    "reading": "ちゅうい",
+    "meaning": "caution, attention, warning",
+    "level": "N4",
+    "sameReading": ["中位", "駐医"],
+    "similarKanji": ["注文", "意味", "意見", "用意", "中心"]
+  },
+  {
+    "id": 297,
+    "word": "反対",
+    "reading": "はんたい",
+    "meaning": "opposition, resistance",
+    "level": "N4",
+    "sameReading": ["半対", "繁体"],
+    "similarKanji": ["対する", "ご飯", "反省", "対応", "対比"]
+  },
+  {
+    "id": 298,
+    "word": "不便",
+    "reading": "ふべん",
+    "meaning": "inconvenience",
+    "level": "N4",
+    "sameReading": ["普勉", "不弁"],
+    "similarKanji": ["便利", "郵便", "航空便", "不満", "不足"]
+  },
+  {
+    "id": 299,
+    "word": "便利",
+    "reading": "べんり",
+    "meaning": "convenient, handy",
+    "level": "N4",
+    "sameReading": ["勉利", "弁利"],
+    "similarKanji": ["不便", "利用", "利益", "権利", "郵便"]
+  },
+  {
+    "id": 300,
+    "word": "貿易",
+    "reading": "ぼうえき",
+    "meaning": "foreign trade",
+    "level": "N4",
+    "sameReading": ["防液", "棒駅"],
+    "similarKanji": ["容易", "防衛", "予防", "易しい", "貿易商"]
+  }
+]

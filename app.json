@@ -1,41 +1,56 @@
 {
   "expo": {
-    "name": "kanji-quest",
-    "slug": "kanji-quest",
+    "name": "Tabi-Kanji",
+    "slug": "Tabi-Kanji",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/kanji_spash.png",
     "scheme": "kanjiquest",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "backgroundColor": "#EBF4F6",
+    "splash": {
+      "image": "./assets/images/kanji_spash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EBF4F6",
+      "imageWidth": 300,
+      "android": {
+        "backgroundColor": "#EBF4F6"
+      },
+      "ios": {
+        "backgroundColor": "#EBF4F6"
+      }
+    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/images/kanji_spash.png",
+        "backgroundImage": "./assets/images/kanji_spash.png",
+        "monochromeImage": "./assets/images/kanji_spash.png",
+        "backgroundColor": "#EBF4F6"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.kay_thwe.TabiKanji"
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/kanji_spash.png",
+      "backgroundColor": "#EBF4F6"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
+          "image": "./assets/images/kanji_spash.png",
+          "imageWidth": 300,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#EBF4F6",
           "dark": {
-            "backgroundColor": "#000000"
+            "backgroundColor": "#EBF4F6"
           }
         }
       ]
@@ -43,6 +58,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "951520d7-e547-45e2-b621-c1f31269f0e3"
+      }
     }
   }
 }

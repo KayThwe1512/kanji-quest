@@ -11,23 +11,45 @@ export default function ProfileScreen() {
     highestDailyCount,
     lastLearnedDate,
     longestStreak,
-    todayLearned,
+    dailyCounts,
+    getPseudoDayIndex,
   } = useLearning();
 
   const totalLearned = learnedKanji.length;
 
   const getWeeklyData = () => {
-    const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-    const todayIndex = new Date().getDay();
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
 
-    return days.map((day, index) => ({
-      label: day,
-      value: index === todayIndex ? todayLearned : 0,
-      frontColor: colors.secondary,
-    }));
+    const day = today.getDay();
+    const diff = day === 0 ? -6 : 1 - day;
+
+    const monday = new Date(today);
+    monday.setDate(today.getDate() + diff);
+
+    const labels = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+
+    const data: { label: string; value: number; frontColor: string }[] = [];
+
+    for (let i = 0; i < 7; i++) {
+      const date = new Date(monday);
+      date.setDate(monday.getDate() + i);
+
+      const dayIndex = getPseudoDayIndex(date);
+
+      data.push({
+        label: labels[i],
+        value: dailyCounts[dayIndex] || 0,
+        frontColor: colors.secondary,
+      });
+    }
+
+    return data;
   };
 
   const today = new Date().toDateString();
+  // console.log("dailyCounts:", dailyCounts);
+  // console.log("weeklyData:", getWeeklyData());
 
   return (
     <SafeAreaView style={styles.container}>
@@ -81,6 +103,7 @@ export default function ProfileScreen() {
     </SafeAreaView>
   );
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -89,7 +112,6 @@ const styles = StyleSheet.create({
 
   header: {
     paddingHorizontal: 24,
-    // paddingTop: 30,
   },
 
   progressTitle: {
@@ -112,8 +134,7 @@ const styles = StyleSheet.create({
   content: {
     backgroundColor: colors.white,
     borderRadius: 30,
-    borderTopRightRadius: 30,
-    padding: 15,
+    padding: 16,
     margin: 10,
     borderWidth: 5,
     borderColor: colors.border,

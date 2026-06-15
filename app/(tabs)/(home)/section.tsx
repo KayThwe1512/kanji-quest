@@ -1,66 +1,63 @@
 import SectionCard from "@/component/ThemeSection";
 import { SECTIONS } from "@/constants/section";
-import { getAllProgress } from "@/services/userProgress";
+import { useLearning } from "@/context/ProgressContext";
 import colors from "@/theme/colors";
-import { router, useFocusEffect, useLocalSearchParams } from "expo-router";
-import { useCallback, useState } from "react";
+import { router, useLocalSearchParams } from "expo-router";
+import { useMemo } from "react";
 import { FlatList, StyleSheet, View } from "react-native";
 
 export default function PracticeSectionScreen() {
   const { level } = useLocalSearchParams();
+  const { learnedKanji } = useLearning();
 
   const sections = SECTIONS[level as keyof typeof SECTIONS] || [];
-  const [sectionProgress, setSectionProgress] = useState<any>({});
-  useFocusEffect(
-    useCallback(() => {
-      const loadProgress = async () => {
-        const progress = await getAllProgress();
-        setSectionProgress(progress);
-      };
 
-      loadProgress();
-    }, []),
-  );
+  const learnedSet = useMemo(() => new Set(learnedKanji), [learnedKanji]);
+
+  const getCompletedSection = (kanjiIds: string[]) => {
+    let count = 0;
+
+    for (const id of kanjiIds) {
+      if (learnedSet.has(id)) {
+        count++;
+      }
+    }
+
+    return count;
+  };
 
   return (
     <View style={styles.container}>
       <FlatList
         data={sections}
-        keyExtractor={(_, index) => index.toString()}
+        keyExtractor={(item) => item.id}
         contentContainerStyle={{ padding: 16 }}
-        renderItem={({ item }) => {
-          const attempts = sectionProgress[item.id]?.learnedKanji?.length || 0;
-
-          return (
-            <SectionCard
-              sectionId={item.id}
-              sectionName={item.name}
-              sectionElements={item.kanjiIds}
-              totalKanji={item.total}
-              completedKanji={attempts}
-              onPress={() =>
-                router.push({
-                  pathname: "/flashcard",
-                  params: { level, sectionId: item.id },
-                })
-              }
-            />
-          );
-        }}
+        renderItem={({ item }) => (
+          <SectionCard
+            sectionId={item.id}
+            sectionName={item.name}
+            sectionElements={item.kanjiIds}
+            totalKanji={item.total}
+            completedKanji={getCompletedSection(item.kanjiIds)}
+            onPress={() =>
+              router.push({
+                pathname: "/flashcard",
+                params: {
+                  level,
+                  sectionId: item.id,
+                },
+              })
+            }
+          />
+        )}
       />
     </View>
   );
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.background,
-  },
-  title: {
-    marginTop: 20,
-    fontSize: 20,
-    fontWeight: "bold",
-    color: colors.primary,
-    textAlign: "center",
   },
 });

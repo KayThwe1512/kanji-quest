@@ -1,8 +1,9 @@
 import colors from "@/theme/colors";
 import { Ionicons } from "@expo/vector-icons";
-import { Tabs } from "expo-router";
+import { Tabs, useRouter } from "expo-router";
 
 export default function TabLayout() {
+  const router = useRouter();
   return (
     <Tabs
       screenOptions={{
@@ -21,6 +22,11 @@ export default function TabLayout() {
               color={colors.primary}
             />
           ),
+        }}
+        listeners={{
+          tabPress: () => {
+            router.navigate("/(tabs)/(home)/home");
+          },
         }}
       />
       <Tabs.Screen

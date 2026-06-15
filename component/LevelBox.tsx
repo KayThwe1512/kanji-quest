@@ -11,6 +11,7 @@ type Props = {
   completedKanji?: number;
   attempts?: number;
   variant: "practice" | "quiz";
+  mode?: string;
   onPress: () => void;
 };
 
@@ -21,6 +22,7 @@ const LevelCard = ({
   completedKanji = 0,
   attempts = 0,
   variant,
+  mode,
   onPress,
 }: Props) => {
   const progress = Math.round((completedKanji / totalKanji) * 100);
@@ -31,7 +33,10 @@ const LevelCard = ({
         <Text style={styles.levelText}>{levelId}</Text>
         <Text style={styles.nameText}>{name}</Text>
         {variant === "practice" && (
-          <Text style={styles.countText}>{totalKanji} Kanji</Text>
+          <Text style={styles.countText}>
+            {" "}
+            {completedKanji} / {totalKanji} Kanji
+          </Text>
         )}
       </View>
 
@@ -50,8 +55,13 @@ const LevelCard = ({
         </View>
       ) : (
         <View style={styles.attemptWrapper}>
-          <Ionicons name="pencil" size={18} color={colors.primary} />
-          <Text style={styles.attemptText}>Attempts: {attempts}</Text>
+          {mode === "quiz" && (
+            <Ionicons name="pencil" size={18} color={colors.primary} />
+          )}
+          <Text style={styles.attemptText}>
+            {" "}
+            {mode === "event" ? "▶ Start Quiz" : `Attempts: ${attempts}`}
+          </Text>
         </View>
       )}
     </TouchableOpacity>

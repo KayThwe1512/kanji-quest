@@ -1,0 +1,3618 @@
+[
+  {
+    "id": "1",
+    "kanji": "援助",
+    "reading": "えんじょ",
+    "meaning": "Assistance / Aid",
+    "level": "N2",
+    "distractors": {
+      "readings": ["あんじょ", "えんちょ", "おんじょ", "えんじょう"],
+      "visualKanji": ["遠序", "緩助", "暖助", "愛助"],
+      "homophoneKanji": ["円如", "遠序", "延除", "炎如"]
+    }
+  },
+  {
+    "id": "2",
+    "kanji": "汚染",
+    "reading": "おせん",
+    "meaning": "Pollution / Contamination",
+    "level": "N2",
+    "distractors": {
+      "readings": ["うせん", "おぜん", "おさん", "こうせん"],
+      "visualKanji": ["汗染", "汚柔", "汚株", "汚珠"],
+      "homophoneKanji": ["御船", "尾船", "汚仙", "王選"]
+    }
+  },
+  {
+    "id": "3",
+    "kanji": "温厚",
+    "reading": "おんこう",
+    "meaning": "Gentle / Kind-hearted",
+    "level": "N2",
+    "distractors": {
+      "readings": ["あんこう", "おんごう", "うんこう", "おんくう"],
+      "visualKanji": ["温原", "穏厚", "温候", "温座"],
+      "homophoneKanji": ["音巧", "恩公", "陰行", "恩郊"]
+    }
+  },
+  {
+    "id": "4",
+    "kanji": "価値",
+    "reading": "かち",
+    "meaning": "Value / Worth",
+    "level": "N2",
+    "distractors": {
+      "readings": ["がち", "かじ", "けち", "こうち"],
+      "visualKanji": ["価置", "価直", "借値", "仮値"],
+      "homophoneKanji": ["勝ち", "家知", "可智", "佳致"]
+    }
+  },
+  {
+    "id": "5",
+    "kanji": "仮定",
+    "reading": "かてい",
+    "meaning": "Assumption / Hypothesis",
+    "level": "N2",
+    "distractors": {
+      "readings": ["がてい", "かってい", "かてん", "かだい"],
+      "visualKanji": ["値定", "仮貞", "仮錠", "反定"],
+      "homophoneKanji": ["家庭", "課程", "過程", "固定"]
+    }
+  },
+  {
+    "id": "6",
+    "kanji": "拡大",
+    "reading": "かくだい",
+    "meaning": "Magnification / Expansion",
+    "level": "N2",
+    "distractors": {
+      "readings": ["がくだい", "かくたい", "こくだい", "かいだい"],
+      "visualKanji": ["応大", "確大", "拠大", "拓大"],
+      "homophoneKanji": ["核代", "革代", "郭大", "確代"]
+    }
+  },
+  {
+    "id": "7",
+    "kanji": "革新",
+    "reading": "かくしん",
+    "meaning": "Reform / Innovation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["がくしん", "かくじん", "こうしん", "かっしん"],
+      "visualKanji": ["靴新", "確新", "格新", "新"],
+      "homophoneKanji": ["確信", "核心", "客信", "角伸"]
+    }
+  },
+  {
+    "id": "8",
+    "kanji": "確率",
+    "reading": "かくりつ",
+    "meaning": "Probability / Odds",
+    "level": "N2",
+    "distractors": {
+      "readings": ["かくりづ", "がくりつ", "こくりつ", "かくりく"],
+      "visualKanji": ["確卒", "確律", "確枠", "殻率"],
+      "homophoneKanji": ["確立", "確立", "客律", "角立"]
+    }
+  },
+  {
+    "id": "9",
+    "kanji": "過半数",
+    "reading": "かはんすう",
+    "meaning": "Majority",
+    "level": "N2",
+    "distractors": {
+      "readings": ["かぱんすう", "がはんすう", "かはすう", "こはんすう"],
+      "visualKanji": ["渦半数", "過伴数", "鍋半数", "過判数"],
+      "homophoneKanji": ["加判数", "可伴数", "果犯数", "家版数"]
+    }
+  },
+  {
+    "id": "10",
+    "kanji": "環境",
+    "reading": "かんきょう",
+    "meaning": "Environment",
+    "level": "N2",
+    "distractors": {
+      "readings": ["がんきょう", "かんきょ", "こうきょう", "はんきょう"],
+      "visualKanji": ["環鏡", "漢郷", "還境", "壊境"],
+      "homophoneKanji": ["官教", "間協", "漢郷", "管興"]
+    }
+  },
+  {
+    "id": "11",
+    "kanji": "乾燥",
+    "reading": "かんそう",
+    "meaning": "Dryness / Dehydration",
+    "level": "N2",
+    "distractors": {
+      "readings": ["がんそう", "かんぞう", "こうそう", "かんそ"],
+      "visualKanji": ["乾繰", "幹燥", "乾操", "戟燥"],
+      "homophoneKanji": ["感想", "間奏", "観送", "完走"]
+    }
+  },
+  {
+    "id": "12",
+    "kanji": "監督",
+    "reading": "かんとく",
+    "meaning": "Supervision / Director",
+    "level": "N2",
+    "distractors": {
+      "readings": ["がんとく", "かんどく", "けんとく", "かんたく"],
+      "visualKanji": ["監特", "覧督", "監独", "艦督"],
+      "homophoneKanji": ["感得", "汗得", "簡得", "完徳"]
+    }
+  },
+  {
+    "id": "13",
+    "kanji": "管理",
+    "reading": "かんり",
+    "meaning": "Management / Control",
+    "level": "N2",
+    "distractors": {
+      "readings": ["がんり", "かんりん", "こうり", "はんり"],
+      "visualKanji": ["管里", "官理", "管裏", "管履"],
+      "homophoneKanji": ["甘利", "完履", "看理", "館裏"]
+    }
+  },
+  {
+    "id": "14",
+    "kanji": "基礎",
+    "reading": "きそ",
+    "meaning": "Foundation / Basis",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぎそ", "きぞ", "けそ", "きしょう"],
+      "visualKanji": ["其礎", "基楚", "基租", "甚礎"],
+      "homophoneKanji": ["競そ", "期楚", "希素", "気楚"]
+    }
+  },
+  {
+    "id": "15",
+    "kanji": "機能",
+    "reading": "きのう",
+    "meaning": "Function / Facility",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぎのう", "きゆう", "ちのう", "くのう"],
+      "visualKanji": ["機態", "幾能", "機熊", "機罷"],
+      "homophoneKanji": ["昨日", "機能", "帰能", "機納"]
+    }
+  },
+  {
+    "id": "16",
+    "kanji": "寄付",
+    "reading": "きふ",
+    "meaning": "Contribution / Donation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぎふ", "きっぷ", "きふう", "けふ"],
+      "visualKanji": ["奇付", "椅付", "寄府", "寄附"],
+      "homophoneKanji": ["皮膚", "岐阜", "基布", "記譜"]
+    }
+  },
+  {
+    "id": "17",
+    "kanji": "規律",
+    "reading": "きりつ",
+    "meaning": "Discipline / Order",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぎりつ", "きりづ", "きりく", "しりつ"],
+      "visualKanji": ["視律", "規津", "規聿", "親律"],
+      "homophoneKanji": ["起立", "私立", "忌律", "幾率"]
+    }
+  },
+  {
+    "id": "18",
+    "kanji": "義務",
+    "reading": "ぎむ",
+    "meaning": "Duty / Obligation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["きむ", "ぎぶ", "げむ", "ぎもん"],
+      "visualKanji": ["義霧", "儀務", "犠務", "義夢"],
+      "homophoneKanji": ["議夢", "技務", "偽務", "岐務"]
+    }
+  },
+  {
+    "id": "19",
+    "kanji": "客観的",
+    "reading": "きゃっかんてき",
+    "meaning": "Objective",
+    "level": "N2",
+    "distractors": {
+      "readings": [
+        "かくかんてき",
+        "きゃかんてき",
+        "きょっかんてき",
+        "ぎゃっかんてき"
+      ],
+      "visualKanji": ["閣観的", "容観的", "客完的", "客歓的"],
+      "homophoneKanji": ["脚感的", "逆感的", "客鑑的", "各完的"]
+    }
+  },
+  {
+    "id": "20",
+    "kanji": "救援",
+    "reading": "きゅうえん",
+    "meaning": "Relief / Rescue",
+    "level": "N2",
+    "distractors": {
+      "readings": ["きゅうおん", "ぎゅうえん", "きゅえん", "きょうえん"],
+      "visualKanji": ["救緩", "救暖", "求援", "救愛"],
+      "homophoneKanji": ["球苑", "休演", "急遠", "吸縁"]
+    }
+  },
+  {
+    "id": "21",
+    "kanji": "急速",
+    "reading": "きゅうそく",
+    "meaning": "Rapid / High-speed",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぎゅうそく", "きゅそく", "きゅうぞく", "きょうそく"],
+      "visualKanji": ["急連", "求速", "急束", "急捉"],
+      "homophoneKanji": ["休息", "球速", "旧足", "吸息"]
+    }
+  },
+  {
+    "id": "22",
+    "kanji": "許可",
+    "reading": "きょか",
+    "meaning": "Permission / Approval",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぎょか", "きょが", "こうか", "きか"],
+      "visualKanji": ["許加", "何", "計可", "討可"],
+      "homophoneKanji": ["巨価", "去課", "居佳", "虚可"]
+    }
+  },
+  {
+    "id": "23",
+    "kanji": "巨大",
+    "reading": "きょだい",
+    "meaning": "Huge / Gigantic",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぎょだい", "きょたい", "こだい", "きょうだい"],
+      "visualKanji": ["臣大", "巨犬", "拒大", "距大"],
+      "homophoneKanji": ["挙代", "虚大", "居代", "許大"]
+    }
+  },
+  {
+    "id": "24",
+    "kanji": "協力",
+    "reading": "きょうりょく",
+    "meaning": "Cooperation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぎょうりょく", "きょうりき", "こうりょく", "ちょうりょく"],
+      "visualKanji": ["協刀", "脅力", "脇力", "協万"],
+      "homophoneKanji": ["強力", "共力", "郷力", "境力"]
+    }
+  },
+  {
+    "id": "25",
+    "kanji": "均衡",
+    "reading": "きんこう",
+    "meaning": "Equilibrium / Balance",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぎんこう", "きんごう", "けんこう", "かんこう"],
+      "visualKanji": ["均衝", "均街", "金衡", "均術"],
+      "homophoneKanji": ["近郊", "銀行", "金鉱", "均工"]
+    }
+  },
+  {
+    "id": "26",
+    "kanji": "偶然",
+    "reading": "ぐうぜん",
+    "meaning": "Coincidence / By chance",
+    "level": "N2",
+    "distractors": {
+      "readings": ["くうぜん", "ぐうせん", "ごうぜん", "ぐうざん"],
+      "visualKanji": ["遇然", "愚然", "隅然", "偶燃"],
+      "homophoneKanji": ["宮前", "空前", "偶善", "隅膳"]
+    }
+  },
+  {
+    "id": "27",
+    "kanji": "警戒",
+    "reading": "けいかい",
+    "meaning": "Vigilance / Precaution",
+    "level": "N2",
+    "distractors": {
+      "readings": ["げいかい", "けいがい", "せいかい", "きょうかい"],
+      "visualKanji": ["敬戒", "軽戒", "驚戒", "計戒"],
+      "homophoneKanji": ["軽快", "系海", "刑改", "契会"]
+    }
+  },
+  {
+    "id": "28",
+    "kanji": "傾向",
+    "reading": "けいこう",
+    "meaning": "Tendency / Trend",
+    "level": "N2",
+    "distractors": {
+      "readings": ["げいこう", "けいごう", "きょうこう", "けんこう"],
+      "visualKanji": ["傾句", "傾何", "頃向", "携向"],
+      "homophoneKanji": ["蛍光", "頃向", "刑交", "契工"]
+    }
+  },
+  {
+    "id": "29",
+    "kanji": "警告",
+    "reading": "けいこく",
+    "meaning": "Warning / Admonition",
+    "level": "N2",
+    "distractors": {
+      "readings": ["げいこく", "けいごく", "きょうこく", "せいこく"],
+      "visualKanji": ["敬告", "警吉", "警各", "計告"],
+      "homophoneKanji": ["渓谷", "経国", "契刻", "形国"]
+    }
+  },
+  {
+    "id": "30",
+    "kanji": "契約",
+    "reading": "けいやく",
+    "meaning": "Contract / Agreement",
+    "level": "N2",
+    "distractors": {
+      "readings": ["げいやく", "けやく", "きょうやく", "せいやく"],
+      "visualKanji": ["潔約", "係約", "喫約", "楔約"],
+      "homophoneKanji": ["刑役", "形役", "計訳", "啓益"]
+    }
+  },
+  {
+    "id": "31",
+    "kanji": "結果",
+    "reading": "けっか",
+    "meaning": "Result / Outcome",
+    "level": "N2",
+    "distractors": {
+      "readings": ["けか", "けっが", "けいか", "げっか"],
+      "visualKanji": ["結菓", "結草", "結架", "結課"],
+      "homophoneKanji": ["欠下", "血禍", "結架", "決加"]
+    }
+  },
+  {
+    "id": "32",
+    "kanji": "欠陥",
+    "reading": "けっかん",
+    "meaning": "Defect / Flaw",
+    "level": "N2",
+    "distractors": {
+      "readings": ["けかん", "けっがん", "けんかん", "けっせん"],
+      "visualKanji": ["欠管", "次陥", "欠旧", "欠稲"],
+      "homophoneKanji": ["血管", "決管", "結巻", "欠官"]
+    }
+  },
+  {
+    "id": "33",
+    "kanji": "結論",
+    "reading": "けつろん",
+    "meaning": "Conclusion",
+    "level": "N2",
+    "distractors": {
+      "readings": ["けつるん", "けつだん", "げつろん", "けんろん"],
+      "visualKanji": ["結輪", "決論", "結諭", "結倫"],
+      "homophoneKanji": ["血論", "欠論", "傑論", "決倫"]
+    }
+  },
+  {
+    "id": "34",
+    "kanji": "権威",
+    "reading": "けんい",
+    "meaning": "Authority / Influence",
+    "level": "N2",
+    "distractors": {
+      "readings": ["げんい", "けんいん", "かんい", "けい"],
+      "visualKanji": ["権委", "権為", "極威", "機威"],
+      "homophoneKanji": ["圏外", "兼位", "賢医", "憲意"]
+    }
+  },
+  {
+    "id": "35",
+    "kanji": "兼任",
+    "reading": "けんにん",
+    "meaning": "Holding concurrent posts",
+    "level": "N2",
+    "distractors": {
+      "readings": ["かんにん", "げんにん", "けんじん", "けんにゅう"],
+      "visualKanji": ["嫌任", "兼仕", "謙任", "兼柱"],
+      "homophoneKanji": ["健人", "賢人", "研認", "県妊"]
+    }
+  },
+  {
+    "id": "36",
+    "kanji": "見当",
+    "reading": "けんとう",
+    "meaning": "Estimate / Aim / Direction",
+    "level": "N2",
+    "distractors": {
+      "readings": ["げんとう", "けんどう", "かんとう", "きんとう"],
+      "visualKanji": ["見頭", "現当", "視当", "観当"],
+      "homophoneKanji": ["検討", "健闘", "観当", "健藤"]
+    }
+  },
+  {
+    "id": "37",
+    "kanji": "軽減",
+    "reading": "けいげん",
+    "meaning": "Reduction / Mitigation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["げいげん", "けいけん", "せいげん", "きょうげん"],
+      "visualKanji": ["軽滅", "経減", "径減", "軽誠"],
+      "homophoneKanji": ["経言", "刑言", "契限", "形言"]
+    }
+  },
+  {
+    "id": "38",
+    "kanji": "固執",
+    "reading": "こしつ",
+    "meaning": "Persistence / Adherence",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごしつ", "こしゅう", "こうしつ", "くしつ"],
+      "visualKanji": ["個執", "固熱", "固執行", "固熟"],
+      "homophoneKanji": ["個室", "孤室", "枯室", "湖実"]
+    }
+  },
+  {
+    "id": "39",
+    "kanji": "孤立",
+    "reading": "こりつ",
+    "meaning": "Isolation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごりつ", "こりづ", "こりく", "くりつ"],
+      "visualKanji": ["狐立", "個立", "弧立", "枯立"],
+      "homophoneKanji": ["効率", "古律", "股立", "固律"]
+    }
+  },
+  {
+    "id": "40",
+    "kanji": "雇用",
+    "reading": "こよう",
+    "meaning": "Employment",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごよう", "こゆう", "かよう", "くよう"],
+      "visualKanji": ["雇要", "雇用意", "個用", "顧用"],
+      "homophoneKanji": ["誤用", "御用", "湖葉", "枯葉"]
+    }
+  },
+  {
+    "id": "41",
+    "kanji": "栽培",
+    "reading": "さいばい",
+    "meaning": "Cultivation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["さいはい", "ざいばい", "せいばい", "さいぱい"],
+      "visualKanji": ["栽陪", "裁培", "載培", "栽倍"],
+      "homophoneKanji": ["催売", "再敗", "才売", "済杯"]
+    }
+  },
+  {
+    "id": "42",
+    "kanji": "削減",
+    "reading": "さくげん",
+    "meaning": "Reduction / Cut",
+    "level": "N2",
+    "distractors": {
+      "readings": ["さくけん", "ざくげん", "さんげん", "しょくげん"],
+      "visualKanji": ["硝減", "削滅", "咲減", "削誠"],
+      "homophoneKanji": ["作言", "昨言", "策言", "索限"]
+    }
+  },
+  {
+    "id": "43",
+    "kanji": "錯誤",
+    "reading": "さくご",
+    "meaning": "Error / Mistake",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ざくご", "さくこ", "さんご", "さくく"],
+      "visualKanji": ["錯娯", "惜誤", "措誤", "錯駅"],
+      "homophoneKanji": ["昨期", "作語", "策語", "索碁"]
+    }
+  },
+  {
+    "id": "44",
+    "kanji": "差別",
+    "reading": "さべつ",
+    "meaning": "Discrimination",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ざべつ", "さへつ", "しゃべつ", "さぷつ"],
+      "visualKanji": ["差列", "砂別", "佐別", "嗟別"],
+      "homophoneKanji": ["左別", "作別", "佐別", "紗別"]
+    }
+  },
+  {
+    "id": "45",
+    "kanji": "作法",
+    "reading": "さほう",
+    "meaning": "Manners / Etiquette",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ざほう", "さぼう", "さほうう", "しゃほう"],
+      "visualKanji": ["昨法", "佐法", "作放", "作訪"],
+      "homophoneKanji": ["砂防", "査防", "左方", "茶法"]
+    }
+  },
+  {
+    "id": "46",
+    "kanji": "支える",
+    "reading": "ささえる",
+    "meaning": "To support",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ちかえる", "つかえる", "かかえる", "ささる"],
+      "visualKanji": ["交える", "反える", "技える", "去える"],
+      "homophoneKanji": ["捧える", "指しえる", "挿しえる", "刺しえる"]
+    }
+  },
+  {
+    "id": "47",
+    "kanji": "視覚",
+    "reading": "しかく",
+    "meaning": "Sense of sight / Vision",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じかく", "しがく", "しこく", "せいかく"],
+      "visualKanji": ["現覚", "規覚", "視党", "親覚"],
+      "homophoneKanji": ["資格", "四角", "死角", "刺客"]
+    }
+  },
+  {
+    "id": "48",
+    "kanji": "刺激",
+    "reading": "しげき",
+    "meaning": "Stimulus / Incentive",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じげき", "しけき", "しげい", "しんげき"],
+      "visualKanji": ["剌檄", "刺檄", "剌激", "利激"],
+      "homophoneKanji": ["史劇", "市劇", "私劇", "死劇"]
+    }
+  },
+  {
+    "id": "49",
+    "kanji": "施設",
+    "reading": "しせつ",
+    "meaning": "Institution / Facility",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じせつ", "しぜつ", "しせっ", "しそう"],
+      "visualKanji": ["施投", "施役", "施工", "施没"],
+      "homophoneKanji": ["使節", "子説", "私説", "四節"]
+    }
+  },
+  {
+    "id": "50",
+    "kanji": "持続",
+    "reading": "じぞく",
+    "meaning": "Continuation / Duration",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じちく", "しぞく", "じぞっ", "じたく"],
+      "visualKanji": ["待続", "特続", "侍続", "持読"],
+      "homophoneKanji": ["時属", "地属", "事属", "自属"]
+    }
+  },
+  {
+    "id": "51",
+    "kanji": "自給",
+    "reading": "じきゅう",
+    "meaning": "Self-sufficiency",
+    "level": "N2",
+    "distractors": {
+      "readings": ["しきゅう", "じぎゅう", "じきょう", "じくう"],
+      "visualKanji": ["目給", "自急", "自級", "自吸"],
+      "homophoneKanji": ["時給", "持久", "至急", "子宮"]
+    }
+  },
+  {
+    "id": "52",
+    "kanji": "辞退",
+    "reading": "じたい",
+    "meaning": "Declination / Refusal",
+    "level": "N2",
+    "distractors": {
+      "readings": ["したい", "じだい", "じたいっ", "じつい"],
+      "visualKanji": ["辞隊", "避退", "辟退", "辛退"],
+      "homophoneKanji": ["事態", "実態", "自体", "地帯"]
+    }
+  },
+  {
+    "id": "53",
+    "kanji": "指標",
+    "reading": "しひょう",
+    "meaning": "Index / Indicator",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じひょう", "しほう", "しひょ", "しひゅう"],
+      "visualKanji": ["指票", "指漂", "指悪", "指襟"],
+      "homophoneKanji": ["辞表", "師表", "四表", "死票"]
+    }
+  },
+  {
+    "id": "54",
+    "kanji": "寿命",
+    "reading": "じゅみょう",
+    "meaning": "Life span",
+    "level": "N2",
+    "distractors": {
+      "readings": ["しゅみょう", "じゅみょ", "じゅうみょう", "じょみょう"],
+      "visualKanji": ["寿明", "考命", "老命", "寿銘"],
+      "homophoneKanji": ["樹明", "受明", "儒名", "授名"]
+    }
+  },
+  {
+    "id": "55",
+    "kanji": "需要",
+    "reading": "じゅよう",
+    "meaning": "Demand / Request",
+    "level": "N2",
+    "distractors": {
+      "readings": ["しゅよう", "じゅうよう", "じゅゆう", "じょよう"],
+      "visualKanji": ["需妥", "需腰", "儒要", "需晏"],
+      "homophoneKanji": ["重要", "主要", "受容", "樹葉"]
+    }
+  },
+  {
+    "id": "56",
+    "kanji": "順調",
+    "reading": "じゅんちょう",
+    "meaning": "Favorable / Doing well",
+    "level": "N2",
+    "distractors": {
+      "readings": ["しゅんちょう", "じゅんじょう", "じんちょう", "じゅんちょ"],
+      "visualKanji": ["準調", "川調", "訓調", "順頂"],
+      "homophoneKanji": ["純鳥", "潤長", "順超", "純朝"]
+    }
+  },
+  {
+    "id": "57",
+    "kanji": "承認",
+    "reading": "しょうにん",
+    "meaning": "Approval / Recognition",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じょうにん", "しょうじん", "しょうねん", "しようにん"],
+      "visualKanji": ["証認", "承忍", "蒸認", "承柱"],
+      "homophoneKanji": ["商人", "証人", "小人", "常任"]
+    }
+  },
+  {
+    "id": "58",
+    "kanji": "奨励",
+    "reading": "しょうれい",
+    "meaning": "Encouragement",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じょうれい", "しょうらい", "そうれい", "ちょうれい"],
+      "visualKanji": ["将励", "奨勉", "奨麗", "奨励衣"],
+      "homophoneKanji": ["条例", "症例", "照礼", "消戻"]
+    }
+  },
+  {
+    "id": "59",
+    "kanji": "衝突",
+    "reading": "しょうとつ",
+    "meaning": "Collision / Conflict",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じょうとつ", "しょうどう", "そうとつ", "しゅとつ"],
+      "visualKanji": ["衝奏", "街突", "術突", "衝空"],
+      "homophoneKanji": ["消突", "商突", "照突", "小凸"]
+    }
+  },
+  {
+    "id": "60",
+    "kanji": "審議",
+    "reading": "しんぎ",
+    "meaning": "Deliberation / Review",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じんぎ", "しんき", "せんぎ", "しんけい"],
+      "visualKanji": ["番議", "審義", "審儀", "番儀"],
+      "homophoneKanji": ["信義", "真偽", "新義", "震儀"]
+    }
+  },
+  {
+    "id": "61",
+    "kanji": "振興",
+    "reading": "しんこう",
+    "meaning": "Promotion / Encouragement",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じんこう", "しんごう", "せんこう", "しんくう"],
+      "visualKanji": ["震興", "布興", "賑興", "派興"],
+      "homophoneKanji": ["進行", "信仰", "人工", "深刻"]
+    }
+  },
+  {
+    "id": "62",
+    "kanji": "侵入",
+    "reading": "しんにゅう",
+    "meaning": "Invasion / Trespass",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じんにゅう", "しにゅう", "しんりゅう", "せんにゅう"],
+      "visualKanji": ["浸入", "寝入", "俊入", "侵人"],
+      "homophoneKanji": ["新入", "進入", "新乳", "親入"]
+    }
+  },
+  {
+    "id": "63",
+    "kanji": "推測",
+    "reading": "すいそく",
+    "meaning": "Conjecture / Guess",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ずいそく", "すいぞく", "さいそく", "すいそ"],
+      "visualKanji": ["准測", "誰測", "椎測", "推側"],
+      "homophoneKanji": ["水族", "垂足", "吹息", "粋速"]
+    }
+  },
+  {
+    "id": "64",
+    "kanji": "睡眠",
+    "reading": "すいみん",
+    "meaning": "Sleep",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ずいみん", "すいめん", "さいみん", "せいみん"],
+      "visualKanji": ["垂眠", "睡民", "水眠", "眠"],
+      "homophoneKanji": ["水面", "催眠", "粋民", "吹民"]
+    }
+  },
+  {
+    "id": "65",
+    "kanji": "成績",
+    "reading": "せいせき",
+    "meaning": "Results / Grade",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぜいせき", "せいぜき", "しょうせき", "せいしき"],
+      "visualKanji": ["盛績", "成責", "成積", "成跡"],
+      "homophoneKanji": ["聖跡", "生石", "精席", "静席"]
+    }
+  },
+  {
+    "id": "66",
+    "kanji": "正常",
+    "reading": "せいじょう",
+    "meaning": "Normalcy",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぜいじょう", "せいしょう", "しょうじょう", "せいじゅ"],
+      "visualKanji": ["政常", "正情", "正賞", "整常"],
+      "homophoneKanji": ["清浄", "症状", "成人の", "盛装"]
+    }
+  },
+  {
+    "id": "67",
+    "kanji": "誠実",
+    "reading": "せいじつ",
+    "meaning": "Sincerity / Honest",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぜいじつ", "せいしつ", "しょうじつ", "せいじっ"],
+      "visualKanji": ["試実", "誤実", "誠美", "盛実"],
+      "homophoneKanji": ["性質", "正実", "盛実", "成実"]
+    }
+  },
+  {
+    "id": "68",
+    "kanji": "製造",
+    "reading": "せいぞう",
+    "meaning": "Manufacture / Production",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぜいぞう", "せいそう", "しょうぞう", "せいどう"],
+      "visualKanji": ["制造", "製遭", "聖造", "精造"],
+      "homophoneKanji": ["省三", "正三", "清僧", "聖像"]
+    }
+  },
+  {
+    "id": "69",
+    "kanji": "絶対",
+    "reading": "ぜったい",
+    "meaning": "Absolute",
+    "level": "N2",
+    "distractors": {
+      "readings": ["せったい", "ぜたい", "ぜつだい", "じったい"],
+      "visualKanji": ["絶隊", "絶待", "舌対", "対"],
+      "homophoneKanji": ["接待", "折体", "拙対", "節体"]
+    }
+  },
+  {
+    "id": "70",
+    "kanji": "組織",
+    "reading": "そしき",
+    "meaning": "Organization / Structure",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぞしき", "そじき", "そしん", "しょしき"],
+      "visualKanji": ["組職", "祖織", "粗織", "組識"],
+      "homophoneKanji": ["素式", "蘇式", "訴式", "阻式"]
+    }
+  },
+  {
+    "id": "71",
+    "kanji": "相互",
+    "reading": "そうご",
+    "meaning": "Mutual / Reciprocal",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぞうご", "そうこう", "しょうご", "そご"],
+      "visualKanji": ["相五", "相瓦", "総互", "想互"],
+      "homophoneKanji": ["造語", "層後", "送後", "双語"]
+    }
+  },
+  {
+    "id": "72",
+    "kanji": "創作",
+    "reading": "そうさく",
+    "meaning": "Creation / Production",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぞうさく", "そうざく", "しょうさく", "すいさく"],
+      "visualKanji": ["惣作", "層作", "創昨", "総作"],
+      "homophoneKanji": ["捜索", "操作区", "挿作", "壮作"]
+    }
+  },
+  {
+    "id": "73",
+    "kanji": "措置",
+    "reading": "そち",
+    "meaning": "Measure / Step / Action",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぞち", "そじ", "しょち", "さち"],
+      "visualKanji": ["惜置", "錯置", "措値", "借置"],
+      "homophoneKanji": ["処置", "粗地", "素知", "疎地"]
+    }
+  },
+  {
+    "id": "74",
+    "kanji": "速度",
+    "reading": "そくど",
+    "meaning": "Speed / Velocity",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぞくど", "そくと", "しょくど", "そくどう"],
+      "visualKanji": ["促度", "捉度", "足度", "速席"],
+      "homophoneKanji": ["即度", "属度", "側土", "測土"]
+    }
+  },
+  {
+    "id": "75",
+    "kanji": "損失",
+    "reading": "そんしつ",
+    "meaning": "Loss / Damage",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぞんしつ", "そんじつ", "そんしん", "さんしつ"],
+      "visualKanji": ["損実", "尊失", "損矢", "損室"],
+      "homophoneKanji": ["尊室", "村室", "存実", "遜室"]
+    }
+  },
+  {
+    "id": "76",
+    "kanji": "対象",
+    "reading": "たいしょう",
+    "meaning": "Target / Object",
+    "level": "N2",
+    "distractors": {
+      "readings": ["だいしょう", "たいじょう", "とうしょう", "ていしょう"],
+      "visualKanji": ["対像", "待象", "特象", "対相"],
+      "homophoneKanji": ["対称", "対照", "大勝", "大正"]
+    }
+  },
+  {
+    "id": "77",
+    "kanji": "逮捕",
+    "reading": "たいほ",
+    "meaning": "Arrest / Capture",
+    "level": "N2",
+    "distractors": {
+      "readings": ["だいほ", "たいほう", "ていほ", "ついほ"],
+      "visualKanji": ["逮歩", "隷捕", "逮補", "逮浦"],
+      "homophoneKanji": ["大歩", "退歩", "対捕", "帯補"]
+    }
+  },
+  {
+    "id": "78",
+    "kanji": "探査",
+    "reading": "たんさ",
+    "meaning": "Probe / Investigation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["だんさ", "たんざ", "はんさ", "てんさ"],
+      "visualKanji": ["深査", "探杏", "採査", "探作"],
+      "homophoneKanji": ["段差", "短鎖", "単砂", "端差"]
+    }
+  },
+  {
+    "id": "79",
+    "kanji": "短縮",
+    "reading": "たんしゅく",
+    "meaning": "Shortening / Reduction",
+    "level": "N2",
+    "distractors": {
+      "readings": ["だんしゅく", "たんじゅく", "てんしゅく", "たんしょく"],
+      "visualKanji": ["短縦", "短宿", "端縮", "短祝"],
+      "homophoneKanji": ["単宿", "端宿", "担宿", "淡色"]
+    }
+  },
+  {
+    "id": "80",
+    "kanji": "秩序",
+    "reading": "ちつじょ",
+    "meaning": "Order / Regularity",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じつじょ", "ちつしょ", "ちづじょ", "てつじょ"],
+      "visualKanji": ["悉序", "帙序", "失序", "秩予"],
+      "homophoneKanji": ["質序", "実如", "窒如", "悉如"]
+    }
+  },
+  {
+    "id": "81",
+    "kanji": "蓄積",
+    "reading": "ちくせき",
+    "meaning": "Accumulation / Store",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ちくぜき", "じくせき", "ちくしき", "とくせき"],
+      "visualKanji": ["蓄責", "蓄籍", "蓄跡", "著積"],
+      "homophoneKanji": ["竹席", "逐席", "築籍", "筑席"]
+    }
+  },
+  {
+    "id": "82",
+    "kanji": "抽象的",
+    "reading": "ちゅうしょうてき",
+    "meaning": "Abstract",
+    "level": "N2",
+    "distractors": {
+      "readings": [
+        "じゅうしょうてき",
+        "ちゅしょうてき",
+        "ちゅうそうてき",
+        "ちょうしょうてき"
+      ],
+      "visualKanji": ["油象的", "宙象的", "抽像的", "抽相的"],
+      "homophoneKanji": ["中傷的", "中章的", "柱承的", "注商的"]
+    }
+  },
+  {
+    "id": "83",
+    "kanji": "超越",
+    "reading": "ちょうえつ",
+    "meaning": "Transcendence / Surpass",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じょうえつ", "ちょうおつ", "そうえつ", "ちゅえつ"],
+      "visualKanji": ["超赴", "走越", "超趣", "起越"],
+      "homophoneKanji": ["朝廷", "鳥悦", "澄悦", "超謁"]
+    }
+  },
+  {
+    "id": "84",
+    "kanji": "重複",
+    "reading": "ちょうふく",
+    "meaning": "Duplication / Overlap",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じゅうふく", "ちょうぶく", "じょうふく", "ちゅうふく"],
+      "visualKanji": ["重腹", "重履", "動複", "重准"],
+      "homophoneKanji": ["長服", "調服", "町副", "兆幅"]
+    }
+  },
+  {
+    "id": "85",
+    "kanji": "治療",
+    "reading": "ちりょう",
+    "meaning": "Medical treatment / Cure",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じりょう", "ちりょ", "ちりゅう", "てりょう"],
+      "visualKanji": ["治瞭", "治僚", "治遼", "治流"],
+      "homophoneKanji": ["知量", "地領", "智量", "遅料"]
+    }
+  },
+  {
+    "id": "86",
+    "kanji": "沈殿",
+    "reading": "ちんでん",
+    "meaning": "Precipitation / Sediment",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じんでん", "ちんてん", "しんでん", "てんでん"],
+      "visualKanji": ["枕段", "枕殿", "沈仮", "沈段"],
+      "homophoneKanji": ["神殿", "寝殿", "珍田", "賃田"]
+    }
+  },
+  {
+    "id": "87",
+    "kanji": "賃金",
+    "reading": "ちんぎん",
+    "meaning": "Wages / Pay",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じんぎん", "ちんきん", "てんぎん", "はんぎん"],
+      "visualKanji": ["貸金", "賃全", "質金", "貨金"],
+      "homophoneKanji": ["沈銀", "珍銀", "鎮銀", "陳銀"]
+    }
+  },
+  {
+    "id": "88",
+    "kanji": "典型",
+    "reading": "てんけい",
+    "meaning": "Type / Pattern / Model",
+    "level": "N2",
+    "distractors": {
+      "readings": ["でんけい", "てんげい", "てんけいん", "ちょうけい"],
+      "visualKanji": ["典形", "冊型", "典刑", "再型"],
+      "homophoneKanji": ["天景", "転形", "点景", "点計"]
+    }
+  },
+  {
+    "id": "89",
+    "kanji": "適応",
+    "reading": "てきおう",
+    "meaning": "Adaptation / Accommodation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["できおう", "てきごう", "てくおう", "とうおう"],
+      "visualKanji": ["敵応", "摘応", "適心", "滴応"],
+      "homophoneKanji": ["敵往", "的往", "摘往", "滴往"]
+    }
+  },
+  {
+    "id": "90",
+    "kanji": "徹底",
+    "reading": "てってい",
+    "meaning": "Thoroughness / Completeness",
+    "level": "N2",
+    "distractors": {
+      "readings": ["でってい", "ててい", "てっていっ", "じってい"],
+      "visualKanji": ["徹低", "撤底", "徹定", "撤低"],
+      "homophoneKanji": ["鉄底", "点定", "貼定", "徹貞"]
+    }
+  },
+  {
+    "id": "91",
+    "kanji": "添付",
+    "reading": "てんぷ",
+    "meaning": "Attachment (e.g., email)",
+    "level": "N2",
+    "distractors": {
+      "readings": ["でんぷ", "てんぶ", "てんぷう", "てんぽ"],
+      "visualKanji": ["天付", "添附", "伝付", "点付"],
+      "homophoneKanji": ["天ぷ", "天婦", "転売", "点数"]
+    }
+  },
+  {
+    "id": "92",
+    "kanji": "転換",
+    "reading": "てんかん",
+    "meaning": "Conversion / Diversion",
+    "level": "N2",
+    "distractors": {
+      "readings": ["でんかん", "てんがん", "てんくん", "とうかん"],
+      "visualKanji": ["転喚", "転観", "転完", "転緩"],
+      "homophoneKanji": ["天官", "点眼", "転官", "展観"]
+    }
+  },
+  {
+    "id": "93",
+    "kanji": "同感",
+    "reading": "どうかん",
+    "meaning": "Agreement / Same feeling",
+    "level": "N2",
+    "distractors": {
+      "readings": ["とうかん", "どうがん", "どうしん", "どうかんっ"],
+      "visualKanji": ["洞惑", "同惑", "同射", "洞感"],
+      "homophoneKanji": ["動感", "導管", "同巻", "同官"]
+    }
+  },
+  {
+    "id": "94",
+    "kanji": "統合",
+    "reading": "とうごう",
+    "meaning": "Integration / Unification",
+    "level": "N2",
+    "distractors": {
+      "readings": ["どうごう", "とうこう", "ちょうごう", "とうごうっ"],
+      "visualKanji": ["統給", "等合", "投合", "答合"],
+      "homophoneKanji": ["東郷", "糖業", "等号", "答申"]
+    }
+  },
+  {
+    "id": "95",
+    "kanji": "倒産",
+    "reading": "とうさん",
+    "meaning": "Bankruptcy / Insolvency",
+    "level": "N2",
+    "distractors": {
+      "readings": ["どうさん", "とうざん", "ちょうさん", "ていさん"],
+      "visualKanji": ["到産", "倒算", "倒山", "盗産"],
+      "homophoneKanji": ["動産", "父さん", "等算", "当山"]
+    }
+  },
+  {
+    "id": "96",
+    "kanji": "投資",
+    "reading": "とうし",
+    "meaning": "Investment",
+    "level": "N2",
+    "distractors": {
+      "readings": ["どうし", "とうじ", "ちょうし", "とうしん"],
+      "visualKanji": ["闘志", "投姿", "等資", "答資"],
+      "homophoneKanji": ["闘志", "凍死", "同志", "透視"]
+    }
+  },
+  {
+    "id": "97",
+    "kanji": "統制",
+    "reading": "とうせい",
+    "meaning": "Regulation / Control",
+    "level": "N2",
+    "distractors": {
+      "readings": ["どうせい", "とうしょう", "とうせいっ", "ちょうせい"],
+      "visualKanji": ["統製", "等制", "統正", "統成"],
+      "homophoneKanji": ["同星", "冬青", "当制", "当正"]
+    }
+  },
+  {
+    "id": "98",
+    "kanji": "道徳",
+    "reading": "どうとく",
+    "meaning": "Morals / Morality",
+    "level": "N2",
+    "distractors": {
+      "readings": ["とうとく", "どうどく", "どうたく", "じょうとく"],
+      "visualKanji": ["導徳", "首徳", "道路", "道得"],
+      "homophoneKanji": ["同徳", "堂得", "動得", "同特"]
+    }
+  },
+  {
+    "id": "99",
+    "kanji": "独占",
+    "reading": "どくせん",
+    "meaning": "Monopoly",
+    "level": "N2",
+    "distractors": {
+      "readings": ["とくせん", "どくぜん", "どくしん", "だくせん"],
+      "visualKanji": ["特占", "独点", "独古", "独貼"],
+      "homophoneKanji": ["毒線", "特選", "独船", "督戦"]
+    }
+  },
+  {
+    "id": "100",
+    "kanji": "特有",
+    "reading": "とくゆう",
+    "meaning": "Characteristic / Peculiar",
+    "level": "N2",
+    "distractors": {
+      "readings": ["どくゆう", "とくう", "とくゆうう", "とくよう"],
+      "visualKanji": ["特右", "持有", "待有", "得有"],
+      "homophoneKanji": ["徳用", "得用", "特油", "特郵"]
+    }
+  },
+  {
+    "id": "101",
+    "kanji": "突入",
+    "reading": "とつにゅう",
+    "meaning": "Rushing into / Breaking into",
+    "level": "N2",
+    "distractors": {
+      "readings": ["どつにゅう", "とつにゅ", "とつりゅう", "とつじん"],
+      "visualKanji": ["突人", "突内", "空入", "突辺"],
+      "homophoneKanji": ["凸乳", "突乳", "訥入", "咄入"]
+    }
+  },
+  {
+    "id": "102",
+    "kanji": "摩擦",
+    "reading": "まさつ",
+    "meaning": "Friction / Rubbing",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ばさつ", "まざつ", "まさい", "まっさつ"],
+      "visualKanji": ["麻察", "磨擦", "魔擦", "摩審"],
+      "homophoneKanji": ["抹殺", "魔札", "間雑", "真札"]
+    }
+  },
+  {
+    "id": "103",
+    "kanji": "慢性",
+    "reading": "まんせい",
+    "meaning": "Chronic",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ばんせい", "まんぜい", "まんしょう", "めんせい"],
+      "visualKanji": ["慢生", "満性", "漫性", "慢星"],
+      "homophoneKanji": ["万歳", "満席", "万生", "漫正"]
+    }
+  },
+  {
+    "id": "104",
+    "kanji": "未知",
+    "reading": "みち",
+    "meaning": "Unknown",
+    "level": "N2",
+    "distractors": {
+      "readings": ["みし", "びち", "みちい", "めいち"],
+      "visualKanji": ["末知", "未智", "味知", "未地"],
+      "homophoneKanji": ["道", "満ち", "満地", "三知"]
+    }
+  },
+  {
+    "id": "105",
+    "kanji": "密度",
+    "reading": "みつど",
+    "meaning": "Density",
+    "level": "N2",
+    "distractors": {
+      "readings": ["びつど", "みつと", "みつどう", "めんど"],
+      "visualKanji": ["密席", "蜜度", "秘度", "密渡"],
+      "homophoneKanji": ["満つ土", "密奴", "光土", "充土"]
+    }
+  },
+  {
+    "id": "106",
+    "kanji": "民営",
+    "reading": "みんえい",
+    "meaning": "Private management",
+    "level": "N2",
+    "distractors": {
+      "readings": ["びんえい", "みんえん", "みんえいっ", "めんえい"],
+      "visualKanji": ["眠営", "民栄", "眠栄", "民管"],
+      "homophoneKanji": ["民栄", "民衛", "眠栄", "明栄"]
+    }
+  },
+  {
+    "id": "107",
+    "kanji": "矛盾",
+    "reading": "むじゅん",
+    "meaning": "Contradiction / Inconsistency",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぶじゅん", "むしゅん", "むじん", "もじゅん"],
+      "visualKanji": ["矛準", "予盾", "矛准", "柔盾"],
+      "homophoneKanji": ["無順", "夢順", "霧順", "無準"]
+    }
+  },
+  {
+    "id": "108",
+    "kanji": "明確",
+    "reading": "めいかく",
+    "meaning": "Clear / Definite",
+    "level": "N2",
+    "distractors": {
+      "readings": ["みょうかく", "めいがい", "めいかくっ", "めいこく"],
+      "visualKanji": ["明殻", "名確", "明客", "鳴確"],
+      "homophoneKanji": ["名客", "明客", "命確", "迷客"]
+    }
+  },
+  {
+    "id": "109",
+    "kanji": "免疫",
+    "reading": "めんえき",
+    "meaning": "Immunity",
+    "level": "N2",
+    "distractors": {
+      "readings": ["べんえき", "めんやく", "めんえきっ", "みんえき"],
+      "visualKanji": ["免役", "勉疫", "面疫", "逸疫"],
+      "homophoneKanji": ["便益", "面益", "免益", "綿益"]
+    }
+  },
+  {
+    "id": "110",
+    "kanji": "模型",
+    "reading": "もけい",
+    "meaning": "Model / Mock-up",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぼけい", "もげい", "もけいん", "むけい"],
+      "visualKanji": ["模形", "慕型", "暮型", "模刑"],
+      "homophoneKanji": ["茂刑", "藻形", "喪形", "毛計"]
+    }
+  },
+  {
+    "id": "111",
+    "kanji": "網羅",
+    "reading": "もうら",
+    "meaning": "Encompassment / Coverage",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぼうら", "もうらん", "めうら", "ごうら"],
+      "visualKanji": ["網維", "綱羅", "網置", "網置"],
+      "homophoneKanji": ["盲羅", "猛良", "猛羅", "毛良"]
+    }
+  },
+  {
+    "id": "112",
+    "kanji": "誘拐",
+    "reading": "ゆうかい",
+    "meaning": "Abduction / Kidnapping",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ゆうがい", "ゆかい", "ようかい", "ゆうけい"],
+      "visualKanji": ["誘怪", "秀拐", "透拐", "誘塊"],
+      "homophoneKanji": ["愉快", "溶解", "融解", "妖怪"]
+    }
+  },
+  {
+    "id": "113",
+    "kanji": "優位",
+    "reading": "ゆうい",
+    "meaning": "Predominance / Advantage",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ようい", "ゆういっ", "ゆい", "ゆうえい"],
+      "visualKanji": ["優立", "憂位", "優意", "優医"],
+      "homophoneKanji": ["有意", "容易", "友医", "悠位"]
+    }
+  },
+  {
+    "id": "114",
+    "kanji": "優先",
+    "reading": "ゆうせん",
+    "meaning": "Priority",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ようせん", "ゆうぜん", "ゆせん", "ゆうさん"],
+      "visualKanji": ["優洗", "憂先", "優選", "優光"],
+      "homophoneKanji": ["有線", "郵船", "遊船", "湧泉"]
+    }
+  },
+  {
+    "id": "115",
+    "kanji": "融資",
+    "reading": "ゆうし",
+    "meaning": "Financing / Loan",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ようし", "ゆうじ", "ゆし", "ゆうしん"],
+      "visualKanji": ["隔資", "融姿", "触資", "融師"],
+      "homophoneKanji": ["有志", "修士", "勇姿", "雄姿"]
+    }
+  },
+  {
+    "id": "116",
+    "kanji": "誘導",
+    "reading": "ゆうどう",
+    "meaning": "Guidance / Induction",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ようどう", "ゆうとう", "ゆどう", "ゆうどうっ"],
+      "visualKanji": ["誘道", "秀導", "透導", "誘尊"],
+      "homophoneKanji": ["有動", "遊動", "雄同", "雄動"]
+    }
+  },
+  {
+    "id": "117",
+    "kanji": "予測",
+    "reading": "よそく",
+    "meaning": "Prediction / Forecast",
+    "level": "N2",
+    "distractors": {
+      "readings": ["よぞく", "よそくと", "おそく", "よそう"],
+      "visualKanji": ["予側", "与測", "予別", "豫測"],
+      "homophoneKanji": ["世速", "夜速", "余足", "代速"]
+    }
+  },
+  {
+    "id": "118",
+    "kanji": "予備",
+    "reading": "よび",
+    "meaning": "Reserve / Spare",
+    "level": "N2",
+    "distractors": {
+      "readings": ["よぴ", "よへい", "おび", "ようび"],
+      "visualKanji": ["与備", "予美", "予各", "余備"],
+      "homophoneKanji": ["曜日", "呼び", "余備", "代備"]
+    }
+  },
+  {
+    "id": "119",
+    "kanji": "余裕",
+    "reading": "よゆう",
+    "meaning": "Surplus / Margin / Room",
+    "level": "N2",
+    "distractors": {
+      "readings": ["よゆ", "ようゆう", "おゆう", "よゆうう"],
+      "visualKanji": ["予裕", "余浴", "余油", "余穀"],
+      "homophoneKanji": ["世油", "夜油", "予油", "余喩"]
+    }
+  },
+  {
+    "id": "120",
+    "kanji": "利益",
+    "reading": "りえき",
+    "meaning": "Profit / Benefit",
+    "level": "N2",
+    "distractors": {
+      "readings": ["りやく", "りっえき", "いえき", "りがい"],
+      "visualKanji": ["利溢", "梨益", "理益", "利皿"],
+      "homophoneKanji": ["理駅", "履駅", "利易", "吏役"]
+    }
+  },
+
+  {
+    "id": "121",
+    "kanji": "理解",
+    "reading": "りかい",
+    "meaning": "Understanding / Comprehension",
+    "level": "N2",
+    "distractors": {
+      "readings": ["りげ", "いかい", "りがい", "りけい"],
+      "visualKanji": ["理角", "裏解", "理蟹", "理鮮"],
+      "homophoneKanji": ["利会", "理開", "吏改", "理回"]
+    }
+  },
+  {
+    "id": "122",
+    "kanji": "離婚",
+    "reading": "りこん",
+    "meaning": "Divorce",
+    "level": "N2",
+    "distractors": {
+      "readings": ["りごん", "りかん", "いこん", "りこんっ"],
+      "visualKanji": ["利婚", "離昏", "履根", "離根"],
+      "homophoneKanji": ["履根", "理魂", "裏根", "利根"]
+    }
+  },
+  {
+    "id": "123",
+    "kanji": "理想",
+    "reading": "りそう",
+    "meaning": "Ideal",
+    "level": "N2",
+    "distractors": {
+      "readings": ["りぞう", "いそう", "りっそう", "りしょう"],
+      "visualKanji": ["理相", "裏想", "利想", "理霜"],
+      "homophoneKanji": ["離送", "履層", "理葬", "利惣"]
+    }
+  },
+  {
+    "id": "124",
+    "kanji": "率直",
+    "reading": "そっちょく",
+    "meaning": "Frankness / Candor / Direct",
+    "level": "N2",
+    "distractors": {
+      "readings": ["そつちょく", "そっちょう", "ぞっちょく", "りつちょく"],
+      "visualKanji": ["卒直", "律直", "率真", "索直"],
+      "homophoneKanji": ["即直", "束直", "測直", "速直"]
+    }
+  },
+  {
+    "id": "125",
+    "kanji": "略奪",
+    "reading": "りゃくだつ",
+    "meaning": "Pillage / Plunder / Looting",
+    "level": "N2",
+    "distractors": {
+      "readings": ["りゃくたつ", "りゃくだっ", "りかくだつ", "らくだつ"],
+      "visualKanji": ["各奪", "略奮", "各脱", "路奪"],
+      "homophoneKanji": ["逆脱", "各脱", "落達", "陸達"]
+    }
+  },
+  {
+    "id": "126",
+    "kanji": "流行",
+    "reading": "りゅうこう",
+    "meaning": "Fashion / Vogue / Epidemic",
+    "level": "N2",
+    "distractors": {
+      "readings": ["りゅこう", "りゅうごう", "りょうこう", "りゅうくう"],
+      "visualKanji": ["流形", "硫行", "梳行", "流向"],
+      "homophoneKanji": ["竜江", "隆興", "留交", "柳校"]
+    }
+  },
+  {
+    "id": "127",
+    "kanji": "量子",
+    "reading": "りょうし",
+    "meaning": "Quantum",
+    "level": "N2",
+    "distractors": {
+      "readings": ["りょし", "りょうじ", "りょうしん", "りゅうし"],
+      "visualKanji": ["両子", "量仔", "重子", "竜子"],
+      "homophoneKanji": ["漁師", "猟師", "良心", "領仕"]
+    }
+  },
+  {
+    "id": "128",
+    "kanji": "領土",
+    "reading": "りょうど",
+    "meaning": "Territory / Domain",
+    "level": "N2",
+    "distractors": {
+      "readings": ["りょど", "りょうと", "りゅうど", "れいど"],
+      "visualKanji": ["令土", "頭土", "領士", "領十"],
+      "homophoneKanji": ["両度", "良土", "料度", "涼度"]
+    }
+  },
+  {
+    "id": "129",
+    "kanji": "冷静",
+    "reading": "れいせい",
+    "meaning": "Calmness / Composure",
+    "level": "N2",
+    "distractors": {
+      "readings": ["れんせい", "れいじょう", "らいせい", "ねいせい"],
+      "visualKanji": ["例制", "零静", "令静", "冷浄"],
+      "homophoneKanji": ["例制", "礼正", "励精", "霊星"]
+    }
+  },
+  {
+    "id": "130",
+    "kanji": "歴史",
+    "reading": "れきし",
+    "meaning": "History",
+    "level": "N2",
+    "distractors": {
+      "readings": ["れきじ", "れくし", "れいきし", "できし"],
+      "visualKanji": ["歴吏", "暦史", "歴事", "歴使"],
+      "homophoneKanji": ["暦支", "列記市", "裂刺", "劣師"]
+    }
+  },
+  {
+    "id": "131",
+    "kanji": "連続",
+    "reading": "れんぞく",
+    "meaning": "Continuity / Succession",
+    "level": "N2",
+    "distractors": {
+      "readings": ["れんちく", "ぜんぞく", "れんぞっ", "れんたく"],
+      "visualKanji": ["連読", "蓮続", "連独", "運続"],
+      "homophoneKanji": ["廉属", "練属", "恋属", "錬属"]
+    }
+  },
+  {
+    "id": "132",
+    "kanji": "労働",
+    "reading": "ろうどう",
+    "meaning": "Labor / Work",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ろうとう", "ろうど", "にょうどう", "りょうどう"],
+      "visualKanji": ["労動", "栄働", "朗同", "労重"],
+      "homophoneKanji": ["朗同", "浪同", "老同", "牢同"]
+    }
+  },
+  {
+    "id": "133",
+    "kanji": "論理",
+    "reading": "ろんり",
+    "meaning": "Logic",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ろんりん", "りょんり", "ほんり", "らんり"],
+      "visualKanji": ["論里", "倫理", "論裏", "論履"],
+      "homophoneKanji": ["論利", "論裏", "論吏", "論離"]
+    }
+  },
+  {
+    "id": "134",
+    "kanji": "枠組み",
+    "reading": "わくぐみ",
+    "meaning": "Framework",
+    "level": "N2",
+    "distractors": {
+      "readings": ["わくくみ", "ざくぐみ", "かいぐみ", "いきぐみ"],
+      "visualKanji": ["枠粗み", "枠編み", "粋組み", "枯組み"],
+      "homophoneKanji": ["和久組み", "沸く組み", "惑組み", "輪組み"]
+    }
+  },
+  {
+    "id": "135",
+    "kanji": "湾岸",
+    "reading": "わんがん",
+    "meaning": "Gulf coast / Bay area",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ばんがん", "わんかん", "わがん", "えんがん"],
+      "visualKanji": ["腕岸", "湾岩", "湾崖", "湧岸"],
+      "homophoneKanji": ["完岩", "晩岸", "玩岩", "頑岩"]
+    }
+  },
+  {
+    "id": "136",
+    "kanji": "抜群",
+    "reading": "ばつぐん",
+    "meaning": "Outstanding / Unrivaled",
+    "level": "N2",
+    "distractors": {
+      "readings": ["はつぐん", "ばつくん", "ばつぜん", "まつぐん"],
+      "visualKanji": ["伐群", "抜郡", "発群", "抜君"],
+      "homophoneKanji": ["罰軍", "伐群", "末群", "抜軍"]
+    }
+  },
+  {
+    "id": "137",
+    "kanji": "爆発",
+    "reading": "ばくはつ",
+    "meaning": "Explosion / Detonation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["はくはつ", "ばくぱつ", "ばくはづ", "ぼくはつ"],
+      "visualKanji": ["暴発", "曝発", "爆髪", "瀑発"],
+      "homophoneKanji": ["漠発", "縛発", "麦発", "博発"]
+    }
+  },
+  {
+    "id": "138",
+    "kanji": "薄弱",
+    "reading": "はくじゃく",
+    "meaning": "Feebleness / Frailty / Weakness",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ばくじゃく", "はくちゃく", "はくじょ", "へくじゃく"],
+      "visualKanji": ["簿弱", "薄若", "博弱", "薄溺"],
+      "homophoneKanji": ["白弱", "泊弱", "博若", "拍弱"]
+    }
+  },
+  {
+    "id": "139",
+    "kanji": "把握",
+    "reading": "はあく",
+    "meaning": "Grasp / Catch / Understanding",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ばあく", "はかく", "はあくっ", "ほうあく"],
+      "visualKanji": ["把掘", "波握", "把偶", "把渥"],
+      "homophoneKanji": ["歯悪", "派悪", "葉悪", "刃悪"]
+    }
+  },
+  {
+    "id": "140",
+    "kanji": "敗北",
+    "reading": "はいぼく",
+    "meaning": "Defeat / Lose",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ばいぼく", "はいほく", "はいぼっ", "ぱいぼく"],
+      "visualKanji": ["販北", "敗比", "敗此", "財北"],
+      "homophoneKanji": ["排墨", "配木", "拝木", "杯木"]
+    }
+  },
+  {
+    "id": "141",
+    "kanji": "排除",
+    "reading": "はいじょ",
+    "meaning": "Exclusion / Removal",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ばいじょ", "はいちょ", "はいじょう", "へいじょ"],
+      "visualKanji": ["払除", "排徐", "廃除", "拝除"],
+      "homophoneKanji": ["配除", "廃除", "杯除", "灰除"]
+    }
+  },
+  {
+    "id": "142",
+    "kanji": "配置",
+    "reading": "はいち",
+    "meaning": "Arrangement / Layout",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ばいち", "はいじ", "へいち", "はっち"],
+      "visualKanji": ["配値", "背置", "拝地", "敗置"],
+      "homophoneKanji": ["排地", "拝地", "灰地", "杯地"]
+    }
+  },
+  {
+    "id": "143",
+    "kanji": "発掘",
+    "reading": "はっくつ",
+    "meaning": "Excavation / Discovery",
+    "level": "N2",
+    "distractors": {
+      "readings": ["はくつ", "ばっくつ", "はっくづ", "ほっくつ"],
+      "visualKanji": ["発屈", "発堀", "伐屈", "髪掘"],
+      "homophoneKanji": ["八屈", "白屈", "伐屈", "薄屈"]
+    }
+  },
+  {
+    "id": "144",
+    "kanji": "反発",
+    "reading": "はんぱつ",
+    "meaning": "Repulsion / Backlash",
+    "level": "N2",
+    "distractors": {
+      "readings": ["はんはつ", "ばんぱつ", "はんぱづ", "ほんぱつ"],
+      "visualKanji": ["叛発", "坂発", "返発", "反髪"],
+      "homophoneKanji": ["繁発", "半発", "犯発", "伴発"]
+    }
+  },
+  {
+    "id": "145",
+    "kanji": "繁栄",
+    "reading": "はんえい",
+    "meaning": "Prosperity",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ばんえい", "はんえん", "ほんえい", "かんえい"],
+      "visualKanji": ["繁営", "返映", "敏栄", "繁衛"],
+      "homophoneKanji": ["反影", "返映", "伴英", "半分営"]
+    }
+  },
+  {
+    "id": "146",
+    "kanji": "販売",
+    "reading": "はんばい",
+    "meaning": "Sales / Selling",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぱんばい", "ばんばい", "はんぱい", "ほんばい"],
+      "visualKanji": ["販買", "返売", "伴売", "坂売"],
+      "homophoneKanji": ["伴売", "半買", "犯買", "繁買"]
+    }
+  },
+  {
+    "id": "147",
+    "kanji": "非難",
+    "reading": "ひなん",
+    "meaning": "Blame / Criticism",
+    "level": "N2",
+    "distractors": {
+      "readings": ["びなん", "ひだん", "へぃなん", "ひたん"],
+      "visualKanji": ["悲難", "匪難", "非離", "非唯"],
+      "homophoneKanji": ["避難", "微難", "比難", "秘難"]
+    }
+  },
+  {
+    "id": "148",
+    "kanji": "悲惨",
+    "reading": "ひさん",
+    "meaning": "Tragic / Disastrous / Misery",
+    "level": "N2",
+    "distractors": {
+      "readings": ["びさん", "ひざん", "へいさん", "びざん"],
+      "visualKanji": ["非惨", "悲参", "非参", "斐惨"],
+      "homophoneKanji": ["比産", "皮算", "飛散", "秘産"]
+    }
+  },
+  {
+    "id": "149",
+    "kanji": "肥満",
+    "reading": "ひまん",
+    "meaning": "Obesity",
+    "level": "N2",
+    "distractors": {
+      "readings": ["びまん", "ひばん", "へいまん", "ひもん"],
+      "visualKanji": ["配満", "肥漫", "把満", "犯満"],
+      "homophoneKanji": ["比万", "秘満", "日万", "火満"]
+    }
+  },
+  {
+    "id": "150",
+    "kanji": "秘密",
+    "reading": "ひみつ",
+    "meaning": "Secret",
+    "level": "N2",
+    "distractors": {
+      "readings": ["びみつ", "ひびつ", "ひみづ", "へいみつ"],
+      "visualKanji": ["秘蜜", "非密", "火密", "悲密"],
+      "homophoneKanji": ["比密", "火密", "日密", "皮充"]
+    }
+  },
+  {
+    "id": "151",
+    "kanji": "費用",
+    "reading": "ひよう",
+    "meaning": "Cost / Expense",
+    "level": "N2",
+    "distractors": {
+      "readings": ["びよう", "ひゆう", "へいよう", "ひょうよう"],
+      "visualKanji": ["費要", "費曜", "貴用", "費葉"],
+      "homophoneKanji": ["美容", "比用", "秘用", "非用"]
+    }
+  },
+  {
+    "id": "152",
+    "kanji": "評価",
+    "reading": "ひょうか",
+    "meaning": "Evaluation / Assessment",
+    "level": "N2",
+    "distractors": {
+      "readings": ["びょうか", "ひょうが", "ほうか", "へいか"],
+      "visualKanji": ["評菓", "評課", "証価", "計価"],
+      "homophoneKanji": ["氷果", "票課", "漂火", "病科"]
+    }
+  },
+  {
+    "id": "153",
+    "kanji": "標本",
+    "reading": "ひょうほん",
+    "meaning": "Specimen / Sample",
+    "level": "N2",
+    "distractors": {
+      "readings": ["びょうほん", "ひょうぼん", "ほうほん", "へいほん"],
+      "visualKanji": ["漂本", "票本", "氷本", "標木"],
+      "homophoneKanji": ["表本", "評本", "氷本", "俵本"]
+    }
+  },
+  {
+    "id": "154",
+    "kanji": "風評",
+    "reading": "ふうひょう",
+    "meaning": "Rumor / Reputation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぶうひょう", "ふひょう", "ふうびょう", "ほうひょう"],
+      "visualKanji": ["風票", "楓評", "風漂", "風証"],
+      "homophoneKanji": ["封票", "不評", "普評", "富評"]
+    }
+  },
+  {
+    "id": "155",
+    "kanji": "不可欠",
+    "reading": "ふかけつ",
+    "meaning": "Indispensable / Essential",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぶかけつ", "ふがけつ", "ふかけづ", "ほかけつ"],
+      "visualKanji": ["不加欠", "否可欠", "不可次", "不可決"],
+      "homophoneKanji": ["府下決", "普下決", "不化血", "布仮決"]
+    }
+  },
+  {
+    "id": "156",
+    "kanji": "普及",
+    "reading": "ふきゅう",
+    "meaning": "Diffusion / Spread",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぶきゅう", "ふぎゅう", "ふきょう", "ほきゅう"],
+      "visualKanji": ["布吸", "普求", "並及", "晋及"],
+      "homophoneKanji": ["不休", "補給", "府旧", "布吸"]
+    }
+  },
+  {
+    "id": "157",
+    "kanji": "負傷",
+    "reading": "ふしょう",
+    "meaning": "Injury / Wound",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぶしょう", "ふじょう", "ふうしょう", "ほしょう"],
+      "visualKanji": ["不傷", "負省", "婦傷", "富傷"],
+      "homophoneKanji": ["不祥", "保証", "不承", "府商"]
+    }
+  },
+  {
+    "id": "158",
+    "kanji": "負担",
+    "reading": "ふたん",
+    "meaning": "Burden / Charge / Responsibility",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぶたん", "ふだん", "ふったん", "ほたん"],
+      "visualKanji": ["不担", "負但", "負端", "富担"],
+      "homophoneKanji": ["不断", "府短", "布団", "譜短"]
+    }
+  },
+  {
+    "id": "159",
+    "kanji": "普遍的",
+    "reading": "ふへんてき",
+    "meaning": "Universal",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぶへんてき", "ふべんてき", "ふへんでき", "ほへんてき"],
+      "visualKanji": ["不辺的", "普片的", "普変的", "晋遍的"],
+      "homophoneKanji": ["不便的", "不返的", "布片的", "府編的"]
+    }
+  },
+  {
+    "id": "160",
+    "kanji": "不穏",
+    "reading": "ふおん",
+    "meaning": "Unsettled / Disquieting / Ominous",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぶおん", "ふごん", "ふんおん", "ほおん"],
+      "visualKanji": ["不隠", "不温", "否穏", "不音"],
+      "homophoneKanji": ["府音", "布音", "富音", "不音"]
+    }
+  },
+  {
+    "id": "161",
+    "kanji": "赴く",
+    "reading": "おもむく",
+    "meaning": "To proceed toward / To head for",
+    "level": "N2",
+    "distractors": {
+      "readings": ["うつむく", "つぶやく", "ともなう", "おもむき"],
+      "visualKanji": ["起く", "越く", "趣く", "超く"],
+      "homophoneKanji": ["面向く", "重向く", "思向く", "主向く"]
+    }
+  },
+  {
+    "id": "162",
+    "kanji": "浮上",
+    "reading": "ふじょう",
+    "meaning": "Surfacing / Rising / Emerging",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぶじょう", "ふしょう", "ふじゅう", "ほじょう"],
+      "visualKanji": ["浮土", "乳上", "流上", "深上"],
+      "homophoneKanji": ["不浄", "婦情", "府城", "負譲"]
+    }
+  },
+  {
+    "id": "163",
+    "kanji": "符号",
+    "reading": "ふごう",
+    "meaning": "Sign / Symbol / Mark",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぶごう", "ふこう", "ふうごう", "ほごう"],
+      "visualKanji": ["符名", "竹号", "付号", "附号"],
+      "homophoneKanji": ["富豪", "不合格", "付加号", "不業"]
+    }
+  },
+  {
+    "id": "164",
+    "kanji": "夫妻",
+    "reading": "ふさい",
+    "meaning": "Man and wife / Married couple",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぶさい", "ふざい", "ほうさい", "ふせい"],
+      "visualKanji": ["夫姿", "夫凄", "失妻", "丈妻"],
+      "homophoneKanji": ["負債", "不在", "風采", "府祭"]
+    }
+  },
+  {
+    "id": "165",
+    "kanji": "扶養",
+    "reading": "ふよう",
+    "meaning": "Support / Maintenance / Provide for",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぶよう", "ふゆう", "ほうよう", "ほよう"],
+      "visualKanji": ["払養", "技養", "扱養", "夫養"],
+      "homophoneKanji": ["不要", "冬用", "舞踊", "芙蓉"]
+    }
+  },
+  {
+    "id": "166",
+    "kanji": "振興",
+    "reading": "しんこう",
+    "meaning": "Promotion / Encouragement",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じんこう", "しんごう", "せんこう", "しんくう"],
+      "visualKanji": ["震興", "賑興", "派興", "振興行"],
+      "homophoneKanji": ["進行", "信仰", "人工", "親交"]
+    }
+  },
+  {
+    "id": "167",
+    "kanji": "紛争",
+    "reading": "ふんそう",
+    "meaning": "Dispute / Conflict / Strife",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぶんそう", "ふんぞう", "ほんそう", "くんそう"],
+      "visualKanji": ["粉争", "分争", "紛事", "紛静"],
+      "homophoneKanji": ["奮走", "墳総", "粉装", "分層"]
+    }
+  },
+  {
+    "id": "168",
+    "kanji": "分散",
+    "reading": "ぶんさん",
+    "meaning": "Dispersion / Scattering",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぷんさん", "ほんさん", "ぶんざん", "めんさん"],
+      "visualKanji": ["分枚", "分算", "粉散", "分放"],
+      "homophoneKanji": ["文産", "分算", "聞産", "分三"]
+    }
+  },
+  {
+    "id": "169",
+    "kanji": "文脈",
+    "reading": "ぶんみゃく",
+    "meaning": "Context",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぷんみゃく", "ぶんまく", "ほんみゃく", "もんみゃく"],
+      "visualKanji": ["文派", "文旅", "分脈", "斉脈"],
+      "homophoneKanji": ["分脈", "分幕", "分膜", "聞脈"]
+    }
+  },
+  {
+    "id": "170",
+    "kanji": "崩壊",
+    "reading": "ほうかい",
+    "meaning": "Collapse / Decay / Crumble",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぼうかい", "ほうがい", "ほんかい", "へいかい"],
+      "visualKanji": ["棚壊", "崩懐", "訪海", "崩依"],
+      "homophoneKanji": ["放火医", "法界", "訪海", "豊海"]
+    }
+  },
+  {
+    "id": "171",
+    "kanji": "妨害",
+    "reading": "ぼうがい",
+    "meaning": "Obstruction / Interference / Disturbance",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ほうがい", "ぼうかい", "ぼっがい", "はんがい"],
+      "visualKanji": ["防害", "坊害", "坊吉", "妨吉"],
+      "homophoneKanji": ["望外", "暴外", "法外", "帽外"]
+    }
+  },
+  {
+    "id": "172",
+    "kanji": "冒頭",
+    "reading": "ぼうとう",
+    "meaning": "Beginning / Opening / Start",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ほうとう", "ぼうどう", "ほんとう", "ばいとう"],
+      "visualKanji": ["帽頭", "昌頭", "易頭", "冒首"],
+      "homophoneKanji": ["暴騰", "放蕩", "棒糖", "防島"]
+    }
+  },
+  {
+    "id": "173",
+    "kanji": "膨大",
+    "reading": "ぼうだい",
+    "meaning": "Huge / Bulky / Enormous",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ほうだい", "ぼうたい", "ほんだい", "ばいだい"],
+      "visualKanji": ["膨犬", "膨太", "張大", "胞大"],
+      "homophoneKanji": ["膨代", "棒大", "防代", "望代"]
+    }
+  },
+  {
+    "id": "174",
+    "kanji": "飽和",
+    "reading": "ほうわ",
+    "meaning": "Saturation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぼうわ", "ほうか", "ほんわ", "へいわ"],
+      "visualKanji": ["飽知", "飽和利", "抱和", "泡和"],
+      "homophoneKanji": ["放話", "法話", "訪和", "豊和"]
+    }
+  },
+  {
+    "id": "175",
+    "kanji": "僕",
+    "reading": "ぼく",
+    "meaning": "I (masculine / informal)",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぽく", "ぼぐ", "もく", "ほく"],
+      "visualKanji": ["業", "暴", "撲", "模"],
+      "homophoneKanji": ["木", "墨", "撲", "卜"]
+    }
+  },
+  {
+    "id": "176",
+    "kanji": "没収",
+    "reading": "ぼっしゅう",
+    "meaning": "Forfeiture / Seizure / Confiscation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ほうしゅう", "ぼつしゅう", "ぼっじゅう", "もっしゅう"],
+      "visualKanji": ["没週", "投収", "役収", "沿収"],
+      "homophoneKanji": ["没週", "勃宗", "墨州", "北州"]
+    }
+  },
+  {
+    "id": "177",
+    "kanji": "盆地",
+    "reading": "ぼんち",
+    "meaning": "Basin (geographic)",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ほんち", "ぼんじ", "はんち", "めんち"],
+      "visualKanji": ["盤地", "血地", "分地", "盆他"],
+      "homophoneKanji": ["本知", "凡地", "盆知", "煩知"]
+    }
+  },
+  {
+    "id": "178",
+    "kanji": "埋蔵",
+    "reading": "まいぞう",
+    "meaning": "Buried property / Treasure",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ばいぞう", "まいそう", "まいどう", "まんぞう"],
+      "visualKanji": ["理蔵", "埋臓", "黒蔵", "里蔵"],
+      "homophoneKanji": ["枚数", "枚造", "迷蔵", "毎増"]
+    }
+  },
+  {
+    "id": "179",
+    "kanji": "膜",
+    "reading": "まく",
+    "meaning": "Membrane / Film",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ばく", "まぐ", "むく", "もく"],
+      "visualKanji": ["模", "漠", "幕", "墓"],
+      "homophoneKanji": ["巻く", "撒く", "枕", "誠"]
+    }
+  },
+  {
+    "id": "180",
+    "kanji": "麻酔",
+    "reading": "ますい",
+    "meaning": "Anesthesia",
+    "level": "N2",
+    "distractors": {
+      "readings": ["まさい", "ばすい", "ますう", "まっすい"],
+      "visualKanji": ["磨酔", "魔酔", "麻砕", "麻粋"],
+      "homophoneKanji": ["真水", "魔水", "摩水", "間水"]
+    }
+  },
+  {
+    "id": "181",
+    "kanji": "窓口",
+    "reading": "まどぐち",
+    "meaning": "Ticket window / Counter / Contact",
+    "level": "N2",
+    "distractors": {
+      "readings": ["まとぐち", "まどくち", "そうこう", "そうぐち"],
+      "visualKanji": ["窓口人", "究口", "窓同", "突口"],
+      "homophoneKanji": ["間度口", "真土口", "麻土口", "丸口"]
+    }
+  },
+  {
+    "id": "182",
+    "kanji": "密集",
+    "reading": "みっしゅう",
+    "meaning": "Crowding / Close together",
+    "level": "N2",
+    "distractors": {
+      "readings": ["みつしゅう", "びっしゅう", "みっじゅう", "めっしゅう"],
+      "visualKanji": ["密週", "秘集", "蜜集", "充集"],
+      "homophoneKanji": ["密週", "満つ週", "三週", "蜜州"]
+    }
+  },
+  {
+    "id": "183",
+    "kanji": "見做す",
+    "reading": "みなす",
+    "meaning": "To consider / To look upon as",
+    "level": "N2",
+    "distractors": {
+      "readings": ["みおろす", "みわたす", "みすごす", "みだす"],
+      "visualKanji": ["視做す", "見放す", "現做す", "見倣す"],
+      "homophoneKanji": ["皆す", "満なす", "身なす", "三なす"]
+    }
+  },
+  {
+    "id": "184",
+    "kanji": "身分",
+    "reading": "みぶん",
+    "meaning": "Social position / Social status",
+    "level": "N2",
+    "distractors": {
+      "readings": ["しんぶん", "みぷん", "びぶん", "めんぶん"],
+      "visualKanji": ["躬分", "自分", "三分", "見分"],
+      "homophoneKanji": ["見分", "美文", "味分", "未分"]
+    }
+  },
+  {
+    "id": "185",
+    "kanji": "民間",
+    "reading": "みんかん",
+    "meaning": "Private / Civilian",
+    "level": "N2",
+    "distractors": {
+      "readings": ["びんかん", "みんがん", "みんけん", "めんかん"],
+      "visualKanji": ["眠間", "民問", "民開", "民閉"],
+      "homophoneKanji": ["敏感", "民管", "眠管", "明館"]
+    }
+  },
+  {
+    "id": "186",
+    "kanji": "冥福",
+    "reading": "めいふく",
+    "meaning": "Happiness in the next world",
+    "level": "N2",
+    "distractors": {
+      "readings": ["みょうふく", "めいぶく", "めんふく", "べいふく"],
+      "visualKanji": ["明福", "冥副", "冥幅", "冥富"],
+      "homophoneKanji": ["名服", "明服", "迷服", "命服"]
+    }
+  },
+  {
+    "id": "187",
+    "kanji": "命令",
+    "reading": "めいれい",
+    "meaning": "Order / Command / Decree",
+    "level": "N2",
+    "distractors": {
+      "readings": ["みょうれい", "めいねい", "めんれい", "べいれい"],
+      "visualKanji": ["名令", "明令", "命冷", "命齢"],
+      "homophoneKanji": ["名例", "明冷", "迷霊", "銘礼"]
+    }
+  },
+  {
+    "id": "188",
+    "kanji": "免除",
+    "reading": "めんじょ",
+    "meaning": "Exemption / Exoneration",
+    "level": "N2",
+    "distractors": {
+      "readings": ["べんじょ", "めんちょ", "めんじょう", "みんじょ"],
+      "visualKanji": ["勉除", "面除", "免徐", "逸除"],
+      "homophoneKanji": ["便所", "面序", "免如", "綿除"]
+    }
+  },
+  {
+    "id": "189",
+    "kanji": "面会",
+    "reading": "めんかい",
+    "meaning": "Interview / Meeting",
+    "level": "N2",
+    "distractors": {
+      "readings": ["べんかい", "めんげ", "めんかいっ", "みんかい"],
+      "visualKanji": ["勉会", "免会", "面白", "面合"],
+      "homophoneKanji": ["免界", "綿会", "免解", "面開"]
+    }
+  },
+  {
+    "id": "190",
+    "kanji": "模索",
+    "reading": "もさく",
+    "meaning": "Groping / Fumbling / Exploring",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぼさく", "もざく", "むさく", "めさく"],
+      "visualKanji": ["慕索", "暮索", "模策", "模作"],
+      "homophoneKanji": ["藻作", "茂作", "喪作", "毛作"]
+    }
+  },
+  {
+    "id": "191",
+    "kanji": "目撃",
+    "reading": "もくげき",
+    "meaning": "Witness / Observing",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぼくげき", "もくけき", "めくげき", "もくげい"],
+      "visualKanji": ["目激", "目繋", "自撃", "目撃一"],
+      "homophoneKanji": ["木劇", "黙劇", "牧劇", "目隙"]
+    }
+  },
+  {
+    "id": "192",
+    "kanji": "黙認",
+    "reading": "もくにん",
+    "meaning": "Tacit approval / Connivance",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぼくにん", "もくじん", "めくにん", "もくにゅう"],
+      "visualKanji": ["黒認", "黙忍", "黙任", "黙柱"],
+      "homophoneKanji": ["木認", "牧認", "目認", "墨認"]
+    }
+  },
+  {
+    "id": "193",
+    "kanji": "固有",
+    "reading": "こゆう",
+    "meaning": "Characteristic / Innate / Unique",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごゆう", "こゆうう", "くゆう", "こよう"],
+      "visualKanji": ["個有", "固右", "故有", "湖有"],
+      "homophoneKanji": ["古油", "戸有", "雇有", "湖雄"]
+    }
+  },
+  {
+    "id": "194",
+    "kanji": "厳密",
+    "reading": "げんみつ",
+    "meaning": "Strict / Close / Precise",
+    "level": "N2",
+    "distractors": {
+      "readings": ["けんみつ", "げんびつ", "げんみづ", "がんみつ"],
+      "visualKanji": ["巌密", "厳蜜", "厳秘", "厳充"],
+      "homophoneKanji": ["原密", "現密", "元密", "弦密"]
+    }
+  },
+  {
+    "id": "195",
+    "kanji": "元来",
+    "reading": "がんらい",
+    "meaning": "Originally / By nature",
+    "level": "N2",
+    "distractors": {
+      "readings": ["げんらい", "がんない", "かんらい", "ごんらい"],
+      "visualKanji": ["含頼", "玩来", "頑来", "完来"],
+      "homophoneKanji": ["岩頼", "願頼", "含頼", "丸来"]
+    }
+  },
+  {
+    "id": "196",
+    "kanji": "原産",
+    "reading": "げんさん",
+    "meaning": "Place of origin / Habitat",
+    "level": "N2",
+    "distractors": {
+      "readings": ["けんさん", "げんざん", "がんさん", "ごんさん"],
+      "visualKanji": ["源産", "現産", "厳産", "原算"],
+      "homophoneKanji": ["元産", "弦山", "幻算", "減算"]
+    }
+  },
+  {
+    "id": "197",
+    "kanji": "原理",
+    "reading": "げんり",
+    "meaning": "Principle / Theory",
+    "level": "N2",
+    "distractors": {
+      "readings": ["けんり", "げんりん", "かんり", "ごんり"],
+      "visualKanji": ["源理", "現理", "原里", "原裏"],
+      "homophoneKanji": ["元利", "権理", "弦利", "減履"]
+    }
+  },
+  {
+    "id": "198",
+    "kanji": "幻覚",
+    "reading": "げんかく",
+    "meaning": "Hallucination",
+    "level": "N2",
+    "distractors": {
+      "readings": ["けんかく", "げんがく", "がんかく", "はんかく"],
+      "visualKanji": ["幼覚", "現覚", "言覚", "幻党"],
+      "homophoneKanji": ["厳格", "原格", "減格", "元確"]
+    }
+  },
+  {
+    "id": "199",
+    "kanji": "減少",
+    "reading": "げんしょう",
+    "meaning": "Decrease / Reduction",
+    "level": "N2",
+    "distractors": {
+      "readings": ["けんしょう", "げんじょう", "かんしょう", "ごんしょう"],
+      "visualKanji": ["滅少", "減小", "減歩", "誠少"],
+      "homophoneKanji": ["現象", "懸賞", "現状", "言承"]
+    }
+  },
+  {
+    "id": "200",
+    "kanji": "現役",
+    "reading": "げんえき",
+    "meaning": "Active duty / Active service",
+    "level": "N2",
+    "distractors": {
+      "readings": ["けんえき", "げんやく", "がんえき", "ごんえき"],
+      "visualKanji": ["原役", "現投", "現使", "現没"],
+      "homophoneKanji": ["原益", "元益", "検益", "弦駅"]
+    }
+  },
+  {
+    "id": "201",
+    "kanji": "現状",
+    "reading": "げんじょう",
+    "meaning": "Current status / Present condition",
+    "level": "N2",
+    "distractors": {
+      "readings": ["けんじょう", "げんしょう", "かんじょう", "ごんじょう"],
+      "visualKanji": ["原状", "現情", "現常", "現賞"],
+      "homophoneKanji": ["現象", "減少", "言承", "原状"]
+    }
+  },
+  {
+    "id": "202",
+    "kanji": "検証",
+    "reading": "げんしょう",
+    "meaning": "Verification / Inspection",
+    "level": "N2",
+    "distractors": {
+      "readings": ["けんしょう", "げんじょう", "かんしょう", "べんしょう"],
+      "visualKanji": ["険証", "検相", "検定", "検章"],
+      "homophoneKanji": ["現象", "減少", "顕彰", "懸賞"]
+    }
+  },
+  {
+    "id": "203",
+    "kanji": "限度",
+    "reading": "げんど",
+    "meaning": "Limit / Bounds",
+    "level": "N2",
+    "distractors": {
+      "readings": ["けんど", "げんと", "かんど", "ごんど"],
+      "visualKanji": ["恨度", "根度", "銀度", "限席"],
+      "homophoneKanji": ["元土", "原土", "減土", "言土"]
+    }
+  },
+  {
+    "id": "204",
+    "kanji": "巧妙",
+    "reading": "こうみょう",
+    "meaning": "Ingenious / Skillful / Clever",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごうみょう", "こうびょう", "きょうみょう", "くうみょう"],
+      "visualKanji": ["功妙", "切妙", "巧秒", "巧好"],
+      "homophoneKanji": ["光明", "高名", "功名", "効名"]
+    }
+  },
+  {
+    "id": "205",
+    "kanji": "項目",
+    "reading": "こうもく",
+    "meaning": "Item / Entry / Heading",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごうもく", "きょうもく", "こうぼく", "ほうもく"],
+      "visualKanji": ["頂目", "項自", "項月", "頃目"],
+      "homophoneKanji": ["公木", "交木", "工木", "厚木"]
+    }
+  },
+  {
+    "id": "206",
+    "kanji": "高層",
+    "reading": "こうそう",
+    "meaning": "High-rise / Multi-story",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごうそう", "きょうそう", "こうしょう", "くうそう"],
+      "visualKanji": ["高惣", "高創", "高燥", "高霜"],
+      "homophoneKanji": ["構想", "空想", "抗争", "香草"]
+    }
+  },
+  {
+    "id": "207",
+    "kanji": "拘束",
+    "reading": "こうそく",
+    "meaning": "Restriction / Restraint / Binding",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごうそく", "きょうそく", "こうぞく", "くうそく"],
+      "visualKanji": ["抱束", "拘速", "拘捉", "拒束"],
+      "homophoneKanji": ["高速", "光速", "後続", "公則"]
+    }
+  },
+  {
+    "id": "208",
+    "kanji": "後悔",
+    "reading": "こうかい",
+    "meaning": "Regret / Repentance",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごうかい", "きょうかい", "こうがい", "くうかい"],
+      "visualKanji": ["後海", "後悔しい", "後侮", "後毎"],
+      "homophoneKanji": ["公開", "航海", "公海", "広海"]
+    }
+  },
+  {
+    "id": "209",
+    "kanji": "公認",
+    "reading": "こうにん",
+    "meaning": "Official recognition / Authorized",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごうにん", "きょうにん", "こうじん", "ほうにん"],
+      "visualKanji": ["公共認", "松認", "ハ認", "公忍"],
+      "homophoneKanji": ["後任", "購入", "幸人", "高任"]
+    }
+  },
+  {
+    "id": "210",
+    "kanji": "光沢",
+    "reading": "こうたく",
+    "meaning": "Brilliance / Luster / Gloss",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごうたく", "きょうたく", "こうだく", "くうたく"],
+      "visualKanji": ["光尺", "光釈", "先沢", "晃沢"],
+      "homophoneKanji": ["公諾", "巧たく", "厚託", "校宅"]
+    }
+  },
+  {
+    "id": "211",
+    "kanji": "効率",
+    "reading": "こうりつ",
+    "meaning": "Efficiency",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごうりつ", "きょうりつ", "こうりづ", "くうりつ"],
+      "visualKanji": ["効卒", "効律", "郊率", "効枠"],
+      "homophoneKanji": ["公立", "私立", "高率", "香律"]
+    }
+  },
+  {
+    "id": "212",
+    "kanji": "克服",
+    "reading": "こくふく",
+    "meaning": "Conquest / Overcoming (hardship)",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごくふく", "こくぶく", "こっふく", "かくふく"],
+      "visualKanji": ["黒服", "克履", "克幅", "克複"],
+      "homophoneKanji": ["国服", "黒服", "国副", "黒副"]
+    }
+  },
+  {
+    "id": "213",
+    "kanji": "故障",
+    "reading": "こしょう",
+    "meaning": "Breakdown / Failure / Fault",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごしょう", "こじょう", "かしょう", "くしょう"],
+      "visualKanji": ["故章", "個唱", "胡障", "故相"],
+      "homophoneKanji": ["誇称", "湖相", "個唱", "孤唱"]
+    }
+  },
+  {
+    "id": "214",
+    "kanji": "個人",
+    "reading": "こじん",
+    "meaning": "Individual / Private person",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごじん", "こにん", "かじん", "くじん"],
+      "visualKanji": ["固人", "箇人", "個一", "居人"],
+      "homophoneKanji": ["故人", "古人", "湖人", "児人"]
+    }
+  },
+  {
+    "id": "215",
+    "kanji": "根拠",
+    "reading": "こんきょ",
+    "meaning": "Basis / Grounds / Foundation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごんきょ", "こんきょう", "かんきょ", "ほんきょ"],
+      "visualKanji": ["懇居", "恨拠", "根処", "根如"],
+      "homophoneKanji": ["懇居", "混居", "紺居", "近居"]
+    }
+  },
+  {
+    "id": "216",
+    "kanji": "昆虫",
+    "reading": "こんちゅう",
+    "meaning": "Insect / Bug",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごんちゅう", "こんじゅう", "かんちゅう", "ほんちゅう"],
+      "visualKanji": ["混虫", "昆独", "昆触", "皆虫"],
+      "homophoneKanji": ["今中", "根柱", "懇中", "近中"]
+    }
+  },
+  {
+    "id": "217",
+    "kanji": "混乱",
+    "reading": "こんらん",
+    "meaning": "Confusion / Chaos / Disorder",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ごんらん", "こんなん", "かんらん", "ほんらん"],
+      "visualKanji": ["昆乱", "混乳", "混辞", "混礼"],
+      "homophoneKanji": ["懇欄", "近欄", "金欄", "紺欄"]
+    }
+  },
+  {
+    "id": "218",
+    "kanji": "財政",
+    "reading": "ざいせい",
+    "meaning": "Public finance / Financial affairs",
+    "level": "N2",
+    "distractors": {
+      "readings": ["さいせい", "ざいしょう", "ざいせいっ", "せいせい"],
+      "visualKanji": ["財整", "財正", "才政", "販政"],
+      "homophoneKanji": ["在世", "罪性", "済生", "材正"]
+    }
+  },
+  {
+    "id": "219",
+    "kanji": "在庫",
+    "reading": "ざいこ",
+    "meaning": "Stock / Inventory",
+    "level": "N2",
+    "distractors": {
+      "readings": ["さいこ", "ざいご", "ざいく", "せいこ"],
+      "visualKanji": ["在車", "存庫", "才庫", "在宅"],
+      "homophoneKanji": ["財子", "材子", "罪苦", "再考"]
+    }
+  },
+  {
+    "id": "220",
+    "kanji": "残酷",
+    "reading": "ざんこく",
+    "meaning": "Cruelty / Brutality / Harsh",
+    "level": "N2",
+    "distractors": {
+      "readings": ["さんこく", "ざんごく", "せんこく", "ぜんこく"],
+      "visualKanji": ["残酒", "践酷", "残告", "残各"],
+      "homophoneKanji": ["賛国", "参国", "散国", "三石"]
+    }
+  },
+  {
+    "id": "221",
+    "kanji": "賛成",
+    "reading": "さんせい",
+    "meaning": "Approval / Agreement",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ざんせい", "さんしょう", "せんせい", "しんせい"],
+      "visualKanji": ["参成", "賛盛", "賛整", "賛誠"],
+      "homophoneKanji": ["酸性", "山正", "産生", "算正"]
+    }
+  },
+  {
+    "id": "222",
+    "kanji": "参照",
+    "reading": "さんしょう",
+    "meaning": "Reference / Consultation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ざんしょう", "さんじょう", "せんしょう", "しんしょう"],
+      "visualKanji": ["参垂", "賛照", "参買", "散照"],
+      "homophoneKanji": ["三章", "山椒", "三唱", "参集"]
+    }
+  },
+  {
+    "id": "223",
+    "kanji": "飼育",
+    "reading": "しいく",
+    "meaning": "Breeding / Raising (animals)",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じいく", "しきく", "しゅうく", "せいいく"],
+      "visualKanji": ["詞育", "伺育", "飼流", "飼盲"],
+      "homophoneKanji": ["私育", "市育", "至育", "師育"]
+    }
+  },
+  {
+    "id": "224",
+    "kanji": "鈍感",
+    "reading": "どんかん",
+    "meaning": "Thickheadedness, stolidity",
+    "level": "N2",
+    "distractors": {
+      "readings": ["どかん", "どんがん", "どうかん", "どうがん"],
+      "visualKanji": ["感動", "惑星", "敏感", "実感"],
+      "homophoneKanji": ["敏感", "共感", "銅像", "鉄道"]
+    }
+  },
+  {
+    "id": "225",
+    "kanji": "視点",
+    "reading": "してん",
+    "meaning": "Opinion / Point of view",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じてん", "しでん", "しとう", "せいてん"],
+      "visualKanji": ["現点", "規点", "親点", "視貼"],
+      "homophoneKanji": ["支店", "支点", "始点", "死点"]
+    }
+  },
+  {
+    "id": "226",
+    "kanji": "視野",
+    "reading": "しや",
+    "meaning": "Field of vision / Outlook",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じや", "しよ", "しゅうや", "せいや"],
+      "visualKanji": ["視屋", "規野", "現野", "視邪"],
+      "homophoneKanji": ["市屋", "私夜", "四夜", "死夜"]
+    }
+  },
+  {
+    "id": "227",
+    "kanji": "試写",
+    "reading": "ししゃ",
+    "meaning": "Preview / Trial screening",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じしゃ", "しじゃ", "ししん", "せいしゃ"],
+      "visualKanji": ["誠写", "誤写", "試与", "試謝"],
+      "homophoneKanji": ["支社", "死者", "使者", "司会者"]
+    }
+  },
+  {
+    "id": "228",
+    "kanji": "自覚",
+    "reading": "じかく",
+    "meaning": "Self-awareness / Consciousness",
+    "level": "N2",
+    "distractors": {
+      "readings": ["しかく", "じがく", "じこく", "じっかく"],
+      "visualKanji": ["目覚", "営覚", "自党", "自覚衣"],
+      "homophoneKanji": ["字学", "時確", "地確", "事確"]
+    }
+  },
+  {
+    "id": "229",
+    "kanji": "実感",
+    "reading": "じっかん",
+    "meaning": "Real feeling / Actual feeling",
+    "level": "N2",
+    "distractors": {
+      "readings": ["しかん", "じかん", "じっがん", "じっしん"],
+      "visualKanji": ["其感", "実惑", "美感", "実射"],
+      "homophoneKanji": ["実管", "実巻", "実官", "時限"]
+    }
+  },
+  {
+    "id": "230",
+    "kanji": "執着",
+    "reading": "しゅうちゃく",
+    "meaning": "Attachment / Obsession",
+    "level": "N2",
+    "distractors": {
+      "readings": [
+        "しゅうじゃく",
+        "しゅちゃく",
+        "じゅうちゃく",
+        "しゅうちょく"
+      ],
+      "visualKanji": ["熱着", "執看", "執省", "熟着"],
+      "homophoneKanji": ["終着", "拾着", "週着", "集着"]
+    }
+  },
+  {
+    "id": "231",
+    "kanji": "習得",
+    "reading": "しゅうとく",
+    "meaning": "Acquisition (of a skill)",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じゅうとく", "しゅうどく", "しゅとく", "しょうとく"],
+      "visualKanji": ["集得", "曜得", "習特", "羽得"],
+      "homophoneKanji": ["拾得", "修徳", "舟得", "周徳"]
+    }
+  },
+  {
+    "id": "232",
+    "kanji": "収集",
+    "reading": "しゅうしゅう",
+    "meaning": "Gathering / Collecting",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じゅうしゅう", "しゅしゅう", "そうしゅう", "しょうしゅう"],
+      "visualKanji": ["集収", "集収", "収収", "習収"],
+      "homophoneKanji": ["収拾", "衆執", "週周", "終週"]
+    }
+  },
+  {
+    "id": "233",
+    "kanji": "主導",
+    "reading": "しゅどう",
+    "meaning": "Leadership / Initiative",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じゅどう", "しゅとう", "しょうどう", "すうどう"],
+      "visualKanji": ["主道", "玉導", "主尊", "王導"],
+      "homophoneKanji": ["手動", "受動", "腫動", "酒どう"]
+    }
+  },
+  {
+    "id": "234",
+    "kanji": "樹立",
+    "reading": "じゅりつ",
+    "meaning": "Establishment / Creation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["しゅりつ", "じゅりづ", "じゅうりつ", "じょりつ"],
+      "visualKanji": ["権立", "村立", "機立", "樹律"],
+      "homophoneKanji": ["受立", "授立", "儒立", "寿立"]
+    }
+  },
+  {
+    "id": "235",
+    "kanji": "障害",
+    "reading": "しょうがい",
+    "meaning": "Obstacle / Impediment / Handicap",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じょうがい", "しょうかい", "しょっがい", "そうがいたい"],
+      "visualKanji": ["故害", "章害", "障吉", "章吉"],
+      "homophoneKanji": ["生涯", "商街", "消外", "正外"]
+    }
+  },
+  {
+    "id": "236",
+    "kanji": "衝撃",
+    "reading": "しょうげき",
+    "meaning": "Shock / Impact",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じょうげき", "しょうけき", "そうげき", "ちょうげき"],
+      "visualKanji": ["衝激", "衝繋", "街撃", "術撃"],
+      "homophoneKanji": ["消劇", "商劇", "正劇", "生劇"]
+    }
+  },
+  {
+    "id": "237",
+    "kanji": "証拠",
+    "reading": "しょうこ",
+    "meaning": "Evidence / Proof",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じょうこ", "しょうご", "そうこ", "ちょうこ"],
+      "visualKanji": ["正拠", "証処", "証如", "正拠"],
+      "homophoneKanji": ["商庫", "消庫", "正庫", "生庫"]
+    }
+  },
+  {
+    "id": "238",
+    "kanji": "詳細",
+    "reading": "しょうさい",
+    "meaning": "Details / Particulars",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じょうさい", "しょうざい", "そうさい", "ちょうさい"],
+      "visualKanji": ["正細", "詳彩", "証細", "計細"],
+      "homophoneKanji": ["小祭", "消才", "正才", "商才"]
+    }
+  },
+  {
+    "id": "239",
+    "kanji": "所有",
+    "reading": "しょゆう",
+    "meaning": "Possession / Ownership",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じょゆう", "しょよう", "そうゆう", "ちょうゆう"],
+      "visualKanji": ["所右", "所友", "析有", "所布"],
+      "homophoneKanji": ["書雄", "諸雄", "初雄", "署雄"]
+    }
+  },
+  {
+    "id": "240",
+    "kanji": "審判",
+    "reading": "しんぱん",
+    "meaning": "Refereeing / Judging / Verdict",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じんぱん", "しんばん", "せんぱん", "しんほん"],
+      "visualKanji": ["番判", "審半", "審伴", "審判右"],
+      "homophoneKanji": ["新版", "新判", "心販", "真犯"]
+    }
+  },
+  {
+    "id": "241",
+    "kanji": "侵害",
+    "reading": "しんがい",
+    "meaning": "Infringement / Violation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じんがい", "しんかい", "せんがい", "はんがい"],
+      "visualKanji": ["浸害", "俊害", "親害", "真害"],
+      "homophoneKanji": ["新街", "心外", "真害", "進外"]
+    }
+  },
+  {
+    "id": "242",
+    "kanji": "進出",
+    "reading": "しんしゅつ",
+    "meaning": "Advance / Expansion / Launch",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じんしゅつ", "しんすつ", "せんしゅつ", "しんしゅっ"],
+      "visualKanji": ["近出", "送出", "進山", "進人"],
+      "homophoneKanji": ["新出", "親出", "浸出", "滲出"]
+    }
+  },
+  {
+    "id": "243",
+    "kanji": "親密",
+    "reading": "しんみつ",
+    "meaning": "Intimacy / Closeness",
+    "level": "N2",
+    "distractors": {
+      "readings": ["じんみつ", "しんびつ", "しんみづ", "せんみつ"],
+      "visualKanji": ["現密", "規密", "親蜜", "親秘"],
+      "homophoneKanji": ["新密", "新充", "親充", "真密"]
+    }
+  },
+  {
+    "id": "244",
+    "kanji": "図鑑",
+    "reading": "ずかん",
+    "meaning": "Illustrated encyclopedia",
+    "level": "N2",
+    "distractors": {
+      "readings": ["すいかん", "ずがん", "とかん", "しかん"],
+      "visualKanji": ["国鑑", "図監", "図覧", "図艦"],
+      "homophoneKanji": ["頭館", "図管", "図官", "図完"]
+    }
+  },
+  {
+    "id": "245",
+    "kanji": "衰退",
+    "reading": "すいたい",
+    "meaning": "Decline / Decay / Wane",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ずいたい", "すいだい", "さいたい", "せいたい"],
+      "visualKanji": ["哀退", "表退", "衰隊", "裏退"],
+      "homophoneKanji": ["吹体", "水帯", "粋体", "翠体"]
+    }
+  },
+  {
+    "id": "246",
+    "kanji": "推奨",
+    "reading": "すいしょう",
+    "meaning": "Recommendation / Endorsement",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ずいしょう", "すいじょう", "さいしょう", "せいしょう"],
+      "visualKanji": ["推将", "誰推奨", "准推奨", "椎推奨"],
+      "homophoneKanji": ["水晶", "水晶", "吹唱", "粋昌"]
+    }
+  },
+  {
+    "id": "247",
+    "kanji": "遂行",
+    "reading": "すいこう",
+    "meaning": "Accomplishment / Execution",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ずいこう", "すいごう", "さいこう", "せいこう"],
+      "visualKanji": ["逐行", "吹行", "遂向", "述行"],
+      "homophoneKanji": ["水工", "推敲", "吹校", "粋考"]
+    }
+  },
+  {
+    "id": "248",
+    "kanji": "是正",
+    "reading": "ぜせい",
+    "meaning": "Correction / Rectification",
+    "level": "N2",
+    "distractors": {
+      "readings": ["せせい", "ぜしょう", "じせい", "ていせい"],
+      "visualKanji": ["定正", "是政", "是成", "是整"],
+      "homophoneKanji": ["在世", "全生", "善正", "税制"]
+    }
+  },
+  {
+    "id": "249",
+    "kanji": "世論",
+    "reading": "よろん",
+    "meaning": "Public opinion",
+    "level": "N2",
+    "distractors": {
+      "readings": ["せろん", "よづろん", "せいろん", "うろん"],
+      "visualKanji": ["廿論", "世輪", "世諭", "世倫"],
+      "homophoneKanji": ["夜論", "余論", "与論", "代論"]
+    }
+  },
+  {
+    "id": "250",
+    "kanji": "洗練",
+    "reading": "せんれん",
+    "meaning": "Refinement / Polish / Sophisticated",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぜんれん", "せんねん", "せんらん", "しんれん"],
+      "visualKanji": ["洗連", "占連", "洗練行", "洗練衣"],
+      "homophoneKanji": ["千連", "占連", "川連", "仙連"]
+    }
+  },
+  {
+    "id": "251",
+    "kanji": "総合",
+    "reading": "そうごう",
+    "meaning": "Synthesis / Coordination / Composite",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぞうごう", "そうこう", "しょうごう", "そごう"],
+      "visualKanji": ["総給", "惣合", "層合", "総含"],
+      "homophoneKanji": ["造業", "双号", "送後", "層後"]
+    }
+  },
+  {
+    "id": "252",
+    "kanji": "騒音",
+    "reading": "そうおん",
+    "meaning": "Noise / Din",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぞうおん", "そうごん", "しょうおん", "さおん"],
+      "visualKanji": ["蚤音", "騒声", "強音", "独音"],
+      "homophoneKanji": ["走音", "送音", "層音", "双音"]
+    }
+  },
+  {
+    "id": "253",
+    "kanji": "増強",
+    "reading": "ぞうきょう",
+    "meaning": "Augmentation / Reinforcement",
+    "level": "N2",
+    "distractors": {
+      "readings": ["そうきょう", "ぞうごう", "ぞきょう", "ちょうきょう"],
+      "visualKanji": ["層強", "増敷", "増勇", "贈強"],
+      "homophoneKanji": ["象教", "造教", "蔵強", "臓強"]
+    }
+  },
+  {
+    "id": "254",
+    "kanji": "阻止",
+    "reading": "そし",
+    "meaning": "Obstruction / Check / Prevent",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぞし", "そじ", "しょし", "さし"],
+      "visualKanji": ["組止", "粗止", "阻正", "阻歩"],
+      "homophoneKanji": ["素志", "蘇志", "訴志", "粗志"]
+    }
+  },
+  {
+    "id": "255",
+    "kanji": "速達",
+    "reading": "そくたつ",
+    "meaning": "Express delivery / Special delivery",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぞくたつ", "そくだつ", "そくたっ", "しょくたつ"],
+      "visualKanji": ["促達", "捉達", "速連", "速運"],
+      "homophoneKanji": ["即達", "属達", "側達", "測達"]
+    }
+  },
+  {
+    "id": "256",
+    "kanji": "尊重",
+    "reading": "そんちょう",
+    "meaning": "Respect / Esteem",
+    "level": "N2",
+    "distractors": {
+      "readings": ["ぞんちょう", "そんじょう", "さんちょう", "そんちょ"],
+      "visualKanji": ["損重", "尊動", "尊量", "寸重"],
+      "homophoneKanji": ["村長", "孫長", "存長", "遜長"]
+    }
+  },
+  {
+    "id": "257",
+    "kanji": "退職",
+    "reading": "たいしょく",
+    "meaning": "Retirement / Resignation",
+    "level": "N2",
+    "distractors": {
+      "readings": ["だいしょく", "たいじょく", "とうしょく", "ていしょく"],
+      "visualKanji": ["大食", "対職", "退織", "怠職"],
+      "homophoneKanji": ["大食", "帯職", "対職", "怠職"]
+    }
+  },
+  {
+    "id": "258",
+    "kanji": "体験",
+    "reading": "たいけん",
+    "meaning": "Personal experience",
+    "level": "N2",
+    "distractors": {
+      "readings": ["だいけん", "たいげん", "ていけん", "ついけん"],
+      "visualKanji": ["体検", "体険", "休験", "体瞼"],
+      "homophoneKanji": ["大権", "対権", "怠見", "帯券"]
+    }
+  },
+  {
+    "id": "259",
+    "kanji": "怠慢",
+    "reading": "たいまん",
+    "meaning": "Negligence / Procrastination / Slack",
+    "level": "N2",
+    "distractors": {
+      "readings": ["だいまん", "たいばん", "ていまん", "ついまん"],
+      "visualKanji": ["怠満", "怠漫", "帯満", "怡慢"],
+      "homophoneKanji": ["大万", "対万", "帯満", "隊万"]
+    }
+  },
+  {
+    "id": "260",
+    "kanji": "妥協",
+    "reading": "だきょう",
+    "meaning": "Compromise",
+    "level": "N2",
+    "distractors": {
+      "readings": ["たきょう", "だごう", "ちょうきょう", "ていきょう"],
+      "visualKanji": ["受協", "妥脇", "妥脅", "安協"],
+      "homophoneKanji": ["打狂", "駄教", "唾強", "惰強"]
+    }
+  },
+  {
+    "id": "261",
+    "kanji": "経験",
+    "reading": "けいけん",
+    "meaning": "Experience",
+    "level": "N3",
+    "distractors": {
+      "readings": ["けいげん", "けっけん", "けんけん", "せいけん"],
+      "visualKanji": ["経検", "軽験", "径験", "経険"],
+      "homophoneKanji": ["刑圏", "形賢", "計見", "契鍵"]
+    }
+  },
+  {
+    "id": "262",
+    "kanji": "環境",
+    "reading": "かんきょう",
+    "meaning": "Environment",
+    "level": "N3",
+    "distractors": {
+      "readings": ["がんきょう", "かんきょ", "こうきょう", "はんきょう"],
+      "visualKanji": ["環鏡", "漢郷", "還境", "壊境"],
+      "homophoneKanji": ["官教", "間協", "漢郷", "管興"]
+    }
+  },
+  {
+    "id": "263",
+    "kanji": "法律",
+    "reading": "ほうりつ",
+    "meaning": "Law",
+    "level": "N3",
+    "distractors": {
+      "readings": ["ほうりづ", "ぼうりつ", "ほうりく", "ひょうりつ"],
+      "visualKanji": ["法津", "放律", "法聿", "訪律"],
+      "homophoneKanji": ["芳率", "訪立", "放流", "宝律"]
+    }
+  },
+  {
+    "id": "264",
+    "kanji": "複雑",
+    "reading": "ふくざつ",
+    "meaning": "Complex / Complicated",
+    "level": "N3",
+    "distractors": {
+      "readings": ["ふくさつ", "ぶくざつ", "ほくざつ", "ふうざつ"],
+      "visualKanji": ["複准", "腹雑", "複集", "履雑"],
+      "homophoneKanji": ["服札", "福雑", "副在", "伏察"]
+    }
+  },
+  {
+    "id": "265",
+    "kanji": "技術",
+    "reading": "ぎじゅつ",
+    "meaning": "Technology / Skill",
+    "level": "N3",
+    "distractors": {
+      "readings": ["きじゅつ", "ぎじつ", "げじゅつ", "ぎぞつ"],
+      "visualKanji": ["技述", "枝術", "技木", "伎術"],
+      "homophoneKanji": ["議実", "義術", "偽術", "伎出"]
+    }
+  },
+  {
+    "id": "266",
+    "kanji": "準備",
+    "reading": "じゅんび",
+    "meaning": "Preparation",
+    "level": "N3",
+    "distractors": {
+      "readings": ["じゅんぴ", "ぜんび", "じゅうび", "じんび"],
+      "visualKanji": ["純備", "准備", "準美", "準各"],
+      "homophoneKanji": ["純美", "順尾", "潤美", "巡備"]
+    }
+  },
+  {
+    "id": "267",
+    "kanji": "効果",
+    "reading": "こうか",
+    "meaning": "Effect / Result",
+    "level": "N3",
+    "distractors": {
+      "readings": ["ごうか", "こうが", "こっか", "ほうか"],
+      "visualKanji": ["効菓", "郊果", "効課", "効加"],
+      "homophoneKanji": ["高価", "校歌", "硬貨", "降下"]
+    }
+  },
+  {
+    "id": "268",
+    "kanji": "健康",
+    "reading": "けんこう",
+    "meaning": "Health",
+    "level": "N3",
+    "distractors": {
+      "readings": ["げんこう", "けんごう", "かんこう", "きんこう"],
+      "visualKanji": ["健庚", "建康", "健廉", "健唐"],
+      "homophoneKanji": ["原稿", "傾向", "兼行", "見巧"]
+    }
+  },
+  {
+    "id": "269",
+    "kanji": "関係",
+    "reading": "かんけい",
+    "meaning": "Relationship",
+    "level": "N3",
+    "distractors": {
+      "readings": ["がんけい", "かんき", "こうけい", "はんけい"],
+      "visualKanji": ["関系", "開係", "関糸", "関繋"],
+      "homophoneKanji": ["換形", "官刑", "完計", "管径"]
+    }
+  },
+  {
+    "id": "270",
+    "kanji": "責任",
+    "reading": "せきにん",
+    "meaning": "Responsibility",
+    "level": "N3",
+    "distractors": {
+      "readings": ["ぜきにん", "せきじん", "せくにん", "しきにん"],
+      "visualKanji": ["責柱", "積任", "績任", "責仕"],
+      "homophoneKanji": ["夕妊", "席認", "赤任", "斥任"]
+    }
+  },
+  {
+    "id": "271",
+    "kanji": "希望",
+    "reading": "きぼう",
+    "meaning": "Hope / Wish",
+    "level": "N3",
+    "distractors": {
+      "readings": ["きほう", "ぎぼう", "けぼう", "きぼん"],
+      "visualKanji": ["既望", "稀望", "希塑", "希某"],
+      "homophoneKanji": ["機忙", "既望", "危亡", "輝謀"]
+    }
+  },
+  {
+    "id": "272",
+    "kanji": "丁寧",
+    "reading": "ていねい",
+    "meaning": "Polite",
+    "level": "N3",
+    "distractors": {
+      "readings": ["でいねい", "ていね", "たいねい", "とうねい"],
+      "visualKanji": ["丁宇", "頂丁寧", "予寧", "丁牢"],
+      "homophoneKanji": ["艇寧", "定寧", "呈寧", "低寧"]
+    }
+  },
+  {
+    "id": "273",
+    "kanji": "歴史",
+    "reading": "れきし",
+    "meaning": "History",
+    "level": "N3",
+    "distractors": {
+      "readings": ["れきじ", "れくし", "れいきし", "できし"],
+      "visualKanji": ["歴吏", "暦史", "歴事", "歴使"],
+      "homophoneKanji": ["暦支", "列記市", "裂刺", "劣師"]
+    }
+  },
+  {
+    "id": "274",
+    "kanji": "結果",
+    "reading": "けっか",
+    "meaning": "Result",
+    "level": "N3",
+    "distractors": {
+      "readings": ["けか", "けっが", "けいか", "げっか"],
+      "visualKanji": ["結菓", "結草", "結架", "結課"],
+      "homophoneKanji": ["欠下", "血禍", "結架", "決加"]
+    }
+  },
+  {
+    "id": "275",
+    "kanji": "目的",
+    "reading": "もくてき",
+    "meaning": "Purpose / Goal",
+    "level": "N3",
+    "distractors": {
+      "readings": ["ぼくてき", "もくてく", "めくてき", "もくでき"],
+      "visualKanji": ["目的人", "目地", "目迫", "目適"],
+      "homophoneKanji": ["木的", "目適", "黙的", "牧的"]
+    }
+  },
+  {
+    "id": "276",
+    "kanji": "国際",
+    "reading": "こくさい",
+    "meaning": "International",
+    "level": "N3",
+    "distractors": {
+      "readings": ["ごくさい", "こくさ", "こくせい", "こうさい"],
+      "visualKanji": ["国祭", "国債", "黒債", "国斎"],
+      "homophoneKanji": ["国債", "穀際", "黒彩", "克才"]
+    }
+  },
+  {
+    "id": "277",
+    "kanji": "紹介",
+    "reading": "しょうかい",
+    "meaning": "Introduction",
+    "level": "N3",
+    "distractors": {
+      "readings": ["じょうかい", "しょうけい", "しょうがい", "そうかい"],
+      "visualKanji": ["照解", "招介", "紹界", "消会"],
+      "homophoneKanji": ["照会", "商会", "照解", "消会"]
+    }
+  },
+  {
+    "id": "278",
+    "kanji": "応援",
+    "reading": "おうえん",
+    "meaning": "Support / Cheer",
+    "level": "N3",
+    "distractors": {
+      "readings": ["おおえん", "おんえん", "ごうえん", "ほうえん"],
+      "visualKanji": ["応緩", "応暖", "応接", "応暇"],
+      "homophoneKanji": ["応縁", "往苑", "桜園", "王遠"]
+    }
+  },
+  {
+    "id": "279",
+    "kanji": "判断",
+    "reading": "はんだん",
+    "meaning": "Judgment",
+    "level": "N3",
+    "distractors": {
+      "readings": ["ぱんだん", "ばんだん", "はんたん", "ほんだん"],
+      "visualKanji": ["判継", "叛断", "伴断", "半断"],
+      "homophoneKanji": ["反談", "販団", "伴談", "半段"]
+    }
+  },
+  {
+    "id": "280",
+    "kanji": "調査",
+    "reading": "ちょうさ",
+    "meaning": "Investigation / Survey",
+    "level": "N3",
+    "distractors": {
+      "readings": ["じょうさ", "ちょうざ", "ちゅうさ", "しょうさ"],
+      "visualKanji": ["調舎", "調杏", "調作", "頂査"],
+      "homophoneKanji": ["帳作", "頂砂", "庁舎", "重差"]
+    }
+  },
+  {
+    "id": "281",
+    "kanji": "相談",
+    "reading": "そうだん",
+    "meaning": "Consultation",
+    "level": "N3",
+    "distractors": {
+      "readings": ["ぞうだん", "そうたん", "しょうだん", "すいだん"],
+      "visualKanji": ["相淡", "箱談", "相炎", "相講"],
+      "homophoneKanji": ["惣団", "騒談", "創談", "双弾"]
+    }
+  },
+  {
+    "id": "282",
+    "kanji": "理解",
+    "reading": "りかい",
+    "meaning": "Understanding",
+    "level": "N3",
+    "distractors": {
+      "readings": ["りげ", "いかい", "りがい", "りけい"],
+      "visualKanji": ["理角", "吏解", "裏解", "理蟹"],
+      "homophoneKanji": ["利会", "理開", "吏改", "理回"]
+    }
+  },
+  {
+    "id": "283",
+    "kanji": "決定",
+    "reading": "けってい",
+    "meaning": "Decision",
+    "level": "N3",
+    "distractors": {
+      "readings": ["けてい", "げてい", "けっでい", "げってい"],
+      "visualKanji": ["決錠", "結定", "決足", "決貞"],
+      "homophoneKanji": ["結諦", "血底", "欠貞", "決停"]
+    }
+  },
+  {
+    "id": "284",
+    "kanji": "意識",
+    "reading": "いしき",
+    "meaning": "Consciousness / Awareness",
+    "level": "N3",
+    "distractors": {
+      "readings": ["いいしき", "いじき", "いしん", "えしき"],
+      "visualKanji": ["意職", "意織", "意思", "意敷"],
+      "homophoneKanji": ["遺式", "医職", "移式", "違式"]
+    }
+  },
+  {
+    "id": "285",
+    "kanji": "感謝",
+    "reading": "かんしゃ",
+    "meaning": "Gratitude",
+    "level": "N3",
+    "distractors": {
+      "readings": ["がんしゃ", "かんさ", "かんじゃ", "こうしゃ"],
+      "visualKanji": ["感射", "憾謝", "惑謝", "惑射"],
+      "homophoneKanji": ["歓車", "管社", "完写", "勘車"]
+    }
+  },
+  {
+    "id": "286",
+    "kanji": "普通",
+    "reading": "ふつう",
+    "meaning": "Normal / Ordinary",
+    "level": "N3",
+    "distractors": {
+      "readings": ["ぶつう", "ふつ", "ふとう", "ほうつう"],
+      "visualKanji": ["普過", "普痛", "並通", "晋通"],
+      "homophoneKanji": ["不通", "府痛", "布通", "夫通"]
+    }
+  },
+  {
+    "id": "287",
+    "kanji": "反対",
+    "reading": "はんたい",
+    "meaning": "Opposite / Oppose",
+    "level": "N3",
+    "distractors": {
+      "readings": ["ぱんたい", "ばんたい", "はんだい", "ほんたい"],
+      "visualKanji": ["反隊", "反待", "返対", "坂対"],
+      "homophoneKanji": ["繁体", "半隊", "犯対", "伴体"]
+    }
+  },
+  {
+    "id": "288",
+    "kanji": "幸福",
+    "reading": "こうふく",
+    "meaning": "Happiness",
+    "level": "N3",
+    "distractors": {
+      "readings": ["ごうふく", "こうぶく", "きょうふく", "ほうふく"],
+      "visualKanji": ["幸副", "辛福", "幸幅", "幸富"],
+      "homophoneKanji": ["降伏", "校服", "好服", "口幅"]
+    }
+  },
+  {
+    "id": "289",
+    "kanji": "当然",
+    "reading": "とうぜん",
+    "meaning": "Naturally / Of course",
+    "level": "N3",
+    "distractors": {
+      "readings": ["どうぜん", "とうせん", "ちょうぜん", "とうざん"],
+      "visualKanji": ["当燃", "当絶", "当端", "当染"],
+      "homophoneKanji": ["東漸", "等然", "統然", "答善"]
+    }
+  },
+  {
+    "id": "290",
+    "kanji": "発展",
+    "reading": "hatten",
+    "meaning": "Development / Growth",
+    "level": "N3",
+    "distractors": {
+      "readings": ["はてん", "ばってん", "はんてん", "ほってん"],
+      "visualKanji": ["発転", "発転", "発添", "髪展"],
+      "homophoneKanji": ["八点", "反転", "伐点", "半天"]
+    }
+  },
+  {
+    "id": "291",
+    "kanji": "最初",
+    "reading": "さいしょ",
+    "meaning": "Beginning / First",
+    "level": "N3",
+    "distractors": {
+      "readings": ["ざいしょ", "さいじょ", "せいしょ", "さいそ"],
+      "visualKanji": ["最秒", "最方", "最抄", "最省"],
+      "homophoneKanji": ["才所", "祭所", "裁所", "済初"]
+    }
+  },
+  {
+    "id": "292",
+    "kanji": "最後",
+    "reading": "さいご",
+    "meaning": "Last / End",
+    "level": "N3",
+    "distractors": {
+      "readings": ["さいこ", "ざいご", "せいご", "さいごう"],
+      "visualKanji": ["最役", "最御", "最右", "最喉"],
+      "homophoneKanji": ["才期", "細語", "祭事", "裁許"]
+    }
+  },
+  {
+    "id": "293",
+    "kanji": "態度",
+    "reading": "たいど",
+    "meaning": "Attitude",
+    "level": "N3",
+    "distractors": {
+      "readings": ["だいど", "たいと", "ていど", "とうど"],
+      "visualKanji": ["熊度", "態渡", "能度", "態席"],
+      "homophoneKanji": ["対度", "帯土", "体土", "対奴"]
+    }
+  },
+  {
+    "id": "294",
+    "kanji": "変化",
+    "reading": "へんか",
+    "meaning": "Change",
+    "level": "N3",
+    "distractors": {
+      "readings": ["べんか", "へんが", "はんか", "へんけ"],
+      "visualKanji": ["変花", "赤化", "返化", "偏化"],
+      "homophoneKanji": ["返価", "編化", "辺課", "片佳"]
+    }
+  },
+  {
+    "id": "295",
+    "kanji": "目的",
+    "reading": "もくてき",
+    "meaning": "Objective",
+    "level": "N3",
+    "distractors": {
+      "readings": ["ぼくてき", "もくでき", "むくてき", "めくてき"],
+      "visualKanji": ["木的", "目迫", "目底", "目特"],
+      "homophoneKanji": ["牧的", "木的", "黙的", "目適"]
+    }
+  },
+  {
+    "id": "296",
+    "kanji": "不便",
+    "reading": "ふべん",
+    "meaning": "Inconvenient",
+    "level": "N4",
+    "distractors": {
+      "readings": ["ぷべん", "ふへん", "ふびん", "ぶべん"],
+      "visualKanji": ["不使", "不更", "下便", "否便"],
+      "homophoneKanji": ["布弁", "普勉", "不弁", "府勉"]
+    }
+  },
+  {
+    "id": "297",
+    "kanji": "安全",
+    "reading": "あんぜん",
+    "meaning": "Safety",
+    "level": "N4",
+    "distractors": {
+      "readings": ["あんせん", "はんぜん", "おんぜん", "えんぜん"],
+      "visualKanji": ["安定", "安金", "安銀", "安余"],
+      "homophoneKanji": ["案前", "庵全", "暗然", "安膳"]
+    }
+  },
+  {
+    "id": "298",
+    "kanji": "注意",
+    "reading": "ちゅうい",
+    "meaning": "Caution / Attention",
+    "level": "N4",
+    "distractors": {
+      "readings": ["じゅうい", "ちゅうえ", "しゅうい", "ちょうい"],
+      "visualKanji": ["注心", "柱意", "住意", "注主"],
+      "homophoneKanji": ["中医", "中位", "仲医", "沖医"]
+    }
+  },
+  {
+    "id": "299",
+    "kanji": "心配",
+    "reading": "しんぱい",
+    "meaning": "Worry / Anxiety",
+    "level": "N4",
+    "distractors": {
+      "readings": ["しんばい", "じんぱい", "しんはい", "せんぱい"],
+      "visualKanji": ["志配", "必配", "心流", "芯配"],
+      "homophoneKanji": ["新杯", "伸配", "審配", "進杯"]
+    }
+  },
+  {
+    "id": "300",
+    "kanji": "試験",
+    "reading": "しけん",
+    "meaning": "Exam",
+    "level": "N4",
+    "distractors": {
+      "readings": ["じけん", "しげん", "しっけん", "せいけん"],
+      "visualKanji": ["試検", "試合", "誠験", "試険"],
+      "homophoneKanji": ["私見", "事件", "死圏", "至賢"]
+    }
+  }
+]

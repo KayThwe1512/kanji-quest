@@ -14,7 +14,7 @@ export default function Toast({ visible, kanji, onClose }: ToastProps) {
     if (visible) {
       const timer = setTimeout(() => {
         onClose();
-      }, 1000);
+      }, 2500);
 
       return () => clearTimeout(timer);
     }
@@ -29,7 +29,7 @@ export default function Toast({ visible, kanji, onClose }: ToastProps) {
           <Ionicons
             name="checkmark-circle"
             size={20}
-            color={colors.correct}
+            color={colors.secondary}
             style={styles.icon}
           />
 
@@ -47,7 +47,7 @@ export default function Toast({ visible, kanji, onClose }: ToastProps) {
 const styles = StyleSheet.create({
   wrapper: {
     position: "absolute",
-    top: 60,
+    top: 0,
     width: "100%",
     alignItems: "center",
     zIndex: 999,
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     borderRadius: 14,
 
     borderLeftWidth: 6,
-    borderLeftColor: colors.correct,
+    borderLeftColor: colors.secondary,
 
     shadowColor: "#000",
     shadowOpacity: 0.1,

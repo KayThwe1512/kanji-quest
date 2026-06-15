@@ -1,41 +1,136 @@
-import n1quiz from "@/assets/data/n1quiz.json";
-import n2quiz from "@/assets/data/n2quiz.json";
-import n3quiz from "@/assets/data/n3quiz.json";
-import n4quiz from "@/assets/data/n4quiz.json";
-import n5quiz from "@/assets/data/n5quiz.json";
+import allQuiz from "@/assets/data/jlpt_all.json";
 
-const quizDataMap: Record<string, any[]> = {
-  n1: n1quiz,
-  n2: n2quiz,
-  n3: n3quiz,
-  n4: n4quiz,
-  n5: n5quiz,
+const getLevelData = (level: string) => {
+  return allQuiz.filter(
+    (item: any) => item.level.toLowerCase() === level.toLowerCase(),
+  );
 };
+
+function generateSmartOptions(
+  item: any,
+  levelData: any[],
+  field: "word" | "reading" | "meaning",
+  correct: string,
+) {
+  let candidates: string[] = [];
+
+  if (field === "meaning") {
+    // Meaning questions -> use similarKanji only
+    candidates = levelData
+      .filter((x) => item.similarKanji?.includes(x.word))
+      .map((x) => x.meaning);
+  } else {
+    // Reading / Kanji questions
+    candidates = levelData
+      .filter(
+        (x) =>
+          item.sameReading?.includes(x.word) ||
+          item.similarKanji?.includes(x.word),
+      )
+      .map((x) => x[field]);
+  }
+
+  // remove correct answer & duplicates
+  const wrongAnswers = [...new Set(candidates)].filter((x) => x !== correct);
+
+  // fallback if not enough distractors
+  const fallback = levelData
+    .map((x) => x[field])
+    .filter((x) => x !== correct && !wrongAnswers.includes(x));
+
+  while (wrongAnswers.length < 3 && fallback.length > 0) {
+    const randomIndex = Math.floor(Math.random() * fallback.length);
+
+    wrongAnswers.push(fallback[randomIndex]);
+    fallback.splice(randomIndex, 1);
+  }
+
+  const options = [...wrongAnswers.slice(0, 3), correct];
+
+  return options.sort(() => Math.random() - 0.5);
+}
+
+function generateOptions(data: any[], field: string, correct: string) {
+  const pool = data
+    .map((item) => item[field])
+    .filter((value) => value !== correct);
+
+  const shuffled = pool.sort(() => Math.random() - 0.5);
+
+  const options = [...shuffled.slice(0, 3), correct];
+  return options.sort(() => Math.random() - 0.5);
+}
 
 export const getQuiz = async (level: string, count = 10) => {
   try {
-    const data = quizDataMap[level.toLowerCase()];
+    const levelData = getLevelData(level);
 
-    if (!data) {
-      throw new Error("Quiz level not found");
-    }
-
-    const shuffled = [...data].sort(() => Math.random() - 0.5);
+    const shuffled = [...levelData].sort(() => Math.random() - 0.5);
     const selected = shuffled.slice(0, count);
 
-    const quiz = selected.map((item: any) => ({
-      kanji: item.word,
-      question: item.question,
-      options: item.options.map((text: string, i: number) => ({
-        id: i,
-        text,
-      })),
-      correctId: item.options.indexOf(item.correct),
-    }));
+    const quiz = selected.map((item: any) => {
+      const type = Math.floor(Math.random() * 4);
+
+      let prompt = "";
+      let question = "";
+      let options: string[] = [];
+      let correctAnswer = "";
+      let promptType = "";
+
+      if (type === 0) {
+        //give Kanji ask Reading
+        prompt = item.kanji;
+        question = "What is the reading of this word?";
+        correctAnswer = item.reading;
+        options = generateOptions(levelData, "reading", correctAnswer);
+        promptType = "kanji";
+      }
+
+      if (type === 1) {
+        //give Kanji ask Meaning
+        prompt = item.kanji;
+        question = "What is the meaning of this word?";
+        correctAnswer = item.meaning;
+        options = generateOptions(levelData, "meaning", correctAnswer);
+        promptType = "kanji";
+      }
+
+      if (type === 2) {
+        //give Meaning ask Kanji
+        prompt = item.meaning;
+        question = "Which kanji matches this meaning?";
+        correctAnswer = item.kanji;
+        options = generateOptions(levelData, "kanji", correctAnswer);
+        promptType = "meaning";
+      }
+
+      if (type === 3) {
+        //give Reading ask Kanji
+        prompt = item.reading;
+        question = "Which kanji matches this reading?";
+        correctAnswer = item.kanji;
+        options = generateOptions(levelData, "kanji", correctAnswer);
+        promptType = "reading";
+      }
+
+      return {
+        prompt,
+        question,
+        options: options.map((text, i) => ({
+          id: i,
+          text,
+        })),
+        correctId: options.indexOf(correctAnswer),
+        promptType,
+        kanji: item.kanji,
+        reading: item.reading,
+        meaning: item.meaning,
+      };
+    });
 
     return quiz;
   } catch (error) {
-    console.log("Quiz load error:", error);
+    console.log(error);
     return [];
   }
 };

@@ -18,12 +18,14 @@ type FlashcardProps = {
   card: any;
   isFavorite: boolean;
   ontoggleFavorite: () => void;
+  onFlip?: () => void;
 };
 
 export default function ThemeFlashcard({
   card,
   isFavorite,
   ontoggleFavorite,
+  onFlip,
 }: FlashcardProps) {
   const animatedValue = useRef(new Animated.Value(0)).current;
   const [flipped, setFlipped] = useState(false);
@@ -41,6 +43,10 @@ export default function ThemeFlashcard({
     }).start();
 
     setFlipped(!flipped);
+
+    if (!flipped && onFlip) {
+      onFlip();
+    }
   };
 
   const frontRotate = animatedValue.interpolate({
@@ -57,6 +63,7 @@ export default function ThemeFlashcard({
     <TouchableOpacity activeOpacity={1} onPress={flipCard}>
       <View style={styles.cardWrapper}>
         <Animated.View
+          pointerEvents={flipped ? "none" : "auto"}
           style={[
             styles.card,
             styles.face,
@@ -77,6 +84,7 @@ export default function ThemeFlashcard({
         </Animated.View>
 
         <Animated.View
+          pointerEvents={flipped ? "auto" : "none"}
           style={[
             styles.card,
             styles.face,
@@ -95,7 +103,7 @@ export default function ThemeFlashcard({
             <View style={styles.section}>
               <Text style={styles.label}>Meaning</Text>
               <Text style={styles.sectionText}>
-                {card.meaning?.join(", ") ?? "-"}
+                {card.meanings?.join(", ") ?? "-"}
               </Text>
             </View>
 

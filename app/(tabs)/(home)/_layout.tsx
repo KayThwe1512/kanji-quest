@@ -1,11 +1,12 @@
 import colors from "@/theme/colors";
-import { Stack } from "expo-router";
+import { Stack, useRouter } from "expo-router";
 
 type SectionParams = {
   level?: string;
 };
 
 export default function HomeLayout() {
+  const router = useRouter();
   return (
     <Stack screenOptions={{ headerTintColor: colors.primary }}>
       <Stack.Screen name="home" options={{ headerShown: false }} />
@@ -36,7 +37,7 @@ export default function HomeLayout() {
           };
         }}
       />
-      <Stack.Screen
+      {/* <Stack.Screen
         name="flashcard"
         options={({ route }) => {
           const params = route.params as SectionParams;
@@ -45,6 +46,24 @@ export default function HomeLayout() {
           return {
             title: `${level} Sections`,
             headerBackTitle: "Back",
+            headerStyle: {
+              backgroundColor: colors.background,
+            },
+            headerTitleAlign: "center",
+          };
+        }}
+      /> */}
+
+      <Stack.Screen
+        name="flashcard"
+        options={({ route }) => {
+          const params = route.params as any;
+          const level = params?.level ?? "";
+          const fromFavorite = params?.from === "favorite";
+
+          return {
+            title: fromFavorite ? "Favorite Flashcards" : `${level} Sections`,
+            headerBackVisible: !fromFavorite,
             headerStyle: {
               backgroundColor: colors.background,
             },
@@ -65,13 +84,18 @@ export default function HomeLayout() {
       />
       <Stack.Screen
         name="quiz"
-        options={{
-          title: "Quizs",
-          headerBackTitle: "Back",
-          headerStyle: {
-            backgroundColor: colors.background,
-          },
-          headerTitleAlign: "center",
+        options={({ route }) => {
+          const params = route.params as SectionParams;
+          const level = params?.level ?? "";
+
+          return {
+            title: `${level} Quizz`,
+            headerBackTitle: "Back",
+            headerStyle: {
+              backgroundColor: colors.background,
+            },
+            headerTitleAlign: "center",
+          };
         }}
       />
       <Stack.Screen

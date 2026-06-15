@@ -16,10 +16,27 @@ export default function HomeScreen() {
       </TouchableOpacity>
 
       <TouchableOpacity
-        style={styles.quizButton}
-        onPress={() => router.push("/quizlevel")}
+        style={styles.practiceButton}
+        onPress={() =>
+          router.push({
+            pathname: "/quizlevel",
+            params: { mode: "jlpt" },
+          })
+        }
       >
-        <Text style={styles.buttonText}>🧩 Start Quiz</Text>
+        <Text style={styles.buttonText}>🧩 Start JLPT Quiz</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.quizButton}
+        onPress={() =>
+          router.push({
+            pathname: "/quizlevel",
+            params: { mode: "event" },
+          })
+        }
+      >
+        <Text style={styles.buttonText}>⛩️ Start Event Quiz</Text>
       </TouchableOpacity>
     </View>
   );

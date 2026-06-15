@@ -1,5 +1,4 @@
 import colors from "@/theme/colors";
-import { Ionicons } from "@expo/vector-icons";
 import React from "react";
 import { Modal, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
@@ -22,14 +21,6 @@ export default function ConfirmModal({
     <Modal transparent visible={visible} animationType="fade">
       <View style={styles.overlay}>
         <View style={styles.card}>
-          <View style={styles.iconWrapper}>
-            {/* <Image
-              source={require("../assets/bin.png")}
-              style={{ width: 50, height: 50 }}
-            /> */}
-            <Ionicons name="trash-bin-outline" size={30} color={colors.wrong} />
-          </View>
-
           <Text style={styles.title}>{title}</Text>
           <Text style={styles.message}>{message}</Text>
 

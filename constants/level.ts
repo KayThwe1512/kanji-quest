@@ -12,13 +12,13 @@ export const LEVELS: Level[] = [
     id: "N3",
     name: "Intermediate",
     description: "General Kanji",
-    totalKanji: 370,
+    totalKanji: 361,
   },
   {
     id: "N2",
     name: "Advanced",
     description: "Complex Kanji",
-    totalKanji: 714,
+    totalKanji: 713,
   },
   { id: "N1", name: "Expert", description: "Native Level", totalKanji: 1232 },
 ];

@@ -5,11 +5,21 @@ import { router, useLocalSearchParams } from "expo-router";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function ResultScreen() {
-  const { score, total } = useLocalSearchParams();
+  const { score, total, mode } = useLocalSearchParams();
+  console.log("Result params:", { mode });
 
   const scoreNum = Number(score) || 0;
   const totalNum = Number(total) || 0;
   const wrongNum = totalNum - scoreNum;
+
+  const handlePress = () => {
+    router.push({
+      pathname: "/quizlevel",
+      params: {
+        mode,
+      },
+    });
+  };
 
   return (
     <View style={styles.container}>
@@ -55,7 +65,7 @@ export default function ResultScreen() {
 
           <TouchableOpacity
             style={[styles.button, { backgroundColor: colors.primary }]}
-            onPress={() => router.push("/quizlevel")}
+            onPress={handlePress}
           >
             <Text style={styles.primaryText}>Next Quiz</Text>
           </TouchableOpacity>

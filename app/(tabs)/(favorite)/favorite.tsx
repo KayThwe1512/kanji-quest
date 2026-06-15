@@ -1,18 +1,45 @@
 import ConfirmModal from "@/component/DeleteAlert";
 import FavoriteCard from "@/component/FavoriteCard";
 import Toast from "@/component/SuccessToast";
+import { SECTIONS } from "@/constants/section";
 import { KanjiItem, useFavorite } from "@/context/FavoriteContext";
 import colors from "@/theme/colors";
+import { useRouter } from "expo-router";
 import React, { useState } from "react";
 import { FlatList, Image, StyleSheet, Text, View } from "react-native";
 
 export default function FavoriteScreen() {
   const { favorites, toggleFavorite } = useFavorite();
+  const router = useRouter();
+  const allSections = Object.entries(SECTIONS).flatMap(([level, sections]) =>
+    sections.map((sec) => ({
+      ...sec,
+      level,
+    })),
+  );
 
   const [selectedItem, setSelectedItem] = useState<KanjiItem | null>(null);
   const [showConfirm, setShowConfirm] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
   const [deletedKanji, setDeletedKanji] = useState("");
+
+  const handleOpenFlashcard = (item: KanjiItem) => {
+    const section = allSections.find((sec) =>
+      sec.kanjiIds.includes(item.kanji),
+    );
+
+    console.log("FOUND:", section);
+
+    router.push({
+      pathname: "/flashcard",
+      params: {
+        kanji: item.kanji,
+        from: "favorite",
+        level: section?.level ?? "",
+        sectionId: section?.id ?? "",
+      },
+    });
+  };
 
   const handleRemove = (item: KanjiItem) => {
     setSelectedItem(item);
@@ -45,13 +72,15 @@ export default function FavoriteScreen() {
       />
 
       <View style={styles.container}>
-        {/* <Text style={styles.title}>Favorite Kanji lists</Text> */}
-
         <FlatList
           data={favorites}
           keyExtractor={(item) => item.kanji}
           renderItem={({ item }) => (
-            <FavoriteCard item={item} onRemove={handleRemove} />
+            <FavoriteCard
+              item={item}
+              onRemove={handleRemove}
+              openFlashcardItem={handleOpenFlashcard}
+            />
           )}
           showsVerticalScrollIndicator={false}
           contentContainerStyle={{ paddingBottom: 24 }}
@@ -79,7 +108,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.background,
-    paddingTop: 20,
+    paddingTop: 30,
   },
   title: {
     fontSize: 24,

@@ -1,9 +1,13 @@
+import Spinner from "@/component/Spinner";
 import ThemeFlashcard from "@/component/ThemeFlashcard";
 import { SECTIONS } from "@/constants/section";
 import { useFavorite } from "@/context/FavoriteContext";
 import { useLearning } from "@/context/ProgressContext";
 import { getFlashcardKanji } from "@/services/kanjiService";
-import { getAllProgress, saveSectionProgress } from "@/services/userProgress";
+import {
+  getSectionProgress,
+  saveSectionProgress,
+} from "@/services/userProgress";
 import colors from "@/theme/colors";
 import { useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
@@ -12,50 +16,73 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 export default function FlashcardScreen() {
   const [kanjiList, setKanjiList] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
-  const { addLearnedKanji } = useLearning();
-
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  const { addLearnedKanji, loaded } = useLearning();
   const { favorites, toggleFavorite } = useFavorite();
-  const { level, sectionId } = useLocalSearchParams<{
+
+  const { level, sectionId, kanji, from } = useLocalSearchParams<{
     level: string;
     sectionId: string;
+    kanji: string;
+    from: string;
   }>();
+
+  const isFavoriteMode = from === "favorite";
+
   const section = SECTIONS[level as keyof typeof SECTIONS]?.find(
     (s) => s.id === sectionId,
   );
 
   const sectionName = section?.name ?? "";
 
+  useEffect(() => {
+    if (!isFavoriteMode) return;
+    if (!kanji) return;
+    const list = [...favorites];
+    if (!list.length) return;
+    setKanjiList(list);
+    const index = list.findIndex((k) => k.kanji === kanji);
+    setCurrentIndex(index >= 0 ? index : 0);
+    setLoading(false);
+  }, [kanji, isFavoriteMode]);
+
   const loadKanji = async () => {
     try {
       setLoading(true);
 
       if (!section) return;
-      const data = await getFlashcardKanji(sectionId, section.kanjiIds);
+
+      const data = getFlashcardKanji(section.kanjiIds);
       setKanjiList(data);
 
-      const allProgress = await getAllProgress();
-      const savedProgress = allProgress[sectionId];
+      const saved = await getSectionProgress(sectionId);
 
-      if (savedProgress) {
-        setCurrentIndex(savedProgress.lastIndex ?? 0);
+      if (saved) {
+        setCurrentIndex(saved.lastIndex ?? 0);
       } else {
         setCurrentIndex(0);
       }
     } catch (error) {
-      console.log("API error:", error);
+      console.log("Flashcard load error:", error);
     } finally {
       setLoading(false);
     }
   };
 
-  useEffect(() => {
-    if (!sectionId) return;
-    const timer = setTimeout(() => {
-      loadKanji();
-    }, 500);
+  // useEffect(() => {
+  //   if (!loaded) return;
+  //   addLearnedKanji("一", new Date("2026-03-03"));
+  //   addLearnedKanji("二", new Date("2026-03-03"));
+  //   addLearnedKanji("三", new Date("2026-03-03"));
+  //   addLearnedKanji("四", new Date("2026-03-03"));
+  // }, [loaded]);
 
-    return () => clearTimeout(timer);
+  useEffect(() => {
+    if (isFavoriteMode) return;
+    if (!sectionId) return;
+
+    loadKanji();
   }, [sectionId]);
 
   const currentCard = kanjiList[currentIndex];
@@ -63,50 +90,60 @@ export default function FlashcardScreen() {
   const isLastCard = currentIndex === kanjiList.length - 1;
 
   const saveProgress = async (index: number) => {
+    if (isFavoriteMode) return;
+
     await saveSectionProgress({
       sectionId,
       level,
       lastIndex: index,
-      learnedKanji: kanjiList.slice(0, index + 1).map((k) => k.kanji),
     });
   };
-  const handleNext = () => {
-    if (!isLastCard) {
-      const newIndex = currentIndex + 1;
-      setCurrentIndex(newIndex);
-      addLearnedKanji(currentCard.kanji);
-      saveProgress(newIndex);
-    }
+
+  const handleNext = async () => {
+    if (isLastCard) return;
+
+    const newIndex = currentIndex + 1;
+    setCurrentIndex(newIndex);
+
+    await saveProgress(newIndex);
   };
 
   const handlePrev = () => {
-    if (!isFirstCard) {
-      setCurrentIndex((prev) => prev - 1);
-    }
+    if (isFirstCard) return;
+    setCurrentIndex((prev) => prev - 1);
   };
 
-  // const isFav = favorites.includes(currentCard?.kanji);
   const isFav = favorites.some((k) => k.kanji === currentCard?.kanji);
-  const progressPercent = ((currentIndex + 1) / kanjiList.length) * 100;
+
+  const progressPercent =
+    kanjiList.length === 0 ? 0 : ((currentIndex + 1) / kanjiList.length) * 100;
 
   return (
     <View style={styles.container}>
       {loading ? (
-        <Text>Loading flashcards...</Text>
+        <Spinner />
       ) : !kanjiList.length ? (
         <Text>No flashcards found.</Text>
       ) : (
         <>
           <Text style={styles.sectionName}>{sectionName}</Text>
-          <Text style={styles.progress}>
-            {currentIndex + 1} / {kanjiList.length}
-          </Text>
 
-          <View style={styles.progressContainer}>
-            <View
-              style={[styles.progressFill, { width: `${progressPercent}%` }]}
-            />
-          </View>
+          {!isFavoriteMode && (
+            <>
+              <Text style={styles.progress}>
+                {currentIndex + 1} / {kanjiList.length}
+              </Text>
+
+              <View style={styles.progressContainer}>
+                <View
+                  style={[
+                    styles.progressFill,
+                    { width: `${progressPercent}%` },
+                  ]}
+                />
+              </View>
+            </>
+          )}
 
           {currentCard && (
             <ThemeFlashcard
@@ -115,31 +152,45 @@ export default function FlashcardScreen() {
               ontoggleFavorite={() =>
                 toggleFavorite({
                   kanji: currentCard.kanji,
-                  meanings: currentCard.meaning ?? [],
+                  meanings: currentCard.meanings ?? [],
                   onyomi: currentCard.onyomi ?? [],
                   kunyomi: currentCard.kunyomi ?? [],
                 })
               }
+              onFlip={() => {
+                if (!isFavoriteMode) {
+                  addLearnedKanji(currentCard.kanji);
+                }
+              }}
             />
           )}
+          {!isFavoriteMode && (
+            <>
+              <View style={styles.navRow}>
+                <TouchableOpacity
+                  style={[
+                    styles.navButton,
+                    isFirstCard && styles.disabledButton,
+                  ]}
+                  onPress={handlePrev}
+                  disabled={isFirstCard}
+                >
+                  <Text style={styles.buttonText}>Prev</Text>
+                </TouchableOpacity>
 
-          <View style={styles.navRow}>
-            <TouchableOpacity
-              style={[styles.navButton, isFirstCard && styles.disabledButton]}
-              onPress={handlePrev}
-              disabled={isFirstCard}
-            >
-              <Text style={styles.buttonText}>Prev</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity
-              style={[styles.navButton, isLastCard && styles.disabledButton]}
-              onPress={handleNext}
-              disabled={isLastCard}
-            >
-              <Text style={styles.buttonText}>Next</Text>
-            </TouchableOpacity>
-          </View>
+                <TouchableOpacity
+                  style={[
+                    styles.navButton,
+                    isLastCard && styles.disabledButton,
+                  ]}
+                  onPress={handleNext}
+                  disabled={isLastCard}
+                >
+                  <Text style={styles.buttonText}>Next</Text>
+                </TouchableOpacity>
+              </View>
+            </>
+          )}
         </>
       )}
     </View>
@@ -212,12 +263,15 @@ const styles = StyleSheet.create({
   },
 
   disabledButton: {
-    backgroundColor: colors.border,
-    shadowOpacity: 0,
-    elevation: 0,
+    backgroundColor: colors.primary,
+    opacity: 0.25,
+    // shadowOpacity: 0,
+    // elevation: 0,
+    boxShadow: "",
   },
 
   disabledText: {
-    color: colors.text,
+    color: colors.border,
+    opacity: 1,
   },
 });

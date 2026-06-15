@@ -4,19 +4,28 @@ import { SECTIONS } from "@/constants/section";
 import { useLearning } from "@/context/ProgressContext";
 import colors from "@/theme/colors";
 import { router } from "expo-router";
+import { useMemo } from "react";
 import { FlatList, StyleSheet, View } from "react-native";
 
 export default function LevelScreen() {
   const { learnedKanji } = useLearning();
-  const getCompletedKanji = (levelId: string) => {
-    const sections = SECTIONS[levelId as keyof typeof SECTIONS] || [];
-    const allKanjiInLevel = sections.flatMap((section) => section.kanjiIds);
-    const learnedInLevel = learnedKanji.filter((kanji) =>
-      allKanjiInLevel.includes(kanji),
-    );
 
-    return learnedInLevel.length;
-  };
+  const levelProgress = useMemo(() => {
+    const progress: Record<string, number> = {};
+
+    LEVELS.forEach((level) => {
+      const sections = SECTIONS[level.id as keyof typeof SECTIONS] || [];
+      const allKanjiInLevel = sections.flatMap((section) => section.kanjiIds);
+      const learnedCount = learnedKanji.filter((kanji) =>
+        allKanjiInLevel.includes(kanji),
+      ).length;
+
+      progress[level.id] = learnedCount;
+    });
+
+    return progress;
+  }, [learnedKanji]);
+
   const handlePress = (level: string) => {
     router.push({
       pathname: "/section",
@@ -36,7 +45,7 @@ export default function LevelScreen() {
             name={item.name}
             variant="practice"
             totalKanji={item.totalKanji}
-            completedKanji={getCompletedKanji(item.id)}
+            completedKanji={levelProgress[item.id] || 0}
             onPress={() => handlePress(item.id)}
           />
         )}
